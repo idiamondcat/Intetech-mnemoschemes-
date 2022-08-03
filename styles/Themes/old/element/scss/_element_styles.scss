@@ -1,0 +1,4027 @@
+/*
+UNDERLAYERS
+*/
+	/*
+	Absorber_lines
+	*/
+		$absorber_lines-gas-col: rgba(255, 188, 0, 1) !default;
+		$absorber_lines-ntag-col: rgba(68, 75, 157, 1) !default;
+		$absorber_lines-rtag-col: rgba(139, 126, 82, 1) !default;
+		$absorber_lines-drain-col: rgba(170, 171, 181, 1) !default;
+	/*
+	Degasator_30d11_lines
+	*/
+		$degasator_30d11_lines-gas-col: rgba(255, 188, 0, 1) !default;
+		$degasator_30d11_lines-drain-col: rgba(170, 171, 181, 1) !default;
+		$degasator_30d11_lines-glycol-col: rgba(158, 82, 13, 1) !default;
+		$degasator_30d11_lines-n-glycol-col: rgba(73, 5, 5, 1) !default;
+	/*
+	Divider_25_lines
+	*/
+		$divider_25_lines-gas-col: rgba(255, 188, 0, 1) !default;
+		$divider_25_lines-vms-col: rgba(63, 74, 161, 1) !default;
+		$divider_25_lines-water-col: rgba(18, 33, 104, 1) !default;
+		$divider_25_lines-drain-col: rgba(170, 171, 181, 1) !default;
+	/*
+	Divider_30r11_lines
+	*/
+		$divider_30r11_lines-gas-col: rgba(255, 188, 0, 1) !default;
+		$divider_30r11_lines-k-col: rgba(107, 106, 100, 1) !default;
+		$divider_30r11_lines-n-glycol-col: rgba(73, 5, 5, 1) !default;
+		$divider_30r11_lines-drain-col: rgba(170, 171, 181, 1) !default;
+	/*
+	Divider_30r21_lines
+	*/
+		$divider_30r21_lines-gas-col: rgba(255, 188, 0, 1) !default;
+		$divider_30r21_lines-condencat-col: rgba(107, 106, 100, 1) !default;
+		$divider_30r21_lines-water-col: rgba(18, 33, 104, 1) !default;
+	/*
+	Emkost_09e1_lines
+	*/
+		$emkost_09e1_lines-gas-col: rgba(255, 188, 0, 1) !default;
+		$emkost_09e1_lines-drain-col: rgba(170, 171, 181, 1) !default;
+		$emkost_09e1_lines-water-col: rgba(18, 33, 104, 1) !default;
+	/*
+	$Emkost_12e1_12e2_12e3_12e4_lines
+	*/
+		$emkost_12e1_12e2_12e3_12e4_lines-gas-col: rgba(255, 188, 0, 1) !default;
+		$emkost_12e1_12e2_12e3_12e4_lines-vms-col: rgba(63, 74, 161, 1) !default;
+		$emkost_12e1_12e2_12e3_12e4_lines-drain-col: rgba(170, 171, 181, 1) !default;
+		$emkost_12e1_12e2_12e3_12e4_lines-ntag-col: rgba(73, 5, 5, 1) !default;
+		$emkost_12e1_12e2_12e3_12e4_lines-heatnet-col: rgba(0, 0, 0, 1) !default;
+	/*
+	Emkost_25e2_lines
+	*/
+		$emkost_25e2_lines-gas-col: rgba(255, 188, 0, 1) !default;
+		$emkost_25e2_lines-drain-col: rgba(170, 171, 181, 1) !default;
+		$emkost_25e2_lines-water-col: rgba(18, 33, 104, 1) !default;
+		$emkost_25e2_lines-vms-col: rgba(63, 74, 161, 1) !default;
+	/*
+	Emkost_30e1_lines
+	*/
+		$emkost_30e1_lines-glycol-col: rgba(158, 82, 13, 1) !default;
+		$emkost_30e1_lines-drain-col: rgba(170, 171, 181, 1) !default;
+	/*
+	Emkost_30e2_lines
+	*/
+		$emkost_30e2_lines-glycol-col: rgba(158, 82, 13, 1) !default;
+		$emkost_30e2_lines-drain-col: rgba(170, 171, 181, 1) !default;
+	/*
+	Emkost_30e3_lines
+	*/
+		$emkost_30e3_lines-glycol-col: rgba(158, 82, 13, 1) !default;
+		$emkost_30e3_lines-drain-col: rgba(170, 171, 181, 1) !default;
+		$emkost_30e3_lines-jo-col: rgba(18, 33, 104, 1) !default;
+	/*
+	Emkost_30e4_30e5_lines
+	*/
+		$emkost_30e4_30e5_lines-glycol-col: rgba(158, 82, 13, 1) !default;
+		$emkost_30e4_30e5_lines-drain-col: rgba(170, 171, 181, 1) !default;
+	/*
+	Emkost_49e4_49e9_lines
+	*/
+		$emkost_49e4_49e9_lines-dt-col: rgba(66, 66, 0, 1) !default;
+		$emkost_49e4_49e9_lines-drain-col: rgba(170, 171, 181, 1) !default;
+	/*
+	Emkost_49e5_49e6_49e7_lines
+	*/
+		$emkost_49e5_49e6_49e7_lines-tag-col: rgba(73, 5, 5, 1) !default;
+		$emkost_49e5_49e6_49e7_lines-drain-col: rgba(170, 171, 181, 1) !default;
+		$emkost_49e5_49e6_49e7_lines-water-col: rgba(18, 33, 104, 1) !default;
+	/*
+	Fh1_lines
+	*/
+		$fh1_lines-gas-col: rgba(255, 188, 0, 1) !default;
+		$fh1_lines-drain-col: rgba(170, 171, 181, 1) !default;
+	/*
+	Fh2_lines
+	*/
+		$fh2_lines-gas-col: rgba(255, 188, 0, 1) !default;
+		$fh2_lines-drain-col: rgba(170, 171, 181, 1) !default;
+	/*
+	Gis_lines
+	*/
+		$gis_lines-gas-col: rgba(255, 188, 0, 1) !default;
+	/*
+	Kc_1_lines
+	*/
+		$kc_1_lines-gas-col: rgba(255, 188, 0, 1) !default;
+	/*
+	Kgs_4skv_lines
+	*/
+		$kgs_4skv_lines-gas-col: rgba(255, 188, 0, 1) !default;
+		$kgs_4skv_lines-vms-col: rgba(63, 74, 161, 1) !default;
+	/*
+	Kgs_tur_lines
+	*/
+		$kgs_tur_lines-gas-col: rgba(255, 188, 0, 1) !default;
+		$kgs_tur_lines-vms-col: rgba(63, 74, 161, 1) !default;
+	/*
+	Kgs_3skv_lines
+	*/
+		$kgs_3skv_lines-gas-col: rgba(255, 188, 0, 1) !default;
+		$kgs_3skv_lines-vms-col: rgba(63, 74, 161, 1) !default;
+	/*
+	Nasos_30n8_lines
+	*/
+		$nasos_30n8_lines-jo-col: rgba(18, 33, 104, 1) !default;
+		$nasos_30n8_lines-glycol-col: rgba(158, 82, 13, 1) !default;
+	/*
+	Nasosnaya_reagentov_lines
+	*/
+		$nasosnaya_reagentov_lines-tag-col: rgba(158, 82, 13, 1) !default;
+		$nasosnaya_reagentov_lines-k-col: rgba(107, 106, 100, 1) !default;
+		$nasosnaya_reagentov_lines-dt-col: rgba(91, 89, 11, 1) !default;
+	/*
+	Nm_lines
+	*/
+		$nm_lines-metanol-col: rgba(68, 75, 157, 1) !default;
+		$nm_lines-colorer-col: rgba(109, 69, 155, 1) !default;
+	/*
+	Nm_ppum_lines
+	*/
+		$nm_ppum_lines-metanol-col: rgba(68, 75, 157, 1) !default;
+		$nm_ppum_lines-drain-col: rgba(170, 171, 181, 1) !default;
+	/*
+	Separator_11s1_lines
+	*/
+		$separator_11s1_lines-gas-col: rgba(255, 188, 0, 1) !default;
+		$separator_11s1_lines-vms-col: rgba(63, 74, 161, 1) !default;
+		$separator_11s1_lines-pj-col: rgba(170, 171, 181, 1) !default;
+		$separator_11s1_lines-drain-col: rgba(170, 171, 181, 1) !default;
+	/*
+	Separators_11s1_lines
+	*/
+		$separators_11s1_lines-gas-col: rgba(255, 188, 0, 1) !default;
+		$separators_11s1_lines-vms-col: rgba(63, 74, 161, 1) !default;
+		$separators_11s1_lines-pj-col: rgba(170, 171, 181, 1) !default;
+	/*
+	Skv_174_lines
+	*/
+		$skv_174_lines-gas-col: rgba(255, 188, 0, 1) !default;
+		$skv_174_lines-vms-col: rgba(63, 74, 161, 1) !default;
+	/*
+	Skv_184_lines
+	*/
+		$skv_184_lines-gas-col: rgba(255, 188, 0, 1) !default;
+		$skv_184_lines-vms-col: rgba(63, 74, 161, 1) !default;
+	/*
+	Skv_1902_lines
+	*/
+		$skv_1902_lines-gas-col: rgba(255, 188, 0, 1) !default;
+		$skv_1902_lines-vms-col: rgba(63, 74, 161, 1) !default;
+	/*
+	To_11t1_lines
+	*/
+		$to_11t1_lines-gas-col: rgba(255, 188, 0, 1) !default;
+	/*
+	To_30t11_lines
+	*/
+		$to_30t11_lines-rglycol-col: rgba(158, 82, 13, 1) !default;
+		$to_30t11_lines-nglycol-col: rgba(73, 5, 5, 1) !default;
+	/*
+	Udvms_lines
+	*/
+		$udvms_lines-k-col: rgba(107, 106, 100, 1) !default;
+		$udvms_lines-k2-col: rgba(107, 106, 100, 1) !default;
+		$udvms_lines-d-col: rgba(170, 171, 181, 1) !default;
+	/*
+	Uog_lines
+	*/
+		$uog_lines-rtag-col: rgba(139, 126, 82, 1) !default;
+		$uog_lines-ntag-col: rgba(139, 126, 82, 1) !default;
+		$uog_lines-dirtygas-col: rgba(255, 188, 0, 1) !default;
+		$uog_lines-puregas-col: rgba(255, 188, 0, 1) !default;
+		$uog_lines-vms-col: rgba(63, 74, 161, 1) !default;
+		$uog_lines-gray-col: rgba(170, 171, 181, 1) !default;
+	/*
+	Uptpg_lines
+	*/
+		$uptpg_lines-gas-col: rgba(255, 188, 0, 1) !default;
+		$uptpg_lines-water-col: rgba(18, 33, 104, 1) !default;
+	/*
+	Uptpg_zu_lines
+	*/
+		$uptpg_zu_lines-gas-col: rgba(255, 188, 0, 1) !default;
+	/*
+	Urt_sptg_lines
+	*/
+		$urt_sptg_lines-gas-col: rgba(255, 188, 0, 1) !default;
+		$urt_sptg_lines-dizel-col: rgba(66, 66, 0, 1) !default;
+		$urt_sptg_lines-azot-col: rgba(64, 0, 128, 1) !default;
+	/*
+	Waterpull_south_lines
+	*/
+		$waterpull_south_lines-k1-col: rgba(18, 33, 104, 1) !default;
+		$waterpull_south_lines-k2-col: rgba(18, 33, 104, 1) !default;
+	/*
+	Watersupply_south_lines
+	*/
+		$watersupply_south_lines-vz-col: rgba(18, 33, 104, 1) !default;
+
+
+
+	$underlayer-table-color: rgba(100, 100, 100, 1) !default;
+	$underlayer-oreols-col: rgba(255, 255, 255, 1) !default;
+/*
+BARRELS
+*/
+	/*
+	Absorbers
+	*/
+		$absorbers-all-dirtygas: rgba(134, 131, 109, 1) !default;
+		$absorbers-all-absorbent: rgba(113, 133, 132, 1) !default;
+		$absorbers-all-puregas: rgba(190, 198, 189, 1) !default;
+		$absorbers-all-net-color: rgba(255, 255, 255, 1) !default;
+		$absorbers-all-net-opacity: 0.6 !default;
+		/*
+		Absorber_big
+		*/
+		/*
+		Absorber_medium
+		*/
+	/*
+	Separators
+	*/
+		$separators-all-lower: rgba(113, 133, 132, 1) !default;
+		$separators-all-middle: rgba(150, 150, 100, 1) !default;
+		$separators-all-upper: rgba(200, 200, 200, 1) !default;
+		$separators-all-net-color: rgba(255, 255, 255, 1) !default;
+		$separators-all-net-opacity: 0.6 !default;
+		/*
+		Separators_big
+		*/
+		/*
+		Separators_medium
+		*/
+	/*
+	Barrel
+	*/
+		$barrel-color: rgba(39, 39, 44, 1) !default;
+	/*
+	Degasator
+	*/
+		$degasator-stroke-col: rgba(255, 255, 255, 1) !default;
+		$degasator-stroke-opacity: 0.6 !default;
+	/*
+	Heat_exchanger
+	*/
+		$heat_exchanger-rails-col: rgba(255, 255, 255, 1) !default;
+		$heat_exchanger-rails-opacity: 0.2 !default;
+	/*
+	Pumpbarrel
+	*/
+		$pumpbarrel-stroke-col: rgba(255, 255, 255, 1) !default;
+		$pumpbarrel-stroke-opacity: 0.6 !default;
+/*
+SVG
+*/
+	/*
+	Brm
+	*/
+		$brm-svg-fill: rgba(77, 77, 77, 1) !default;
+	/*
+	Crane
+	*/
+		$crane-svg-fill: rgba(77, 77, 77, 1) !default;
+	/*
+	Divider_unique
+	*/
+		$divider_unique-svg-fill: rgba(39, 39, 44, 1) !default;
+	/*
+	Dsp
+	*/
+		$dsp-svg-fill: rgba(77, 77, 77, 1) !default;
+	/*
+	Filter
+	*/
+		$filter-svg-fill: rgba(77, 77, 77, 1) !default;
+	/*
+	Filter_big
+	*/
+		$filter_big-svg-fill: rgba(77, 77, 77, 1) !default;
+	/*
+	Gpa
+	*/
+		$gpa-svg-fill: rgba(77, 77, 77, 1) !default;
+	/*
+	Heater
+	*/
+		$heater-svg-stroke-opacity: 0.6 !default;
+	/*
+	Meter + (Degasator)
+	*/
+		$meter-main-color: rgba(53, 58, 61, 1) !default;
+		$meter-glass-color: rgba(212, 216, 217, 1) !default;
+		$meter-shadow-intensity: 0.25 !default;
+		$meter-bad: rgba(198, 70, 6, 1) !default;
+		$meter-so: rgba(222, 160, 48, 1) !default;
+		$meter-good: rgba(254, 222, 69, 1) !default;
+	/*
+	Pg
+	*/
+		$pg-svg-fill: rgba(39, 39, 44, 1) !default;
+	/*
+	Pump
+	*/
+		$pump-svg-fill: rgba(77, 77, 77, 1) !default;
+		$pump-shadow-col: rgba(0, 0, 0, 1) !default;
+	/*
+	Quarry_mini
+	*/
+		$quarry_mini-svg-fill: rgba(77, 77, 77, 1) !default;
+	/*
+	Torch
+	*/
+		$torch-main-fill: rgba(39, 39, 44, 1) !default;
+		$torch-flame-fill: rgba(255, 50, 0, 1) !default;
+	/*
+	Transition_button + (Transition_button_mini)
+	*/
+		$transition_button-shadow-col: rgba(0, 0, 0, 0.15) !default;
+		$transition_button-unactive-part-col: rgba(221, 221, 221, 1) !default;
+		$transition_button-active-part-col: rgba(183, 193, 112, 1) !default;
+		$transition_button-txt-col: rgba(255, 255, 255, 1) !default;
+		$transition_button-txt-shadow: rgba(78, 78, 81, 1) !default;
+		/*
+		mini
+		*/
+			$transition_button_mini-shadow-col: rgba(0, 0, 0, 0.2) !default;
+	/*
+	Valve + (Valve_switch) + (Valve_switch_bit)
+	*/
+		$valve-svg-fill: rgba(200, 200, 200, 1) !default;
+		$valve-shadow-col: rgba(0, 0, 0, 1) !default;
+		/*
+		mini_unactive
+		*/
+			$valve_mini_unactive-overlay-col: rgba(255, 255, 255, 0.4) !default;
+		/*
+		valve_switch_bit
+		*/
+			$valve_switch_bit-outline-error: rgba(240, 0, 0, 1) !default;
+	/*
+	Ventil_sys
+	*/
+		$ventil_sys-svg-unactive-fill: rgba(50, 50, 50, 1) !default;
+		$ventil_sys-svg-active-fill: rgba(255, 188, 0, 1) !default;
+	/*
+	Wastemeter
+	*/
+		$wastemeter-svg-fill: rgba(77, 77, 77, 1) !default;
+
+
+
+	$svg-outline-fill: rgba(255, 255, 255, 1) !default;
+	$svg-unactive-color-fill: rgba(30, 30, 30, 1) !default;
+/*
+NON_SVG
+*/
+	/*
+	Bg_for_quarry_graph
+	*/
+		$bg_for_quarry_graph-line-color: rgba(50, 50, 50, 1) !default;
+		$bg_for_quarry_graph-hatch-color: rgba(196, 196, 196, 1) !default;
+	/*
+	Level
+	*/
+		$level-nums-color: rgba(0, 0, 0, 1) !default;
+		$level-main-color: rgba(46, 46, 46, 1) !default;
+		$level-toppart-color: rgba(167, 0, 0, 1) !default;
+		$level-botpart-color: rgba(148, 148, 148, 1) !default;
+		$level-filled-color: rgba(255, 198, 0, 1) !default;
+		$level-topbar-color: rgba(117, 0, 0, 1) !default;
+		$level-botbar-color: rgba(103, 103, 103, 1) !default;
+	/*
+	Level_for_barrels
+	*/
+		$level_for_barrels-nums-color: rgba(255, 255, 255, 1) !default;
+		$level_for_barrels-contour-fill: rgba(0, 0, 0, 1) !default;
+		$level_for_barrels-self-fill: rgba(17, 17, 17, 1) !default;
+		$level_for_barrels-filler-color: rgba(255, 198, 0, 1) !default;
+	/*
+	Naming
+	*/
+		$naming-txt-color: rgba(87, 87, 91, 1) !default;
+		$naming-txt-shadow-color: rgba(255, 255, 255, 0.4) !default;
+	/*
+	Naming_col_inversed
+	*/
+		$naming_col_inversed-txt-color: rgba(255, 255, 255, 1) !default;
+	/*
+	Naming_with_bg
+	*/
+		$naming_with_bg-background-color: rgba(244, 244, 244, 1) !default;
+	/*
+	Num_value + (Tag_naming)
+	*/
+		$num_value-bg-color: rgba(20, 20, 20, 1) !default;
+		$num_value-bg-shade: rgba(0, 0, 0, 1) !default;
+		/*
+		Hatch
+		*/
+			$num_value-hatch-class-unreachable: rgba(255, 255, 255, 1) !default;
+			$num_value-hatch-opacity: 0.3 !default;
+		/*
+		Num
+		*/
+			$num_value-numshade: rgba(0, 0, 0, 0.6) !default;
+			$num_value-ok-numcolor: rgba(255, 255, 255, 1) !default;
+			$num_value-bad-numcolor: rgba(200, 200, 50, 1) !default;
+			$num_value-awful-numcolor: rgba(255, 0, 0, 1) !default;
+		/*
+		Lines
+		*/
+			$num_value-line-unknown: rgba(255, 255, 255, 1) !default;
+			$num_value-line-invis: rgba(0, 0, 0, 0) !default;
+			$num_value-line-awful: rgba(255, 0, 0, 1) !default;
+			$num_value-line-bad: rgba(200, 200, 50, 1) !default;
+			$num_value-line-ok: rgba(151, 151, 151, 1) !default;
+	/*
+	Pointer_line
+	*/
+		$pointer_line-color: rgba(49, 49, 49, 1) !default;
+	/*
+	Range_universal_line + (Range_vert_line)
+	*/
+		$range_universal_line-color: rgba(49, 49, 49, 1) !default;
+	/*
+	Switcher_naming
+	*/
+		$switcher_naming-on-txt-col: rgba(50, 50, 50, 1) !default;
+		$switcher_naming-off-txt-col: rgba(50, 50, 50, 1) !default;
+		$switcher_naming-on-bg-col: rgba(0, 150, 0, 0.3) !default;
+		$switcher_naming-off-bg-col: rgba(150, 0, 0, 0.3) !default;
+		$switcher_naming-unknown-txt-col: rgba(50, 50, 50, 1) !default;
+		$switcher_naming-unknown-hatch-col: rgba(50, 50, 50, 0.3) !default;
+	/*
+	Tit + (Tit_tags) + (Tit_formulated) + (Tit_dyn_sum) + (Tit_alt)
+	*/
+		$tit-shadow-color: rgba(0, 0, 0, 0.15) !default;
+		/*
+		Name-container
+		*/
+			$tit-name-cont-bg-col: rgba(242, 243, 241, 1) !default;
+			$tit-name-cont-txt-col: rgba(0, 0, 0, 1) !default;
+	/*
+	Tit_col_inversed
+	*/
+		$tit_col_inver-shadow-color: rgba(0, 0, 0, 0.7) !default;
+		/*
+		Name-container
+		*/
+			$tit_col_inver-name-cont-bg-col: rgba(39, 39, 44, 1) !default;
+			$tit_col_inver-name-cont-txt-col: rgba(255, 255, 255, 1) !default;
+	/*
+	Tit_alt_on_barrel
+	*/
+		$tit_alt_on_barrel-shadow-color: rgba(10, 10, 10, 1) !default;
+		/*
+		Name-container
+		*/
+			$tit_alt_on_barrel-name-bg: rgba(35, 35, 40, 1) !default;
+			$tit_alt_on_barrel-name-txt-col: rgba(255, 255, 255, 1) !default;
+/*
+SERVING
+*/
+	$unavailable-color: rgba(80, 80, 80, 0.3) !default;
+	$unavailable-color-inversed: rgba(180, 180, 180, 0.3) !default;
+
+
+
+/*
+------------
+==========================
+------------
+*/
+
+/*
+UNDERLAYERS
+*/
+	.absorber_lines {
+		.lines {
+			.pipes {
+				.gas {
+					fill: $absorber_lines-gas-col;
+				}
+				.ntag {
+					fill: $absorber_lines-ntag-col;
+				}
+				.drain {
+					fill: $absorber_lines-drain-col;
+				}
+				.rtag {
+					fill: $absorber_lines-rtag-col;
+				}
+			}
+
+			.points {
+				.oreols {
+					fill: $underlayer-oreols-col;
+				}
+
+
+				.gas {
+					.fills {
+						fill: $absorber_lines-gas-col;
+					}
+				}
+				.ntag {
+					.fills {
+						fill: $absorber_lines-ntag-col;
+					}
+				}
+				.drain {
+					.fills {
+						fill: $absorber_lines-drain-col;
+					}
+				}
+				.rtag {
+					.fills {
+						fill: $absorber_lines-rtag-col;
+					}
+				}
+			}
+		}
+
+		.tables {
+			.t1,
+			.t2 {
+				fill: $underlayer-table-color;
+			}
+		}
+	}
+
+	.degasator_30d11_lines {
+		.lines {
+			.pipes {
+				.gas {
+					fill: $degasator_30d11_lines-gas-col;
+				}
+				.drain {
+					fill: $degasator_30d11_lines-drain-col;
+				}
+				.glycol {
+					fill: $degasator_30d11_lines-glycol-col;
+				}
+				.n-glycol {
+					fill: $degasator_30d11_lines-n-glycol-col;
+				}
+			}
+
+			.points {
+				.oreols {
+					fill: $underlayer-oreols-col;
+				}
+
+				.gas {
+					.fills {
+						fill: $degasator_30d11_lines-gas-col;
+					}
+				}
+				.drain {
+					.fills {
+						fill: $degasator_30d11_lines-drain-col;
+					}
+				}
+				.glycol {
+					.fills {
+						fill: $degasator_30d11_lines-glycol-col;
+					}
+				}
+				.n-glycol {
+					.fills {
+						fill: $degasator_30d11_lines-n-glycol-col;
+					}
+				}
+			}
+		}
+	}
+
+	.divider_25_lines {
+		.lines {
+			.pipes {
+				.gas {
+					fill: $divider_25_lines-gas-col;
+				}
+				.vms {
+					fill: $divider_25_lines-vms-col;
+				}
+				.water {
+					fill: $divider_25_lines-water-col;
+				}
+				.drain {
+					fill: $divider_25_lines-drain-col;
+				}
+			}
+
+			.points {
+				.oreols {
+					fill: $underlayer-oreols-col;
+				}
+
+				.gas {
+					.fills {
+						fill: $divider_25_lines-gas-col;
+					}
+				}
+				.vms {
+					.fills {
+						fill: $divider_25_lines-vms-col;
+					}
+				}
+				.water {
+					.fills {
+						fill: $divider_25_lines-water-col;
+					}
+				}
+				.drain {
+					.fills {
+						fill: $divider_25_lines-drain-col;
+					}
+				}
+			}
+		}
+
+		.tables {
+			.t1 {
+				fill: $underlayer-table-color;
+			}
+		}
+	}
+
+	.divider_30r11_lines {
+		.lines {
+			.pipes {
+				.gas {
+					fill: $divider_30r11_lines-gas-col;
+				}
+				.k {
+					fill: $divider_30r11_lines-k-col;
+				}
+				.drain {
+					fill: $divider_30r11_lines-drain-col;
+				}
+				.n-glycol {
+					fill: $divider_30r11_lines-n-glycol-col;
+				}
+			}
+			
+			.points {
+				.oreols {
+					fill: $underlayer-oreols-col;
+				}
+
+				.gas {
+					.fills {
+						fill: $divider_30r11_lines-gas-col;
+					}
+				}
+				.k {
+					.fills {
+						fill: $divider_30r11_lines-k-col;
+					}
+				}
+				.drain {
+					.fills {
+						fill: $divider_30r11_lines-drain-col;
+					}
+				}
+				.n-glycol {
+					.fills {
+						fill: $divider_30r11_lines-n-glycol-col;
+					}
+				}
+			}
+		}
+
+		.tables {
+			.t1 {
+				fill: $underlayer-table-color;
+			}
+			.t2 {
+				fill: $underlayer-table-color;
+			}
+			.t3 {
+				fill: $underlayer-table-color;
+			}
+		}
+	}
+
+	.divider_30r21_lines {
+		.lines {
+			.pipes {
+				.gas {
+					fill: $divider_30r21_lines-gas-col;
+				}
+				.water {
+					fill: $divider_30r21_lines-water-col;
+				}
+				.condencat {
+					fill: $divider_30r21_lines-condencat-col;
+				}
+			}
+
+			.points {
+				.oreols {
+					fill: $underlayer-oreols-col;
+				}
+
+				.water {
+					.fills {
+						fill: $divider_30r21_lines-water-col;
+					}
+				}
+				.condencat {
+					.fills {
+						fill: $divider_30r21_lines-condencat-col;
+					}
+				}
+			}
+		}
+
+		.tables {
+			.t1 {
+				fill: $underlayer-table-color;
+			}
+		}
+	}
+
+	.emkost_09e1_lines {
+		.lines {
+			.pipes {
+				.gas {
+					fill: $emkost_09e1_lines-gas-col;
+				}
+				.drain {
+					fill: $emkost_09e1_lines-drain-col;
+				}
+				.water {
+					fill: $emkost_09e1_lines-water-col;
+				}
+			}
+
+			.points {
+				.oreols {
+					fill: $underlayer-oreols-col;
+				}
+
+				.gas {
+					.fills {
+						fill: $emkost_09e1_lines-gas-col;
+					}
+				}
+				.drain {
+					.fills {
+						fill: $emkost_09e1_lines-drain-col;
+					}
+				}
+				.water {
+					.fills {
+						fill: $emkost_09e1_lines-water-col;
+					}
+				}
+			}
+
+			.arrows {
+				.gas {
+					fill: $emkost_09e1_lines-gas-col;
+				}
+				.drain {
+					fill: $emkost_09e1_lines-drain-col;
+				}
+				.water {
+					fill: $emkost_09e1_lines-water-col;
+				}
+			}
+		}
+	}
+
+	.emkost_12e1_12e2_12e3_12e4_lines {
+		.lines {
+			.pipes {
+				.gas {
+					fill: $emkost_12e1_12e2_12e3_12e4_lines-gas-col;
+				}
+				.drain {
+					fill: $emkost_12e1_12e2_12e3_12e4_lines-drain-col;
+				}
+				.vms {
+					fill: $emkost_12e1_12e2_12e3_12e4_lines-vms-col;
+				}
+				.ntag {
+					fill: $emkost_12e1_12e2_12e3_12e4_lines-ntag-col;
+				}
+				.heatnet {
+					fill: $emkost_12e1_12e2_12e3_12e4_lines-heatnet-col;
+				}
+			}
+
+			.points {
+				.oreols {
+					fill: $underlayer-oreols-col;
+				}
+
+				.gas {
+					.fills {
+						fill: $emkost_12e1_12e2_12e3_12e4_lines-gas-col;
+					}
+				}
+				.drain {
+					.fills {
+						fill: $emkost_12e1_12e2_12e3_12e4_lines-drain-col;
+					}
+				}
+			}
+
+			.arrows {
+				.heatnet {
+					fill: $emkost_12e1_12e2_12e3_12e4_lines-heatnet-col;
+				}
+			}
+		}
+	}
+
+	.emkost_25e2_lines {
+		.lines {
+			.pipes {
+				.gas {
+					fill: $emkost_25e2_lines-gas-col;
+				}
+				.vms {
+					fill: $emkost_25e2_lines-vms-col;
+				}
+				.water {
+					fill: $emkost_25e2_lines-water-col;
+				}
+				.drain {
+					fill: $emkost_25e2_lines-drain-col;
+				}
+			}
+
+			.points {
+				.oreols {
+					fill: $underlayer-oreols-col;
+				}
+
+				.gas {
+					.fills {
+						fill: $emkost_25e2_lines-gas-col;
+					}
+				}
+				.vms {
+					.fills {
+						fill: $emkost_25e2_lines-vms-col;
+					}
+				}
+				.water {
+					.fills {
+						fill: $emkost_25e2_lines-water-col;
+					}
+				}
+				.drain {
+					.fills {
+						fill: $emkost_25e2_lines-drain-col;
+					}
+				}
+			}
+		}
+
+		.tables {
+			.t1,
+			.t2 {
+				fill: $underlayer-table-color;
+			}
+		}
+	}
+
+	.emkost_30e1_lines {
+		.lines {
+			.pipes {
+				.glycol {
+					fill: $emkost_30e1_lines-glycol-col;
+				}
+
+				.drain {
+					fill: $emkost_30e1_lines-drain-col;
+				}
+			}
+
+			.points {
+				.oreols {
+					fill: $underlayer-oreols-col;
+				}
+
+				.glycol {
+					.fills {
+						fill: $emkost_30e1_lines-glycol-col;
+					}
+				}
+				.drain {
+					.fills {
+						fill: $emkost_30e1_lines-drain-col;
+					}
+				}
+			}
+		}
+	}
+
+	.emkost_30e2_lines {
+		.lines {
+			.pipes {
+				.glycol {
+					fill: $emkost_30e2_lines-glycol-col;
+				}
+
+				.drain {
+					fill: $emkost_30e2_lines-drain-col;
+				}
+			}
+
+			.points {
+				.oreols {
+					fill: $underlayer-oreols-col;
+				}
+
+				.glycol {
+					.fills {
+						fill: $emkost_30e2_lines-glycol-col;
+					}
+				}
+				.drain {
+					.fills {
+						fill: $emkost_30e2_lines-drain-col;
+					}
+				}
+			}
+		}
+	}
+
+	.emkost_30e3_lines {
+		.lines {
+			.pipes {
+				.glycol {
+					fill: $emkost_30e3_lines-glycol-col;
+				}
+
+				.drain {
+					fill: $emkost_30e3_lines-drain-col;
+				}
+
+				.jo {
+					fill: $emkost_30e3_lines-jo-col;
+				}
+			}
+
+			.points {
+				.oreols {
+					fill: $underlayer-oreols-col;
+				}
+
+				.glycol {
+					.fills {
+						fill: $emkost_30e3_lines-glycol-col;
+					}
+				}
+				.drain {
+					.fills {
+						fill: $emkost_30e3_lines-drain-col;
+					}
+				}
+				.jo {
+					.fills {
+						fill: $emkost_30e3_lines-jo-col;
+					}
+				}
+			}
+		}
+	}
+
+	.emkost_30e4_30e5_lines {
+		.lines{
+			.pipes {
+				.glycol {
+					fill: $emkost_30e4_30e5_lines-glycol-col;
+				}
+				.drain {
+					fill: $emkost_30e4_30e5_lines-drain-col;
+				}
+			}
+
+			.points {
+				.oreols {
+					fill: $underlayer-oreols-col;
+				}
+
+				.glycol {
+					.fills {
+						fill: $emkost_30e4_30e5_lines-glycol-col;
+					}
+				}
+				.drain {
+					.fills {
+						fill: $emkost_30e4_30e5_lines-drain-col;
+					}
+				}
+			}
+		}
+	}
+
+	.emkost_49e4_49e9_lines {
+		.lines {
+			.pipes {
+				.drain {
+					fill: $emkost_49e4_49e9_lines-drain-col;
+				}
+				.dt {
+					fill: $emkost_49e4_49e9_lines-dt-col;
+				}
+			}
+
+			.points {
+				.oreols {
+					fill: $underlayer-oreols-col;
+				}
+
+				.drain {
+					.fills {
+						fill: $emkost_49e4_49e9_lines-drain-col;
+					}
+				}
+				.dt {
+					.fills {
+						fill: $emkost_49e4_49e9_lines-dt-col;
+					}
+				}
+			}
+		}
+
+		.tables {
+			.t1,
+			.t2,
+			.t3 {
+				fill: $underlayer-table-color;
+			}
+		}
+	}
+
+	.emkost_49e5_49e6_49e7_lines {
+		.lines {
+			.pipes {
+				.tag {
+					fill: $emkost_49e5_49e6_49e7_lines-tag-col;
+				}
+				.drain {
+					fill: $emkost_49e5_49e6_49e7_lines-drain-col;
+				}
+				.water {
+					fill: $emkost_49e5_49e6_49e7_lines-water-col;
+				}
+			}
+
+			.points {
+				.oreols {
+					fill: $underlayer-oreols-col;
+				}
+
+				.tag {
+					.fills {
+						fill: $emkost_49e5_49e6_49e7_lines-tag-col;
+					}
+				}
+				.drain {
+					.fills {
+						fill: $emkost_49e5_49e6_49e7_lines-drain-col;
+					}
+				}
+			}
+
+			.arrows {
+				.tag {
+					fill: $emkost_49e5_49e6_49e7_lines-tag-col;
+				}
+				.drain {
+					fill: $emkost_49e5_49e6_49e7_lines-drain-col;
+				}
+				.water {
+					fill: $emkost_49e5_49e6_49e7_lines-water-col;
+				}
+			}
+		}
+	}
+
+	.fh1_lines {
+		.lines {
+			.pipes {
+				.gas {
+					fill: $fh1_lines-gas-col;
+				}
+				.drain {
+					fill: $fh1_lines-drain-col;
+				}
+			}
+
+			.points {
+				.oreols {
+					fill: $underlayer-oreols-col;
+				}
+
+				.gas {
+					.fills {
+						fill: $fh1_lines-gas-col;
+					}
+				}
+				.drain {
+					.fills {
+						fill: $fh1_lines-drain-col;
+					}
+				}
+			}
+
+			.arrows {
+				.gas {
+					fill: $fh1_lines-gas-col;
+				}
+				.drain {
+					fill: $fh1_lines-drain-col;
+				}
+			}
+		}
+	}
+
+	.fh2_lines {
+		.lines {
+			.pipes {
+				.gas {
+					fill: $fh2_lines-gas-col;
+				}
+				.drain {
+					fill: $fh2_lines-drain-col;
+				}
+			}
+
+			.points {
+				.oreols {
+					fill: $underlayer-oreols-col;
+				}
+
+				.gas {
+					.fills {
+						fill: $fh2_lines-gas-col;
+					}
+				}
+				.drain {
+					.fills {
+						fill: $fh2_lines-drain-col;
+					}
+				}
+			}
+
+			.arrows {
+				.gas {
+					fill: $fh2_lines-gas-col;
+				}
+				.drain {
+					fill: $fh2_lines-drain-col;
+				}
+			}
+		}
+
+		.tables {
+			.t1,
+			.t2,
+			.t3 {
+				fill: $underlayer-table-color;
+			}
+		}
+	}
+
+	.gis_lines {
+		.lines {
+			.pipes {
+				.gas {
+					fill: $gis_lines-gas-col;
+				}
+			}
+
+			.points {
+				.oreols {
+					fill: $underlayer-oreols-col;
+				}
+
+				.gas {
+					.fills {
+						fill: $gis_lines-gas-col;
+					}
+				}
+			}
+
+			.arrows {
+				.gas {
+					fill: $gis_lines-gas-col;
+				}
+			}
+		}
+
+		.tables {
+			.t1 {
+				fill: $underlayer-table-color;
+			}
+		}
+	}
+
+	.kgs_4skv_lines {
+		.lines {
+			.pipes {
+				.gas {
+					fill: $kgs_4skv_lines-gas-col;
+				}
+				.vms {
+					fill: $kgs_4skv_lines-vms-col;
+				}
+			}
+
+			.points {
+				.oreols {
+					fill: $underlayer-oreols-col;
+				}
+
+				.gas {
+					.fills {
+						fill: $kgs_4skv_lines-gas-col;
+					}
+				}
+				.vms {
+					.fills {
+						fill: $kgs_4skv_lines-vms-col;
+					}
+				}
+			}
+
+			.arrows {
+				.gas {
+					fill: $kgs_4skv_lines-gas-col;
+				}
+				.vms {
+					fill: $kgs_4skv_lines-vms-col;
+				}
+			}
+		}
+
+		.tables {
+			.t1 {
+				fill: $underlayer-table-color;
+			}
+		}
+	}
+
+	.kgs_tur_lines {
+		.lines {
+			.pipes {
+				.gas {
+					fill: $kgs_tur_lines-gas-col;
+				}
+				.vms {
+					fill: $kgs_tur_lines-vms-col;
+				}
+			}
+
+			.points {
+				.oreols {
+					fill: $underlayer-oreols-col;
+				}
+
+				.gas {
+					.fills {
+						fill: $kgs_tur_lines-gas-col;
+					}
+				}
+				.vms {
+					.fills {
+						fill: $kgs_tur_lines-vms-col;
+					}
+				}
+			}
+
+			.arrows {
+				.gas {
+					fill: $kgs_tur_lines-gas-col;
+				}
+				.vms {
+					fill: $kgs_tur_lines-vms-col;
+				}
+			}
+		}
+
+		.tables {
+			.t1 {
+				fill: $underlayer-table-color;
+			}
+		}
+	}
+
+	.kgs_3skv_lines {
+		.lines {
+			.pipes {
+				.gas {
+					fill: $kgs_3skv_lines-gas-col;
+				}
+				.vms {
+					fill: $kgs_3skv_lines-vms-col;
+				}
+			}
+
+			.points {
+				.oreols {
+					fill: $underlayer-oreols-col;
+				}
+
+				.gas {
+					.fills {
+						fill: $kgs_3skv_lines-gas-col;
+					}
+				}
+				.vms {
+					.fills {
+						fill: $kgs_3skv_lines-vms-col;
+					}
+				}
+			}
+
+			.arrows {
+				.gas {
+					fill: $kgs_3skv_lines-gas-col;
+				}
+				.vms {
+					fill: $kgs_3skv_lines-vms-col;
+				}
+			}
+		}
+
+		.tables {
+			.t1 {
+				fill: $underlayer-table-color;
+			}
+		}
+	}
+
+	.kc_1_lines {
+		.lines {
+			.pipes {
+				.gas {
+					fill: $kc_1_lines-gas-col;
+				}
+			}
+
+			.points {
+				.oreols {
+					fill: $underlayer-oreols-col;
+				}
+
+				.gas {
+					.fills {
+						fill: $kc_1_lines-gas-col;
+					}
+				}
+			}
+
+			.arrows {
+				.gas {
+					fill: $kc_1_lines-gas-col;
+				}
+			}
+		}
+
+		.tables {
+			.t1 {
+				fill: $underlayer-table-color;
+			}
+		}
+	}
+
+	.nasos_30n8_lines {
+		.lines {
+			.pipes {
+				.jo {
+					fill: $nasos_30n8_lines-jo-col;
+				}
+
+				.glycol {
+					fill: $nasos_30n8_lines-glycol-col;
+				}
+			}
+
+			.points {
+				.oreols {
+					fill: $underlayer-oreols-col;
+				}
+
+				.jo {
+					.fills {
+						fill: $nasos_30n8_lines-jo-col;
+					}
+				}
+				.glycol {
+					.fills {
+						fill: $nasos_30n8_lines-glycol-col;
+					}
+				}
+			}
+
+			.arrows {
+				.jo {
+					fill: $nasos_30n8_lines-jo-col;
+				}
+
+				.glycol {
+					fill: $nasos_30n8_lines-glycol-col;
+				}
+			}
+		}
+	}
+
+	.nasosnaya_reagentov_lines {
+		.lines {
+			.pipes {
+				.tag {
+					fill: $nasosnaya_reagentov_lines-tag-col;
+				}
+
+				.k {
+					fill: $nasosnaya_reagentov_lines-k-col;
+				}
+
+				.dt {
+					fill: $nasosnaya_reagentov_lines-dt-col;
+				}
+			}
+
+			.points {
+				.oreols {
+					fill: $underlayer-oreols-col;
+				}
+
+				.tag {
+					.fills {
+						fill: $nasosnaya_reagentov_lines-tag-col;
+					}
+				}
+				.k {
+					.fills {
+						fill: $nasosnaya_reagentov_lines-k-col;
+					}
+				}
+				.dt {
+					.fills {
+						fill: $nasosnaya_reagentov_lines-dt-col;
+					}
+				}
+			}
+		}
+	}
+
+	.nm_lines {
+		.lines {
+			.pipes {
+				.metanol {
+					fill: $nm_lines-metanol-col;
+				}
+
+				.colorer {
+					fill: $nm_lines-colorer-col;
+				}
+			}
+
+			.points {
+				.oreols {
+					fill: $underlayer-oreols-col;
+				}
+
+				.metanol {
+					.fills {
+						fill: $nm_lines-metanol-col;
+					}
+				}
+				.colorer {
+					.fills {
+						fill: $nm_lines-colorer-col;
+					}
+				}
+			}
+		}
+	}
+
+	.nm_ppum_lines {
+		.lines {
+			.pipes {
+				.metanol {
+					fill: $nm_ppum_lines-metanol-col;
+				}
+				.drain {
+					fill: $nm_ppum_lines-drain-col;
+				}
+			}
+
+			.points {
+				.oreols {
+					fill: $underlayer-oreols-col;
+				}
+
+				.metanol {
+					.fills {
+						fill: $nm_ppum_lines-metanol-col;
+					}
+				}
+				.drain {
+					.fills {
+						fill: $nm_ppum_lines-drain-col;
+					}
+				}
+			}
+
+			.arrows {
+				.metanol {
+					fill: $nm_ppum_lines-metanol-col;
+				}
+				.drain {
+					fill: $nm_ppum_lines-drain-col;
+				}
+			}
+		}
+
+		.tables {
+			.t1 {
+				fill: $underlayer-table-color;
+			}
+			.t2 {
+				fill: $underlayer-table-color;
+			}
+		}
+	}
+
+	.to_11t1_lines {
+		.lines {
+			.pipes {
+				.gas {
+					fill: $to_11t1_lines-gas-col;
+				}
+			}
+
+			.points {
+				.oreols {
+					fill: $underlayer-oreols-col;
+				}
+
+				.gas {
+					.fills {
+						fill: $to_11t1_lines-gas-col;
+					}
+				}
+			}
+
+			.arrows {
+				.gas {
+					fill: $to_11t1_lines-gas-col;
+				}
+			}
+		}
+	}
+
+	.separator_11s1_lines {
+		.lines {
+			.pipes {
+				.gas {
+					fill: $separator_11s1_lines-gas-col;
+				}
+				.vms {
+					fill: $separator_11s1_lines-vms-col;
+				}
+				.pj {
+					fill: $separator_11s1_lines-pj-col;
+				}
+				.drain {
+					fill: $separator_11s1_lines-drain-col;
+				}
+			}
+
+			.points {
+				.oreols {
+					fill: $underlayer-oreols-col;
+				}
+
+				.gas {
+					fill: $separator_11s1_lines-gas-col;
+				}
+				.vms {
+					fill: $separator_11s1_lines-vms-col;
+				}
+				.pj {
+					fill: $separator_11s1_lines-pj-col;
+				}
+			}
+		}
+	}
+
+	.separators_11s1_lines {
+		.lines {
+			.pipes {
+				.gas {
+					fill: $separators_11s1_lines-gas-col;
+				}
+				.vms {
+					fill: $separators_11s1_lines-vms-col;
+				}
+				.pj {
+					fill: $separators_11s1_lines-pj-col;
+				}
+			}
+
+			.points {
+				.oreols {
+					fill: $underlayer-oreols-col;
+				}
+
+				.gas {
+					fill: $separators_11s1_lines-gas-col;
+				}
+				.vms {
+					fill: $separators_11s1_lines-vms-col;
+				}
+				.pj {
+					fill: $separators_11s1_lines-pj-col;
+				}
+			}
+
+			.arrows {
+				.gas {
+					fill: $separators_11s1_lines-gas-col;
+				}
+				.vms {
+					fill: $separators_11s1_lines-vms-col;
+				}
+				.pj {
+					fill: $separators_11s1_lines-pj-col;
+				}
+			}
+		}
+	}
+
+	.skv_174_lines {
+		.lines {
+			.pipes {
+				.gas {
+					fill: $skv_174_lines-gas-col;
+				}
+				.vms {
+					fill: $skv_174_lines-vms-col;
+				}
+			}
+
+			.points {
+				.oreols {
+					fill: $underlayer-oreols-col;
+				}
+
+				.gas {
+					.fills {
+						fill: $skv_174_lines-gas-col;
+					}
+				}
+				.vms {
+					.fills {
+						fill: $skv_174_lines-vms-col;
+					}
+				}
+			}
+
+			.arrows {
+				.gas {
+					fill: $skv_174_lines-gas-col;
+				}
+				.vms {
+					fill: $skv_174_lines-vms-col;
+				}
+			}
+		}
+	}
+
+	.skv_184_lines {
+		.lines {
+			.pipes {
+				.gas {
+					fill: $skv_184_lines-gas-col;
+				}
+				.vms {
+					fill: $skv_184_lines-vms-col;
+				}
+			}
+
+			.arrows {
+				.gas {
+					fill: $skv_184_lines-gas-col;
+				}
+				.vms {
+					fill: $skv_184_lines-vms-col;
+				}
+			}
+		}
+	}
+
+	.skv_1902_lines {
+		.lines {
+			.pipes {
+				.gas {
+					fill: $skv_184_lines-gas-col;
+				}
+				.vms {
+					fill: $skv_184_lines-vms-col;
+				}
+			}
+
+			.arrows {
+				.gas {
+					fill: $skv_184_lines-gas-col;
+				}
+				.vms {
+					fill: $skv_184_lines-vms-col;
+				}
+			}
+		}
+	}
+
+	.to_30t11_lines {
+		.lines {
+			.pipes {
+				.rglycol {
+					fill: $to_30t11_lines-rglycol-col;
+				}
+				.nglycol {
+					fill: $to_30t11_lines-nglycol-col;
+				}
+			}
+
+			.points {
+				.oreols {
+					fill: $underlayer-oreols-col;
+				}
+
+				.rglycol {
+					.fills {
+						fill: $to_30t11_lines-rglycol-col;
+					}
+				}
+				.nglycol {
+					.fills {
+						fill: $to_30t11_lines-nglycol-col;
+					}
+				}
+			}
+		}
+
+		.tables {
+			.t1,
+			.t2 {
+				fill: $underlayer-table-color;
+			}
+		}
+	}
+
+	.udvms_lines {
+		.lines {
+			.arrows {
+				.k2 {
+					fill: $udvms_lines-k2-col;
+				}
+			}
+
+			.pipes {
+				.k {
+					fill: $udvms_lines-k-col;
+				}
+				.k2 {
+					fill: $udvms_lines-k2-col;
+				}
+				.d {
+					fill: $udvms_lines-d-col;
+				}
+			}
+
+			.points {
+				.oreols {
+					fill: $underlayer-oreols-col;
+				}
+
+				.k {
+					.fills {
+						fill: $udvms_lines-k-col;
+					}
+				}
+				.k2 {
+					.fills {
+						fill: $udvms_lines-k2-col;
+					}
+				}
+			}
+		}
+	}
+
+	.uog_lines {
+		.lines {
+			.arrows {
+				.rtag {
+					fill: $uog_lines-rtag-col;
+				}
+				.ntag {
+					fill: $uog_lines-ntag-col;
+				}
+				.dirtygas {
+					fill: $uog_lines-dirtygas-col;
+				}
+				.puregas {
+					fill: $uog_lines-puregas-col;
+				}
+				.vms {
+					fill: $uog_lines-vms-col;
+				}
+				.gray {
+					fill: $uog_lines-gray-col;
+				}
+			}
+
+			.pipes {
+				.rtag {
+					fill: $uog_lines-rtag-col;
+				}
+				.ntag {
+					fill: $uog_lines-ntag-col;
+				}
+				.dirtygas {
+					fill: $uog_lines-dirtygas-col;
+				}
+				.puregas {
+					fill: $uog_lines-puregas-col;
+				}
+				.vms {
+					fill: $uog_lines-vms-col;
+				}
+				.gray {
+					fill: $uog_lines-gray-col;
+				}
+			}
+
+			.points {
+				.oreols {
+					fill: $underlayer-oreols-col;
+				}
+
+				.rtag .fills {
+					fill: $uog_lines-rtag-col;
+				}
+				.ntag .fills {
+					fill: $uog_lines-ntag-col;
+				}
+				.dirtygas .fills {
+					fill: $uog_lines-dirtygas-col;
+				}
+				.puregas .fills {
+					fill: $uog_lines-puregas-col;
+				}
+				.vms .fills {
+					fill: $uog_lines-vms-col;
+				}
+				.gray .fills {
+					fill: $uog_lines-gray-col;
+				}
+			}
+		}
+
+		.tables {
+			.t1,
+			.t2 {
+				fill: $underlayer-table-color;
+			}
+		}
+	}
+
+	.uptpg_lines {
+		.lines {
+			.pipes {
+				.gas {
+					fill: $uptpg_lines-gas-col;
+				}
+				.water {
+					fill: $uptpg_lines-water-col;
+				}
+			}
+			
+			.points {
+				.oreols {
+					fill: $underlayer-oreols-col;
+				}
+
+				.gas {
+					.fills {
+						fill: $uptpg_lines-gas-col;
+					}
+				}
+				.water {
+					.fills {
+						fill: $uptpg_lines-water-col;
+					}
+				}
+			}
+
+			.arrows {
+				.gas {
+					fill: $uptpg_lines-gas-col;
+				}
+				.water {
+					fill: $uptpg_lines-water-col;
+				}
+			}
+		}
+
+		.tables {
+			.t1 {
+				fill: $underlayer-table-color;
+			}
+		}
+	}
+
+	.uptpg_zu_lines {
+		.lines {
+			.pipes {
+				.gas {
+					fill: $uptpg_zu_lines-gas-col;
+				}
+			}
+
+			.points {
+				.oreols {
+					fill: $underlayer-oreols-col;
+				}
+
+				.gas {
+					.fills {
+						fill: $uptpg_zu_lines-gas-col;
+					}
+				}
+			}
+		}
+
+		.tables {
+			.t1,
+			.t2 {
+				fill: $underlayer-table-color;
+			}
+		}
+	}
+
+	.urt_sptg_lines {
+		.lines {
+			.pipes {
+				.gas {
+					fill: $urt_sptg_lines-gas-col;
+				}
+				.dizel {
+					fill: $urt_sptg_lines-dizel-col;
+				}
+				.azot {
+					fill: $urt_sptg_lines-azot-col;
+				}
+			}
+
+			.points {
+				.oreols {
+					fill: $underlayer-oreols-col;
+				}
+
+				.gas {
+					.fills {
+						fill: $urt_sptg_lines-gas-col;
+					}
+				}
+			}
+		}
+	}
+
+	.waterpull_south_lines {
+		.lines {
+			.pipes {
+				.k1 {
+					fill: $waterpull_south_lines-k1-col;
+				}
+				.k2 {
+					fill: $waterpull_south_lines-k2-col;
+				}
+			}
+		}
+	}
+
+	.watersupply_south_lines {
+		.lines {
+			.pipes {
+				.vz {
+					fill: $watersupply_south_lines-vz-col;
+				}
+			}
+		}
+	}
+/*
+BARRELS
+*/
+	/*
+	Absorbers
+	*/
+		.absorber_big {
+			.elem {
+				.absorber-barrel {
+					fill: $barrel-color;
+				}
+
+				.zones {
+					.dirtygas {
+						fill: $absorbers-all-dirtygas;
+					}
+					.absorbent {
+						fill: $absorbers-all-absorbent;
+					}
+					.puregas {
+						fill: $absorbers-all-puregas;
+					}
+
+					.firstnet,
+					.secondnet,
+					.thirdnet {
+						fill: $absorbers-all-net-color;
+						opacity: $absorbers-all-net-opacity;
+					}
+				}
+			}
+		}
+
+		.absorber_medium {
+			.elem {
+				.absorber-barrel {
+					fill: $barrel-color;
+				}
+
+				.zones {
+					.dirtygas {
+						fill: $absorbers-all-dirtygas;
+					}
+					.absorbent {
+						fill: $absorbers-all-absorbent;
+					}
+
+					.firstnet,
+					.secondnet {
+						fill: $absorbers-all-net-color;
+						opacity: $absorbers-all-net-opacity;
+					}
+				}
+			}
+		}
+	/*
+	Separators
+	*/
+		.separator_big {
+			.elem {
+				.barrel {
+					fill: $barrel-color;
+				}
+
+				.zones {
+					.areas {
+						.a1 {
+							fill: $separators-all-lower;
+						}
+						.a2 {
+							fill: $separators-all-middle;
+						}
+						.a3 {
+							fill: $separators-all-upper;
+						}
+					}
+				}
+
+				.nets {
+					.n1,
+					.n2,
+					.n3 {
+						fill: $separators-all-net-color;
+						opacity: $separators-all-net-opacity;
+					}
+				}
+			}
+		}
+
+		.separator_small {
+			.elem {
+				.barrel {
+					fill: $barrel-color;
+				}
+
+				.zones {
+					.colorcell {
+						fill: $separators-all-middle;
+					}
+
+					.dividers {
+						.d1 {
+							fill: $separators-all-net-color;
+							opacity: $separators-all-net-opacity;
+						}
+						.d2 {
+							fill: $separators-all-net-color;
+							opacity: $separators-all-net-opacity;
+						}
+					}
+				}
+			}
+		}
+	/*
+	---
+	*/
+	.barrel {
+		.elem-holder {
+			.leftcap-round,
+			.rightcap-round,
+			.leftcap-square,
+			.rightcap-square {
+				fill: $barrel-color;
+			}
+
+			.central-part {
+				background-color: $barrel-color;
+			}
+		}
+	}
+
+	.degasator {
+		.elem-holder {
+			.leftcap-round,
+			.rightcap-round,
+			.leftcap-square,
+			.rightcap-square {
+				fill: $barrel-color;
+			}
+
+			.central-part {
+				background-color: $barrel-color;
+			}
+		}
+
+		.deco-cont {
+			.meter {
+				.stroke {
+					fill: $degasator-stroke-col;
+					opacity: $degasator-stroke-opacity;
+				}
+				.fill {
+					fill: $barrel-color;
+				}
+				.glass {
+					fill: $meter-glass-color;
+				}
+				.color {
+					& path:nth-child(1) {
+						fill: $meter-bad;
+					}
+					& path:nth-child(2) {
+						fill: $meter-so;
+					}
+					& path:nth-child(3) {
+						fill: $meter-good;
+					}
+				}
+				.arrow {
+					fill: $meter-main-color;
+				}
+			}
+		}
+	}
+
+	.heat_exchanger {
+		.elem-holder {
+			.leftcap-round,
+			.rightcap-round,
+			.leftcap-square,
+			.rightcap-square {
+				fill: $barrel-color;
+			}
+
+			.central-part {
+				background-color: $barrel-color;
+
+				.left_side {
+					fill: $heat_exchanger-rails-col;
+					opacity: $heat_exchanger-rails-opacity;
+				}
+				.right_side {
+					fill: $heat_exchanger-rails-col;
+					opacity: $heat_exchanger-rails-opacity;
+				}
+
+				.rails-container {
+					.rail {
+						background-color: $heat_exchanger-rails-col;
+						opacity: $heat_exchanger-rails-opacity;
+					}
+				}
+			}
+		}
+	}
+
+	.pumpbarrel {
+		.elem-holder {
+			.leftcap-round,
+			.rightcap-round,
+			.leftcap-square,
+			.rightcap-square {
+				fill: $barrel-color;
+			}
+
+			.central-part {
+				background-color: $barrel-color;
+			}
+		}
+
+		.deco-cont {
+			.pump {
+				.stroke {
+					fill: $pumpbarrel-stroke-col;
+					opacity: $pumpbarrel-stroke-opacity;
+				}
+				.unactive-color {
+					fill: $barrel-color;
+				}
+				.placeholder {
+					/*
+					Alarm-container
+					*/
+					.visible {
+						fill: $unavailable-color;
+					}
+					.invisible {
+						fill: none;
+					}
+				}
+			}
+		}
+	}
+/*
+SVG
+*/
+	.brm {
+		.elem {
+			.color {
+				fill: $brm-svg-fill;
+			}
+		}
+	}
+
+	.crane {
+		.elem {
+			.color {
+				fill: $crane-svg-fill;
+			}
+		}
+	}
+
+	.divider_unique {
+		.elem {
+			.color {
+				fill: $divider_unique-svg-fill;
+			}
+		}
+	}
+
+	.dsp {
+		.elem {
+			.color {
+				fill: $dsp-svg-fill;
+			}
+		}
+	}
+
+	.filter {
+		.elem {
+			.color {
+				fill: $filter-svg-fill;
+			}
+		}
+	}
+
+	.filter_big {
+		.elem {
+			.color {
+				fill: $filter_big-svg-fill;
+			}
+		}
+	}
+
+	.gpa {
+		.elem {
+			.stroke {
+				fill: $svg-outline-fill;
+			}
+			.color {
+				fill: $gpa-svg-fill;
+
+				.fen {
+					.transparent path {
+						opacity: 0.2;
+					}
+				}
+			}
+		}
+	}
+
+	.heater {
+		.outgoing-pipes {
+			.str {
+				background-color: $svg-outline-fill;
+				opacity: $heater-svg-stroke-opacity;
+			}
+			.col {
+				background-color: $barrel-color;
+			}
+		}
+
+		.heater-elem {
+			.stroke {
+				fill: $svg-outline-fill;
+				opacity: $heater-svg-stroke-opacity;
+			}
+
+			.color {
+				fill: $barrel-color;
+			}
+		}
+	}
+
+	.meter {
+		.elem {
+			.shell {
+				fill: $meter-main-color;
+
+				.shadow {
+					fill: .000000;
+					opacity: $meter-shadow-intensity;
+				}
+			}
+
+			.glass {
+				fill: $meter-glass-color;
+			}
+
+			.color {
+				& path:nth-child(1) {
+					fill: $meter-bad;
+				}
+				& path:nth-child(2) {
+					fill: $meter-so;
+				}
+				& path:nth-child(3) {
+					fill: $meter-good;
+				}
+			}
+
+			.arrow {
+				fill: $meter-main-color;
+			}
+		}
+	}
+
+	.pg {
+		.elem {
+			.color {
+				fill: $pg-svg-fill;
+			}
+		}
+	}
+
+	.pump {
+		.elem {
+			.shadow {
+				fill: $pump-shadow-col;
+
+				.outer {
+					opacity: 0.02;
+				}
+				.medium {
+					opacity: 0.02;
+				}
+				.inner {
+					opacity: 0.08;
+				}
+			}
+
+			.stroke {
+				fill: $svg-outline-fill;
+			}
+
+			.unactive-color {
+				fill: $svg-unactive-color-fill;
+			}
+
+			.color {
+				fill: $pump-svg-fill;
+			}
+		}
+
+		.placeholder {
+			/*
+			Alarm-container
+			*/
+			.visible {
+				fill: $unavailable-color;
+			}
+			.invisible {
+				fill: none;
+			}
+		}
+	}
+
+	.quarry_mini {
+		.elem {
+			.color {
+				fill: $quarry_mini-svg-fill;
+			}
+		}
+	}
+
+	.torch {
+		.elem {
+			.color {
+				.torch {
+					fill: $torch-main-fill;
+				}
+				.flame {
+					fill: $torch-flame-fill;
+				}
+			}
+		}
+	}
+
+	.transition_button {
+		border-bottom-color: $transition_button-shadow-col;
+		border-left-color: $transition_button-shadow-col;
+
+		.unactive-part {
+			fill: $transition_button-unactive-part-col;
+		}
+
+		.color {
+			fill: $transition_button-active-part-col;
+		}
+
+		.main-container {
+			.naming-container .naming {
+				color: $transition_button-txt-col;
+				text-shadow: -1px -1px 0px $transition_button-txt-shadow,
+							-1px 0px 0px $transition_button-txt-shadow,
+							-1px 1px 0px $transition_button-txt-shadow,
+							0px -1px 0px $transition_button-txt-shadow,
+							0px 1px 0px $transition_button-txt-shadow,
+							1px -1px 0px $transition_button-txt-shadow,
+							1px 0px 0px $transition_button-txt-shadow,
+							1px 1px 0px $transition_button-txt-shadow,
+							1px 1px 0px $transition_button-txt-shadow;
+			}
+
+			.arrow-container svg {
+				fill: $transition_button-txt-shadow;
+				stroke: $transition_button-txt-col;
+			}
+		}
+	}
+
+	.transition_button_mini {
+		.main-container {
+			background-color: $transition_button-unactive-part-col;
+			box-shadow: -2px 2px 4px $transition_button_mini-shadow-col;
+
+			.arrow-container svg {
+				fill: $transition_button-txt-shadow;
+				stroke: $transition_button-txt-col;
+			}
+		}
+	}
+
+	.valve,
+	.valve_switch {
+		.elem {
+			.shadow {
+				fill: $valve-shadow-col;
+
+				.outer {
+					opacity: 0.02;
+				}
+				.medium {
+					opacity: 0.02;
+				}
+				.inner {
+					opacity: 0.08;
+				}
+			}
+
+			.stroke {
+				fill: $svg-outline-fill;
+			}
+
+			.unactive-color {
+				fill: $svg-unactive-color-fill;
+			}
+
+			.color {
+				fill: $valve-svg-fill;
+			}
+		}
+
+		.placeholder {
+			/*
+			Alarm-container
+			*/
+			.visible {
+				fill: $unavailable-color;
+			}
+			.invisible {
+				fill: none;
+			}
+		}
+	}
+
+	.valve_mini_unactive {
+		.elem {
+			.stroke {
+				fill: $svg-outline-fill;
+			}
+
+			.color {
+				fill: $valve-svg-fill;
+			}
+
+			.overlay {
+				fill: $valve_mini_unactive-overlay-col;
+			}
+		}
+	}
+
+	.valve_switch_bit {
+		.elem {
+			.shadow {
+				fill: $valve-shadow-col;
+
+				.outer {
+					opacity: 0.02;
+				}
+				.medium {
+					opacity: 0.02;
+				}
+				.inner {
+					opacity: 0.08;
+				}
+			}
+
+			.stroke {
+				&.default {
+					fill: $svg-outline-fill;
+				}
+				&.error {
+					fill: $valve_switch_bit-outline-error;
+				}
+			}
+
+			.unactive-color {
+				fill: $svg-unactive-color-fill;
+			}
+
+			.color {
+				fill: $valve-svg-fill;
+			}
+		}
+
+		.placeholder {
+			/*
+			Alarm-container
+			*/
+			.visible {
+				fill: $unavailable-color;
+			}
+			.invisible {
+				fill: none;
+			}
+		}
+	}
+
+	.ventil_sys {
+		.unactive {
+			.color {
+				fill: $ventil_sys-svg-unactive-fill;
+			}
+		}
+
+		.active {
+			.color {
+				fill: $ventil_sys-svg-active-fill;
+			}
+		}
+	}
+
+	.wastemeter {
+		.elem {
+			.color {
+				fill: $wastemeter-svg-fill;
+			}
+		}
+	}
+/*
+NON_SVG
+*/
+	.background_for_quarry_graph {
+		.upper-container {
+			.top-line {
+				background-color: $bg_for_quarry_graph-line-color;
+			}
+			.bot-line {
+				background-color: $bg_for_quarry_graph-line-color;
+			}
+		}
+
+		.lower-container {
+			.hatched-block {
+				background: repeating-linear-gradient(-30deg, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 2.5px, $bg_for_quarry_graph-hatch-color 3px, $bg_for_quarry_graph-hatch-color 4px, rgba(0, 0, 0, 0) 4.5px, rgba(0, 0, 0, 0) 7px);
+			}
+		}
+	}
+
+	.level {
+		.nums-container  {
+			.val-block {
+				color: $level-nums-color;
+			}
+		}
+
+		.slider-container {
+			.linear-container {
+				.top-meas-part,
+				.middle-meas-part,
+				.bottom-meas-part {
+					background-color: $level-main-color;
+				}
+
+				.top-meas-part {
+					.color-block {
+						background-color: $level-toppart-color;
+					}
+				}
+				.bottom-meas-part {
+					.color-block {
+						background-color: $level-botpart-color;
+					}
+				}
+
+
+				.inner-container {
+					.filled-val {
+						background-color: $level-filled-color;
+					}
+				}
+			}
+
+			.hor-blocks {
+				.top-bar {
+					background-color: $level-topbar-color;
+				}
+				.optim-bar {
+					background-color: $level-main-color;
+				}
+				.bot-bar {
+					background-color: $level-botbar-color;
+				}
+			}
+		}
+	}
+
+	.level_for_barrels {
+		.slider-container {
+			.bar-container-bg {
+				background-color: $level_for_barrels-contour-fill;
+
+				.inner-bar-container {
+					background-color: $level_for_barrels-self-fill;
+				}
+			}
+
+			.marklines-bg-container {
+				.markline {
+					background-color: $level_for_barrels-contour-fill;
+				}
+			}
+
+			.marklines-fg-container {
+				.markline {
+					background-color: $level_for_barrels-self-fill;
+				}
+			}
+
+
+			.filling-area {
+				.filler {
+					background-color: $level_for_barrels-filler-color;
+				}
+			}
+		}
+
+		.nums-container {
+			.val-block {
+				color: $level_for_barrels-nums-color;
+			}
+		}
+
+		/*
+		Alarm-container
+		*/
+		.alarm-container {
+			.visible {
+				background-color: $unavailable-color-inversed;
+			}
+			.invisible {
+				background-color: none;
+			}
+		}
+	}
+
+	.naming {
+		.main-container {
+			.info-container-block {
+				.somenaming {
+					color: $naming-txt-color;
+					text-shadow: -1px -1px 0px $naming-txt-shadow-color,
+								-1px 0px 0px $naming-txt-shadow-color,
+								-1px 1px 0px $naming-txt-shadow-color,
+								0px -1px 0px $naming-txt-shadow-color,
+								0px 1px 0px $naming-txt-shadow-color,
+								1px -1px 0px $naming-txt-shadow-color,
+								1px 0px 0px $naming-txt-shadow-color,
+								1px 1px 0px $naming-txt-shadow-color;
+				}
+			}
+		}
+	}
+
+	.naming_col_inversed {
+		.main-container {
+			.info-container-block {
+				.somenaming {
+					color: $naming_col_inversed-txt-color;
+				}
+			}
+		}
+	}
+
+	.naming_with_bg {
+		.main-container {
+			background-color: $naming_with_bg-background-color;
+			border-bottom-color: $tit-shadow-color;
+			border-left-color: $tit-shadow-color;
+
+			.info-container-block {
+				.caption {
+					color: $naming-txt-color;
+				}
+
+				.units {
+					color: $naming-txt-color;
+				}
+			}
+		}
+	}
+
+	.num_value {
+		/*
+		Main-container
+		*/
+		.main-container {
+			box-shadow: inset 0 0 10px 0 $num_value-bg-shade;
+			background-color: $num_value-bg-color;
+
+			.info-container-block {
+				.num-vert-container {
+					.num-placer {
+						text-shadow: -1px -1px 0px $num_value-numshade,
+							-1px 0px 0px $num_value-numshade,
+							-1px 1px 0px $num_value-numshade,
+							0px -1px 0px $num_value-numshade,
+							0px 1px 0px $num_value-numshade,
+							1px -1px 0px $num_value-numshade,
+							1px 0px 0px $num_value-numshade,
+							1px 1px 0px $num_value-numshade,
+							1px 1px 0px $num_value-numshade;
+					}
+				}
+			}
+		}
+
+		.unknown {
+			.hatch-container {
+				background: repeating-linear-gradient(
+								-45deg,
+								$num_value-hatch-class-unreachable 0px,
+								$num_value-hatch-class-unreachable 1px,
+								rgba(0, 0, 0, 0) 1px,
+								rgba(0, 0, 0, 0) 6px,
+								$num_value-hatch-class-unreachable 6px,
+								$num_value-hatch-class-unreachable 7px,
+								rgba(0, 0, 0, 0) 7px,
+								rgba(0, 0, 0, 0) 12px
+							);
+				opacity: $num_value-hatch-opacity;
+			}
+
+			.info-container-block {
+				.num-vert-container {
+					.num-placer {
+						color: $num_value-ok-numcolor;
+					}
+				}
+
+				.line-vert-container {
+					.line-element {
+						.square:nth-child(1) {
+							background-color: $num_value-line-unknown;
+						}
+						.square:nth-child(2) {
+							background-color: $num_value-line-unknown;
+						}
+					}
+				}
+			}
+		}
+
+		.lower-than-lowest {
+			.hatch-container {
+				background: none;
+				opacity: 0;
+			}
+
+			.info-container-block {
+				.num-vert-container {
+					.num-placer {
+						color: $num_value-awful-numcolor;
+					}
+				}
+
+				.line-vert-container {
+					.line-element {
+						.square:nth-child(1) {
+							background-color: $num_value-line-invis;
+						}
+						.square:nth-child(2) {
+							background-color: $num_value-line-awful;
+						}
+					}
+				}
+			}
+		}
+
+		.lower-than-optim {
+			.hatch-container {
+				background: none;
+				opacity: 0;
+			}
+
+			.info-container-block {
+				.num-vert-container {
+					.num-placer {
+						color: $num_value-bad-numcolor;
+					}
+				}
+
+				.line-vert-container {
+					.line-element {
+						.square:nth-child(1) {
+							background-color: $num_value-line-invis;
+						}
+						.square:nth-child(2) {
+							background-color: $num_value-line-bad;
+						}
+					}
+				}
+			}
+		}
+
+		.optimal {
+			.hatch-container {
+				background: none;
+				opacity: 0;
+			}
+
+			.info-container-block {
+				.num-vert-container {
+					.num-placer {
+						color: $num_value-ok-numcolor;
+					}
+				}
+
+				.line-vert-container {
+					.line-element {
+						.square:nth-child(1) {
+							background-color: $num_value-line-ok;
+						}
+						.square:nth-child(2) {
+							background-color: $num_value-line-ok;
+						}
+					}
+				}
+			}
+		}
+
+		.higher-than-optim {
+			.hatch-container {
+				background: none;
+				opacity: 0;
+			}
+
+			.info-container-block {
+				.num-vert-container {
+					.num-placer {
+						color: $num_value-bad-numcolor;
+					}
+				}
+
+				.line-vert-container {
+					.line-element {
+						.square:nth-child(1) {
+							background-color: $num_value-line-bad;
+						}
+						.square:nth-child(2) {
+							background-color: $num_value-line-invis;
+						}
+					}
+				}
+			}
+		}
+
+		.higher-than-highest {
+			.hatch-container {
+				background: none;
+				opacity: 0;
+			}
+
+			.info-container-block {
+				.num-vert-container {
+					.num-placer {
+						color: $num_value-awful-numcolor;
+					}
+				}
+
+				.line-vert-container {
+					.line-element {
+						.square:nth-child(1) {
+							background-color: $num_value-line-awful;
+						}
+						.square:nth-child(2) {
+							background-color: $num_value-line-invis;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.pointer_line {
+		.middle-container {
+			.line-container {
+				background-color: $pointer_line-color;
+			}
+
+			/*
+			Triangle
+			*/
+			.pos {
+				border-top: 6px solid transparent;
+				border-right: 6px solid transparent;
+				border-bottom: 6px solid $pointer_line-color;
+				border-left: 6px solid transparent;
+			}
+			.neg {
+				border-top: 6px solid $pointer_line-color;
+				border-right: 6px solid transparent;
+				border-bottom: 6px solid transparent;
+				border-left: 6px solid transparent;
+			}
+		}
+	}
+
+	.range_universal_line {
+		.main-container {
+			.edgeline{
+				background-color: $range_universal_line-color;
+			}
+			.rangeline{
+				background-color: $range_universal_line-color;
+			}
+		} 
+	}
+
+	.range_vert_line {
+		.main-container {
+			.holder-row .line {
+				background-color: $range_universal_line-color;
+			}
+
+			.line-row {
+				background-color: $range_universal_line-color;
+			}
+		}
+
+		.right .arrows-row .with {
+			.triangle:nth-child(1) {
+				border: 4px solid rgba(0, 0, 0, 0);
+				border-top: 4px solid $range_universal_line-color;
+				border-left: 4px solid $range_universal_line-color;
+			}
+
+			.triangle:nth-child(2) {
+				border: 4px solid rgba(0, 0, 0, 0);
+				border-bottom: 4px solid $range_universal_line-color;
+				border-left: 4px solid $range_universal_line-color;
+			}
+		}
+
+		.left .arrows-row .with {
+			.triangle:nth-child(1) {
+				border: 4px solid rgba(0, 0, 0, 0);
+				border-top: 4px solid $range_universal_line-color;
+				border-right: 4px solid $range_universal_line-color;
+			}
+
+			.triangle:nth-child(2) {
+				border: 4px solid rgba(0, 0, 0, 0);
+				border-bottom: 4px solid $range_universal_line-color;
+				border-right: 4px solid $range_universal_line-color;
+			}
+		}
+	}
+
+	.switcher_naming {
+		&.normal {
+			&.on {
+				.main-container {
+					background-color: $switcher_naming-on-bg-col;
+
+					.info-container-block {
+						.somenaming {
+							color: $switcher_naming-on-txt-col;
+						}
+					}
+				}
+			}
+			&.off {
+				.main-container {
+					background-color: $switcher_naming-off-bg-col;
+
+					.info-container-block {
+						.somenaming {
+							color: $switcher_naming-off-txt-col;
+						}
+					}
+				}
+			}
+			&.undefined {
+				.main-container {
+					background: repeating-linear-gradient(
+									-45deg,
+									$switcher_naming-unknown-hatch-col 0px,
+									$switcher_naming-unknown-hatch-col 1px,
+									rgba(0, 0, 0, 0) 1px,
+									rgba(0, 0, 0, 0) 6px,
+									$switcher_naming-unknown-hatch-col 6px,
+									$switcher_naming-unknown-hatch-col 7px,
+									rgba(0, 0, 0, 0) 7px,
+									rgba(0, 0, 0, 0) 12px
+								);
+
+					.info-container-block {
+						.somenaming {
+							color: $switcher_naming-unknown-txt-col;
+						}
+					}
+				}
+			}
+		}
+
+		&.inversed {
+			&.on {
+				.main-container {
+					background-color: $switcher_naming-off-bg-col;
+
+					.info-container-block {
+						.somenaming {
+							color: $switcher_naming-off-txt-col;
+						}
+					}
+				}
+			}
+			&.off {
+				.main-container {
+					background-color: $switcher_naming-on-bg-col;
+
+					.info-container-block {
+						.somenaming {
+							color: $switcher_naming-on-txt-col;
+						}
+					}
+				}
+			}
+			&.undefined {
+				.main-container {
+					background: repeating-linear-gradient(
+									-45deg,
+									$switcher_naming-unknown-hatch-col 0px,
+									$switcher_naming-unknown-hatch-col 1px,
+									rgba(0, 0, 0, 0) 1px,
+									rgba(0, 0, 0, 0) 6px,
+									$switcher_naming-unknown-hatch-col 6px,
+									$switcher_naming-unknown-hatch-col 7px,
+									rgba(0, 0, 0, 0) 7px,
+									rgba(0, 0, 0, 0) 12px
+								);
+
+					.info-container-block {
+						.somenaming {
+							color: $switcher_naming-unknown-txt-col;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.tag_naming {
+		/*
+		Main-container
+		*/
+		.main-container {
+			background-color: $num_value-bg-color;
+			box-shadow: inset 0 0 10px 0 $num_value-bg-shade;
+
+			.info-container-block {
+				.somenaming {
+					color: $num_value-ok-numcolor;
+					text-shadow: -1px -1px 0px $num_value-numshade,
+								-1px 0px 0px $num_value-numshade,
+								-1px 1px 0px $num_value-numshade,
+								0px -1px 0px $num_value-numshade,
+								0px 1px 0px $num_value-numshade,
+								1px -1px 0px $num_value-numshade,
+								1px 0px 0px $num_value-numshade,
+								1px 1px 0px $num_value-numshade,
+								1px 1px 0px $num_value-numshade;
+				}
+			}
+		}
+
+		.reachable {
+			.hatch-container {
+				background: none;
+				opacity: 0;
+			}
+		}
+		.unreachable {
+			.hatch-container {
+				background: repeating-linear-gradient(
+								-45deg,
+								$num_value-hatch-class-unreachable 0px,
+								$num_value-hatch-class-unreachable 1px,
+								rgba(0, 0, 0, 0) 1px,
+								rgba(0, 0, 0, 0) 6px,
+								$num_value-hatch-class-unreachable 6px,
+								$num_value-hatch-class-unreachable 7px,
+								rgba(0, 0, 0, 0) 7px,
+								rgba(0, 0, 0, 0) 12px
+							);
+				opacity: $num_value-hatch-opacity;
+			}
+		}
+	}
+
+	.tit,
+	.tit_dyn_sum,
+	.tit_tags,
+	.tit_formulated {
+		border-bottom-color: $tit-shadow-color;
+		border-left-color: $tit-shadow-color;
+		/*
+		Name-container
+		*/
+			.name-container {
+				background-color: $tit-name-cont-bg-col;
+
+				.info-container-block {
+					.caption-block,
+					.unit-block {
+						color: $tit-name-cont-txt-col;
+					}
+				}
+			}
+		/*
+		Val-container
+		*/
+			.val-container {
+				box-shadow: inset 0 0 10px 0 $num_value-bg-shade;
+				background-color: $num_value-bg-color;
+
+				.info-container-block {
+					.num-vert-container {
+						.num-placer {
+							text-shadow: -1px -1px 0px $num_value-numshade,
+								-1px 0px 0px $num_value-numshade,
+								-1px 1px 0px $num_value-numshade,
+								0px -1px 0px $num_value-numshade,
+								0px 1px 0px $num_value-numshade,
+								1px -1px 0px $num_value-numshade,
+								1px 0px 0px $num_value-numshade,
+								1px 1px 0px $num_value-numshade,
+								1px 1px 0px $num_value-numshade;
+						}
+					}
+				}
+			}
+
+			.unknown {
+				.hatch-container {
+					background: repeating-linear-gradient(
+									-45deg,
+									$num_value-hatch-class-unreachable 0px,
+									$num_value-hatch-class-unreachable 1px,
+									rgba(0, 0, 0, 0) 1px,
+									rgba(0, 0, 0, 0) 6px,
+									$num_value-hatch-class-unreachable 6px,
+									$num_value-hatch-class-unreachable 7px,
+									rgba(0, 0, 0, 0) 7px,
+									rgba(0, 0, 0, 0) 12px
+								);
+					opacity: $num_value-hatch-opacity;
+				}
+
+				.info-container-block {
+					.num-vert-container {
+						.num-placer {
+							color: $num_value-ok-numcolor;
+						}
+					}
+
+					.line-vert-container {
+						.line-element {
+							.square:nth-child(1) {
+								background-color: $num_value-line-unknown;
+							}
+							.square:nth-child(2) {
+								background-color: $num_value-line-unknown;
+							}
+						}
+					}
+				}
+			}
+
+			.lower-than-lowest {
+				.hatch-container {
+					background: none;
+					opacity: 0;
+				}
+
+				.info-container-block {
+					.num-vert-container {
+						.num-placer {
+							color: $num_value-awful-numcolor;
+						}
+					}
+
+					.line-vert-container {
+						.line-element {
+							.square:nth-child(1) {
+								background-color: $num_value-line-invis;
+							}
+							.square:nth-child(2) {
+								background-color: $num_value-line-awful;
+							}
+						}
+					}
+				}
+			}
+
+			.lower-than-optim {
+				.hatch-container {
+					background: none;
+					opacity: 0;
+				}
+
+				.info-container-block {
+					.num-vert-container {
+						.num-placer {
+							color: $num_value-bad-numcolor;
+						}
+					}
+
+					.line-vert-container {
+						.line-element {
+							.square:nth-child(1) {
+								background-color: $num_value-line-invis;
+							}
+							.square:nth-child(2) {
+								background-color: $num_value-line-bad;
+							}
+						}
+					}
+				}
+			}
+
+			.optimal {
+				.hatch-container {
+					background: none;
+					opacity: 0;
+				}
+
+				.info-container-block {
+					.num-vert-container {
+						.num-placer {
+							color: $num_value-ok-numcolor;
+						}
+					}
+
+					.line-vert-container {
+						.line-element {
+							.square:nth-child(1) {
+								background-color: $num_value-line-ok;
+							}
+							.square:nth-child(2) {
+								background-color: $num_value-line-ok;
+							}
+						}
+					}
+				}
+			}
+
+			.higher-than-optim {
+				.hatch-container {
+					background: none;
+					opacity: 0;
+				}
+
+				.info-container-block {
+					.num-vert-container {
+						.num-placer {
+							color: $num_value-bad-numcolor;
+						}
+					}
+
+					.line-vert-container {
+						.line-element {
+							.square:nth-child(1) {
+								background-color: $num_value-line-bad;
+							}
+							.square:nth-child(2) {
+								background-color: $num_value-line-invis;
+							}
+						}
+					}
+				}
+			}
+
+			.higher-than-highest {
+				.hatch-container {
+					background: none;
+					opacity: 0;
+				}
+
+				.info-container-block {
+					.num-vert-container {
+						.num-placer {
+							color: $num_value-awful-numcolor;
+						}
+					}
+
+					.line-vert-container {
+						.line-element {
+							.square:nth-child(1) {
+								background-color: $num_value-line-awful;
+							}
+							.square:nth-child(2) {
+								background-color: $num_value-line-invis;
+							}
+						}
+					}
+				}
+			}
+	}
+
+	.tit_alt {
+		border-color: $tit-shadow-color;
+
+		.name-container {
+			background-color: $tit-name-cont-bg-col;
+			color: $tit-name-cont-txt-col;
+		}
+
+		/*
+		Val-container
+		*/
+			.val-container {
+				box-shadow: inset 0 0 10px 0 $num_value-bg-shade;
+				background-color: $num_value-bg-color;
+
+				.info-container-block {
+					.num-vert-container {
+						.num-placer {
+							text-shadow: -1px -1px 0px $num_value-numshade,
+								-1px 0px 0px $num_value-numshade,
+								-1px 1px 0px $num_value-numshade,
+								0px -1px 0px $num_value-numshade,
+								0px 1px 0px $num_value-numshade,
+								1px -1px 0px $num_value-numshade,
+								1px 0px 0px $num_value-numshade,
+								1px 1px 0px $num_value-numshade,
+								1px 1px 0px $num_value-numshade;
+						}
+					}
+				}
+			}
+
+			.unknown {
+				.hatch-container {
+					background: repeating-linear-gradient(
+									-45deg,
+									$num_value-hatch-class-unreachable 0px,
+									$num_value-hatch-class-unreachable 1px,
+									rgba(0, 0, 0, 0) 1px,
+									rgba(0, 0, 0, 0) 6px,
+									$num_value-hatch-class-unreachable 6px,
+									$num_value-hatch-class-unreachable 7px,
+									rgba(0, 0, 0, 0) 7px,
+									rgba(0, 0, 0, 0) 12px
+								);
+					opacity: $num_value-hatch-opacity;
+				}
+
+				.info-container-block {
+					.num-vert-container {
+						.num-placer {
+							color: $num_value-ok-numcolor;
+						}
+					}
+
+					.line-vert-container {
+						.line-element {
+							.square:nth-child(1) {
+								background-color: $num_value-line-unknown;
+							}
+							.square:nth-child(2) {
+								background-color: $num_value-line-unknown;
+							}
+						}
+					}
+				}
+			}
+
+			.lower-than-lowest {
+				.hatch-container {
+					background: none;
+					opacity: 0;
+				}
+
+				.info-container-block {
+					.num-vert-container {
+						.num-placer {
+							color: $num_value-awful-numcolor;
+						}
+					}
+
+					.line-vert-container {
+						.line-element {
+							.square:nth-child(1) {
+								background-color: $num_value-line-invis;
+							}
+							.square:nth-child(2) {
+								background-color: $num_value-line-awful;
+							}
+						}
+					}
+				}
+			}
+
+			.lower-than-optim {
+				.hatch-container {
+					background: none;
+					opacity: 0;
+				}
+
+				.info-container-block {
+					.num-vert-container {
+						.num-placer {
+							color: $num_value-bad-numcolor;
+						}
+					}
+
+					.line-vert-container {
+						.line-element {
+							.square:nth-child(1) {
+								background-color: $num_value-line-invis;
+							}
+							.square:nth-child(2) {
+								background-color: $num_value-line-bad;
+							}
+						}
+					}
+				}
+			}
+
+			.optimal {
+				.hatch-container {
+					background: none;
+					opacity: 0;
+				}
+
+				.info-container-block {
+					.num-vert-container {
+						.num-placer {
+							color: $num_value-ok-numcolor;
+						}
+					}
+
+					.line-vert-container {
+						.line-element {
+							.square:nth-child(1) {
+								background-color: $num_value-line-ok;
+							}
+							.square:nth-child(2) {
+								background-color: $num_value-line-ok;
+							}
+						}
+					}
+				}
+			}
+
+			.higher-than-optim {
+				.hatch-container {
+					background: none;
+					opacity: 0;
+				}
+
+				.info-container-block {
+					.num-vert-container {
+						.num-placer {
+							color: $num_value-bad-numcolor;
+						}
+					}
+
+					.line-vert-container {
+						.line-element {
+							.square:nth-child(1) {
+								background-color: $num_value-line-bad;
+							}
+							.square:nth-child(2) {
+								background-color: $num_value-line-invis;
+							}
+						}
+					}
+				}
+			}
+
+			.higher-than-highest {
+				.hatch-container {
+					background: none;
+					opacity: 0;
+				}
+
+				.info-container-block {
+					.num-vert-container {
+						.num-placer {
+							color: $num_value-awful-numcolor;
+						}
+					}
+
+					.line-vert-container {
+						.line-element {
+							.square:nth-child(1) {
+								background-color: $num_value-line-awful;
+							}
+							.square:nth-child(2) {
+								background-color: $num_value-line-invis;
+							}
+						}
+					}
+				}
+			}
+	}
+
+	.tit_alt_on_barrel {
+		border-color: $tit_alt_on_barrel-shadow-color;
+
+		.name-container {
+			background-color: $tit_alt_on_barrel-name-bg;
+			color: $tit_alt_on_barrel-name-txt-col;
+		}
+
+		/*
+		Val-container
+		*/
+			.val-container {
+				box-shadow: inset 0 0 10px 0 $num_value-bg-shade;
+				background-color: $num_value-bg-color;
+
+				.info-container-block {
+					.num-vert-container {
+						.num-placer {
+							text-shadow: -1px -1px 0px $num_value-numshade,
+								-1px 0px 0px $num_value-numshade,
+								-1px 1px 0px $num_value-numshade,
+								0px -1px 0px $num_value-numshade,
+								0px 1px 0px $num_value-numshade,
+								1px -1px 0px $num_value-numshade,
+								1px 0px 0px $num_value-numshade,
+								1px 1px 0px $num_value-numshade,
+								1px 1px 0px $num_value-numshade;
+						}
+					}
+				}
+			}
+
+			.unknown {
+				.hatch-container {
+					background: repeating-linear-gradient(
+									-45deg,
+									$num_value-hatch-class-unreachable 0px,
+									$num_value-hatch-class-unreachable 1px,
+									rgba(0, 0, 0, 0) 1px,
+									rgba(0, 0, 0, 0) 6px,
+									$num_value-hatch-class-unreachable 6px,
+									$num_value-hatch-class-unreachable 7px,
+									rgba(0, 0, 0, 0) 7px,
+									rgba(0, 0, 0, 0) 12px
+								);
+					opacity: $num_value-hatch-opacity;
+				}
+
+				.info-container-block {
+					.num-vert-container {
+						.num-placer {
+							color: $num_value-ok-numcolor;
+						}
+					}
+
+					.line-vert-container {
+						.line-element {
+							.square:nth-child(1) {
+								background-color: $num_value-line-unknown;
+							}
+							.square:nth-child(2) {
+								background-color: $num_value-line-unknown;
+							}
+						}
+					}
+				}
+			}
+
+			.lower-than-lowest {
+				.hatch-container {
+					background: none;
+					opacity: 0;
+				}
+
+				.info-container-block {
+					.num-vert-container {
+						.num-placer {
+							color: $num_value-awful-numcolor;
+						}
+					}
+
+					.line-vert-container {
+						.line-element {
+							.square:nth-child(1) {
+								background-color: $num_value-line-invis;
+							}
+							.square:nth-child(2) {
+								background-color: $num_value-line-awful;
+							}
+						}
+					}
+				}
+			}
+
+			.lower-than-optim {
+				.hatch-container {
+					background: none;
+					opacity: 0;
+				}
+
+				.info-container-block {
+					.num-vert-container {
+						.num-placer {
+							color: $num_value-bad-numcolor;
+						}
+					}
+
+					.line-vert-container {
+						.line-element {
+							.square:nth-child(1) {
+								background-color: $num_value-line-invis;
+							}
+							.square:nth-child(2) {
+								background-color: $num_value-line-bad;
+							}
+						}
+					}
+				}
+			}
+
+			.optimal {
+				.hatch-container {
+					background: none;
+					opacity: 0;
+				}
+
+				.info-container-block {
+					.num-vert-container {
+						.num-placer {
+							color: $num_value-ok-numcolor;
+						}
+					}
+
+					.line-vert-container {
+						.line-element {
+							.square:nth-child(1) {
+								background-color: $num_value-line-ok;
+							}
+							.square:nth-child(2) {
+								background-color: $num_value-line-ok;
+							}
+						}
+					}
+				}
+			}
+
+			.higher-than-optim {
+				.hatch-container {
+					background: none;
+					opacity: 0;
+				}
+
+				.info-container-block {
+					.num-vert-container {
+						.num-placer {
+							color: $num_value-bad-numcolor;
+						}
+					}
+
+					.line-vert-container {
+						.line-element {
+							.square:nth-child(1) {
+								background-color: $num_value-line-bad;
+							}
+							.square:nth-child(2) {
+								background-color: $num_value-line-invis;
+							}
+						}
+					}
+				}
+			}
+
+			.higher-than-highest {
+				.hatch-container {
+					background: none;
+					opacity: 0;
+				}
+
+				.info-container-block {
+					.num-vert-container {
+						.num-placer {
+							color: $num_value-awful-numcolor;
+						}
+					}
+
+					.line-vert-container {
+						.line-element {
+							.square:nth-child(1) {
+								background-color: $num_value-line-awful;
+							}
+							.square:nth-child(2) {
+								background-color: $num_value-line-invis;
+							}
+						}
+					}
+				}
+			}
+	}
+
+	.tit_col_inversed {
+		border-color: $tit_col_inver-shadow-color;
+		/*
+		Name-container
+		*/
+			.name-container {
+				background-color: $tit_col_inver-name-cont-bg-col;
+
+				.info-container-block {
+					.caption-block,
+					.unit-block {
+						color: $tit_col_inver-name-cont-txt-col;
+					}
+				}
+			}
+		/*
+		Val-container
+		*/
+			.val-container {
+				box-shadow: inset 0 0 10px 0 $num_value-bg-shade;
+				background-color: $num_value-bg-color;
+
+				.info-container-block {
+					.num-vert-container {
+						.num-placer {
+							text-shadow: -1px -1px 0px $num_value-numshade,
+								-1px 0px 0px $num_value-numshade,
+								-1px 1px 0px $num_value-numshade,
+								0px -1px 0px $num_value-numshade,
+								0px 1px 0px $num_value-numshade,
+								1px -1px 0px $num_value-numshade,
+								1px 0px 0px $num_value-numshade,
+								1px 1px 0px $num_value-numshade,
+								1px 1px 0px $num_value-numshade;
+						}
+					}
+				}
+			}
+
+			.unknown {
+				.hatch-container {
+					background: repeating-linear-gradient(
+									-45deg,
+									$num_value-hatch-class-unreachable 0px,
+									$num_value-hatch-class-unreachable 1px,
+									rgba(0, 0, 0, 0) 1px,
+									rgba(0, 0, 0, 0) 6px,
+									$num_value-hatch-class-unreachable 6px,
+									$num_value-hatch-class-unreachable 7px,
+									rgba(0, 0, 0, 0) 7px,
+									rgba(0, 0, 0, 0) 12px
+								);
+					opacity: $num_value-hatch-opacity;
+				}
+
+				.info-container-block {
+					.num-vert-container {
+						.num-placer {
+							color: $num_value-ok-numcolor;
+						}
+					}
+
+					.line-vert-container {
+						.line-element {
+							.square:nth-child(1) {
+								background-color: $num_value-line-unknown;
+							}
+							.square:nth-child(2) {
+								background-color: $num_value-line-unknown;
+							}
+						}
+					}
+				}
+			}
+
+			.lower-than-lowest {
+				.hatch-container {
+					background: none;
+					opacity: 0;
+				}
+
+				.info-container-block {
+					.num-vert-container {
+						.num-placer {
+							color: $num_value-awful-numcolor;
+						}
+					}
+
+					.line-vert-container {
+						.line-element {
+							.square:nth-child(1) {
+								background-color: $num_value-line-invis;
+							}
+							.square:nth-child(2) {
+								background-color: $num_value-line-awful;
+							}
+						}
+					}
+				}
+			}
+
+			.lower-than-optim {
+				.hatch-container {
+					background: none;
+					opacity: 0;
+				}
+
+				.info-container-block {
+					.num-vert-container {
+						.num-placer {
+							color: $num_value-bad-numcolor;
+						}
+					}
+
+					.line-vert-container {
+						.line-element {
+							.square:nth-child(1) {
+								background-color: $num_value-line-invis;
+							}
+							.square:nth-child(2) {
+								background-color: $num_value-line-bad;
+							}
+						}
+					}
+				}
+			}
+
+			.optimal {
+				.hatch-container {
+					background: none;
+					opacity: 0;
+				}
+
+				.info-container-block {
+					.num-vert-container {
+						.num-placer {
+							color: $num_value-ok-numcolor;
+						}
+					}
+
+					.line-vert-container {
+						.line-element {
+							.square:nth-child(1) {
+								background-color: $num_value-line-ok;
+							}
+							.square:nth-child(2) {
+								background-color: $num_value-line-ok;
+							}
+						}
+					}
+				}
+			}
+
+			.higher-than-optim {
+				.hatch-container {
+					background: none;
+					opacity: 0;
+				}
+
+				.info-container-block {
+					.num-vert-container {
+						.num-placer {
+							color: $num_value-bad-numcolor;
+						}
+					}
+
+					.line-vert-container {
+						.line-element {
+							.square:nth-child(1) {
+								background-color: $num_value-line-bad;
+							}
+							.square:nth-child(2) {
+								background-color: $num_value-line-invis;
+							}
+						}
+					}
+				}
+			}
+
+			.higher-than-highest {
+				.hatch-container {
+					background: none;
+					opacity: 0;
+				}
+
+				.info-container-block {
+					.num-vert-container {
+						.num-placer {
+							color: $num_value-awful-numcolor;
+						}
+					}
+
+					.line-vert-container {
+						.line-element {
+							.square:nth-child(1) {
+								background-color: $num_value-line-awful;
+							}
+							.square:nth-child(2) {
+								background-color: $num_value-line-invis;
+							}
+						}
+					}
+				}
+			}
+	}
+/*
+end
+*/

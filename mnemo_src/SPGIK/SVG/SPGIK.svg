@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="3308px"
+	 height="2277px" viewBox="0 0 3308 2277" style="enable-background:new 0 0 3308 2277;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#757474;stroke-miterlimit:10;}
+	.st1{opacity:0.3;fill:#FFFFFF;stroke:#6C6F7A;stroke-miterlimit:10;}
+	.st2{fill:#FFFFFF;stroke:#6C6F7A;stroke-miterlimit:10;}
+	.st3{fill:#22282D;}
+	.st4{font-family:'UbuntuCondensed-Regular';}
+	.st5{font-size:24px;}
+	.st6{letter-spacing:-1;}
+	.st7{font-size:28px;}
+	.st8{font-size:15.9998px;}
+	.st9{fill:none;stroke:#A5269F;stroke-width:3;stroke-miterlimit:10;}
+	.st10{fill:none;stroke:#6D6F7A;stroke-width:3;stroke-miterlimit:10;}
+	.st11{fill:none;stroke:#5E5D5D;stroke-width:3;stroke-miterlimit:10;}
+	.st12{fill:none;stroke:#F3C80D;stroke-width:3;stroke-miterlimit:10;}
+	.st13{fill:none;stroke:#F3C811;stroke-width:3;stroke-miterlimit:10;}
+	.st14{fill:none;stroke:#757474;stroke-width:3;stroke-miterlimit:10;}
+	.st15{fill:#FFFFFF;stroke:#F3C811;stroke-width:3;stroke-miterlimit:10;}
+	.st16{fill:#FFFFFF;stroke:#A5269F;stroke-width:3;stroke-miterlimit:10;}
+	.st17{fill:#FFFFFF;stroke:#6D6F7A;stroke-width:3;stroke-miterlimit:10;}
+</style>
+<g id="tables-solid">
+	<g id="t1">
+		<path class="st0" d="M865,455H732c-13.8,0-25-11.2-25-25V246c0-13.8,11.2-25,25-25h133c13.8,0,26,11.2,26,25v184
+			C891,443.8,878.8,455,865,455z"/>
+	</g>
+	<g id="t3">
+		<rect x="10.7" y="1887.9" class="st1" width="629" height="290"/>
+	</g>
+	<g id="t2">
+		<rect x="10.8" y="1586.5" class="st1" width="629.6" height="218.2"/>
+	</g>
+	<g id="t5">
+		<rect x="10" y="1927.9" class="st1" width="629.6" height="1"/>
+	</g>
+	<g id="t6">
+		<rect x="404.2" y="1887.9" class="st2" width="1" height="289"/>
+	</g>
+	<g id="t7">
+		<rect x="10" y="1978.9" class="st1" width="629.6" height="1"/>
+	</g>
+	<g id="t8">
+		<rect x="10" y="2031.9" class="st1" width="629.6" height="1"/>
+	</g>
+	<g id="t9">
+		<rect x="10" y="2081.9" class="st1" width="629.6" height="1"/>
+	</g>
+	<g id="t10">
+		<rect x="10" y="2131.9" class="st1" width="629.6" height="1"/>
+	</g>
+	<g id="t11">
+		<rect x="143.2" y="1888.9" class="st2" width="1" height="288"/>
+	</g>
+</g>
+<g id="text">
+	<g id="px24">
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 468.3503 1699.6169)" class="st3 st4 st5 st6">dP на Т3.1 эжект.</text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 466.519 1777.1223)" class="st3 st4 st5 st6">dP на Т1.1 затруб.</text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 161.4155 1661.5754)" class="st3 st4 st5 st6">F м на ЦПГиГК №1</text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 468.3042 1736.3914)" class="st3 st4 st5 st6">dP на Т1.1</text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 468.8614 1623.5697)" class="st3 st4 st5 st6">dP на Т3.1</text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 160.1194 1699.5593)" class="st3 st4 st5 st6">dP на АВО</text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 160.7075 1623.6566)" class="st3 st4 st5 st6">Р м на ЦПГиГК №1</text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 467.8464 1661.9478)" class="st3 st4 st5 st6">dP на Т3.1 затруб.</text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 44.398 2163.4741)" class="st3 st4 st7 st6">Коэфф</text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 498.2654 1915.4434)" class="st3 st4 st7 st6">ВМР</text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 218.6117 1915.493)" class="st3 st4 st7 st6">Метанол</text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 36.6847 1962.4928)" class="st3 st4 st7 st6">Поз. 24.1</text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 42.3784 2015.4783)" class="st3 st4 st7 st6">СРПИ 1</text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 42.6065 2064.4783)" class="st3 st4 st7 st6">СРПИ 2</text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 44.1182 2117.4749)" class="st3 st4 st7 st6">Норма</text>
+	</g>
+	<g id="px16">
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 770.6626 240.9174)"><tspan x="0" y="0" class="st3 st4 st8 st6">АВО </tspan><tspan x="25.1" y="0" class="st3 st4 st8 st6">2</tspan><tspan x="30.9" y="0" class="st3 st4 st8 st6">.</tspan><tspan x="33.6" y="0" class="st3 st4 st8">1</tspan></text>
+	</g>
+	<g id="px28">
+	</g>
+</g>
+<g id="lines">
+	<g id="pipes">
+		<g id="methanol">
+			<line class="st9" x1="2598" y1="1965" x2="3232" y2="1965"/>
+			<line class="st9" x1="1074" y1="757" x2="1595" y2="757"/>
+			<polyline class="st9" points="2614,615 2281,615 2281,709 			"/>
+			<polyline class="st9" points="2209,1707 2209,2052 3223,2052 			"/>
+			<polyline class="st9" points="947,1959 947,2051 1890,2051 			"/>
+			<line class="st9" x1="2210" y1="1964" x2="2596" y2="1964"/>
+			<line class="st9" x1="948" y1="1964" x2="1336" y2="1964"/>
+			<line class="st9" x1="1327" y1="1964" x2="1891" y2="1964"/>
+			<polyline class="st9" points="171,153 112,153 1175,153 1175,413 			"/>
+			<line class="st9" x1="947" y1="1708" x2="947" y2="2051"/>
+			<line class="st9" x1="2040" y1="159" x2="2596" y2="159"/>
+		</g>
+		<g id="drainage">
+			<line class="st10" x1="498" y1="1100" x2="331" y2="1100"/>
+			<polyline class="st10" points="1364,98 1364,36 3058,36 3058,1803 			"/>
+			<polyline class="st10" points="3204,2141 2130,2141 2130,1697 			"/>
+			<polyline class="st10" points="1893,2229 868,2229 868,2137 			"/>
+			<polyline class="st10" points="1893,2140 868,2140 868,1705 			"/>
+			<polyline class="st10" points="607,1218 254,1218 254,1158 			"/>
+			<polyline class="st10" points="859,1306 859,1100 517,1100 			"/>
+			<polyline class="st10" points="1603,1211 1073,1211 1073,1148 			"/>
+			<polyline class="st10" points="859,1431 859,1305 1707,1305 			"/>
+			<polyline class="st10" points="1705,1306 1705,1101 1330,1101 			"/>
+			<line class="st10" x1="1307" y1="1101" x2="1140" y2="1101"/>
+			<polyline class="st10" points="1334,1801 1169,1801 1169,1706 			"/>
+			<line class="st10" x1="1865" y1="1801" x2="1322" y2="1801"/>
+			<polyline class="st11" points="675,1432 989,1432 989,1620 			"/>
+			<polyline class="st10" points="1364,95 1364,460 1481,460 1481,95 2599,95 			"/>
+			<line class="st11" x1="1480" y1="95" x2="1364" y2="95"/>
+			<line class="st10" x1="3017" y1="1803" x2="3212" y2="1803"/>
+			<polyline class="st11" points="2771,1147 2771,1543 2351,1543 2351,1596 			"/>
+			<polyline class="st10" points="2438,1713 2438,1803 3037,1803 			"/>
+		</g>
+		<g id="gas_1_">
+			<polyline class="st12" points="2376,1305 2416,1305 2416,1177 2431,1177 			"/>
+			<polyline class="st13" points="2701,1131 2701,1131 2563,1131 2563,1432 2537,1432 			"/>
+			<polyline class="st13" points="600,1306 49,1306 49,1100 181,1100 			"/>
+			<polyline class="st13" points="1044,901 1044,857 284,857 284,896 			"/>
+			<line class="st13" x1="2505" y1="948" x2="2539" y2="948"/>
+			<line class="st13" x1="2505" y1="1168" x2="2539" y2="1168"/>
+			<polyline class="st13" points="2281,1171 2281,1431 2537,1431 2537,992 			"/>
+			<polyline class="st13" points="2504,709 2537,709 2537,1221 			"/>
+			<polyline class="st13" points="104,710 683,710 683,857 			"/>
+			<polyline class="st13" points="114,616 818,616 818,857 			"/>
+			<line class="st13" x1="285" y1="413" x2="707" y2="413"/>
+			<polyline class="st13" points="284,413 284,203 725,203 1074,203 1074,413 			"/>
+			<polyline class="st12" points="2281,701.5 2281,947.5 2430,947.5 			"/>
+			<polyline class="st12" points="2430,709 2133,709 1457,709 			"/>
+			<polyline class="st13" points="891,413 1529,413 1529,616 1176,616 			"/>
+			<polyline class="st12" points="2040,251 2040,319 1935,319 			"/>
+			<polyline class="st12" points="1788,393 1765,393 1765,319 1795,319 			"/>
+			<polyline class="st12" points="1951,392 1974,392 1974,466 1955,466 			"/>
+			<polyline class="st12" points="1787,465 1768,465 1768,615 1871,615 1871,712 			"/>
+			<path class="st13" d="M2040,251v-15c-3.9,0-7-3.1-7-7c0-3.9,3.1-7,7-7v-6v-57h-365v550h-500v-93V413"/>
+			<polyline class="st13" points="2349,549 2743,549 2743,893 			"/>
+			<polyline class="st13" points="1074,894 1074,479 284,479 284,413 			"/>
+			<path class="st12" d="M2399,1305h-111c0-3.9-3.1-7-7-7s-7,3.1-7,7h-45"/>
+			<polyline class="st12" points="2376,1103 2416,1103 2416,957 2430,957 			"/>
+			<path class="st12" d="M2399,1103h-111c0-3.9-3.1-7-7-7s-7,3.1-7,7h-35"/>
+			<line class="st13" x1="2348" y1="229" x2="2348" y2="549"/>
+			<polyline class="st13" points="225,894 225,857 31,857 31,827 			"/>
+			<line class="st12" x1="2800" y1="709" x2="2800" y2="905"/>
+			<polyline class="st12" points="2348,549 1871,549 1871,493 			"/>
+			<polyline class="st13" points="1870,292 1870,229 2623,229 			"/>
+			<polyline class="st12" points="2238,883.5 2238,1305.5 1913,1305.5 			"/>
+			<path class="st12" d="M2399,884h-111c0-3.9-3.1-7-7-7s-7,3.1-7,7h-37"/>
+			<polyline class="st13" points="2403,230 2403,329 2525,329 2525,229 			"/>
+			<line class="st13" x1="2040" y1="1304" x2="2040" y2="1511"/>
+			<polyline class="st13" points="2537,1434 2537,1513 2216,1513 1188,1513 1188,1595 			"/>
+			<polyline class="st12" points="2375,884 2416,884 2416,719 2430,719 			"/>
+			<polyline class="st13" points="1026,1596 1026,1432 1268,1432 1268,1396 			"/>
+			<polyline class="st13" points="1112,990 1112,856 1318,856 1318,820 			"/>
+			<polyline class="st12" points="2281,950 2281,1168 2434,1168 			"/>
+		</g>
+	</g>
+	<g id="arrows">
+		<g id="methanol_00000135652109235526020510000003533716707547574422_">
+			<polyline class="st9" points="1167,258 1175,268 1183,258 			"/>
+			<polyline class="st9" points="2201,1756 2209,1766 2217,1756 			"/>
+			<polyline class="st9" points="939,1756 947,1766 955,1756 			"/>
+		</g>
+		<g id="drainage_00000078745131599060554390000016752626917569747130_">
+			<polyline class="st14" points="1356,259 1364,268 1372,259 			"/>
+			<polyline class="st14" points="1489,268 1481,259 1473,268 			"/>
+			<polyline class="st11" points="2763,1204 2771,1214 2779,1204 			"/>
+			<polyline class="st11" points="2687,1535 2677,1543 2687,1551 			"/>
+			<polyline class="st11" points="2430,1756 2438,1766 2446,1756 			"/>
+			<polyline class="st11" points="2122,1756 2130,1766 2138,1756 			"/>
+			<polyline class="st11" points="1161,1756 1169,1766 1177,1756 			"/>
+			<polyline class="st11" points="851,1353 859,1363 867,1353 			"/>
+			<polyline class="st11" points="851,1242 859,1252 867,1242 			"/>
+			<polyline class="st11" points="1697,1242 1705,1252 1713,1242 			"/>
+			<polyline class="st11" points="1043,1297 1033,1305 1043,1313 			"/>
+			<polyline class="st11" points="1324,1297 1314,1305 1324,1313 			"/>
+			<polyline class="st11" points="860,1756 868,1766 876,1756 			"/>
+		</g>
+		<g id="gas">
+			<polyline class="st13" points="979,211 989,203 979,195 			"/>
+			<polyline class="st13" points="1459,717 1469,709 1459,701 			"/>
+			<polyline class="st13" points="2070,717 2080,709 2070,701 			"/>
+			<polyline class="st13" points="2240,1521 2250,1513 2240,1505 			"/>
+			<polyline class="st13" points="1689,1521 1699,1513 1689,1505 			"/>
+			<polyline class="st13" points="2246,935 2238,925 2230,935 			"/>
+			<polyline class="st13" points="2246,1198 2238,1188 2230,1198 			"/>
+			<polyline class="st13" points="2545,1478 2537,1468 2529,1478 			"/>
+			<polyline class="st13" points="2529,1286 2537,1296 2545,1286 			"/>
+			<polyline class="st13" points="1863,653 1871,663 1879,653 			"/>
+			<polyline class="st13" points="1760,522 1768,532 1776,522 			"/>
+			<polyline class="st13" points="1976,311 1966,319 1976,327 			"/>
+			<polyline class="st13" points="2646,541 2636,549 2646,557 			"/>
+			<polyline class="st13" points="508,211 518,203 508,195 			"/>
+			<polyline class="st13" points="292,315 284,305 276,315 			"/>
+			<polyline class="st13" points="1066,258 1074,268 1082,258 			"/>
+		</g>
+	</g>
+	<g id="points">
+		<g id="gas_2_">
+			<circle class="st15" cx="284" cy="413" r="4.5"/>
+			<circle class="st15" cx="1074" cy="413" r="4.5"/>
+			<circle class="st15" cx="817" cy="857" r="4.5"/>
+			<circle class="st15" cx="683" cy="857" r="4.5"/>
+			<circle class="st15" cx="1175" cy="617" r="4.5"/>
+			<circle class="st15" cx="2348" cy="229" r="4.5"/>
+			<circle class="st15" cx="2348" cy="550" r="4.5"/>
+			<circle class="st15" cx="2537" cy="948" r="4.5"/>
+			<circle class="st15" cx="2537" cy="1168" r="4.5"/>
+			<circle class="st15" cx="2281" cy="1168" r="4.5"/>
+			<circle class="st15" cx="2238" cy="1103" r="4.5"/>
+			<circle class="st15" cx="2537" cy="1431" r="4.5"/>
+			<circle class="st15" cx="2281" cy="948" r="4.5"/>
+			<circle class="st15" cx="2238" cy="1305" r="4.5"/>
+			<circle class="st15" cx="2040" cy="1305" r="4.5"/>
+			<circle class="st15" cx="2040" cy="1513" r="4.5"/>
+			<circle class="st15" cx="2403" cy="229" r="4.5"/>
+			<circle class="st15" cx="2523" cy="229" r="4.5"/>
+			<circle class="st15" cx="1675" cy="709" r="4.5"/>
+			<circle class="st15" cx="1871" cy="709" r="4.5"/>
+		</g>
+		<g id="methanol_00000108292631312588921430000009429173118294558634_">
+			<circle class="st16" cx="1175" cy="413" r="4.5"/>
+			<circle class="st16" cx="2040" cy="160" r="4.5"/>
+			<circle class="st16" cx="2281" cy="709" r="4.5"/>
+			<circle class="st16" cx="2210" cy="1964" r="4.5"/>
+			<circle class="st16" cx="947" cy="1964" r="4.5"/>
+			<circle class="st16" cx="1074" cy="757" r="4.5"/>
+		</g>
+		<g id="drainage_00000053530967083650353270000015994577811666279583_">
+			<circle class="st17" cx="1481" cy="96" r="4.5"/>
+			<circle class="st17" cx="868" cy="2141" r="4.5"/>
+			<circle class="st17" cx="858" cy="1431" r="4.5"/>
+			<circle class="st17" cx="859" cy="1305" r="4.5"/>
+			<circle class="st17" cx="3058" cy="1804" r="4.5"/>
+			<circle class="st17" cx="1364" cy="96" r="4.5"/>
+		</g>
+	</g>
+</g>
+<g id="SimpleElements">
+	<g id="multi-tit-elem">
+		
+			<image style="overflow:visible;" width="152" height="32" id="id35_00000142161186923366618160000002332221028891210930_" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_arroworient-bot.png"  transform="matrix(1 0 0 1 1284 1742)">
+		</image>
+		
+			<image style="overflow:visible;" width="152" height="32" id="id34_00000088827659202989748380000005920666960871145614_" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_arroworient-bot.png"  transform="matrix(1 0 0 1 2532 1905)">
+		</image>
+		
+			<image style="overflow:visible;" width="152" height="32" id="id33_00000024720920415631606650000016859760432794443175_" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_arroworient-bot.png"  transform="matrix(1 0 0 1 2532 1741)">
+		</image>
+		
+			<image style="overflow:visible;" width="152" height="32" id="id32_00000154385845995649276680000007432354744690130858_" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_arroworient-bot.png"  transform="matrix(1 0 0 1 1283 1904)">
+		</image>
+		
+			<image style="overflow:visible;" width="152" height="32" id="id31" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_arroworient-bot.png"  transform="matrix(1 0 0 1 435 1039)">
+		</image>
+		
+			<image style="overflow:visible;" width="134" height="64" id="id30_00000068636801328723909490000007024929463269695132_" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_titcount-2_no-arroworient.png"  transform="matrix(1 0 0 1 2693 1723)">
+		</image>
+		
+			<image style="overflow:visible;" width="134" height="96" id="id29_00000107554669443097994310000018007318922805366930_" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_titcount-3_no-arroworient.png"  transform="matrix(1 0 0 1 2693 1858)">
+		</image>
+		
+			<image style="overflow:visible;" width="154" height="32" id="id27_00000044158989805364573250000002417459709242660483_" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_mid_titcount-1.png"  transform="matrix(1 0 0 1 2881 960)">
+		</image>
+		
+			<image style="overflow:visible;" width="154" height="32" id="id28_00000142876759926158415870000017682481993539287190_" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_mid_titcount-1.png"  transform="matrix(1 0 0 1 2881 1017)">
+		</image>
+		
+			<image style="overflow:visible;" width="134" height="64" id="id26_00000145058228262846878550000010616994455963701633_" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_titcount-2_no-arroworient.png"  transform="matrix(1 0 0 1 2557 1054)">
+		</image>
+		
+			<image style="overflow:visible;" width="134" height="64" id="id25_00000160887391743766899240000017857505169413447339_" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_titcount-2_no-arroworient.png"  transform="matrix(1 0 0 1 2135 722)">
+		</image>
+		
+			<image style="overflow:visible;" width="134" height="96" id="id24_00000045604037954933963570000002946744945677728388_" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_titcount-3_no-arroworient.png"  transform="matrix(1 0 0 1 2601.5 786)">
+		</image>
+		
+			<image style="overflow:visible;" width="154" height="32" id="id23_00000136370090742116274480000013617207655031749764_" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_mid_titcount-1.png"  transform="matrix(1 0 0 1 2541 644)">
+		</image>
+		
+			<image style="overflow:visible;" width="134" height="96" id="id22_00000083067386458028491710000001372983379809580186_" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_titcount-3_no-arroworient.png"  transform="matrix(1 0 0 1 2577.5 256)">
+		</image>
+		
+			<image style="overflow:visible;" width="134" height="64" id="id21_00000123429220455802416870000008386070555003017634_" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_titcount-2_no-arroworient.png"  transform="matrix(1 0 0 1 2151 470)">
+		</image>
+		
+			<image style="overflow:visible;" width="134" height="64" id="id20_00000008147069076979111060000012220439608532268473_" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_titcount-2_no-arroworient.png"  transform="matrix(1 0 0 1 1982 333)">
+		</image>
+		
+			<image style="overflow:visible;" width="134" height="64" id="id19_00000026152975188395586300000010409404815611510154_" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_titcount-2_no-arroworient.png"  transform="matrix(1 0 0 1 2151 242.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="154" height="32" id="id18_00000111158902545041816270000005687653670659336871_" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_mid_titcount-1.png"  transform="matrix(1 0 0 1 2151 114)">
+		</image>
+		
+			<image style="overflow:visible;" width="154" height="32" id="id16_00000107562571080238692460000010896596735485567152_" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_mid_titcount-1.png"  transform="matrix(1 0 0 1 2151 52)">
+		</image>
+		
+			<image style="overflow:visible;" width="154" height="32" id="id17" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_mid_titcount-1.png"  transform="matrix(1 0 0 1 1383 767.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="134" height="64" id="id15_00000013168746885101316990000005806300703327223475_" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_titcount-2_no-arroworient.png"  transform="matrix(1 0 0 1 1525 292)">
+		</image>
+		
+			<image style="overflow:visible;" width="134" height="96" id="id14_00000119805590564037472260000017381375966812496547_" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_titcount-3_no-arroworient.png"  transform="matrix(1 0 0 1 1477 993)">
+		</image>
+		
+			<image style="overflow:visible;" width="154" height="32" id="id13" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_mid_titcount-1.png"  transform="matrix(1 0 0 1 1207 1467)">
+		</image>
+		
+			<image style="overflow:visible;" width="134" height="96" id="id12_00000107585784539656507490000008040172980400201368_" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_titcount-3_no-arroworient.png"  transform="matrix(1 0 0 1 1477 1685)">
+		</image>
+		
+			<image style="overflow:visible;" width="134" height="96" id="id11_00000137103447894525875630000000678382431210959794_" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_titcount-3_no-arroworient.png"  transform="matrix(1 0 0 1 1476 1851)">
+		</image>
+		
+			<image style="overflow:visible;" width="154" height="32" id="id10" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_mid_titcount-1.png"  transform="matrix(1 0 0 1 823 1012)">
+		</image>
+		
+			<image style="overflow:visible;" width="154" height="32" id="id9" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_mid_titcount-1.png"  transform="matrix(1 0 0 1 823 959)">
+		</image>
+		
+			<image style="overflow:visible;" width="154" height="32" id="id201" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_mid_titcount-1.png"  transform="matrix(1 0 0 1 10.5 953.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="154" height="32" id="id8" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_mid_titcount-1.png"  transform="matrix(1 0 0 1 61 1261)">
+		</image>
+		
+			<image style="overflow:visible;" width="154" height="32" id="id7" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_mid_titcount-1.png"  transform="matrix(1 0 0 1 595 1058)">
+		</image>
+		
+			<image style="overflow:visible;" width="154" height="32" id="id6" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_mid_titcount-1.png"  transform="matrix(1 0 0 1 909 104.3)">
+		</image>
+		
+			<image style="overflow:visible;" width="154" height="64" id="id5" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_mid_titcount-2_no-arroworient.png"  transform="matrix(1 0 0 1 259 780)">
+		</image>
+		
+			<image style="overflow:visible;" width="154" height="64" id="id4" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_mid_titcount-2_no-arroworient.png"  transform="matrix(1 0 0 1 531 337)">
+		</image>
+		
+			<image style="overflow:visible;" width="154" height="64" id="id3" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_mid_titcount-2_no-arroworient.png"  transform="matrix(1 0 0 1 909 337)">
+		</image>
+		
+			<image style="overflow:visible;" width="154" height="64" id="id2" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_mid_titcount-2_no-arroworient.png"  transform="matrix(1 0 0 1 1199.5 30.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="152" height="32" id="id200_00000078753079849882366890000004938272460460526009_" xlink:href="../../../elements/multi-tit-elem/pub/default.png"  transform="matrix(1 0 0 1 184.7209 1937.9811)">
+		</image>
+		
+			<image style="overflow:visible;" width="152" height="32" id="id202_00000157990592782976773130000001005287086896939151_" xlink:href="../../../elements/multi-tit-elem/pub/default.png"  transform="matrix(1 0 0 1 445.4928 1989.4811)">
+		</image>
+		
+			<image style="overflow:visible;" width="152" height="32" id="id203_00000007399039003562146720000018038964951674621574_" xlink:href="../../../elements/multi-tit-elem/pub/default.png"  transform="matrix(1 0 0 1 184.4928 1989.4811)">
+		</image>
+		
+			<image style="overflow:visible;" width="152" height="32" id="id204_00000033360906544710058750000017526568132986833340_" xlink:href="../../../elements/multi-tit-elem/pub/default.png"  transform="matrix(1 0 0 1 184.7209 2091.4812)">
+		</image>
+		
+			<image style="overflow:visible;" width="152" height="32" id="id205_00000159435770248036569980000004150484976033381286_" xlink:href="../../../elements/multi-tit-elem/pub/default.png"  transform="matrix(1 0 0 1 445.7209 2040.4811)">
+		</image>
+		
+			<image style="overflow:visible;" width="152" height="32" id="id206_00000125571030962370833460000000798835465057339278_" xlink:href="../../../elements/multi-tit-elem/pub/default.png"  transform="matrix(1 0 0 1 184.7209 2040.4811)">
+		</image>
+		
+			<image style="overflow:visible;" width="152" height="32" id="id207_00000178177756515121092430000014551777810908354732_" xlink:href="../../../elements/multi-tit-elem/pub/default.png"  transform="matrix(1 0 0 1 445.7209 2091.4812)">
+		</image>
+		
+			<image style="overflow:visible;" width="152" height="32" id="id208_00000115490630056515494720000009541246705830254232_" xlink:href="../../../elements/multi-tit-elem/pub/default.png"  transform="matrix(1 0 0 1 445.7209 1937.9811)">
+		</image>
+	</g>
+	<g id="separator-elem">
+		
+			<image style="overflow:visible;" width="162" height="267" id="id36_00000163071420177916534260000015478182799569339817_" xlink:href="../../../elements/separator-elem/pub/default.png"  transform="matrix(1 0 0 1 175 891.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="162" height="267" id="id37_00000033356149678078754030000011278453604493997970_" xlink:href="../../../elements/separator-elem/pub/default.png"  transform="matrix(1 0 0 1 1001 891.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="162" height="267" id="id38_00000000938515602704785820000008805769487871781566_" xlink:href="../../../elements/separator-elem/pub/default.png"  transform="matrix(1 0 0 1 2688 891.5)">
+		</image>
+	</g>
+	<g id="heat-exchanger-elem">
+		
+			<image style="overflow:visible;" width="172" height="62" id="id39" xlink:href="../../../elements/heat-exchanger-elem/pub/default.png"  transform="matrix(1 0 0 1 1335 381)">
+		</image>
+		
+			<image style="overflow:visible;" width="172" height="62" id="id40_00000062176867292504495350000008963458610579765656_" xlink:href="../../../elements/heat-exchanger-elem/pub/default.png"  transform="matrix(1 0 0 1 1785 288)">
+		</image>
+		
+			<image style="overflow:visible;" width="172" height="62" id="id41_00000111185543441463882690000000215100198001129349_" xlink:href="../../../elements/heat-exchanger-elem/pub/default.png"  transform="matrix(1 0 0 1 1785 361)">
+		</image>
+		
+			<image style="overflow:visible;" width="172" height="62" id="id42_00000149345553945131545070000007909924557719790749_" xlink:href="../../../elements/heat-exchanger-elem/pub/default.png"  transform="matrix(1 0 0 1 1785 436)">
+		</image>
+	</g>
+	<g id="valve-n-elem">
+		
+			<image style="overflow:visible;" width="71" height="88" id="id43_00000105414813877943696670000006154911522827564169_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 372.7551 158.6965)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id44_00000029032222931233005100000010101956621038726584_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 372.7551 368.6965)">
+		</image>
+		
+			<image style="overflow:visible;" width="101" height="71" id="id45_00000001655906016923640120000018186600693227928239_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_v_caption.png"  transform="matrix(0.9802 0 0 0.9802 1130.4989 484.2022)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id46_00000116920406204429618510000002115543322742958477_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 1233.7551 571.6965)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id47_00000021841663992914091980000004352012436199356084_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 1233.7551 368.6965)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id48_00000085934960252409640120000016213272984641050262_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 1382.2551 46.1965)">
+		</image>
+		
+			<image style="overflow:visible;" width="101" height="71" id="id49_00000130620325570595061600000010297302883899174798_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_v_caption.png"  transform="matrix(0.9802 0 0 0.9802 1320.4989 169.7022)">
+		</image>
+		
+			<image style="overflow:visible;" width="101" height="71" id="id50_00000114767391467955552710000011949232005636473530_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_v_caption.png"  transform="matrix(0.9802 0 0 0.9802 1435.4989 169.7022)">
+		</image>
+		
+			<image style="overflow:visible;" width="101" height="71" id="id51_00000173132286229658771460000011588143028062885289_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_v_caption.png"  transform="matrix(0.9802 0 0 0.9802 1994.4989 243.2022)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id52_00000008838696778735296480000007616983921173105575_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 2426.2551 283.6965)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id53_00000099650995355538775370000005832614533354175906_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 2426.2551 184.6965)">
+		</image>
+		
+			<image style="overflow:visible;" width="101" height="71" id="id54_00000114071073497446397270000007890112013706678937_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_v_caption.png"  transform="matrix(0.9802 0 0 0.9802 2303.9988 458.2022)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id55_00000015340535130288312070000010214817591324408449_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 2055.7551 504.6965)">
+		</image>
+		
+			<image style="overflow:visible;" width="101" height="71" id="id56_00000003787511546388452940000007392830471015463851_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_v_caption.png"  transform="matrix(0.9802 0 0 0.9802 2756.4988 783.2021)">
+		</image>
+		
+			<image style="overflow:visible;" width="101" height="71" id="id57_00000059994524192226202570000005050516265456872880_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_v_caption.png"  transform="matrix(0.9802 0 0 0.9802 2372.4988 783.2021)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id58_00000174587028247698637780000004953914904628813715_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 2295.2551 665.6965)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id59_00000163060510657955741050000016023373283281073596_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 2295.2551 903.1965)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id60_00000021826242959361953980000004013573216982065305_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 2295.2551 1122.6964)">
+		</image>
+		
+			<image style="overflow:visible;" width="101" height="71" id="id61_00000167359818713130116340000018273023948141046453_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_v_caption.png"  transform="matrix(0.9802 0 0 0.9802 2372.4988 1012.7021)">
+		</image>
+		
+			<image style="overflow:visible;" width="101" height="71" id="id62_00000131352244214410268290000017937360402971520679_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_v_caption.png"  transform="matrix(0.9802 0 0 0.9802 2371.4988 1222.7021)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id63_00000114041683383134616820000000120405167191853745_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 2071.2551 1259.6964)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id64_00000064339562195121145040000006545669182770455979_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 1783.7551 570.1965)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id65_00000106116672267430012360000009577091641293994639_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 1712.7551 664.6965)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id66_00000127045985683344355400000016887408298943567232_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 1174.7551 810.6965)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id67_00000158741098712042157210000011935831384230013871_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 1183.2551 1055.6964)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id68_00000018221426927991068410000008358149852048138628_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 1183.2551 1258.8502)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id69_00000018958253917344653640000018221412400020557503_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 1183.2551 1164.6964)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id70_00000040547260466535269930000013386151771339536800_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 1059.7551 1387.6964)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id71_00000178163573334896199770000001088446780616682411_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 1200.7551 1756.6964)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id72_00000163062297901417199970000017847656071970993303_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 1199.7551 1919.6964)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id73_00000108274137973788606850000003041892934992104323_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 1199.7551 2006.6964)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id74_00000060028196115938376300000003848571710318153662_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 1199.7551 2094.6965)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id75_00000096782111246918091640000016911276390913680306_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 1199.7551 2182.6965)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id76_00000064348022325727965000000003069667656820960188_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 1701.2551 1757.6964)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id77_00000054237273752168931460000007105503004057922693_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 1700.2551 1918.6964)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id78_00000026160696400639636170000005662556375232363649_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 2452.2551 1758.6964)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id79_00000046335780688884682750000015811505950558804613_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 2452.2551 1918.6964)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id80_00000116942813524096202770000001007950653751378344_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 2452.2551 2006.6964)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id81_00000138563234641216186130000004581078966115132843_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 2452.2551 2096.6965)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id82_00000158720578708226949310000012985275295218299814_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 2923.2551 1758.6964)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id83_00000021103189829858370950000005104197866288931214_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 3072.2551 1758.6964)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id84_00000142165276193487950370000009758402076815445674_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 2923.2551 1919.6964)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id85_00000049192782559125886420000016711453652799638700_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 772.2551 1388.6964)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id86_00000013908459646364877760000001655037298099502241_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 897.2551 1387.6964)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id87_00000060714841197039840100000016898656673695105176_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 358.2551 1261.6964)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id88_00000042002783633497959730000010682200190003596448_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 350.2551 1174.6964)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id89_00000052063668142243961040000017973059952109533608_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 350.2551 1055.6964)">
+		</image>
+		
+			<image style="overflow:visible;" width="101" height="71" id="id90_00000172406464648783230740000012648983408251643582_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_v_caption.png"  transform="matrix(0.9802 0 0 0.9802 815.4989 1146.7021)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id91_00000163053270365907102030000001681320504180255364_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 98.2551 1055.6964)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id92_00000021081583534822814710000000660966998946891450_" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 98.2551 810.6965)">
+		</image>
+	</g>
+	<g id="valve-mini-unactive-elem">
+		
+			<image style="overflow:visible;" width="38" height="57" id="id93" xlink:href="../../../elements/valve-mini-unactive-elem/pub/valve-mini-unactive_h_caption.png"  transform="matrix(1 0 0 1 483 588.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="38" height="57" id="id94" xlink:href="../../../elements/valve-mini-unactive-elem/pub/valve-mini-unactive_h_caption.png"  transform="matrix(1 0 0 1 483 682.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="38" height="57" id="id95" xlink:href="../../../elements/valve-mini-unactive-elem/pub/valve-mini-unactive_h_caption.png"  transform="matrix(1 0 0 1 731 829.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="38" height="37" id="id96_00000087396089678485670320000001144385915815998604_" xlink:href="../../../elements/valve-mini-unactive-elem/pub/valve-mini-unactive_h_no-caption.png"  transform="matrix(1 0 0 1 2328.5 71.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="38" height="37" id="id97_00000085931213275734888570000000751827431192099968_" xlink:href="../../../elements/valve-mini-unactive-elem/pub/valve-mini-unactive_h_no-caption.png"  transform="matrix(1 0 0 1 2107.5 201.5)">
+		</image>
+	</g>
+	<g id="torch-elem">
+		
+			<image style="overflow:visible;" width="44" height="44" id="id98_00000082336985110674545220000014102806012018389182_" xlink:href="../../../elements/torch-elem/pub/default.png"  transform="matrix(1 0 0 1 2778 677)">
+		</image>
+		
+			<image style="overflow:visible;" width="44" height="44" id="id99_00000177450855788537873030000000277299103108216965_" xlink:href="../../../elements/torch-elem/pub/default.png"  transform="matrix(1 0 0 1 1295.5 795)">
+		</image>
+		
+			<image style="overflow:visible;" width="44" height="44" id="id100_00000065761274842109076250000007349371667828024727_" xlink:href="../../../elements/torch-elem/pub/default.png"  transform="matrix(1 0 0 1 10 795)">
+		</image>
+		
+			<image style="overflow:visible;" width="44" height="44" id="id101_00000131327294973200260620000006007315969335263370_" xlink:href="../../../elements/torch-elem/pub/default.png"  transform="matrix(1 0 0 1 1245.5 1369)">
+		</image>
+	</g>
+	<g id="arrow-pic">
+		
+			<image style="overflow:visible;" width="28" height="34" id="id102_00000044861442821000212330000008196311552634717104_" xlink:href="../../../elements/arrow-pic/pub/arrow-pic_no-caption.png"  transform="matrix(1 0 0 1 1345 1783)">
+		</image>
+		
+			<image style="overflow:visible;" width="28" height="34" id="id103_00000071536382687352979290000002336056570595786142_" xlink:href="../../../elements/arrow-pic/pub/arrow-pic_no-caption.png"  transform="matrix(1 0 0 1 1345 1946)">
+		</image>
+		
+			<image style="overflow:visible;" width="28" height="34" id="id104_00000145738844520174691280000008476364388879862973_" xlink:href="../../../elements/arrow-pic/pub/arrow-pic_no-caption.png"  transform="matrix(1 0 0 1 2595 1786)">
+		</image>
+		
+			<image style="overflow:visible;" width="28" height="34" id="id105_00000138569776879957040450000016015362752188200869_" xlink:href="../../../elements/arrow-pic/pub/arrow-pic_no-caption.png"  transform="matrix(1 0 0 1 2595 1948)">
+		</image>
+		
+			<image style="overflow:visible;" width="28" height="34" id="id106_00000005242536041479617480000006792015018201841038_" xlink:href="../../../elements/arrow-pic/pub/arrow-pic_no-caption.png"  transform="matrix(1 0 0 1 499 1083)">
+		</image>
+		
+			<image style="overflow:visible;" width="28" height="34" id="id107" xlink:href="../../../elements/arrow-pic/pub/arrow-pic_no-caption.png"  transform="matrix(1 0 0 1 1302 1083)">
+		</image>
+	</g>
+	<g id="text-box-elem">
+		
+			<image style="overflow:visible;" width="31" height="19" id="id108_00000139981097933804561340000014527526897614132610_" xlink:href="../../../elements/text-box-elem/pub/default.png"  transform="matrix(1 0 0 1 1961 83.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="31" height="19" id="id109_00000175288982311624239690000010125103022882808494_" xlink:href="../../../elements/text-box-elem/pub/default.png"  transform="matrix(1 0 0 1 2471.5 84.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="31" height="19" id="id110_00000182501201003596412450000017112614689458801848_" xlink:href="../../../elements/text-box-elem/pub/default.png"  transform="matrix(1 0 0 1 3042.5 718.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="31" height="19" id="id111_00000052822435972094819390000000428181373291961741_" xlink:href="../../../elements/text-box-elem/pub/default.png"  transform="matrix(1 0 0 1 1961 699.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="31" height="19" id="id112_00000142174891347237728890000008214995572701054340_" xlink:href="../../../elements/text-box-elem/pub/default.png"  transform="matrix(1 0 0 1 2726.5 718.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="31" height="19" id="id113_00000159450953477992580660000016760683937186907777_" xlink:href="../../../elements/text-box-elem/pub/default.png"  transform="matrix(1 0 0 1 588.5 469.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="31" height="19" id="id114_00000026877470029583549680000001071681031029721261_" xlink:href="../../../elements/text-box-elem/pub/default.png"  transform="matrix(1 0 0 1 607.5 847)">
+		</image>
+		
+			<image style="overflow:visible;" width="31" height="19" id="id115_00000064339741228426772310000002532510218974416033_" xlink:href="../../../elements/text-box-elem/pub/default.png"  transform="matrix(1 0 0 1 607.5 1091.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="31" height="19" id="id116_00000007421605833489134370000004859203052778755755_" xlink:href="../../../elements/text-box-elem/pub/default.png"  transform="matrix(1 0 0 1 1265.5 700.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="31" height="19" id="id117_00000013195287136660969930000013323645473401945986_" xlink:href="../../../elements/text-box-elem/pub/default.png"  transform="matrix(1 0 0 1 1265.5 846)">
+		</image>
+		
+			<image style="overflow:visible;" width="31" height="19" id="id118_00000183931992870417569620000012391332444148868493_" xlink:href="../../../elements/text-box-elem/pub/default.png"  transform="matrix(1 0 0 1 1155.5 1423.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="31" height="19" id="id119_00000173127790842103272630000015304497596522764693_" xlink:href="../../../elements/text-box-elem/pub/default.png"  transform="matrix(1.0323 0 0 1 1429 1954.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="31" height="19" id="id120_00000024721484632604890140000010310563099499925167_" xlink:href="../../../elements/text-box-elem/pub/default.png"  transform="matrix(1 0 0 1 1429.5 2039.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="31" height="19" id="id121_00000094605507833337772730000000533347517695984512_" xlink:href="../../../elements/text-box-elem/pub/default.png"  transform="matrix(1 0 0 1 1429.5 2130.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="31" height="19" id="id122_00000078040257193518298950000013851436267788746138_" xlink:href="../../../elements/text-box-elem/pub/default.png"  transform="matrix(1 0 0 1 1429.5 2220.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="31" height="19" id="id123_00000147205302472681650380000016600179133378321286_" xlink:href="../../../elements/text-box-elem/pub/default.png"  transform="matrix(1 0 0 1 2547.5 1298.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="31" height="19" id="id124_00000013165788337807878470000014096734636542466985_" xlink:href="../../../elements/text-box-elem/pub/default.png"  transform="matrix(1 0 0 1 2174.5 1296)">
+		</image>
+		
+			<image style="overflow:visible;" width="31" height="19" id="id125_00000141418090156236977270000016991055456535554487_" xlink:href="../../../elements/text-box-elem/pub/default.png"  transform="matrix(1 0 0 1 1988.5 1295)">
+		</image>
+		
+			<image style="overflow:visible;" width="31" height="19" id="id126_00000016759388943155731830000001294196282326837391_" xlink:href="../../../elements/text-box-elem/pub/default.png"  transform="matrix(1 0 0 1 1938.5 1502.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="31" height="19" id="id127_00000015351052055182715150000005493344270812437899_" xlink:href="../../../elements/text-box-elem/pub/default.png"  transform="matrix(1 0 0 1 2653.5 1793.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="31" height="19" id="id128_00000166674399232328906590000011050041113065147283_" xlink:href="../../../elements/text-box-elem/pub/default.png"  transform="matrix(1 0 0 1 2653.5 1954.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="31" height="19" id="id129_00000041984326915768090880000003831670471644834463_" xlink:href="../../../elements/text-box-elem/pub/default.png"  transform="matrix(1 0 0 1 2653.5 2040.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="31" height="19" id="id130_00000069366276407689934080000002472138197325885844_" xlink:href="../../../elements/text-box-elem/pub/default.png"  transform="matrix(1 0 0 1 2653.5 2131.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="31" height="19" id="id131_00000075127634700115659840000011645931763556879237_" xlink:href="../../../elements/text-box-elem/pub/default.png"  transform="matrix(1 0 0 1 56.5 846.5)">
+		</image>
+	</g>
+	<g id="transition-button-elem">
+		
+			<image style="overflow:visible;" width="152" height="46" id="id132_00000139265083529946403020000018042798364865116811_" xlink:href="../../../elements/transition-button-elem/pub/transition-button_arrowdirection-0.png"  transform="matrix(0.7793 0 0 0.7793 7.7719 135.0757)">
+		</image>
+		
+			<image style="overflow:visible;" width="152" height="46" id="id133" xlink:href="../../../elements/transition-button-elem/pub/transition-button_arrowdirection-0.png"  transform="matrix(0.7793 0 0 0.7793 10.2719 598.0757)">
+		</image>
+		
+			<image style="overflow:visible;" width="152" height="46" id="id134" xlink:href="../../../elements/transition-button-elem/pub/transition-button_arrowdirection-1.png"  transform="matrix(0.7793 0 0 0.7793 10.2719 692.0757)">
+		</image>
+		
+			<image style="overflow:visible;" width="152" height="46" id="id135" xlink:href="../../../elements/transition-button-elem/pub/transition-button_arrowdirection-0.png"  transform="matrix(0.7793 0 0 0.7793 581.7719 1200.0757)">
+		</image>
+		
+			<image style="overflow:visible;" width="152" height="46" id="id136" xlink:href="../../../elements/transition-button-elem/pub/transition-button_arrowdirection-1.png"  transform="matrix(0.7793 0 0 0.7793 581.7719 1287.0757)">
+		</image>
+		
+			<image style="overflow:visible;" width="152" height="46" id="id137_00000029740662785884900900000016590842191618852504_" xlink:href="../../../elements/transition-button-elem/pub/transition-button_arrowdirection-0.png"  transform="matrix(0.7793 0 0 0.7793 581.7719 1415.0757)">
+		</image>
+		
+			<image style="overflow:visible;" width="152" height="46" id="id138_00000011023165648287796060000010143053006964828556_" xlink:href="../../../elements/transition-button-elem/pub/transition-button_arrowdirection-0.png"  transform="matrix(0.7793 0 0 0.7793 1549.7719 1193.0757)">
+		</image>
+		
+			<image style="overflow:visible;" width="152" height="46" id="id139_00000180344503887247133080000006115472892510610826_" xlink:href="../../../elements/transition-button-elem/pub/transition-button_arrowdirection-0.png"  transform="matrix(0.7793 0 0 0.7793 1853.7719 1288.0757)">
+		</image>
+		
+			<image style="overflow:visible;" width="152" height="46" id="id140_00000087374456458671801900000018061705425237482405_" xlink:href="../../../elements/transition-button-elem/pub/transition-button_arrowdirection-1.png"  transform="matrix(0.7793 0 0 0.7793 1549.7719 737.0757)">
+		</image>
+		
+			<image style="overflow:visible;" width="152" height="46" id="id141_00000114045111961217336970000013665141552259245467_" xlink:href="../../../elements/transition-button-elem/pub/transition-button_arrowdirection-0.png"  transform="matrix(0.7793 0 0 0.7793 2581.772 211.0757)">
+		</image>
+		
+			<image style="overflow:visible;" width="152" height="46" id="id142_00000064343559931522407400000017641098059686895799_" xlink:href="../../../elements/transition-button-elem/pub/transition-button_arrowdirection-0.png"  transform="matrix(0.7793 0 0 0.7793 2581.772 77.5757)">
+		</image>
+		
+			<image style="overflow:visible;" width="152" height="46" id="id143_00000101804469020755255110000006551368268269960578_" xlink:href="../../../elements/transition-button-elem/pub/transition-button_arrowdirection-1.png"  transform="matrix(0.7793 0 0 0.7793 2581.772 135.0757)">
+		</image>
+		
+			<image style="overflow:visible;" width="152" height="46" id="id144_00000061440162389539844040000014026466565700281010_" xlink:href="../../../elements/transition-button-elem/pub/transition-button_arrowdirection-0.png"  transform="matrix(0.7793 0 0 0.7793 2581.772 595.5757)">
+		</image>
+		
+			<image style="overflow:visible;" width="152" height="46" id="id145_00000159457434248986140370000017015944249658091933_" xlink:href="../../../elements/transition-button-elem/pub/transition-button_arrowdirection-0.png"  transform="matrix(0.7793 0 0 0.7793 3189.772 1785.0757)">
+		</image>
+		
+			<image style="overflow:visible;" width="152" height="46" id="id146_00000059268093497118416630000004681992411412529325_" xlink:href="../../../elements/transition-button-elem/pub/transition-button_arrowdirection-0.png"  transform="matrix(0.7793 0 0 0.7793 3189.772 1946.0757)">
+		</image>
+		
+			<image style="overflow:visible;" width="152" height="46" id="id147_00000179619257345727611140000015406082342238022329_" xlink:href="../../../elements/transition-button-elem/pub/transition-button_arrowdirection-0.png"  transform="matrix(0.7793 0 0 0.7793 3189.772 2034.0757)">
+		</image>
+		
+			<image style="overflow:visible;" width="152" height="46" id="id148_00000052807538433919440310000004253239137851399359_" xlink:href="../../../elements/transition-button-elem/pub/transition-button_arrowdirection-0.png"  transform="matrix(0.7793 0 0 0.7793 3189.772 2123.0757)">
+		</image>
+		
+			<image style="overflow:visible;" width="152" height="46" id="id149_00000062886036766328453910000003916378515924846496_" xlink:href="../../../elements/transition-button-elem/pub/transition-button_arrowdirection-0.png"  transform="matrix(0.7793 0 0 0.7793 1853.7719 1782.0757)">
+		</image>
+		
+			<image style="overflow:visible;" width="152" height="46" id="id150_00000049199254215730506970000010246819691723138716_" xlink:href="../../../elements/transition-button-elem/pub/transition-button_arrowdirection-0.png"  transform="matrix(0.7793 0 0 0.7793 1852.7719 1946.0757)">
+		</image>
+		
+			<image style="overflow:visible;" width="152" height="46" id="id150_00000126324900154946665000000002156009143200489382_" xlink:href="../../../elements/transition-button-elem/pub/transition-button_arrowdirection-0.png"  transform="matrix(0.7793 0 0 0.7793 1852.7719 2032.0757)">
+		</image>
+		
+			<image style="overflow:visible;" width="152" height="46" id="id151_00000044868066659213201130000012828475966241627560_" xlink:href="../../../elements/transition-button-elem/pub/transition-button_arrowdirection-0.png"  transform="matrix(0.7793 0 0 0.7793 1852.7719 2121.0757)">
+		</image>
+		
+			<image style="overflow:visible;" width="152" height="46" id="id152_00000176765391446822543180000009042404585029341059_" xlink:href="../../../elements/transition-button-elem/pub/transition-button_arrowdirection-0.png"  transform="matrix(0.7793 0 0 0.7793 1852.7719 2211.0757)">
+		</image>
+	</g>
+	<g id="another-valve-elem">
+		
+			<image style="overflow:visible;" width="100" height="71" id="id153_00000118371025109950017800000006988554573446089661_" xlink:href="../../../elements/another-valve-elem/pub/another-valve-n_v_caption.png"  transform="matrix(1 0 0 1 1125.5 169)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="85" id="id154_00000103232540664363385550000010226893301736743353_" xlink:href="../../../elements/another-valve-elem/pub/another-valve-n_h_caption.png"  transform="matrix(1 0 0 1 1535.5 45)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="85" id="id155_00000103972644960666591140000011997125372002435974_" xlink:href="../../../elements/another-valve-elem/pub/another-valve-n_h_caption.png"  transform="matrix(1 0 0 1 2313 115)">
+		</image>
+		
+			<image style="overflow:visible;" width="100" height="71" id="id156_00000035517810096772129800000016409157500792761475_" xlink:href="../../../elements/another-valve-elem/pub/another-valve-n_v_caption.png"  transform="matrix(1 0 0 1 2295.5 357.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="85" id="id157_00000106850196971808589640000005600568243401511296_" xlink:href="../../../elements/another-valve-elem/pub/another-valve-n_h_caption.png"  transform="matrix(1 0 0 1 2431.5 501.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="85" id="id158_00000151538498391993067260000016902082695822481597_" xlink:href="../../../elements/another-valve-elem/pub/another-valve-n_h_caption.png"  transform="matrix(1 0 0 1 2295.5 1380.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="85" id="id159_00000097488499915678922810000002661550789372809916_" xlink:href="../../../elements/another-valve-elem/pub/another-valve-n_h_caption.png"  transform="matrix(1 0 0 1 2839 1753.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="85" id="id160_00000015325599872387348290000008675632702366496155_" xlink:href="../../../elements/another-valve-elem/pub/another-valve-n_h_caption.png"  transform="matrix(1 0 0 1 2839 1915.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="85" id="id161_00000070097312196748236880000003495165453691915908_" xlink:href="../../../elements/another-valve-elem/pub/another-valve-n_h_caption.png"  transform="matrix(1 0 0 1 467.5 808.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="85" id="id162_00000044176081014358748990000014038874250988255660_" xlink:href="../../../elements/another-valve-elem/pub/another-valve-n_h_caption.png"  transform="matrix(1 0 0 1 772.5 1048.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="85" id="id163_00000108311446712302606390000002753484178352975520_" xlink:href="../../../elements/another-valve-elem/pub/another-valve-n_h_caption.png"  transform="matrix(1 0 0 1 1385.5 1249)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="85" id="id164_00000105419046079677072160000005190406928991553437_" xlink:href="../../../elements/another-valve-elem/pub/another-valve-n_h_caption.png"  transform="matrix(1 0 0 1 1385.5 1462.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="85" id="id165_00000000928167209352609640000018229401065385461906_" xlink:href="../../../elements/another-valve-elem/pub/another-valve-n_h_caption.png"  transform="matrix(1 0 0 1 1615.5 1751.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="85" id="id166_00000142865731293708431420000007659761083235920531_" xlink:href="../../../elements/another-valve-elem/pub/another-valve-n_h_caption.png"  transform="matrix(1 0 0 1 1614.5 1914.5)">
+		</image>
+	</g>
+	<g id="ejector-elem">
+		
+			<image style="overflow:visible;" width="99" height="83" id="id167_00000044143102408348771820000007135674692113365131_" xlink:href="../../../elements/ejector-elem/pub/ejector_caption.png"  transform="matrix(1 0 0 1 2420.5 677)">
+		</image>
+		
+			<image style="overflow:visible;" width="99" height="83" id="id168_00000160912771607241694600000018263910641599976127_" xlink:href="../../../elements/ejector-elem/pub/ejector_caption.png"  transform="matrix(1 0 0 1 2420.5 918.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="99" height="83" id="id169_00000168113084296993003400000012010027026186083218_" xlink:href="../../../elements/ejector-elem/pub/ejector_caption.png"  transform="matrix(1 0 0 1 2420.5 1138.5)">
+		</image>
+	</g>
+	<g id="color-rect-state-stat-elem">
+		
+			<image style="overflow:visible;" width="44" height="36" id="id170_00000115482396256982072490000010382665574701255333_" xlink:href="../../../elements/color-rect-state-stat-elem/pub/default.png"  transform="matrix(1 0 0 1 726 252)">
+		</image>
+		
+			<image style="overflow:visible;" width="44" height="36" id="id171_00000106857080501958254250000005867847971419785640_" xlink:href="../../../elements/color-rect-state-stat-elem/pub/default.png"  transform="matrix(1 0 0 1 830 302)">
+		</image>
+		
+			<image style="overflow:visible;" width="44" height="36" id="id172_00000029740641206776464070000013852938617715466896_" xlink:href="../../../elements/color-rect-state-stat-elem/pub/default.png"  transform="matrix(1 0 0 1 778 252)">
+		</image>
+		
+			<image style="overflow:visible;" width="44" height="36" id="id173_00000177485102263034938500000013252428230056029600_" xlink:href="../../../elements/color-rect-state-stat-elem/pub/default.png"  transform="matrix(1 0 0 1 830 252)">
+		</image>
+		
+			<image style="overflow:visible;" width="44" height="36" id="id174_00000181793824454123508810000006920284467254969260_" xlink:href="../../../elements/color-rect-state-stat-elem/pub/default.png"  transform="matrix(1 0 0 1 778 302)">
+		</image>
+		
+			<image style="overflow:visible;" width="44" height="36" id="id175_00000102514323274781369140000001141942405201838976_" xlink:href="../../../elements/color-rect-state-stat-elem/pub/default.png"  transform="matrix(1 0 0 1 726 352)">
+		</image>
+		
+			<image style="overflow:visible;" width="44" height="36" id="id176_00000009554624314532580420000001568648925842540473_" xlink:href="../../../elements/color-rect-state-stat-elem/pub/default.png"  transform="matrix(1 0 0 1 726 302)">
+		</image>
+		
+			<image style="overflow:visible;" width="44" height="36" id="id177_00000016034409921472372550000014077002877605515938_" xlink:href="../../../elements/color-rect-state-stat-elem/pub/default.png"  transform="matrix(1 0 0 1 726 402)">
+		</image>
+		
+			<image style="overflow:visible;" width="44" height="36" id="id178_00000155832833798284222560000001594546900558093729_" xlink:href="../../../elements/color-rect-state-stat-elem/pub/default.png"  transform="matrix(1 0 0 1 778 352)">
+		</image>
+		
+			<image style="overflow:visible;" width="44" height="36" id="id179_00000165918778012331458400000017941975133313603203_" xlink:href="../../../elements/color-rect-state-stat-elem/pub/default.png"  transform="matrix(1 0 0 1 830 352)">
+		</image>
+		
+			<image style="overflow:visible;" width="44" height="36" id="id180_00000094586649996274873850000014635458202913953192_" xlink:href="../../../elements/color-rect-state-stat-elem/pub/default.png"  transform="matrix(1 0 0 1 778 402)">
+		</image>
+		
+			<image style="overflow:visible;" width="44" height="36" id="id181_00000153689630784049742940000005833798943139353255_" xlink:href="../../../elements/color-rect-state-stat-elem/pub/default.png"  transform="matrix(1 0 0 1 830 402)">
+		</image>
+	</g>
+	<g id="range-universal-line-elem">
+		
+			<image style="overflow:visible;" width="12" height="100" id="id182" xlink:href="../../../elements/range-universal-line-elem/pub/default.png"  transform="matrix(1 0 0 0.85 163.5 931)">
+		</image>
+		
+			<image style="overflow:visible;" width="12" height="100" id="id183" xlink:href="../../../elements/range-universal-line-elem/pub/default.png"  transform="matrix(1 0 0 0.85 989 931.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="12" height="100" id="id184" xlink:href="../../../elements/range-universal-line-elem/pub/default.png"  transform="matrix(1 0 0 0.25 989 1017)">
+		</image>
+		
+			<image style="overflow:visible;" width="12" height="100" id="id185" xlink:href="../../../elements/range-universal-line-elem/pub/default.png"  transform="matrix(1 0 0 0.85 2855 931.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="12" height="100" id="id186" xlink:href="../../../elements/range-universal-line-elem/pub/default.png"  transform="matrix(1 0 0 0.25 2855 1016.5)">
+		</image>
+	</g>
+	<g id="separator-p-elem">
+		
+			<image style="overflow:visible;" width="446" height="127" id="id187_00000178910797900319825210000015175803791092032917_" xlink:href="../../../elements/separator-p-elem/pub/default.png"  transform="matrix(1 0 0 1 2058 1586.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="446" height="127" id="id188_00000145763362764718137640000017086980724265676713_" xlink:href="../../../elements/separator-p-elem/pub/default.png"  transform="matrix(1 0 0 1 796 1586.5)">
+		</image>
+	</g>
+	<g id="num-value-elem">
+		
+			<image style="overflow:visible;" width="96" height="26" id="id189_00000169530844516838417150000011057138391540952213_" xlink:href="../../../elements/num-value-elem/pub/num-value_middle.png"  transform="matrix(1 0 0 1 45.7704 1682.5421)">
+		</image>
+		
+			<image style="overflow:visible;" width="96" height="26" id="id190_00000140010918976280002160000008339418118765613192_" xlink:href="../../../elements/num-value-elem/pub/num-value_middle.png"  transform="matrix(1 0 0 1 45.7704 1644.0421)">
+		</image>
+		
+			<image style="overflow:visible;" width="96" height="26" id="id191_00000082358278665818244950000016261138250400806793_" xlink:href="../../../elements/num-value-elem/pub/num-value_middle.png"  transform="matrix(1 0 0 1 45.7704 1605.5421)">
+		</image>
+		
+			<image style="overflow:visible;" width="96" height="26" id="id192_00000042717268702851195220000007161078100239425960_" xlink:href="../../../elements/num-value-elem/pub/num-value_middle.png"  transform="matrix(1 0 0 1 350.7704 1644.0421)">
+		</image>
+		
+			<image style="overflow:visible;" width="96" height="26" id="id193_00000109752681055537047810000017546997092305806232_" xlink:href="../../../elements/num-value-elem/pub/num-value_middle.png"  transform="matrix(1 0 0 1 350.7704 1682.5421)">
+		</image>
+		
+			<image style="overflow:visible;" width="96" height="26" id="id194_00000090992341815347972860000017370847935783286938_" xlink:href="../../../elements/num-value-elem/pub/num-value_middle.png"  transform="matrix(1 0 0 1 350.7704 1605.5421)">
+		</image>
+		
+			<image style="overflow:visible;" width="96" height="26" id="id195_00000070838041141166503430000009602739344786164868_" xlink:href="../../../elements/num-value-elem/pub/num-value_middle.png"  transform="matrix(1 0 0 1 350 1720)">
+		</image>
+		
+			<image style="overflow:visible;" width="96" height="26" id="id196_00000040553765484191451520000011344290763725117828_" xlink:href="../../../elements/num-value-elem/pub/num-value_middle.png"  transform="matrix(1 0 0 1 350 1759)">
+		</image>
+		
+			<image style="overflow:visible;" width="96" height="26" id="id197_00000111885232925353819510000009623051745647831428_" xlink:href="../../../elements/num-value-elem/pub/num-value_middle.png"  transform="matrix(1 0 0 1 212.7209 2142.8828)">
+		</image>
+		
+			<image style="overflow:visible;" width="96" height="26" id="id198_00000045580356569433117910000006979493335669090982_" xlink:href="../../../elements/num-value-elem/pub/num-value_middle.png"  transform="matrix(1 0 0 1 472.7209 2142.8828)">
+		</image>
+	</g>
+</g>
+<g id="helpers">
+</g>
+</svg>

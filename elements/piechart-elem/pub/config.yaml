@@ -1,0 +1,6 @@
+---
+default:
+  parameters:
+    0._sseriesnames: '["1", "2", "3", "4"]'
+  width: 286.0
+  height: 286.0

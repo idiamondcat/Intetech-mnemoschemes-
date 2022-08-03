@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2902 975.3" style="enable-background:new 0 0 2902 975.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#B2407E;stroke-width:3;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#757474;stroke-width:3;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#F3C811;stroke-width:3;stroke-miterlimit:10;}
+	.st3{fill:#FFFFFF;stroke:#B2407E;stroke-width:3;stroke-miterlimit:10;}
+	.st4{fill:#FFFFFF;stroke:#F3C811;stroke-width:3;stroke-miterlimit:10;}
+	.st5{fill:#FFFFFF;stroke:#757474;stroke-width:3;stroke-miterlimit:10;}
+</style>
+<g id="lines">
+	<g id="pipes">
+		<g id="antifreeze">
+			<polyline class="st0" points="1055.5,165 855.5,165 855.5,117 			"/>
+			<polyline class="st0" points="864.5,105 1054.5,105 1054.5,636 1897.5,636 			"/>
+			<polyline class="st0" points="823.5,117 823.5,207 993.5,207 993.5,424 1054.5,424 			"/>
+			<path class="st0" d="M1742.2,658.3"/>
+			<polyline class="st0" points="1894.5,165 1694.5,165 1694.5,118 			"/>
+			<polyline class="st0" points="1711.5,105 1894.5,105 1894.5,636 2734.5,636 			"/>
+			<polyline class="st0" points="1662.5,118 1662.5,207 1832.5,207 1832.5,424 1894.5,424 			"/>
+			<polyline class="st0" points="2731.5,165 2531.5,165 2531.5,119 			"/>
+			<polyline class="st0" points="2551.5,105 2731.5,105 2731.5,636 2823.5,636 			"/>
+			<polyline class="st0" points="2499.5,99 2499.5,207 2670.5,207 2670.5,424 2731.5,424 			"/>
+		</g>
+		<g id="drainage">
+			<line class="st1" x1="2180.5" y1="794" x2="95.5" y2="794"/>
+			<line class="st1" x1="2245" y1="838" x2="447" y2="838"/>
+			<polyline class="st1" points="503.5,673.5 503.5,424.5 567.5,424.5 			"/>
+			<polyline class="st1" points="855.5,673.5 855.5,424.5 790.5,424.5 			"/>
+			<line class="st1" x1="790.5" y1="675" x2="790.5" y2="119"/>
+			<line class="st1" x1="160" y1="928" x2="160" y2="793"/>
+			<polyline class="st1" points="567.5,596 567.5,207 757.5,207 757.5,117 			"/>
+			<polyline class="st1" points="1342.5,622 1342.5,424 1406.5,424 			"/>
+			<polyline class="st1" points="1694.5,613 1694.5,424 1629.5,424 			"/>
+			<line class="st1" x1="1629.5" y1="624" x2="1629.5" y2="101"/>
+			<polyline class="st1" points="1406.5,596 1406.5,207 1596.5,207 1596.5,118 			"/>
+			<polyline class="st1" points="2179.5,553 2179.5,424 2244.5,424 			"/>
+			<polyline class="st1" points="2531.5,553 2531.5,424 2466.5,424 			"/>
+			<line class="st1" x1="2467" y1="555" x2="2467" y2="115"/>
+			<polyline class="st1" points="2243.5,556 2243.5,207 2433.5,207 2433.5,119 			"/>
+		</g>
+		<g id="gas">
+			<polyline class="st2" points="2814.5,696 390.5,696 390.5,165 725.5,165 725.5,119 			"/>
+			<polyline class="st2" points="1229.5,626 1229.5,165 1565.5,165 1565.5,119 			"/>
+			<polyline class="st2" points="2067.5,626 2067.5,165 2402.5,165 2402.5,118 			"/>
+		</g>
+	</g>
+	<g id="arrows">
+		<g id="gas_00000028282986443935721430000013858009044715756982_">
+			<polyline class="st2" points="1515.5,688 1507.5,695 1515.5,702 			"/>
+			<polyline class="st2" points="1236.5,237 1229.5,229 1222.5,237 			"/>
+			<polyline class="st2" points="397.5,237 390.5,229 383.5,237 			"/>
+			<polyline class="st2" points="2074.5,237 2067.5,229 2060.5,237 			"/>
+		</g>
+		<g id="drainage_00000051369813616086052910000014384550335324700296_">
+			<polyline class="st1" points="560.5,229 567.5,237 574.5,229 			"/>
+			<polyline class="st1" points="2236.5,597 2243.5,605 2250.5,597 			"/>
+			<polyline class="st1" points="1399.5,597 1406.5,605 1413.5,597 			"/>
+			<polyline class="st1" points="1335.5,597 1342.5,605 1349.5,597 			"/>
+			<polyline class="st1" points="1399.5,229 1406.5,237 1413.5,229 			"/>
+			<polyline class="st1" points="560.5,597 567.5,605 574.5,597 			"/>
+			<polyline class="st1" points="2236.5,229 2243.5,237 2250.5,229 			"/>
+			<polyline class="st1" points="2173.5,597 2180.5,605 2187.5,597 			"/>
+			<polyline class="st1" points="496.5,597 503.5,605 510.5,597 			"/>
+			<polyline class="st1" points="797.5,605 790.5,597 783.5,605 			"/>
+			<polyline class="st1" points="862.5,605 855.5,597 848.5,605 			"/>
+			<polyline class="st1" points="1507.5,935 1515.5,928 1507.5,921 			"/>
+			<polyline class="st1" points="1515.5,787 1507.5,794 1515.5,801 			"/>
+			<polyline class="st1" points="1515.5,831 1507.5,838 1515.5,845 			"/>
+			<polyline class="st1" points="1507.5,889 1515.5,882 1507.5,875 			"/>
+			<polyline class="st1" points="2474.5,237 2467.5,229 2460.5,237 			"/>
+			<polyline class="st1" points="1636.5,237 1629.5,229 1622.5,237 			"/>
+			<polyline class="st1" points="797.5,237 790.5,229 783.5,237 			"/>
+			<polyline class="st1" points="2473.5,605 2466.5,597 2459.5,605 			"/>
+			<polyline class="st1" points="2538.5,605 2531.5,597 2524.5,605 			"/>
+			<polyline class="st1" points="1636.5,605 1629.5,597 1622.5,605 			"/>
+			<polyline class="st1" points="1701.5,605 1694.5,597 1687.5,605 			"/>
+		</g>
+		<g id="antifreeze_00000081622768392389479020000016684818196722027426_">
+			<polyline class="st0" points="2724.5,229 2731.5,237 2738.5,229 			"/>
+			<polyline class="st0" points="1887.5,229 1894.5,237 1901.5,229 			"/>
+			<polyline class="st0" points="1047.5,229 1054.5,237 1061.5,229 			"/>
+			<polyline class="st0" points="2624.5,172 2632.5,165 2624.5,158 			"/>
+			<polyline class="st0" points="1507.5,643 1515.5,636 1507.5,629 			"/>
+			<polyline class="st0" points="1784.5,172 1792.5,165 1784.5,158 			"/>
+			<polyline class="st0" points="942.5,172 950.5,165 942.5,158 			"/>
+			<polyline class="st0" points="2677.5,237 2670.5,229 2663.5,237 			"/>
+			<polyline class="st0" points="1839.5,237 1832.5,229 1825.5,237 			"/>
+			<polyline class="st0" points="1000.5,237 993.5,229 986.5,237 			"/>
+		</g>
+	</g>
+	<g id="arc">
+		<g id="gas_00000075862594966027933350000003502149272363265724_">
+			<path class="st2" d="M1229.5,695v-52c-3.3,0-7-3.5-7-7s2.7-7,7-7v-16"/>
+			<path class="st2" d="M2067.5,695v-52c-3.3,0-7-3.5-7-7s2.7-6,7-6v-17"/>
+		</g>
+		<g id="drainage_00000081618074568714541930000014234315173324780206_">
+			<line class="st1" x1="2468" y1="882" x2="454" y2="882"/>
+			<line class="st1" x1="2533" y1="928" x2="95" y2="928"/>
+			<path class="st1" d="M567.5,782v-80c-3.3,0-7-2.2-7-6c0-3.5,2.7-7,7-7v-94"/>
+			<path class="st1" d="M567.5,838v-37c-3.3,0-7-3.2-7-7c0-3.5,2.7-7,7-7v-17"/>
+			<path class="st1" d="M790.5,782.3v-79.8c-3.3,0-7-2.7-7-6.5c0-3.5,2.7-6.5,7-6.5V532.7"/>
+			<path class="st1" d="M790.5,830.3v-29.8c-3.3,0-7-2.7-7-6.5c0-3.5,2.7-6.5,7-6.5v-76.8"/>
+			<path class="st1" d="M790.5,883v-39c-3.3,0-7-2.2-7-6c0-3.5,2.7-6,7-6v-18"/>
+			<path class="st1" d="M790.5,732v-30c-3.3,0-7-2.2-7-6c0-3.5,2.7-7,7-7v-27"/>
+			<path class="st1" d="M790.5,820v-20c-3.3,0-7-2.2-7-6c0-3.5,2.7-7,7-7v-77"/>
+			<path class="st1" d="M855.5,732v-30c-3.3,0-7-2.2-7-6c0-3.5,2.7-7,7-7v-27"/>
+			<path class="st1" d="M855.5,820v-20c-3.3,0-7-2.2-7-6c0-3.5,2.7-7,7-7v-61"/>
+			<path class="st1" d="M855.5,870v-25c-3.3,0-7-3.2-7-7c0-3.5,2.7-7,7-7v-17"/>
+			<path class="st1" d="M855.5,927v-39c-3.3,0-7-2.2-7-6c0-3.5,2.7-7,7-7v-17"/>
+			<path class="st1" d="M503.5,793v-91c-3.3,0-7-2.5-7-6s2.7-7,7-7V533"/>
+			<path class="st1" d="M1406.5,782v-80c-3.3,0-7-2.2-7-6c0-3.5,2.7-7,7-7v-37"/>
+			<path class="st1" d="M1406.5,838v-38c-3.3,0-7-2.2-7-6c0-3.5,2.7-7,7-7v-17"/>
+			<path class="st1" d="M1629.9,782.3v-79.8c-3.3,0-7-2.7-7-6.5c0-3.5,2.7-6.5,7-6.5v-36.8"/>
+			<path class="st1" d="M1629.9,830.3v-29.8c-3.3,0-7-2.7-7-6.5c0-3.5,2.7-6.5,7-6.5v-76.8"/>
+			<path class="st1" d="M1629.9,883.3v-38.8c-3.3,0-7-2.7-7-6.5c0-3.5,2.7-6.5,7-6.5v-16.8"/>
+			<path class="st1" d="M1694.5,782v-80c-3.3,0-7-2.2-7-6c0-3.5,2.7-6,7-6v-28"/>
+			<path class="st1" d="M1694.5,819v-19c-3.3,0-7-2.2-7-6c0-3.5,2.7-7,7-7v-17"/>
+			<path class="st1" d="M1694.5,870v-26c-3.3,0-7-2.2-7-6c0-3.5,2.7-6,7-6v-18"/>
+			<path class="st1" d="M1694.5,927v-38c-3.3,0-7-3.2-7-7c0-3.5,2.7-7,7-7v-17"/>
+			<path class="st1" d="M1342.5,793v-91c-3.3,0-8-2.5-8-6s3.7-7,8-7v-26"/>
+			<path class="st1" d="M1342.9,684.2v-41c-3.3,0-7-3-7-6.5s2.7-6.5,7-6.5v-76.4"/>
+			<path class="st1" d="M1406.5,684v-41c-3.3,0-7-3.5-7-7s2.7-6,7-6v-77"/>
+			<path class="st1" d="M1342.5,664v-21c-3.3,0-7-3.5-7-7s2.7-6,7-6v-77"/>
+			<path class="st1" d="M1629.9,664.2v-21c-3.3,0-7-3-7-6.5s2.7-6.5,7-6.5v-76.4"/>
+			<path class="st1" d="M1694.5,684v-41c-3.3,0-7-3.5-7-7s2.7-6,7-6v-77"/>
+			<path class="st1" d="M2180,684.2l-0.5-41.2c-3.3,0-7-3.5-7-7s2.7-6,7-6l0.5-87"/>
+			<path class="st1" d="M2243.5,684v-41c-3.3,0-7-3.5-7-7s2.7-6,7-6v-77"/>
+			<path class="st1" d="M2090,877.7"/>
+			<path class="st1" d="M2243.5,839V702c-3.3,0-7-2.2-7-6c0-3.5,2.7-7,7-7v-27"/>
+			<path class="st1" d="M2466.5,883V702c-3.3,0-7-2.2-7-6c0-3.5,2.7-7,7-7V552"/>
+			<path class="st1" d="M2531.5,929V702c-3.3,0-7-2.2-7-6c0-3.5,2.7-7,7-7V562"/>
+			<path class="st1" d="M2179.5,795v-93c-3.3,0-7-2.5-7-6s2.7-7,7-7v-36"/>
+		</g>
+	</g>
+	<g id="points">
+		<g id="antifreeze_00000053515439417060452730000006585647945670796463_">
+			<circle class="st3" cx="1054.5" cy="165.5" r="4.5"/>
+			<circle class="st3" cx="1055.5" cy="424.5" r="4.5"/>
+			<circle class="st3" cx="1894.5" cy="165.5" r="4.5"/>
+			<circle class="st3" cx="1895" cy="424.5" r="4.5"/>
+			<circle class="st3" cx="1894.5" cy="636.5" r="4.5"/>
+			<circle class="st3" cx="2732" cy="636.5" r="4.5"/>
+			<circle class="st3" cx="2732" cy="165.5" r="4.5"/>
+			<circle class="st3" cx="2731.5" cy="424.5" r="4.5"/>
+		</g>
+		<g id="gas_00000168833073857348952670000001324148732903137189_">
+			<circle class="st4" cx="1229.5" cy="696" r="4.5"/>
+			<circle class="st4" cx="2066.5" cy="696" r="4.5"/>
+		</g>
+		<g id="drainage_00000058588292771943768380000004125549507372017568_">
+			<circle class="st5" cx="567.5" cy="424.5" r="4.5"/>
+			<circle class="st5" cx="790.5" cy="424" r="4.5"/>
+			<circle class="st5" cx="503.5" cy="794" r="4.5"/>
+			<circle class="st5" cx="160" cy="928" r="4.5"/>
+			<circle class="st5" cx="160" cy="794" r="4.5"/>
+			<circle class="st5" cx="789.5" cy="882.5" r="4.5"/>
+			<circle class="st5" cx="854.5" cy="928.5" r="4.5"/>
+			<circle class="st5" cx="567.5" cy="838" r="4.5"/>
+			<circle class="st5" cx="1406.5" cy="424" r="4.5"/>
+			<circle class="st5" cx="1629.5" cy="424" r="4.5"/>
+			<circle class="st5" cx="1342.5" cy="794" r="4.5"/>
+			<circle class="st5" cx="1629.5" cy="882.5" r="4.5"/>
+			<circle class="st5" cx="1694.5" cy="928.5" r="4.5"/>
+			<circle class="st5" cx="1406.5" cy="838.3" r="4.5"/>
+			<circle class="st5" cx="2244" cy="424" r="4.5"/>
+			<circle class="st5" cx="2466.5" cy="424" r="4.5"/>
+		</g>
+	</g>
+</g>
+<g id="SimpleElements">
+	<g id="heater-elem">
+		
+			<image style="overflow:visible;" width="272" height="130" id="id1" xlink:href="../../../../../arh/Elements/heater-elem/pub/default.png"  transform="matrix(1 0 0 1 654.5 13)">
+		</image>
+		
+			<image style="overflow:visible;" width="272" height="130" id="id2" xlink:href="../../../../../arh/Elements/heater-elem/pub/default.png"  transform="matrix(1 0 0 1 1491.5 13)">
+		</image>
+		
+			<image style="overflow:visible;" width="272" height="130" id="id3" xlink:href="../../../../../arh/Elements/heater-elem/pub/default.png"  transform="matrix(1 0 0 1 2330.5 13)">
+		</image>
+	</g>
+	<g id="valve-n-elem">
+		
+			<image style="overflow:visible;" width="98" height="71" id="id4" xlink:href="../../../../../arh/Elements/valve-n-elem/pub/valve-n_v_caption.png"  transform="matrix(1 0 0 1 744.5 247.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="98" height="71" id="id5" xlink:href="../../../../../arh/Elements/valve-n-elem/pub/valve-n_v_caption.png"  transform="matrix(1 0 0 1 522.5 247.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="98" height="71" id="id6" xlink:href="../../../../../arh/Elements/valve-n-elem/pub/valve-n_v_caption.png"  transform="matrix(1 0 0 1 347.5 247.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="98" height="71" id="id7" xlink:href="../../../../../arh/Elements/valve-n-elem/pub/valve-n_v_caption.png"  transform="matrix(1 0 0 1 1009.5 247.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="98" height="71" id="id8" xlink:href="../../../../../arh/Elements/valve-n-elem/pub/valve-n_v_caption.png"  transform="matrix(1 0 0 1 1185.5 247.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="98" height="71" id="id9" xlink:href="../../../../../arh/Elements/valve-n-elem/pub/valve-n_v_caption.png"  transform="matrix(1 0 0 1 1361.5 247.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="98" height="71" id="id10" xlink:href="../../../../../arh/Elements/valve-n-elem/pub/valve-n_v_caption.png"  transform="matrix(1 0 0 1 1585.5 247.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="98" height="71" id="id11" xlink:href="../../../../../arh/Elements/valve-n-elem/pub/valve-n_v_caption.png"  transform="matrix(1 0 0 1 1847.5 247.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="98" height="71" id="id12" xlink:href="../../../../../arh/Elements/valve-n-elem/pub/valve-n_v_caption.png"  transform="matrix(1 0 0 1 2023.5 247.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="98" height="71" id="id13" xlink:href="../../../../../arh/Elements/valve-n-elem/pub/valve-n_v_caption.png"  transform="matrix(1 0 0 1 2198.5 247.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="98" height="71" id="id14" xlink:href="../../../../../arh/Elements/valve-n-elem/pub/valve-n_v_caption.png"  transform="matrix(1 0 0 1 2422.5 247.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="98" height="71" id="id15" xlink:href="../../../../../arh/Elements/valve-n-elem/pub/valve-n_v_caption.png"  transform="matrix(1 0 0 1 2685.5 247.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="89" id="id16" xlink:href="../../../../../arh/Elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1 0 0 1 2602.5 648.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="89" id="id17" xlink:href="../../../../../arh/Elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1 0 0 1 330 881.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="89" id="id18" xlink:href="../../../../../arh/Elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1 0 0 1 330 746.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="98" height="71" id="id19" xlink:href="../../../../../arh/Elements/valve-n-elem/pub/valve-n_v_caption.png"  transform="matrix(1 0 0 1 114.5 825.5)">
+		</image>
+	</g>
+	<g id="valve-mini-unactive-elem">
+		
+			<image style="overflow:visible;" width="37" height="38" id="id20" xlink:href="../../../../../arh/Elements/valve-mini-unactive-elem/pub/valve-mini-unactive_v_no-caption.png"  transform="matrix(1 0 0 1 830 539)">
+		</image>
+		
+			<image style="overflow:visible;" width="37" height="38" id="id21" xlink:href="../../../../../arh/Elements/valve-mini-unactive-elem/pub/valve-mini-unactive_v_no-caption.png"  transform="matrix(1 0 0 1 477 539)">
+		</image>
+		
+			<image style="overflow:visible;" width="37" height="38" id="id22" xlink:href="../../../../../arh/Elements/valve-mini-unactive-elem/pub/valve-mini-unactive_v_no-caption.png"  transform="matrix(1 0 0 1 764 539)">
+		</image>
+		
+			<image style="overflow:visible;" width="37" height="38" id="id23" xlink:href="../../../../../arh/Elements/valve-mini-unactive-elem/pub/valve-mini-unactive_v_no-caption.png"  transform="matrix(1 0 0 1 542 539)">
+		</image>
+		
+			<image style="overflow:visible;" width="37" height="38" id="id24" xlink:href="../../../../../arh/Elements/valve-mini-unactive-elem/pub/valve-mini-unactive_v_no-caption.png"  transform="matrix(1 0 0 1 967 345)">
+		</image>
+		
+			<image style="overflow:visible;" width="37" height="38" id="id25" xlink:href="../../../../../arh/Elements/valve-mini-unactive-elem/pub/valve-mini-unactive_v_no-caption.png"  transform="matrix(1 0 0 1 1670 539)">
+		</image>
+		
+			<image style="overflow:visible;" width="37" height="38" id="id26" xlink:href="../../../../../arh/Elements/valve-mini-unactive-elem/pub/valve-mini-unactive_v_no-caption.png"  transform="matrix(1 0 0 1 1807 345)">
+		</image>
+		
+			<image style="overflow:visible;" width="37" height="38" id="id27" xlink:href="../../../../../arh/Elements/valve-mini-unactive-elem/pub/valve-mini-unactive_v_no-caption.png"  transform="matrix(1 0 0 1 1382 539)">
+		</image>
+		
+			<image style="overflow:visible;" width="37" height="38" id="id28" xlink:href="../../../../../arh/Elements/valve-mini-unactive-elem/pub/valve-mini-unactive_v_no-caption.png"  transform="matrix(1 0 0 1 1316.6625 539)">
+		</image>
+		
+			<image style="overflow:visible;" width="37" height="38" id="id29" xlink:href="../../../../../arh/Elements/valve-mini-unactive-elem/pub/valve-mini-unactive_v_no-caption.png"  transform="matrix(1 0 0 1 1605 539)">
+		</image>
+		
+			<image style="overflow:visible;" width="37" height="38" id="id30" xlink:href="../../../../../arh/Elements/valve-mini-unactive-elem/pub/valve-mini-unactive_v_no-caption.png"  transform="matrix(1 0 0 1 2506 539)">
+		</image>
+		
+			<image style="overflow:visible;" width="37" height="38" id="id31" xlink:href="../../../../../arh/Elements/valve-mini-unactive-elem/pub/valve-mini-unactive_v_no-caption.png"  transform="matrix(1 0 0 1 2441 539)">
+		</image>
+		
+			<image style="overflow:visible;" width="37" height="38" id="id32" xlink:href="../../../../../arh/Elements/valve-mini-unactive-elem/pub/valve-mini-unactive_v_no-caption.png"  transform="matrix(1 0 0 1 2153 539)">
+		</image>
+		
+			<image style="overflow:visible;" width="37" height="38" id="id33" xlink:href="../../../../../arh/Elements/valve-mini-unactive-elem/pub/valve-mini-unactive_v_no-caption.png"  transform="matrix(1 0 0 1 2217 539)">
+		</image>
+		
+			<image style="overflow:visible;" width="37" height="38" id="id34" xlink:href="../../../../../arh/Elements/valve-mini-unactive-elem/pub/valve-mini-unactive_v_no-caption.png"  transform="matrix(1 0 0 1 2644 345)">
+		</image>
+	</g>
+	<g id="text-box-elem">
+		
+			<image style="overflow:visible;" width="31" height="19" id="id35" xlink:href="../../../../../arh/Elements/text-box-elem/pub/default.png"  transform="matrix(1 0 0 1 488 487.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="31" height="19" id="id36" xlink:href="../../../../../arh/Elements/text-box-elem/pub/default.png"  transform="matrix(1 0 0 1 840 487.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="31" height="19" id="id37" xlink:href="../../../../../arh/Elements/text-box-elem/pub/default.png"  transform="matrix(1 0 0 1 553 487.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="31" height="19" id="id38" xlink:href="../../../../../arh/Elements/text-box-elem/pub/default.png"  transform="matrix(1 0 0 1 775 487.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="31" height="19" id="id39" xlink:href="../../../../../arh/Elements/text-box-elem/pub/default.png"  transform="matrix(1 0 0 1 1679 487.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="31" height="19" id="id40" xlink:href="../../../../../arh/Elements/text-box-elem/pub/default.png"  transform="matrix(1 0 0 1 1614 487.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="31" height="19" id="id41" xlink:href="../../../../../arh/Elements/text-box-elem/pub/default.png"  transform="matrix(1 0 0 1 1391 487.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="31" height="19" id="id42" xlink:href="../../../../../arh/Elements/text-box-elem/pub/default.png"  transform="matrix(1 0 0 1 1326 487.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="31" height="19" id="id43" xlink:href="../../../../../arh/Elements/text-box-elem/pub/default.png"  transform="matrix(1 0 0 1 2229 487.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="31" height="19" id="id44" xlink:href="../../../../../arh/Elements/text-box-elem/pub/default.png"  transform="matrix(1 0 0 1 2516 487.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="31" height="19" id="id45" xlink:href="../../../../../arh/Elements/text-box-elem/pub/default.png"  transform="matrix(1 0 0 1 2451 487.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="31" height="19" id="id46" xlink:href="../../../../../arh/Elements/text-box-elem/pub/default.png"  transform="matrix(1 0 0 1 2164 487.5)">
+		</image>
+	</g>
+	<g id="transition-button-elem">
+		
+			<image style="overflow:visible;" width="119" height="34" id="id47" xlink:href="../../../../../arh/Elements/transition-button-elem/pub/transition-button_arrowdirection-0.png"  transform="matrix(1 0 0 1 2775 619)">
+		</image>
+		
+			<image style="overflow:visible;" width="119" height="34" id="id48" xlink:href="../../../../../arh/Elements/transition-button-elem/pub/transition-button_arrowdirection-1.png"  transform="matrix(1 0 0 1 2778 678)">
+		</image>
+		
+			<image style="overflow:visible;" width="119" height="34" id="id49" xlink:href="../../../../../arh/Elements/transition-button-elem/pub/transition-button_arrowdirection-1.png"  transform="matrix(1 0 0 1 8 777)">
+		</image>
+		
+			<image style="overflow:visible;" width="119" height="34" id="id50" xlink:href="../../../../../arh/Elements/transition-button-elem/pub/transition-button_arrowdirection-1.png"  transform="matrix(1 0 0 1 414 821)">
+		</image>
+		
+			<image style="overflow:visible;" width="119" height="34" id="id51" xlink:href="../../../../../arh/Elements/transition-button-elem/pub/transition-button_arrowdirection-0.png"  transform="matrix(1 0 0 1 414 865)">
+		</image>
+		
+			<image style="overflow:visible;" width="119" height="34" id="id52" xlink:href="../../../../../arh/Elements/transition-button-elem/pub/transition-button_arrowdirection-0.png"  transform="matrix(1 0 0 1 8 911)">
+		</image>
+	</g>
+	<g id="multi-tit-elem">
+		
+			<image style="overflow:visible;" width="114" height="32" id="id53" xlink:href="../../../../../arh/Elements/multi-tit-elem/pub/multi-tit_no-arroworient.png"  transform="matrix(1 0 0 1 264.5 335)">
+		</image>
+		
+			<image style="overflow:visible;" width="114" height="64" id="id54" xlink:href="../../../../../arh/Elements/multi-tit-elem/pub/multi-tit_titcount-2_no-arroworient.png"  transform="matrix(1 0 0 1 579 333)">
+		</image>
+		
+			<image style="overflow:visible;" width="114" height="64" id="id55" xlink:href="../../../../../arh/Elements/multi-tit-elem/pub/multi-tit_titcount-2_no-arroworient.png"  transform="matrix(1 0 0 1 802 333)">
+		</image>
+		
+			<image style="overflow:visible;" width="114" height="32" id="id56" xlink:href="../../../../../arh/Elements/multi-tit-elem/pub/multi-tit_no-arroworient.png"  transform="matrix(1 0 0 1 1103.5 335)">
+		</image>
+		
+			<image style="overflow:visible;" width="114" height="64" id="id57" xlink:href="../../../../../arh/Elements/multi-tit-elem/pub/multi-tit_titcount-2_no-arroworient.png"  transform="matrix(1 0 0 1 1420.5 333)">
+		</image>
+		
+			<image style="overflow:visible;" width="114" height="64" id="id58" xlink:href="../../../../../arh/Elements/multi-tit-elem/pub/multi-tit_titcount-2_no-arroworient.png"  transform="matrix(1 0 0 1 1640.5 333)">
+		</image>
+		
+			<image style="overflow:visible;" width="114" height="32" id="id59" xlink:href="../../../../../arh/Elements/multi-tit-elem/pub/multi-tit_no-arroworient.png"  transform="matrix(1 0 0 1 1939 335)">
+		</image>
+		
+			<image style="overflow:visible;" width="114" height="64" id="id60" xlink:href="../../../../../arh/Elements/multi-tit-elem/pub/multi-tit_titcount-2_no-arroworient.png"  transform="matrix(1 0 0 1 2255.5 333)">
+		</image>
+		
+			<image style="overflow:visible;" width="114" height="64" id="id61" xlink:href="../../../../../arh/Elements/multi-tit-elem/pub/multi-tit_titcount-2_no-arroworient.png"  transform="matrix(1 0 0 1 2476.5 333)">
+		</image>
+		
+			<image style="overflow:visible;" width="114" height="64" id="id62" xlink:href="../../../../../arh/Elements/multi-tit-elem/pub/multi-tit_titcount-2_no-arroworient.png"  transform="matrix(1 0 0 1 190.5 714.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="114" height="32" id="id63" xlink:href="../../../../../arh/Elements/multi-tit-elem/pub/multi-tit_arroworient-top.png"  transform="matrix(1 0 0 1 623 445)">
+		</image>
+		
+			<image style="overflow:visible;" width="114" height="32" id="id64" xlink:href="../../../../../arh/Elements/multi-tit-elem/pub/multi-tit_arroworient-top.png"  transform="matrix(1 0 0 1 1463.5 445)">
+		</image>
+		
+			<image style="overflow:visible;" width="114" height="32" id="id65" xlink:href="../../../../../arh/Elements/multi-tit-elem/pub/multi-tit_arroworient-top.png"  transform="matrix(1 0 0 1 2303.5 445)">
+		</image>
+	</g>
+	<g id="range-universal-line-elem">
+		
+			<image style="overflow:visible;" width="12" height="100" id="id66" xlink:href="../../../../../arh/Elements/range-universal-line-elem/pub/default.png"  transform="matrix(0 -1 1.94 0 583 430.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="12" height="100" id="id67" xlink:href="../../../../../arh/Elements/range-universal-line-elem/pub/default.png"  transform="matrix(0 -1 1.94 0 1421 430.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="12" height="100" id="id68" xlink:href="../../../../../arh/Elements/range-universal-line-elem/pub/default.png"  transform="matrix(0 -1 1.94 0 2258 430)">
+		</image>
+	</g>
+</g>
+<g id="helpers">
+	<g id="main">
+	</g>
+</g>
+</svg>

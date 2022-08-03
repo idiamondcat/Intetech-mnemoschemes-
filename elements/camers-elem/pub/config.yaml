@@ -1,0 +1,16 @@
+---
+default:
+  parameters:
+    0._sfunction: "kp"
+  width: 54.0
+  height: 35.0
+camers_sfunction-kz:
+  parameters:
+    0._sfunction: "kz"
+  width: 54.0
+  height: 35.0
+camers_sfunction-kp:
+  parameters:
+    0._sfunction: "kp"
+  width: 54.0
+  height: 35.0

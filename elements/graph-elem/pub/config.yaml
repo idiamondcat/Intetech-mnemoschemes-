@@ -1,0 +1,19 @@
+---
+default:
+  parameters:
+    _sseriesnames: '["1", "2", "3", "4"]'
+    _scolor: '["gas", "vms", "crunoff", "glycol"]'
+  width: 1555.0
+  height: 276.0
+graph-big:
+  parameters:
+    _sseriesnames: '["1", "2"]'
+    _scolor: '["gas", "crunoff"]'
+  width: 1555.0
+  height: 276.0
+graph-small:
+  parameters:
+    _sseriesnames: '["1", "2", "3", "4"]'
+    _scolor: '["gas", "vms", "crunoff", "glycol"]'
+  width: 733.0
+  height: 251.0

@@ -1,0 +1,6 @@
+---
+default:
+  parameters:
+    _scaption: "Text"
+  width: 403.0
+  height: 145.5

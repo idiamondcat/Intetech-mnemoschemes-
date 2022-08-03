@@ -1,0 +1,15 @@
+---
+default:
+  parameters:
+    0._scaption: "Text"
+  width: 99.0
+  height: 81.0
+ejector_no-caption:
+  parameters: {}
+  width: 99.0
+  height: 63.0
+ejector_caption:
+  parameters:
+    0._scaption: "Text"
+  width: 99.0
+  height: 83.0

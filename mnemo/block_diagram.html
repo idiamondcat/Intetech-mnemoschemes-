@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <!--'Classes of pipes in scheme:
+        class="p36 p37 or"; class="p24 p25 p26 or"; class="p33 p34 or"; class="p24 p25 or"; class="p38 p39 or"; class="p5 p6 or"; class="p7 p8 or"; class="p9 p10 or"; class="p11 p12 or"; class="p1 p2 or"
+        -->
+        <meta charset="UTF-8">
+        <title>block_diagram</title>
+        <link href="/Data/styles/mnemo_styles.css" rel="stylesheet" type="text/css">
+        <link href="/Data/styles/Themes/default.css" rel="stylesheet" type="text/css">
+        <!-- <link href="/Data/styles/Themes/white_theme.css" rel="stylesheet" type="text/css"> -->
+        <link href="/Data/styles/Themes/achim_white_theme.css" rel="stylesheet" type="text/css">
+        
+        <link href="/Data/styles/pipes_styles.css" rel="stylesheet" type="text/css">
+
+        <!-- <script src="/Data/libs/fabric.min.js"></script>
+        <script src="/Data/libs/underscore.js"></script> -->
+        <script src="/Data/scripts/mnemocore.js"></script>
+        
+        <script src="/Data/scripts/simpleelement.js"></script>
+        <script src="/Data/scripts/echarts.min.js"></script>
+<script src="/Data/elements/gas-wells-cluster-elem/prototype.js"></script>
+<script src="/Data/elements/gas-well-elem/prototype.js"></script>
+<script src="/Data/elements/num-value-elem/prototype.js"></script>
+<script src="/Data/elements/gas-wells-params-elem/prototype.js"></script>
+<script src="/Data/elements/multi-tit-elem/prototype.js"></script>
+<script src="/Data/elements/customtwo-multi-tit-elem/prototype.js"></script>
+<script src="/Data/elements/custom-multi-tit-elem/prototype.js"></script>
+<script src="/Data/elements/tit-elem/prototype.js"></script>
+
+        <script> 
+           let pipesToTooltip = {
+			   'p24 p25 p26 or': 'D=219, мм; L=3817.2, м; Ттс=219х14/219х12;',
+			   'p24 p25 or': 'D=114, мм; L=2509.8, м; Ттс=114х8/114х6;',
+			   'p38 p39 or': 'D=219, мм; L=4502.3, м; Ттс=219х14/219х12;',
+			   'p30': 'D=219, мм; L=4933.4, м; Ттс=219х14/219х12;',
+			   'p40': 'D=159, мм; L=3083.5, м; Tcт=159х10/159x8;',
+			   'p36 p37 or': 'D=219, мм;  L=2786.9, м; Ттс=219х14/219х12;',
+			   'p33 p34 or': 'D=219, мм; L=7549.2, м; Ттс=219х14/219х12;',
+			   'p32': 'D=219, мм; L=7513.9, м; Ттс=219х14/219х12;',
+			   'p31': 'D=219, мм; L=6276.6, м; Ттс=219х14/219х12;',
+			   'p34': 'D=219, мм; L=1149.1, м; Ттс=219х14/219х12;',
+			   'p33': 'D=219, мм; L=1904.7, м; Ттс=219х14/219х12;',
+			   'p36': 'D=219, мм; L=1893.8, м; Ттс=219х14/219х12;',
+			   'p35': 'D=219, мм; L=6422.5, м;  Ттс=219х14/219х12;',
+			   'p24': 'D=114, мм; L=261.7, м; Ттс=114х8/114х6;',
+			   'p38': 'D=219, мм; L3032.4, м; Ттс=219х14/219х12;',
+			   'p27': 'D=219, мм; L=3837.0, м; Ттс=219х14/219х12;',
+			   'p37': 'D=159, мм; L=375.3, м; Ттс=159х10/159x8;',
+			   'p26': 'D=219, мм; L=1243.5, м; Ттс=219х8/219х6;',
+			   'p29': 'D=219, мм; L=6169.4, м; Ттс=219х14/219х12;',
+			   'p39': 'D=219, мм; L=303.9, м; Ттс=219х14/219х12;',
+			   'p28': 'D=219, мм; L=4210, м; Ттс=219х14/219х12;'
+           }
+        </script>
+        
+
+    </head>
+    <body class="default" oncontextmenu="return false;">
+    <div id="container_of_templates"></div>
+    <div id="container_of_elements">
+<gas-wells-cluster-elem id="1" style="width:208px; height:84px; transform:matrix(1,0,0,1,42,69); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='4.0'  _scaption='КГС № 4A03'  _sorient='left'  _scolors='["gas","gas","gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-cluster-elem id="2" style="width:208px; height:84px; transform:matrix(1,0,0,1,336,69); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='3.0'  _scaption='КГС № 4A09'  _sorient='left'  _scolors='["gas","gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-cluster-elem id="3" style="width:208px; height:84px; transform:matrix(1,0,0,1,937,69); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='4.0'  _scaption='КГС № 4A08'  _sorient='left'  _scolors='["gas","gas","gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-cluster-elem id="4" style="width:208px; height:84px; transform:matrix(1,0,0,1,1246,69); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='3.0'  _scaption='КГС № 4А01'  _sorient='left'  _scolors='["gas","gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-cluster-elem id="5" style="width:208px; height:84px; transform:matrix(1,0,0,1,2743,69); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='4.0'  _scaption='КГС № 5А02'  _sorient='right'  _scolors='["gas","gas","gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-cluster-elem id="6" style="width:208px; height:84px; transform:matrix(1,0,0,1,3055,69); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='4.0'  _scaption='КГС № 5А04'  _sorient='right'  _scolors='["gas","gas","gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-cluster-elem id="7" style="width:208px; height:84px; transform:matrix(1,0,0,1,3920,69); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='4.0'  _scaption='КГС № 5А01'  _sorient='right'  _scolors='["gas","gas","gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-cluster-elem id="8" style="width:208px; height:84px; transform:matrix(1,0,0,1,4222,69); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='3.0'  _scaption='КГС № 5А24'  _sorient='right'  _scolors='["gas","gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-cluster-elem id="9" style="width:208px; height:84px; transform:matrix(1,0,0,1,4222,441); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='5.0'  _scaption='КГС № 5А11'  _sorient='right'  _scolors='["gas","gas","gas","gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-cluster-elem id="10" style="width:208px; height:84px; transform:matrix(1,0,0,1,3920,441); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='4.0'  _scaption='КГС № 5А05'  _sorient='right'  _scolors='["gas","gas","gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-cluster-elem id="11" style="width:208px; height:84px; transform:matrix(1,0,0,1,3055,441); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='4.0'  _scaption='КГС № 5А03'  _sorient='right'  _scolors='["gas","gas","gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-cluster-elem id="12" style="width:208px; height:84px; transform:matrix(1,0,0,1,937,440); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='4.0'  _scaption='КГС №  4А20'  _sorient='left'  _scolors='["gas","gas","gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-cluster-elem id="13" style="width:208px; height:84px; transform:matrix(1,0,0,1,336,440); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='4.0'  _scaption='КГС № 4А05'  _sorient='left'  _scolors='["gas","gas","gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-cluster-elem id="14" style="width:208px; height:84px; transform:matrix(1,0,0,1,42,752); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='3.0'  _scaption='КГС №  4А07'  _sorient='left'  _scolors='["gas","gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-cluster-elem id="15" style="width:208px; height:84px; transform:matrix(1,0,0,1,336,752); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='3.0'  _scaption='КГС № 4А06'  _sorient='left'  _scolors='["gas","gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-cluster-elem id="16" style="width:208px; height:84px; transform:matrix(1,0,0,1,3055,752); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='3.0'  _scaption='КГС № 5А06'  _sorient='right'  _scolors='["gas","gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-cluster-elem id="17" style="width:208px; height:84px; transform:matrix(1,0,0,1,3922,752); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='5.0'  _scaption='КГС № 5А17'  _sorient='right'  _scolors='["gas","gas","gas","gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-cluster-elem id="18" style="width:208px; height:84px; transform:matrix(1,0,0,1,4222,752); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='5.0'  _scaption='КГС № 5А11'  _sorient='right'  _scolors='["gas","gas","gas","gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-cluster-elem id="19" style="width:208px; height:84px; transform:matrix(1,0,0,1,4222,1060); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='4.0'  _scaption='КГС № 5А10'  _sorient='right'  _scolors='["gas","gas","gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-cluster-elem id="20" style="width:208px; height:84px; transform:matrix(1,0,0,1,3920,1060); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='3.0'  _scaption='КГС № 5А07'  _sorient='right'  _scolors='["gas","gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-cluster-elem id="21" style="width:208px; height:84px; transform:matrix(1,0,0,1,336,1060); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='4.0'  _scaption='КГС № 4А11'  _sorient='left'  _scolors='["gas","gas","gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-cluster-elem id="22" style="width:208px; height:84px; transform:matrix(1,0,0,1,336,1365); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='5.0'  _scaption='КГС № 4А14'  _sorient='left'  _scolors='["gas","gas","gas","gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-cluster-elem id="23" style="width:208px; height:84px; transform:matrix(1,0,0,1,3924,1365); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='4.0'  _scaption='КГС № 5А09'  _sorient='right'  _scolors='["gas","gas","gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-cluster-elem id="24" style="width:208px; height:84px; transform:matrix(1,0,0,1,3920,1670); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='4.0'  _scaption='КГС № 5А12'  _sorient='right'  _scolors='["gas","gas","gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-cluster-elem id="25" style="width:208px; height:84px; transform:matrix(1,0,0,1,336,1670); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='4.0'  _scaption='КГС № 4А16'  _sorient='left'  _scolors='["gas","gas","gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-cluster-elem id="26" style="width:208px; height:84px; transform:matrix(1,0,0,1,336,1981); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='5.0'  _scaption='КГС № 4А18'  _sorient='left'  _scolors='["gas","gas","gas","gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-cluster-elem id="27" style="width:208px; height:84px; transform:matrix(1,0,0,1,2940,1980); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='4.0'  _scaption='КГС № 5А20'  _sorient='right'  _scolors='["gas","gas","gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-cluster-elem id="28" style="width:208px; height:84px; transform:matrix(1,0,0,1,3920,1980); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='5.0'  _scaption='КГС № 5А16'  _sorient='right'  _scolors='["gas","gas","gas","gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-cluster-elem id="29" style="width:208px; height:84px; transform:matrix(1,0,0,1,4222,2367); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='4.0'  _scaption='КГС № 5А22'  _sorient='right'  _scolors='["gas","gas","gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-cluster-elem id="30" style="width:208px; height:84px; transform:matrix(1,0,0,1,3920,2367); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='4.0'  _scaption='КГС № 5А214'  _sorient='right'  _scolors='["gas","gas","gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-cluster-elem id="31" style="width:208px; height:84px; transform:matrix(1,0,0,1,336,2367); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='4.0'  _scaption='КГС № 4А17'  _sorient='left'  _scolors='["gas","gas","gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-cluster-elem id="32" style="width:208px; height:84px; transform:matrix(1,0,0,1,336,2770); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='4.0'  _scaption='КГС № 4А15'  _sorient='left'  _scolors='["gas","gas","gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-cluster-elem id="33" style="width:208px; height:84px; transform:matrix(1,0,0,1,944.5,2770); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='3.0'  _scaption='КГС № 4А23'  _sorient='left'  _scolors='["gas","gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-cluster-elem id="34" style="width:208px; height:84px; transform:matrix(1,0,0,1,1246,2770); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='2.0'  _scaption='КГС № 4А24'  _sorient='left'  _scolors='["gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-cluster-elem id="35" style="width:208px; height:84px; transform:matrix(1,0,0,1,1532,2770); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='2.0'  _scaption='КГС № 4А25'  _sorient='left'  _scolors='["gas","gas","gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-cluster-elem id="36" style="width:208px; height:84px; transform:matrix(1,0,0,1,2128,2770); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='4.0'  _scaption='КГС № 5А19'  _sorient='right'  _scolors='["gas","gas","gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-cluster-elem id="37" style="width:208px; height:84px; transform:matrix(1,0,0,1,2434,2770); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='3.0'  _scaption='КГС № 5А14'  _sorient='right'  _scolors='["gas","gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-cluster-elem id="38" style="width:208px; height:84px; transform:matrix(1,0,0,1,2736,2770); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='2.0'  _scaption='КГС № 5А25'  _sorient='right'  _scolors='["gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-cluster-elem id="39" style="width:208px; height:84px; transform:matrix(1,0,0,1,3055,2770); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='4.0'  _scaption='КГС № 5А13'  _sorient='right'  _scolors='["gas","gas","gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-cluster-elem id="40" style="width:208px; height:84px; transform:matrix(1,0,0,1,3920,2770); transform-origin: left top;" 0. 0. 0._sfontsize='26'  _swellcount='4.0'  _scaption='КГС № 5А15'  _sorient='right'  _scolors='["gas","gas","gas","gas"]' ></gas-wells-cluster-elem>
+<gas-wells-params-elem id="41" style="width:221px; height:103px; transform:matrix(1,0,0,1,15,157); transform-origin: left top;"  0+0._scaptions='["P","T","F"]' ></gas-wells-params-elem>
+<gas-wells-params-elem id="42" style="width:221px; height:103px; transform:matrix(1,0,0,1,314.5,156); transform-origin: left top;"  0+0._scaptions='["P","T","F"]' ></gas-wells-params-elem>
+<gas-wells-params-elem id="43" style="width:221px; height:103px; transform:matrix(1,0,0,1,913.5,156); transform-origin: left top;"  0+0._scaptions='["P","T","F"]' ></gas-wells-params-elem>
+<gas-wells-params-elem id="44" style="width:221px; height:103px; transform:matrix(1,0,0,1,1212.5,156); transform-origin: left top;"  0+0._scaptions='["P","T","F"]' ></gas-wells-params-elem>
+<gas-wells-params-elem id="45" style="width:221px; height:103px; transform:matrix(1,0,0,1,2749.5,156); transform-origin: left top;"  0+0._scaptions='["P","T","F"]' ></gas-wells-params-elem>
+<gas-wells-params-elem id="46" style="width:221px; height:103px; transform:matrix(1,0,0,1,3065.5,156); transform-origin: left top;"  0+0._scaptions='["P","T","F"]' ></gas-wells-params-elem>
+<gas-wells-params-elem id="47" style="width:221px; height:103px; transform:matrix(1,0,0,1,3923.5,156); transform-origin: left top;"  0+0._scaptions='["P","T","F"]' ></gas-wells-params-elem>
+<gas-wells-params-elem id="48" style="width:221px; height:103px; transform:matrix(1,0,0,1,4234.5,156); transform-origin: left top;"  0+0._scaptions='["P","T","F"]' ></gas-wells-params-elem>
+<gas-wells-params-elem id="49" style="width:221px; height:103px; transform:matrix(1,0,0,1,4234.5,529.5); transform-origin: left top;"  0+0._scaptions='["P","T","F"]' ></gas-wells-params-elem>
+<gas-wells-params-elem id="50" style="width:221px; height:103px; transform:matrix(1,0,0,1,3923.5,530); transform-origin: left top;"  0+0._scaptions='["P","T","F"]' ></gas-wells-params-elem>
+<gas-wells-params-elem id="51" style="width:221px; height:103px; transform:matrix(1,0,0,1,3065.5,529.5); transform-origin: left top;"  0+0._scaptions='["P","T","F"]' ></gas-wells-params-elem>
+<gas-wells-params-elem id="52" style="width:221px; height:103px; transform:matrix(1,0,0,1,314.5,529.5); transform-origin: left top;"  0+0._scaptions='["P","T","F"]' ></gas-wells-params-elem>
+<gas-wells-params-elem id="53" style="width:221px; height:103px; transform:matrix(1,0,0,1,913.5,529.5); transform-origin: left top;"  0+0._scaptions='["P","T","F"]' ></gas-wells-params-elem>
+<gas-wells-params-elem id="54" style="width:221px; height:103px; transform:matrix(1,0,0,1,15,842.5); transform-origin: left top;"  0+0._scaptions='["P","T","F"]' ></gas-wells-params-elem>
+<gas-wells-params-elem id="55" style="width:221px; height:103px; transform:matrix(1,0,0,1,314.5,842.5); transform-origin: left top;"  0+0._scaptions='["P","T","F"]' ></gas-wells-params-elem>
+<gas-wells-params-elem id="56" style="width:221px; height:103px; transform:matrix(1,0,0,1,3065.5,842.5); transform-origin: left top;"  0+0._scaptions='["P","T","F"]' ></gas-wells-params-elem>
+<gas-wells-params-elem id="57" style="width:221px; height:103px; transform:matrix(1,0,0,1,3923.5,842.5); transform-origin: left top;"  0+0._scaptions='["P","T","F"]' ></gas-wells-params-elem>
+<gas-wells-params-elem id="58" style="width:221px; height:103px; transform:matrix(1,0,0,1,4234.5,842.5); transform-origin: left top;"  0+0._scaptions='["P","T","F"]' ></gas-wells-params-elem>
+<gas-wells-params-elem id="59" style="width:221px; height:103px; transform:matrix(1,0,0,1,4234.5,1148.5); transform-origin: left top;"  0+0._scaptions='["P","T","F"]' ></gas-wells-params-elem>
+<gas-wells-params-elem id="60" style="width:221px; height:103px; transform:matrix(1,0,0,1,3923.5,1148.5); transform-origin: left top;"  0+0._scaptions='["P","T","F"]' ></gas-wells-params-elem>
+<gas-wells-params-elem id="61" style="width:221px; height:103px; transform:matrix(1,0,0,1,314.5,1148.5); transform-origin: left top;"  0+0._scaptions='["P","T","F"]'  _smnemo=' /Data/mnemo/gas_well_cluster_w_4_weels.html' ></gas-wells-params-elem>
+<gas-wells-params-elem id="62" style="width:221px; height:103px; transform:matrix(1,0,0,1,314.5,1454.5); transform-origin: left top;"  0+0._scaptions='["P","T","F"]' ></gas-wells-params-elem>
+<gas-wells-params-elem id="63" style="width:221px; height:103px; transform:matrix(1,0,0,1,3927.5,1454.5); transform-origin: left top;"  0+0._scaptions='["P","T","F"]' ></gas-wells-params-elem>
+<gas-wells-params-elem id="64" style="width:221px; height:103px; transform:matrix(1,0,0,1,3927.5,1759.5); transform-origin: left top;"  0+0._scaptions='["P","T","F"]' ></gas-wells-params-elem>
+<gas-wells-params-elem id="65" style="width:221px; height:103px; transform:matrix(1,0,0,1,314.5,1759.5); transform-origin: left top;"  0+0._scaptions='["P","T","F"]' ></gas-wells-params-elem>
+<gas-wells-params-elem id="66" style="width:221px; height:103px; transform:matrix(1,0,0,1,314.5,2069.5); transform-origin: left top;"  0+0._scaptions='["P","T","F"]' ></gas-wells-params-elem>
+<gas-wells-params-elem id="67" style="width:221px; height:103px; transform:matrix(1,0,0,1,2945.5,2069.5); transform-origin: left top;"  0+0._scaptions='["P","T","F"]' ></gas-wells-params-elem>
+<gas-wells-params-elem id="68" style="width:221px; height:103px; transform:matrix(1,0,0,1,3927.5,2069.5); transform-origin: left top;"  0+0._scaptions='["P","T","F"]' ></gas-wells-params-elem>
+<gas-wells-params-elem id="69" style="width:221px; height:103px; transform:matrix(1,0,0,1,3927.5,2455.5); transform-origin: left top;"  0+0._scaptions='["P","T","F"]' ></gas-wells-params-elem>
+<gas-wells-params-elem id="70" style="width:221px; height:103px; transform:matrix(1,0,0,1,4234.5,2455.5); transform-origin: left top;"  0+0._scaptions='["P","T","F"]' ></gas-wells-params-elem>
+<gas-wells-params-elem id="71" style="width:221px; height:103px; transform:matrix(1,0,0,1,314.5,2455.5); transform-origin: left top;"  0+0._scaptions='["P","T","F"]' ></gas-wells-params-elem>
+<gas-wells-params-elem id="72" style="width:221px; height:103px; transform:matrix(1,0,0,1,314.5,2859.5); transform-origin: left top;"  0+0._scaptions='["P","T","F"]' ></gas-wells-params-elem>
+<gas-wells-params-elem id="73" style="width:221px; height:103px; transform:matrix(1,0,0,1,926.5,2859.5); transform-origin: left top;"  0+0._scaptions='["P","T","F"]' ></gas-wells-params-elem>
+<gas-wells-params-elem id="74" style="width:221px; height:103px; transform:matrix(1,0,0,1,1218.5,2859.5); transform-origin: left top;"  0+0._scaptions='["P","T","F"]' ></gas-wells-params-elem>
+<gas-wells-params-elem id="75" style="width:221px; height:103px; transform:matrix(1,0,0,1,1510.5,2859.5); transform-origin: left top;"  0+0._scaptions='["P","T","F"]' ></gas-wells-params-elem>
+<gas-wells-params-elem id="76" style="width:221px; height:103px; transform:matrix(1,0,0,1,2133.5,2859.5); transform-origin: left top;"  0+0._scaptions='["P","T","F"]' ></gas-wells-params-elem>
+<gas-wells-params-elem id="77" style="width:221px; height:103px; transform:matrix(1,0,0,1,2443.5,2859.5); transform-origin: left top;"  0+0._scaptions='["P","T","F"]' ></gas-wells-params-elem>
+<gas-wells-params-elem id="78" style="width:221px; height:103px; transform:matrix(1,0,0,1,2751.5,2859.5); transform-origin: left top;"  0+0._scaptions='["P","T","F"]' ></gas-wells-params-elem>
+<gas-wells-params-elem id="79" style="width:221px; height:103px; transform:matrix(1,0,0,1,3062.5,2859.5); transform-origin: left top;"  0+0._scaptions='["P","T","F"]' ></gas-wells-params-elem>
+<gas-wells-params-elem id="80" style="width:221px; height:103px; transform:matrix(1,0,0,1,3932.5,2859.5); transform-origin: left top;"  0+0._scaptions='["P","T","F"]' ></gas-wells-params-elem>
+<num-value-elem id="81" style="width:94px; height:35px; transform:matrix(1,0,0,1,1299,1101); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="82" style="width:94px; height:35px; transform:matrix(1,0,0,1,1472,1401); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="83" style="width:94px; height:35px; transform:matrix(1,0,0,1,1817,1501); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="84" style="width:94px; height:35px; transform:matrix(1,0,0,1,1645,1551); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="85" style="width:94px; height:35px; transform:matrix(1,0,0,1,1645,1501); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="86" style="width:94px; height:35px; transform:matrix(1,0,0,1,1817,1601); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="87" style="width:94px; height:35px; transform:matrix(1,0,0,1,1817,1551); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="88" style="width:94px; height:35px; transform:matrix(1,0,0,1,1645,1601); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="89" style="width:94px; height:35px; transform:matrix(1,0,0,1,1472,1551); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="90" style="width:94px; height:35px; transform:matrix(1,0,0,1,1472,1601); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="91" style="width:94px; height:35px; transform:matrix(1,0,0,1,1472,1101); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="92" style="width:94px; height:35px; transform:matrix(1,0,0,1,1645,1101); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="93" style="width:94px; height:35px; transform:matrix(1,0,0,1,1817,1101); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="95" style="width:94px; height:35px; transform:matrix(1,0,0,1,2121,1008); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="95" style="width:94px; height:35px; transform:matrix(1,0,0,1,2294,1008); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="96" style="width:94px; height:35px; transform:matrix(1,0,0,1,2467,1008); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="97" style="width:94px; height:35px; transform:matrix(1,0,0,1,2639,1008); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="98" style="width:94px; height:35px; transform:matrix(1,0,0,1,2121,1058); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="99" style="width:94px; height:35px; transform:matrix(1,0,0,1,2294,1058); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="100" style="width:94px; height:35px; transform:matrix(1,0,0,1,2467,1058); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="101" style="width:94px; height:35px; transform:matrix(1,0,0,1,2639,1058); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="102" style="width:94px; height:35px; transform:matrix(1,0,0,1,2121,1108); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="103" style="width:94px; height:35px; transform:matrix(1,0,0,1,2294,1108); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="104" style="width:94px; height:35px; transform:matrix(1,0,0,1,2467,1108); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="105" style="width:94px; height:35px; transform:matrix(1,0,0,1,2639,1108); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="106" style="width:94px; height:35px; transform:matrix(1,0,0,1,2121,1158); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="107" style="width:94px; height:35px; transform:matrix(1,0,0,1,2294,1158); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="108" style="width:94px; height:35px; transform:matrix(1,0,0,1,2467,1158); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="109" style="width:94px; height:35px; transform:matrix(1,0,0,1,2639,1158); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="110" style="width:94px; height:35px; transform:matrix(1,0,0,1,2121,1208); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="111" style="width:94px; height:35px; transform:matrix(1,0,0,1,2294,1208); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="112" style="width:94px; height:35px; transform:matrix(1,0,0,1,2467,1208); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="113" style="width:94px; height:35px; transform:matrix(1,0,0,1,2639,1208); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="114" style="width:94px; height:35px; transform:matrix(1,0,0,1,2121,1258); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="115" style="width:94px; height:35px; transform:matrix(1,0,0,1,2294,1258); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="116" style="width:94px; height:35px; transform:matrix(1,0,0,1,2467,1258); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="117" style="width:94px; height:35px; transform:matrix(1,0,0,1,2639,1258); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="118" style="width:94px; height:35px; transform:matrix(1,0,0,1,2121,1308); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="119" style="width:94px; height:35px; transform:matrix(1,0,0,1,2294,1308); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="120" style="width:94px; height:35px; transform:matrix(1,0,0,1,2467,1308); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="121" style="width:94px; height:35px; transform:matrix(1,0,0,1,2639,1308); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="122" style="width:94px; height:35px; transform:matrix(1,0,0,1,2121,1358); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="123" style="width:94px; height:35px; transform:matrix(1,0,0,1,2294,1358); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="124" style="width:94px; height:35px; transform:matrix(1,0,0,1,2467,1358); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="125" style="width:94px; height:35px; transform:matrix(1,0,0,1,2639,1358); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="126" style="width:94px; height:35px; transform:matrix(1,0,0,1,2121,1408); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="127" style="width:94px; height:35px; transform:matrix(1,0,0,1,2294,1408); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="128" style="width:94px; height:35px; transform:matrix(1,0,0,1,2467,1408); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="129" style="width:94px; height:35px; transform:matrix(1,0,0,1,2639,1408); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="130" style="width:94px; height:35px; transform:matrix(1,0,0,1,2121,1458); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="131" style="width:94px; height:35px; transform:matrix(1,0,0,1,2294,1458); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="132" style="width:94px; height:35px; transform:matrix(1,0,0,1,2467,1458); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="133" style="width:94px; height:35px; transform:matrix(1,0,0,1,2639,1458); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="134" style="width:94px; height:35px; transform:matrix(1,0,0,1,2121,1508); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="135" style="width:94px; height:35px; transform:matrix(1,0,0,1,2294,1508); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="136" style="width:94px; height:35px; transform:matrix(1,0,0,1,2467,1508); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="137" style="width:94px; height:35px; transform:matrix(1,0,0,1,2639,1508); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="138" style="width:94px; height:35px; transform:matrix(1,0,0,1,2121,1558); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="139" style="width:94px; height:35px; transform:matrix(1,0,0,1,2294,1558); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="140" style="width:94px; height:35px; transform:matrix(1,0,0,1,2467,1558); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="141" style="width:94px; height:35px; transform:matrix(1,0,0,1,2639,1558); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="142" style="width:94px; height:35px; transform:matrix(1,0,0,1,2121,1608); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="143" style="width:94px; height:35px; transform:matrix(1,0,0,1,2294,1608); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="144" style="width:94px; height:35px; transform:matrix(1,0,0,1,2467,1608); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="145" style="width:94px; height:35px; transform:matrix(1,0,0,1,2639,1608); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="146" style="width:94px; height:35px; transform:matrix(1,0,0,1,2121,1658); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="147" style="width:94px; height:35px; transform:matrix(1,0,0,1,2294,1658); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="148" style="width:94px; height:35px; transform:matrix(1,0,0,1,2467,1658); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="149" style="width:94px; height:35px; transform:matrix(1,0,0,1,2639,1658); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="150" style="width:94px; height:35px; transform:matrix(1,0,0,1,2121,1708); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="152" style="width:94px; height:35px; transform:matrix(1,0,0,1,2294,1708); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="153" style="width:94px; height:35px; transform:matrix(1,0,0,1,2467,1708); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="154" style="width:94px; height:35px; transform:matrix(1,0,0,1,2639,1708); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="239" style="width:94px; height:35px; transform:matrix(1,0,0,1,2121,1758); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="240" style="width:94px; height:35px; transform:matrix(1,0,0,1,2294,1758); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="241" style="width:94px; height:35px; transform:matrix(1,0,0,1,2467,1758); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="242" style="width:94px; height:35px; transform:matrix(1,0,0,1,2639,1758); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="d243" style="width:94px; height:35px; transform:matrix(1,0,0,1,2121,1807); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="244" style="width:94px; height:35px; transform:matrix(1,0,0,1,2294,1807); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="245" style="width:94px; height:35px; transform:matrix(1,0,0,1,2467,1807); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="246" style="width:94px; height:35px; transform:matrix(1,0,0,1,2639,1807); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="d248" style="width:94px; height:35px; transform:matrix(1,0,0,1,2121,1857); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="249" style="width:94px; height:35px; transform:matrix(1,0,0,1,2294,1857); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="250" style="width:94px; height:35px; transform:matrix(1,0,0,1,2467,1857); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="251" style="width:94px; height:35px; transform:matrix(1,0,0,1,2639,1857); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="155" style="width:94px; height:35px; transform:matrix(1,0,0,1,1817,1151); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="156" style="width:94px; height:35px; transform:matrix(1,0,0,1,1299,1201); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="157" style="width:94px; height:35px; transform:matrix(1,0,0,1,1299,1251); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="158" style="width:94px; height:35px; transform:matrix(1,0,0,1,1299,1301); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="159" style="width:94px; height:35px; transform:matrix(1,0,0,1,1299,1351); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="160" style="width:94px; height:35px; transform:matrix(1,0,0,1,1299,1401); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="161" style="width:94px; height:35px; transform:matrix(1,0,0,1,1299,1451); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="162" style="width:94px; height:35px; transform:matrix(1,0,0,1,1299,1501); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="163" style="width:94px; height:35px; transform:matrix(1,0,0,1,1299,1551); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="164" style="width:94px; height:35px; transform:matrix(1,0,0,1,1299,1601); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="238" style="width:94px; height:35px; transform:matrix(1,0,0,1,1817,1651); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="237" style="width:94px; height:35px; transform:matrix(1,0,0,1,1645,1651); transform-origin: left top;" 0._sfontsize='27'  _sgrafcount='2.0'  _scaption1='Fг'  _scaption2='Fк'  _sitemSize='40.0'  _sitemSizeHeight='37.0'  _scaptionfontsizes='[30,30]'  _sfontSizeLegend='20.0' ></num-value-elem>
+<num-value-elem id="236" style="width:94px; height:35px; transform:matrix(1,0,0,1,1472,1651); transform-origin: left top;" 0._sfontsize='27'  _sgrafcount='4.0'  _scaption1='Fнгк, на БЕ'  _scaption2='Vбе'  _scaption3='Fнгк'  _scaption4='Fгаза'  _sitemSize='100.0'  _scaptionfontsizes='[22,22,22,22]'  _sfontSizeLegend='17.0' ></num-value-elem>
+<num-value-elem id="235" style="width:94px; height:35px; transform:matrix(1,0,0,1,1299,1651); transform-origin: left top;" 0._sfontsize='27'  _sgrafcount='4.0'  _scaption1='Fнгк, на БЕ'  _scaption2='Vбе'  _scaption3='Fнгк'  _scaption4='Fгаза'  _sitemSize='100.0'  _scaptionfontsizes='[22,22,22,22]'  _sfontSizeLegend='17.0' ></num-value-elem>
+<num-value-elem id="165" style="width:94px; height:35px; transform:matrix(1,0,0,1,1299,1151); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="166" style="width:94px; height:35px; transform:matrix(1,0,0,1,1472,1151); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="167" style="width:94px; height:35px; transform:matrix(1,0,0,1,1472,1201); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="167" style="width:94px; height:35px; transform:matrix(1,0,0,1,1645,1151); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="168" style="width:94px; height:35px; transform:matrix(1,0,0,1,1645,1201); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="169" style="width:94px; height:35px; transform:matrix(1,0,0,1,1817,1201); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="170" style="width:94px; height:35px; transform:matrix(1,0,0,1,1645,1251); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="171" style="width:94px; height:35px; transform:matrix(1,0,0,1,1472,1251); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="172" style="width:94px; height:35px; transform:matrix(1,0,0,1,1817,1251); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="173" style="width:94px; height:35px; transform:matrix(1,0,0,1,1472,1301); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="174" style="width:94px; height:35px; transform:matrix(1,0,0,1,1645,1301); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="175" style="width:94px; height:35px; transform:matrix(1,0,0,1,1817,1301); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="176" style="width:94px; height:35px; transform:matrix(1,0,0,1,1645,1351); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="177" style="width:94px; height:35px; transform:matrix(1,0,0,1,1472,1351); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="178" style="width:94px; height:35px; transform:matrix(1,0,0,1,1817,1401); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="179" style="width:94px; height:35px; transform:matrix(1,0,0,1,1817,1351); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="180" style="width:94px; height:35px; transform:matrix(1,0,0,1,1472,1501); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="181" style="width:94px; height:35px; transform:matrix(1,0,0,1,1817,1451); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="182" style="width:94px; height:35px; transform:matrix(1,0,0,1,1472,1451); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="185" style="width:94px; height:35px; transform:matrix(1,0,0,1,1645,1451); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="184" style="width:94px; height:35px; transform:matrix(1,0,0,1,1645,1401); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="186" style="width:94px; height:35px; transform:matrix(1,0,0,1,1329,2025); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="187" style="width:94px; height:35px; transform:matrix(1,0,0,1,1435,2025); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="188" style="width:94px; height:35px; transform:matrix(1,0,0,1,1541,2025); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="189" style="width:94px; height:35px; transform:matrix(1,0,0,1,1647,2025); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="190" style="width:94px; height:35px; transform:matrix(1,0,0,1,1753,2025); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="191" style="width:94px; height:35px; transform:matrix(1,0,0,1,1859,2025); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="192" style="width:94px; height:35px; transform:matrix(1,0,0,1,1329,2075); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="195" style="width:94px; height:35px; transform:matrix(1,0,0,1,1435,2075); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="194" style="width:94px; height:35px; transform:matrix(1,0,0,1,1541,2075); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="193" style="width:94px; height:35px; transform:matrix(1,0,0,1,1647,2075); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="196" style="width:94px; height:35px; transform:matrix(1,0,0,1,1753,2075); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="197" style="width:94px; height:35px; transform:matrix(1,0,0,1,1859,2075); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="197" style="width:94px; height:35px; transform:matrix(1,0,0,1,1329,2125); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="198" style="width:94px; height:35px; transform:matrix(1,0,0,1,1435,2125); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="199" style="width:94px; height:35px; transform:matrix(1,0,0,1,1541,2125); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="200" style="width:94px; height:35px; transform:matrix(1,0,0,1,1647,2125); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="201" style="width:94px; height:35px; transform:matrix(1,0,0,1,1753,2125); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="202" style="width:94px; height:35px; transform:matrix(1,0,0,1,1859,2125); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="203" style="width:94px; height:35px; transform:matrix(1,0,0,1,2153,2025); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="204" style="width:94px; height:35px; transform:matrix(1,0,0,1,2259,2025); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="205" style="width:94px; height:35px; transform:matrix(1,0,0,1,2365,2025); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="206" style="width:94px; height:35px; transform:matrix(1,0,0,1,2471,2025); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="207" style="width:94px; height:35px; transform:matrix(1,0,0,1,2577,2025); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="208" style="width:94px; height:35px; transform:matrix(1,0,0,1,2683,2025); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="209" style="width:94px; height:35px; transform:matrix(1,0,0,1,2153,2075); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="210" style="width:94px; height:35px; transform:matrix(1,0,0,1,2259,2075); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="211" style="width:94px; height:35px; transform:matrix(1,0,0,1,2365,2075); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="212" style="width:94px; height:35px; transform:matrix(1,0,0,1,2471,2075); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="213" style="width:94px; height:35px; transform:matrix(1,0,0,1,2577,2075); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="214" style="width:94px; height:35px; transform:matrix(1,0,0,1,2683,2075); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="215" style="width:94px; height:35px; transform:matrix(1,0,0,1,2153,2125); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="216" style="width:94px; height:35px; transform:matrix(1,0,0,1,2259,2125); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="217" style="width:94px; height:35px; transform:matrix(1,0,0,1,2365,2125); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="218" style="width:94px; height:35px; transform:matrix(1,0,0,1,2471,2125); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="219" style="width:94px; height:35px; transform:matrix(1,0,0,1,2577,2125); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="220" style="width:94px; height:35px; transform:matrix(1,0,0,1,2683,2125); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="221" style="width:94px; height:35px; transform:matrix(1,0,0,1,2153,2175); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="222" style="width:94px; height:35px; transform:matrix(1,0,0,1,2259,2175); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="223" style="width:94px; height:35px; transform:matrix(1,0,0,1,2365,2175); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="224" style="width:94px; height:35px; transform:matrix(1,0,0,1,2471,2175); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="225" style="width:94px; height:35px; transform:matrix(1,0,0,1,2577,2175); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="226" style="width:94px; height:35px; transform:matrix(1,0,0,1,2683,2175); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="227" style="width:94px; height:35px; transform:matrix(1.0851,0,0,1.3143,2467,2268); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="228" style="width:94px; height:35px; transform:matrix(1.0851,0,0,1.3143,1749,2268); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="229" style="width:94px; height:35px; transform:matrix(1.0851,0,0,1.3143,1749,2339); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="230" style="width:94px; height:35px; transform:matrix(1.0851,0,0,1.3143,1749,2411); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="231" style="width:94px; height:35px; transform:matrix(1.0851,0,0,1.3143,1749,2482); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="232" style="width:94px; height:35px; transform:matrix(1.0851,0,0,1.3143,2467,2339); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="233" style="width:94px; height:35px; transform:matrix(1.0851,0,0,1.3143,2467,2410); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<num-value-elem id="234" style="width:94px; height:35px; transform:matrix(1.0851,0,0,1.3143,2467,2481); transform-origin: left top;" 0._sfontsize='27' ></num-value-elem>
+<customtwo-multi-tit-elem id="237" style="width:1562px; height:276px; transform:matrix(1,0,0,1,1234,283); transform-origin: left top;"  _sgrafcount='2.0'  _scaption1='Fг'  _scaption2='Fк'  _sitemSize='40.0'  _sitemSizeHeight='37.0'  _scaptionfontsizes='[30,30]'  _sfontSizeLegend='20.0' ></customtwo-multi-tit-elem>
+<custom-multi-tit-elem id="236" style="width:733px; height:249px; transform:matrix(1,0,0,1,2062.5,581.5); transform-origin: left top;"  _sgrafcount='4.0'  _scaption1='Fнгк, на БЕ'  _scaption2='Vбе'  _scaption3='Fнгк'  _scaption4='Fгаза'  _sitemSize='100.0'  _scaptionfontsizes='[22,22,22,22]'  _sfontSizeLegend='17.0' ></custom-multi-tit-elem>
+<custom-multi-tit-elem id="235" style="width:733px; height:249px; transform:matrix(1,0,0,1,1235.5,581.5); transform-origin: left top;"  _sgrafcount='4.0'  _scaption1='Fнгк, на БЕ'  _scaption2='Vбе'  _scaption3='Fнгк'  _scaption4='Fгаза'  _sitemSize='100.0'  _scaptionfontsizes='[22,22,22,22]'  _sfontSizeLegend='17.0' ></custom-multi-tit-elem>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0) -->
+<svg class="simple_element" width="4463" height="2975" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="4463px"
+	 height="2975px" viewBox="0 0 4463 2975" style="enable-background:new 0 0 4463 2975;" xml:space="preserve">
+
+<g class="lines">
+	<g class="pipes">
+		<g class="gas">
+				<line class="p15"  x1="4138.5" y1="2071.5" x2="4138.5" y2="1933"/>
+			<path class="p4"  d="M3272.5,687.5"/>
+			<path class="p4"  d="M3272.5,844"/>
+			<line class="p17"  x1="4138.5" y1="2859" x2="4138.5" y2="2749.5"/>
+				<line class="p23"  x1="3154.5" y1="2072" x2="3154.5" y2="1868.5"/>
+			<path class="p3"  d="M3272.5,530.5"/>
+			<path class="p3"  d="M3522.5,1075.5"/>
+			<path class="p16"  d="M4139.5,2311.5"/>
+			<path class="p41"  d="M4446.5,2249.5"/>
+			<polyline class="p19"  points="2794.5,1666 3522.5,1666 
+				3522.5,2754 3268.5,2754 			"/>
+			<polyline class="p21"  points="2794.5,1767 3377.5,1767 
+				3377.5,2632 2649.5,2632 			"/>
+			<polyline class="p22"  points="2794.5,1819 3302.5,1819 
+				3302.5,2570 2341.5,2570 			"/>
+			<polyline class="p20"  points="2794.5,1717 3453.5,1717 
+				3453.5,2693 2950.5,2693 			"/>
+			<polyline class="p41"  points="2794.5,1519 3714.5,1519 
+				3714.5,2249 4445.5,2249 			"/>
+			<polyline class="p16"  points="2794.5,1567 3652.5,1567 
+				3652.5,2311 4139.5,2311 			"/>
+			<polyline class="p15"  points="2794,1470 3778,1470 3778,1933 
+				4140,1933 			"/>
+			<polyline class="p17"  points="2794.5,1617.5 3584.5,1617.5 
+				3584.5,2750.5 4139.5,2750.5 			"/>
+			<polyline class="p7 p8 or"  points="2794.5,1223 3741.5,1223 
+				3741.5,395 4140.5,395 			"/>
+			<polyline class="p3"  points="2793.5,1074.5 3523.5,1074.5 
+				3523.5,379.5 3272.5,379.5 3272.5,530.5 			"/>
+			<polyline class="p5 p6 or"  points="2794.5,1172.5 3668.5,1172.5 
+				3668.5,18.5 4135.5,18.5 			"/>
+			<polyline class="p1 p2 or"  points="2795.5,1120.5 3599.5,1120.5 
+				3599.5,18.5 3272.5,18.5 			"/>
+			<line class="p1"  x1="3271" y1="18.5" x2="2956" y2="18.5"/>
+			<polyline class="p4"  points="2793.5,1027.5 3450.5,1027.5 
+				3450.5,687.5 3272.5,687.5 3272.5,842.5 			"/>
+			<polyline class="p9 p10 or"  points="2794.5,1273 3817.5,1273 
+				3817.5,710 4138.5,710 			"/>
+			<polyline class="p11 p12 or"  points="2794,1324 3887,1324 
+				3887,1014 4141,1014 			"/>
+			<polyline class="p14"  points="2794.5,1420.5 3832.5,1420.5 
+				3832.5,1625 4138.5,1625 4138.5,1760.5 			"/>
+			<polyline class="p13"  points="2794.5,1373.5 3933.5,1373.5 
+				3933.5,1317.5 4138.5,1317.5 4138.5,1454.5 			"/>
+			<line class="p23"  x1="2794.5" y1="1868.5" x2="3156" y2="1868.5"/>
+			<line class="p2"  x1="3270.5" y1="18.5" x2="3270.5" y2="157"/>
+			<line class="p12"  x1="4138.5" y1="1149.5" x2="4138.5" y2="1013.5"/>
+			<line class="p41"  x1="4445" y1="2457.5" x2="4445" y2="2249.5"/>
+			<line class="p1"  x1="2956.5" y1="17" x2="2956.5" y2="158"/>
+			<polyline class="p11"  points="4444.5,1150.5 4444.5,1013.5 
+				4140.5,1013.5 			"/>
+			<line class="p10"  x1="4138.5" y1="843.5" x2="4138.5" y2="709.5"/>
+			<line class="p8"  x1="4140.5" y1="531.5" x2="4140.5" y2="393.5"/>
+			<line class="p16"  x1="4138.5" y1="2457" x2="4138.5" y2="2310"/>
+			<polyline class="p9"  points="4444.5,844 4444.5,710 4136.5,710 
+							"/>
+			<polyline class="p7"  points="4444.5,531 4444.5,395 4141.5,395 
+							"/>
+			<line class="p22"  x1="2342.5" y1="2861" x2="2342.5" y2="2570"/>
+				<line class="p20"  x1="2951.5" y1="2861.5" x2="2951.5" y2="2693"/>
+			<polyline class="p5"  points="4444.5,157 4444.5,19 4137.5,19 			
+				"/>
+			<line class="p6"  x1="4135.5" y1="157.5" x2="4135.5" y2="19.5"/>
+			<line class="p19"  x1="3269.5" y1="2861" x2="3269.5" y2="2754"/>
+			<line class="p21"  x1="2650.5" y1="2861.5" x2="2650.5" y2="2632"/>
+			<polyline class="p40"  points="931.5,532 931.5,389 852.5,389 
+				852.5,1121 			"/>
+			<line class="p24 p25 p26 or"  x1="937.5" y1="2632.5" x2="937.5" y2="1657"/>
+			<line class="p35"  x1="331" y1="531.5" x2="331" y2="388.5"/>
+			<line class="p32"  x1="331.5" y1="1150" x2="331.5" y2="1001"/>
+			<line class="p30"  x1="331.5" y1="1761" x2="331.5" y2="1617"/>
+			<line class="p31"  x1="331.5" y1="1455" x2="331.5" y2="1306"/>
+			<line class="p27"  x1="331.5" y1="2860" x2="331.5" y2="2632"/>
+				<line class="p24 p25 p26 or"  x1="1238.5" y1="1658.5" x2="936.5" y2="1658.5"/>
+			<line class="p29"  x1="331.5" y1="2069.5" x2="331.5" y2="1919.5"/>
+				<line class="p28"  x1="331.5" y1="2456.5" x2="331.5" y2="2253.5"/>
+			<polyline class="p30"  points="1239.5,1463.5 610.5,1463.5 
+				610.5,1617.5 330.5,1617.5 			"/>
+			<polyline class="p27"  points="1238,1610 855,1610 855,2632 
+				330,2632 			"/>
+			<polyline class="p29"  points="1238.5,1511.5 702.5,1511.5 
+				702.5,1919.5 330.5,1919.5 			"/>
+			<polyline class="p28"  points="1238.5,1561 773,1561 773.5,2253 
+				330.5,2253 			"/>
+			<polyline class="p31"  points="1239,1414.5 552,1414.5 552,1306.5 
+				330,1306.5 			"/>
+			<polyline class="p32"  points="1238,1365 605,1365 605,1001 
+				330,1001 			"/>
+			<polyline class="p35"  points="1238,1267 710,1267 710,388 
+				330,388 			"/>
+			<polyline class="p33 p34 or"  points="1238,1317.5 654,1317.5 
+				654,694.5 330,694.5 			"/>
+			<line class="p24 p25 or"  x1="1234" y1="2632.5" x2="934" y2="2632.5"/>
+			<path class="p36 p37 or"  d="M326,19"/>
+			<polyline class="p36 p37 or"  points="1238,1218 762,1218 762,19 
+				331,19 			"/>
+			<polyline class="p38 p39 or"  points="1238,1169.5 807,1169.5 807,18.5 931.5,18.5 			"/>
+			<line class="p40"  x1="1238.5" y1="1120.5" x2="851" y2="1120.5"/>
+			<polyline class="p38"  points="1240,159.5 1240,17.5 937,17.5 			
+				"/>
+			<line class="p39"  x1="931.5" y1="157.5" x2="931.5" y2="19.5"/>
+			<polyline class="p36"  points="35,158 35,19 331,19 			"/>
+			<line class="p37"  x1="331" y1="157.5" x2="331" y2="17.5"/>
+			<line class="p34"  x1="331.5" y1="842.5" x2="331.5" y2="693.5"/>
+			<polyline class="p33"  points="35.5,845 35.5,694 331.5,694 			"/>
+			<polyline class="p24"  points="1526.5,2861.5 1526.5,2632.5 
+				1240.5,2632.5 			"/>
+			<line class="p25"  x1="1238.5" y1="2861.5" x2="1238.5" y2="2627.5"/>
+			<line class="p26"  x1="937.5" y1="2861.5" x2="937.5" y2="2628.5"/>
+		</g>
+	</g>
+	<g class="points">
+		<g class="gas">
+			<circle class="p11 p12 or"  cx="4138.5" cy="1014" r="4.5"/>
+			<circle class="p9 p10 or"  cx="4138.5" cy="710" r="4.5"/>
+			<circle class="p7 p8 or"  cx="4140.5" cy="395" r="4.5"/>
+			<circle class="p5 p6 or"  cx="4135.5" cy="19" r="4.5"/>
+			<circle class="p1 p2 or"  cx="3270.5" cy="19" r="4.5"/>
+			<circle class="p33 p34 or"  cx="331.5" cy="695" r="4.5"/>
+			<circle class="p24 p25 p26 or"  cx="938" cy="2632" r="4.5"/>
+			<circle class="p24 p25 or"  cx="1238" cy="2633" r="4.5"/>
+			<circle class="p36 p37 or"  cx="331" cy="19" r="4.5"/>
+			<circle class="p38 p39 or"  cx="931.5" cy="19" r="4.5"/>
+		</g>
+	</g>
+</g>
+<g class="tables-solid">
+	<g class="t1">
+		<path  d="M2717,2541H1311c-16.8,0-30-14.2-30-31v-228c0-16.8,13.2-30,30-30h1406c16.8,0,31,13.2,31,30v228
+			C2748,2526.8,2733.8,2541,2717,2541z"/>
+	</g>
+	<g class="t2">
+		<path  d="M2776.5,2234h-695c-9.7,0-17.5-7.8-17.5-17.5v-258c0-9.7,7.8-17.5,17.5-17.5h695c9.7,0,17.5,7.8,17.5,17.5
+			v258C2794,2226.2,2786.2,2234,2776.5,2234z"/>
+	</g>
+	<g class="t5">
+		<path  d="M2746.6,979h-637.1c-8.5,0-15.4-6.9-15.4-15.4v-18.1c0-8.5,6.9-15.4,15.4-15.4h637.1
+			c8.5,0,15.4,6.9,15.4,15.4v18.1C2762,972.1,2755.1,979,2746.6,979z"/>
+	</g>
+	<g class="t6">
+		<path  d="M1925.6,1078h-637.1c-8.5,0-15.4-6.9-15.4-15.4v-18.1c0-8.5,6.9-15.4,15.4-15.4h637.1
+			c8.5,0,15.4,6.9,15.4,15.4v18.1C1941,1071.1,1934.1,1078,1925.6,1078z"/>
+	</g>
+	<g class="t3">
+		<path  d="M1952.5,2234h-695c-9.7,0-17.5-7.8-17.5-17.5v-258c0-9.7,7.8-17.5,17.5-17.5h695c9.7,0,17.5,7.8,17.5,17.5
+			v258C1970,2226.2,1962.2,2234,1952.5,2234z"/>
+	</g>
+	<g class="t4">
+		<path class="UKPG-51"  d="M2751.6,1919h-647.2c-23.4,0-42.4-19-42.4-42.4V902.4c0-23.4,19-42.4,42.4-42.4h647.2
+			c23.4,0,42.4,19,42.4,42.4v974.2C2794,1900,2775,1919,2751.6,1919z"/>
+	</g>
+	<g class="t5">
+		<path class="UKPG-51"  d="M1928.6,1919h-647.2
+			c-23.4,0-42.4-19-42.4-42.4V902.4c0-23.4,19-42.4,42.4-42.4h647.2c23.4,0,42.4,19,42.4,42.4v974.2
+			C1971,1900,1952,1919,1928.6,1919z"/>
+	</g>
+	<g class="t7">
+		<rect x="1313" y="1940"  width="1" height="293"/>
+	</g>
+	<g class="t8">
+		<rect x="1241" y="1991"  width="730" height="1"/>
+	</g>
+	<g class="t9">
+		<rect x="2064" y="1991"  width="730" height="1"/>
+	</g>
+	<g class="t10">
+		<rect x="2137" y="1940"  width="1" height="293"/>
+	</g>
+</g>
+<g class="text">
+	<g class="px23">
+		<g>
+			<text transform="matrix(1 0 0 1 2634.1772 964.8036)"><tspan x="0" y="0" >Т</tspan><tspan x="15.9" y="0" >вых</tspan><tspan x="55" y="0" >,</tspan><tspan x="59.5" y="0" > </tspan><tspan x="64.6" y="0" >°C</tspan></text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 2459.1772 964.8036)"><tspan x="0" y="0" >P</tspan><tspan x="15.5" y="0" >вых, </tspan><tspan x="62.3" y="0" >МПа</tspan></text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 2126.1772 964.8036)"><tspan x="0" y="0" >P</tspan><tspan x="17" y="0" >вх, МПа</tspan></text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 2292.1772 964.8036)"><tspan x="0" y="0" >T</tspan><tspan x="15.9" y="0" >вх, </tspan><tspan x="54.2" y="0" >°C</tspan><tspan x="75.7" y="0" > </tspan></text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 1813.1772 1063.8036)"><tspan x="0" y="0" >Т</tspan><tspan x="15.9" y="0" >вых</tspan><tspan x="55" y="0" >,</tspan><tspan x="59.5" y="0" > </tspan><tspan x="64.6" y="0" >°C</tspan></text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 1638.1772 1063.8036)"><tspan x="0" y="0" >P</tspan><tspan x="17" y="0" >вых, </tspan><tspan x="66.2" y="0" >МПа</tspan></text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 1305.1772 1063.8036)"><tspan x="0" y="0" >P</tspan><tspan x="17" y="0" >вх, МПа</tspan></text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 1471.1772 1063.8036)"><tspan x="0" y="0" >T</tspan><tspan x="15.9" y="0" >вх, </tspan><tspan x="54.2" y="0" >°C</tspan><tspan x="75.7" y="0" > </tspan></text>
+		</g>
+		<g>
+			<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 2676.7593 1978.5851)"><tspan x="0" y="0" >F</tspan><tspan x="14.6" y="0" >сут, м3/ч</tspan></text>
+		</g>
+		<g>
+			<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 2468.7593 1977.5851)"><tspan x="0" y="0" >Т</tspan><tspan x="14.9" y="0" >угл, °С</tspan></text>
+		</g>
+		<g>
+			<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 2371.7593 1977.5851)"><tspan x="0" y="0" >Т</tspan><tspan x="14.9" y="0" >тр, °С</tspan></text>
+		</g>
+		<g>
+			<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 2264.7593 1977.5851)"><tspan x="0" y="0" >T</tspan><tspan x="14.9" y="0" >нтс,°С </tspan></text>
+		</g>
+		<g>
+			<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 2149.7593 1977.5851)"><tspan x="0" y="0" >Р</tspan><tspan x="16" y="0" >вх, МПа</tspan></text>
+		</g>
+		<g>
+			<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 2076.7593 2050.5852)" >TH-1</text>
+		</g>
+		<g>
+			<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 2076.7593 2101.5852)" >TH-2</text>
+		</g>
+		<g>
+			<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 2076.7593 2151.5852)" >TH-3</text>
+		</g>
+		<g>
+			<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 2076.7593 2199.5852)" >TH-4</text>
+		</g>
+		<g>
+			<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 1253.7592 2051.5852)" >TH-1</text>
+		</g>
+		<g>
+			<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 1253.7592 2101.5852)" >TH-2</text>
+		</g>
+		<g>
+			<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 1253.7592 2151.5852)" >TH-3</text>
+		</g>
+		<g>
+			<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 1736.7592 1977.5851)"><tspan x="0" y="0" >F</tspan><tspan x="14.6" y="0" >мгн, м3/ч</tspan></text>
+		</g>
+		<g>
+			<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 1644.7592 1977.5851)"><tspan x="0" y="0" >Т</tspan><tspan x="14.9" y="0" >угл, °С</tspan></text>
+		</g>
+		<g>
+			<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 1547.7592 1977.5851)"><tspan x="0" y="0" >Т</tspan><tspan x="14.9" y="0" >тр, °С</tspan></text>
+		</g>
+		<g>
+			<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 1325.7592 1977.5851)"><tspan x="0" y="0" >Р</tspan><tspan x="16" y="0" >вх, МПа</tspan></text>
+		</g>
+		<g>
+			<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 1440.7592 1977.5851)"><tspan x="0" y="0" >T</tspan><tspan x="14.9" y="0" >нтс,°С </tspan></text>
+		</g>
+		<g>
+			<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 1852.7592 1979.5851)"><tspan x="0" y="0" >F</tspan><tspan x="14.6" y="0" >сут, м3/ч</tspan></text>
+		</g>
+		<g>
+			<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 2560.7593 1977.5851)"><tspan x="0" y="0" >F</tspan><tspan x="14.6" y="0" >мгн, м3/ч</tspan></text>
+		</g>
+	</g>
+	<g class="px30">
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 1364.6147 2304.2334)" >Эскплуатационный фонд</text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 1365.6147 2446.2334)" >В работе</text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 1366.0819 2515.3232)" >В ремонте</text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 1363.6147 2373.2334)" >Кустовых площадок</text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 2184.0867 2301.5994)" >В исследовании</text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 2185.0867 2443.5994)" >КВД</text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 2185.554 2512.6892)" >ПГИ</text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 2183.0867 2370.5994)" >ГКИ</text>
+	</g>
+	<g class="px19">
+		<g>
+			<text transform="matrix(1 0 0 1 1096.126 1111.014)" >КГС № 4А20</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 1055.126 1157.014)" >КГС № 4А08, 4А01</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 1054.126 1209.014)" >КГС № 4А03, 4А09</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 1096.126 1257.014)" >КГС № 4А05</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 1053.126 1307.014)" >КГС № 4А07, 4А06</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 1097.126 1356.014)" >КГС № 4А11</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 1095.126 1406.014)" >КГС № 4А14</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 1095.126 1455.014)" >КГС № 4А16</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 1096.126 1500.014)" >КГС № 4А18</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 1096.126 1552.014)" >КГС № 4А17</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 1096.126 1601.014)" >КГС № 4А15</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 1067.126 1650.014)" >КГС № 4А23...25</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 2847.126 1110.014)" >КГС № 5А02, 5А04</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 2847.126 1065.014)" >КГС № 5А03</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 2847.126 1018.014)" >КГС № 5А06</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 2847.126 1164.014)" >КГС № 5А01, 5А24</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 2847.126 1215.014)" >КГС № 5А05, 5А11</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 2847.126 1263.014)" >КГС № 5А17, 5А23</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 2847.126 1314.014)" >КГС № 5А07, 5А10</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 2847.126 1364.014)" >КГС № 5А09</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 2847.126 1411.014)" >КГС № 5А12</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 2847.126 1460.014)" >КГС № 5А16</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 2847.126 1510.014)" >КГС № 5А22</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 2847.126 1559.014)" >КГС № 5А21</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 2847.126 1609.014)" >КГС № 5А15</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 2847.126 1659.014)" >КГС № 5А13</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 2847.126 1709.014)" >КГС № 5А25</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 2847.126 1759.014)" >КГС № 5А14</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 2847.126 1810.014)" >КГС № 5А19</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 2847.126 1860.014)" >КГС № 5А20</text>
+		</g>
+	</g>
+	<g class="px38">
+		<g>
+			<text transform="matrix(1 0 0 1 2372.6218 911.0619)" >УКПГ-51</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 1534.5072 911.0765)" >УКПГ-41</text>
+		</g>
+	</g>
+</g>
+</svg>
+</div>
+    
+    <div id="match-quad" class="invisible"></div>
+
+    <canvas id="editor_canvas"></canvas>
+    </body>
+    </html>

@@ -1,0 +1,17 @@
+---
+default:
+  parameters:
+    0+0._scaption: "Text"
+    0+0._sfontsize: "14"
+  width: 68.0
+  height: 88.5
+container-water-pump_caption:
+  parameters:
+    0+0._scaption: "Text"
+    0+0._sfontsize: "14"
+  width: 68.0
+  height: 88.5
+container-water-pump_no-caption:
+  parameters: {}
+  width: 68.0
+  height: 88.5

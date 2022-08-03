@@ -1,0 +1,29 @@
+---
+default:
+  parameters:
+    0+0._scaption: "Text"
+    0._spumporient: "h"
+  width: 70.0
+  height: 101.5
+water-pump_v_no-caption:
+  parameters:
+    0._spumporient: "v"
+  width: 79.0
+  height: 70.0
+water-pump_h_caption:
+  parameters:
+    0+0._scaption: "Text"
+    0._spumporient: "h"
+  width: 70.0
+  height: 101.5
+water-pump_v_caption:
+  parameters:
+    0+0._scaption: "Text"
+    0._spumporient: "v"
+  width: 112.5
+  height: 70.0
+water-pump_h_no-caption:
+  parameters:
+    0._spumporient: "h"
+  width: 70.0
+  height: 79.0

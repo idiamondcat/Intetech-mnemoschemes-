@@ -1,0 +1,6 @@
+---
+default:
+  parameters:
+    0._sfontsize: "25"
+  width: 136.0
+  height: 25.0

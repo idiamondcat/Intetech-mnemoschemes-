@@ -1,0 +1,6 @@
+---
+default:
+  parameters:
+    0._scaption: "E11"
+  width: 300.0
+  height: 139.0

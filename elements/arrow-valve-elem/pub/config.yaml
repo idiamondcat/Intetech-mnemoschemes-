@@ -1,0 +1,15 @@
+---
+default:
+  parameters:
+    0+0._scaption: "Text"
+  width: 70.0
+  height: 60.0
+arrow-valve_no-caption:
+  parameters: {}
+  width: 70.0
+  height: 40.5
+arrow-valve_caption:
+  parameters:
+    0+0._scaption: "Text"
+  width: 70.0
+  height: 60.0

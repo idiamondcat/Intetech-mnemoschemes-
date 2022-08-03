@@ -1,0 +1,20 @@
+---
+default:
+  width: 733.0
+  height: 249.0
+  parameters: {}
+test:
+  width: 849.0
+  height: 703.0
+  parameters:
+    "0._dlowestval": "-10"
+    "0._dhighestval": "50"
+    "0._dlowcrit": "0"
+    "0._dhighcrit": "40"
+    "0._dline": " {1657178329000; 0|1657178449000; 20|1657178809000; 15|1657264877000;\
+      \ 30|1657264937000; 35}"
+    "0._dcurrentval": "55"
+custom-multi-tit-mid:
+  width: 232.0
+  height: 108.0
+  parameters: {}

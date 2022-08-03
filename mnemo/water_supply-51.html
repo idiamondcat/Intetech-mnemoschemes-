@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <!--'Classes of pipes in scheme:
+        
+        -->
+        <meta charset="UTF-8">
+        <title>water_supply-51</title>
+        <link href="/Data/styles/mnemo_styles.css" rel="stylesheet" type="text/css">
+        <link href="/Data/styles/Themes/default.css" rel="stylesheet" type="text/css">
+        <!-- <link href="/Data/styles/Themes/white_theme.css" rel="stylesheet" type="text/css"> -->
+        <link href="/Data/styles/Themes/achim_white_theme.css" rel="stylesheet" type="text/css">
+        
+        <link href="/Data/styles/pipes_styles.css" rel="stylesheet" type="text/css">
+
+        <!-- <script src="/Data/libs/fabric.min.js"></script>
+        <script src="/Data/libs/jquery-3.6.0.min.js"></script>
+        <script src="/Data/libs/underscore.js"></script> -->
+        <script src="/Data/scripts/mnemocore.js"></script>
+        
+        <script src="/Data/scripts/simpleelement.js"></script>
+        <script src="/Data/elements/level-for-barrels-elem/prototype.js"></script>
+<script src="/Data/elements/counter-elem/prototype.js"></script>
+<script src="/Data/elements/water-barrel-elem/prototype.js"></script>
+<script src="/Data/elements/naming-elem/prototype.js"></script>
+<script src="/Data/elements/transition-button-elem/prototype.js"></script>
+<script src="/Data/elements/multi-tit-elem/prototype.js"></script>
+<script src="/Data/elements/pump-n-elem/prototype.js"></script>
+<script src="/Data/elements/tit-elem/prototype.js"></script>
+<script src="/Data/elements/valve-n-elem/prototype.js"></script>
+<script src="/Data/elements/valve-mini-unactive-elem/prototype.js"></script>
+<script src="/Data/elements/water-pump-elem/prototype.js"></script>
+<script src="/Data/elements/caption-elem/prototype.js"></script>
+
+        
+
+    </head>
+    <body class="default" oncontextmenu="return false;">
+    <div id="container_of_templates"></div>
+    <div id="container_of_elements">
+<valve-mini-unactive-elem id="1" style="width:38px; height:37px; transform:matrix(1,0,0,1,355,171.5); transform-origin: left top;" _svalveminiorient="h" ></valve-mini-unactive-elem>
+<valve-mini-unactive-elem id="2" style="width:38px; height:37px; transform:matrix(1,0,0,1,287,300.5); transform-origin: left top;" _svalveminiorient="h" ></valve-mini-unactive-elem>
+<valve-mini-unactive-elem id="3" style="width:38px; height:37px; transform:matrix(1,0,0,1,287,215.5); transform-origin: left top;" _svalveminiorient="h" ></valve-mini-unactive-elem>
+<valve-mini-unactive-elem id="4" style="width:38px; height:37px; transform:matrix(1,0,0,1,355,251.5); transform-origin: left top;" _svalveminiorient="h" ></valve-mini-unactive-elem>
+<valve-mini-unactive-elem id="5" style="width:38px; height:37px; transform:matrix(1,0,0,1,527,171.5); transform-origin: left top;" _svalveminiorient="h" ></valve-mini-unactive-elem>
+<valve-mini-unactive-elem id="6" style="width:38px; height:37px; transform:matrix(1,0,0,1,581,215.5); transform-origin: left top;" _svalveminiorient="h" ></valve-mini-unactive-elem>
+<valve-mini-unactive-elem id="7" style="width:38px; height:37px; transform:matrix(1,0,0,1,441,565.5); transform-origin: left top;" _svalveminiorient="h" ></valve-mini-unactive-elem>
+<valve-mini-unactive-elem id="8" style="width:38px; height:37px; transform:matrix(1,0,0,1,527,251.5); transform-origin: left top;" _svalveminiorient="h" ></valve-mini-unactive-elem>
+<valve-mini-unactive-elem id="9" style="width:38px; height:37px; transform:matrix(1,0,0,1,581,300.5); transform-origin: left top;" _svalveminiorient="h" ></valve-mini-unactive-elem>
+<valve-mini-unactive-elem id="10" style="width:38px; height:37px; transform:matrix(1,0,0,1,441,675.5); transform-origin: left top;" _svalveminiorient="h" ></valve-mini-unactive-elem>
+<valve-mini-unactive-elem id="11" style="width:38px; height:37px; transform:matrix(1,0,0,1,573,658.5); transform-origin: left top;" _svalveminiorient="h" ></valve-mini-unactive-elem>
+<valve-mini-unactive-elem id="12" style="width:37px; height:38px; transform:matrix(1,0,0,1,517.5,522.5); transform-origin: left top;" _svalveminiorient="v" ></valve-mini-unactive-elem>
+<valve-mini-unactive-elem id="13" style="width:37px; height:38px; transform:matrix(1,0,0,1,354.5,522.5); transform-origin: left top;" _svalveminiorient="v" ></valve-mini-unactive-elem>
+<valve-mini-unactive-elem id="14" style="width:38px; height:37px; transform:matrix(1,0,0,1,1229,604.5); transform-origin: left top;" _svalveminiorient="h" ></valve-mini-unactive-elem>
+<valve-mini-unactive-elem id="15" style="width:38px; height:37px; transform:matrix(1,0,0,1,1647,580.5); transform-origin: left top;" _svalveminiorient="h" ></valve-mini-unactive-elem>
+<valve-mini-unactive-elem id="16" style="width:38px; height:37px; transform:matrix(1,0,0,1,1835,580.5); transform-origin: left top;" _svalveminiorient="h" ></valve-mini-unactive-elem>
+<valve-n-elem id="17" style="width:71px; height:89px; transform:matrix(1,0,0,1,1063.2463,707.5); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _svalveorient="h" ></valve-n-elem>
+<valve-n-elem id="18" style="width:71px; height:89px; transform:matrix(1,0,0,1,2247.5,706.5); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _svalveorient="h" ></valve-n-elem>
+<valve-n-elem id="19" style="width:71px; height:89px; transform:matrix(1,0,0,1,1684.5,707.5); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _svalveorient="h" ></valve-n-elem>
+<valve-n-elem id="20" style="width:71px; height:89px; transform:matrix(1,0,0,1,421,432.5); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _svalveorient="h" ></valve-n-elem>
+<valve-n-elem id="21" style="width:71px; height:89px; transform:matrix(1,0,0,1,2247.5,457.5); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _svalveorient="h" ></valve-n-elem>
+<valve-n-elem id="22" style="width:98px; height:71px; transform:matrix(1,0,0,1,334,373); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _svalveorient="v" ></valve-n-elem>
+<valve-n-elem id="23" style="width:98px; height:71px; transform:matrix(1,0,0,1,498,373); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _svalveorient="v" ></valve-n-elem>
+<valve-n-elem id="24" style="width:98px; height:71px; transform:matrix(1,0,0,1,2330.5,387.5); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _svalveorient="v" ></valve-n-elem>
+<water-barrel-elem id="25" style="width:242px; height:153px; transform:matrix(1,0,0,1,19.5,147.5); transform-origin: left top;" _scaption="Text" _sfontsize="16" ></water-barrel-elem>
+<water-barrel-elem id="26" style="width:242px; height:153px; transform:matrix(1,0,0,1,632.5361,147.5); transform-origin: left top;" _scaption="Text" _sfontsize="16" ></water-barrel-elem>
+<water-barrel-elem id="27" style="width:242px; height:153px; transform:matrix(1,0,0,1,2649,147.5); transform-origin: left top;" _scaption="Text" _sfontsize="16" ></water-barrel-elem>
+<water-barrel-elem id="28" style="width:242px; height:153px; transform:matrix(1,0,0,1,2948.5,147.5); transform-origin: left top;" _scaption="Text" _sfontsize="16" ></water-barrel-elem>
+<pump-n-elem id="29" style="width:104px; height:91px; transform:matrix(1,0,0,1,900.5,154.5); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _spumporient="v" ></pump-n-elem>
+<pump-n-elem id="30" style="width:104px; height:91px; transform:matrix(1,0,0,1,1106,154.5); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _spumporient="v" ></pump-n-elem>
+<pump-n-elem id="31" style="width:104px; height:91px; transform:matrix(1,0,0,1,1309,154.5); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _spumporient="v" ></pump-n-elem>
+<pump-n-elem id="32" style="width:104px; height:91px; transform:matrix(1,0,0,1,1511,154.5); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _spumporient="v" ></pump-n-elem>
+<pump-n-elem id="33" style="width:104px; height:91px; transform:matrix(1,0,0,1,1716,154.5); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _spumporient="v" ></pump-n-elem>
+<pump-n-elem id="34" style="width:104px; height:91px; transform:matrix(1,0,0,1,1917,154.5); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _spumporient="v" ></pump-n-elem>
+<pump-n-elem id="35" style="width:104px; height:91px; transform:matrix(1,0,0,1,2119,154.5); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _spumporient="v" ></pump-n-elem>
+<pump-n-elem id="36" style="width:104px; height:91px; transform:matrix(1,0,0,1,2730,309.5); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _spumporient="v" ></pump-n-elem>
+<pump-n-elem id="37" style="width:104px; height:91px; transform:matrix(1,0,0,1,2965,309.5); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _spumporient="v" ></pump-n-elem>
+<water-pump-elem id="38" style="width:70px; height:97px; transform:matrix(1,0,0,1,1169.5,829.5); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _spumporient="h" ></water-pump-elem>
+<water-pump-elem id="39" style="width:70px; height:97px; transform:matrix(1,0,0,1,1777,829.5); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _spumporient="h" ></water-pump-elem>
+<water-pump-elem id="40" style="width:70px; height:97px; transform:matrix(1,0,0,1,2363,829.5); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _spumporient="h" ></water-pump-elem>
+<transition-button-elem id="41" style="width:119px; height:34px; transform:matrix(1,0,0,1,3296.5,64); transform-origin: left top;" _sarrowdirection="1" _scaption="Text" ></transition-button-elem>
+<transition-button-elem id="42" style="width:119px; height:34px; transform:matrix(1,0,0,1,3296.5,541); transform-origin: left top;" _sarrowdirection="0" _scaption="Text" ></transition-button-elem>
+<transition-button-elem id="43" style="width:119px; height:34px; transform:matrix(1,0,0,1,3296.5,431); transform-origin: left top;" _sarrowdirection="0" _scaption="Text" ></transition-button-elem>
+<transition-button-elem id="44" style="width:119px; height:34px; transform:matrix(1,0,0,1,3296.5,489); transform-origin: left top;" _sarrowdirection="0" _scaption="Text" ></transition-button-elem>
+<multi-tit-elem id="45" style="width:114px; height:32px; transform:matrix(1,0,0,1,974,251); transform-origin: left top;" _stitcount="1" ></multi-tit-elem>
+<multi-tit-elem id="46" style="width:114px; height:32px; transform:matrix(1,0,0,1,1185,251); transform-origin: left top;" _stitcount="1" ></multi-tit-elem>
+<multi-tit-elem id="47" style="width:114px; height:32px; transform:matrix(1,0,0,1,1384,251); transform-origin: left top;" _stitcount="1" ></multi-tit-elem>
+<multi-tit-elem id="48" style="width:114px; height:32px; transform:matrix(1,0,0,1,1586,252); transform-origin: left top;" _stitcount="1" ></multi-tit-elem>
+<multi-tit-elem id="49" style="width:114px; height:32px; transform:matrix(1,0,0,1,1790,251); transform-origin: left top;" _stitcount="1" ></multi-tit-elem>
+<multi-tit-elem id="50" style="width:114px; height:32px; transform:matrix(1,0,0,1,1989,251); transform-origin: left top;" _stitcount="1" ></multi-tit-elem>
+<multi-tit-elem id="51" style="width:114px; height:32px; transform:matrix(1,0,0,1,2192,251); transform-origin: left top;" _stitcount="1" ></multi-tit-elem>
+<multi-tit-elem id="52" style="width:114px; height:32px; transform:matrix(1,0,0,1,2401,251); transform-origin: left top;" _stitcount="1" ></multi-tit-elem>
+<multi-tit-elem id="53" style="width:114px; height:32px; transform:matrix(1,0,0,1,1384,531.5); transform-origin: left top;" _stitcount="1" ></multi-tit-elem>
+<multi-tit-elem id="54" style="width:114px; height:32px; transform:matrix(1,0,0,1,917,776); transform-origin: left top;" _stitcount="1" ></multi-tit-elem>
+<multi-tit-elem id="55" style="width:114px; height:32px; transform:matrix(1,0,0,1,1209,776); transform-origin: left top;" _stitcount="1" ></multi-tit-elem>
+<multi-tit-elem id="57" style="width:114px; height:32px; transform:matrix(1,0,0,1,1148.5,933); transform-origin: left top;" _stitcount="1" ></multi-tit-elem>
+<multi-tit-elem id="58" style="width:114px; height:32px; transform:matrix(1,0,0,1,1534,776); transform-origin: left top;" _stitcount="1" ></multi-tit-elem>
+<multi-tit-elem id="59" style="width:114px; height:32px; transform:matrix(1,0,0,1,1818,776); transform-origin: left top;" _stitcount="1" ></multi-tit-elem>
+<multi-tit-elem id="60" style="width:114px; height:32px; transform:matrix(1,0,0,1,1760.396,933); transform-origin: left top;" _stitcount="1" ></multi-tit-elem>
+<multi-tit-elem id="61" style="width:114px; height:32px; transform:matrix(1,0,0,1,2112,776); transform-origin: left top;" _stitcount="1" ></multi-tit-elem>
+<multi-tit-elem id="62" style="width:114px; height:32px; transform:matrix(1,0,0,1,2405,776); transform-origin: left top;" _stitcount="1" ></multi-tit-elem>
+<multi-tit-elem id="63" style="width:114px; height:32px; transform:matrix(1,0,0,1,2343,933); transform-origin: left top;" _stitcount="1" ></multi-tit-elem>
+<multi-tit-elem id="64" style="width:114px; height:32px; transform:matrix(1,0,0,1,3154,469); transform-origin: left top;" _stitcount="1" ></multi-tit-elem>
+<multi-tit-elem id="65" style="width:114px; height:32px; transform:matrix(1,0,0,1,3040.5,403.5); transform-origin: left top;" _stitcount="1" ></multi-tit-elem>
+<multi-tit-elem id="66" style="width:114px; height:32px; transform:matrix(1,0,0,1,3151,105); transform-origin: left top;" _stitcount="1" ></multi-tit-elem>
+<multi-tit-elem id="67" style="width:114px; height:32px; transform:matrix(1,0,0,1,2806.5,403.5); transform-origin: left top;" _stitcount="1" ></multi-tit-elem>
+<counter-elem id="68" style="width:51px; height:33px; transform:matrix(1,0,0,1,1415.5,489.5); transform-origin: left top;" ></counter-elem>
+<counter-elem id="69" style="width:51px; height:33px; transform:matrix(1,0,0,1,1565.5,735.5); transform-origin: left top;" ></counter-elem>
+<counter-elem id="70" style="width:51px; height:33px; transform:matrix(1,0,0,1,942,735.5); transform-origin: left top;" ></counter-elem>
+<counter-elem id="71" style="width:51px; height:33px; transform:matrix(1,0,0,1,2141,736.5); transform-origin: left top;" ></counter-elem>
+<counter-elem id="72" style="width:51px; height:33px; transform:matrix(1,0,0,1,3185.5,430.5); transform-origin: left top;" ></counter-elem>
+<counter-elem id="73" style="width:51px; height:33px; transform:matrix(1,0,0,1,3182.5,64.5); transform-origin: left top;" ></counter-elem>
+<counter-elem id="74" style="width:51px; height:33px; transform:matrix(0,-1,1,0,2359.5,292.5); transform-origin: left top;" ></counter-elem>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0) -->
+<svg class="simple_element" width="3438" height="1016" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 3438 1016" style="enable-background:new 0 0 3438 1016;" xml:space="preserve">
+
+<g class="tables">
+	<g class="t1">
+		<rect x="1139" y="817"  width="136" height="155"/>
+	</g>
+	<g class="t2">
+		<rect x="1164" y="824"  width="78" height="103"/>
+	</g>
+	<g class="t3">
+		<rect x="1748" y="817"  width="136" height="155"/>
+	</g>
+	<g class="t4">
+		<rect x="1773" y="824"  width="78" height="103"/>
+	</g>
+	<g class="t5">
+		<rect x="2332" y="817"  width="136" height="155"/>
+	</g>
+	<g class="t6">
+		<rect x="2357" y="824"  width="78" height="103"/>
+	</g>
+	<g class="Слой_93">
+		<rect x="2552" y="71"  width="110" height="85"/>
+	</g>
+	<g class="Слой_73">
+		<path  d="M923,660h1578c11.9,0,21,9.1,21,21v303c0,11.9-19.1,22-21,22H923c-21.9,0-34-10.1-34-22V681
+			C889,669.1,911.1,660,923,660z"/>
+	</g>
+	<g class="Слой_74">
+		<path  d="M3397,648H39c-16.8,0-29-14.2-29-31V40c0-16.8,12.2-30,29-30h3358c16.8,0,31,13.2,31,30l0.3,577
+			C3428.3,633.8,3413.8,648,3397,648z"/>
+	</g>
+	<g class="Слой_75">
+		<path  d="M2494,574H923c-15.6,0-34-12.4-34-28V69c0-15.6,18.4-28,34-28h1571c15.6,0,28,12.4,28,28v477
+			C2522,561.6,2509.6,574,2494,574z"/>
+	</g>
+	<g class="Слой_76">
+		<path  d="M3254,574h-691c-15.2,0-28-12.8-28-28V69c0-15.2,12.8-28,28-28h691c15.2,0,28,12.8,28,28v477
+			C3282,561.2,3269.2,574,3254,574z"/>
+	</g>
+</g>
+<g class="lines">
+	<g class="pipes">
+		<g class="gas">
+			<line  x1="253" y1="198" x2="640" y2="198"/>
+			<line  x1="250" y1="242" x2="640" y2="242"/>
+			<line  x1="235" y1="279" x2="645" y2="279"/>
+			<polyline  points="230,295 230,327 660,327 660,293 			"/>
+			<path  d="M651.5,314.3"/>
+			<line  x1="380" y1="479" x2="544" y2="479"/>
+			<line  x1="379" y1="591" x2="542" y2="591"/>
+			<line  x1="1126" y1="125" x2="1126" y2="163"/>
+			<line  x1="920" y1="125" x2="920" y2="163"/>
+			<line  x1="1329" y1="125" x2="1329" y2="165"/>
+			<line  x1="1531" y1="125" x2="1531" y2="162"/>
+			<line  x1="1735" y1="125" x2="1735" y2="162"/>
+			<line  x1="1935" y1="125" x2="1935" y2="162"/>
+			<polyline  points="953,234 953,305 1159,305 			"/>
+			<line  x1="2139" y1="120" x2="2139" y2="163"/>
+			<polyline  points="1362,235 1362,507 3372,507 			"/>
+			<line  x1="2171" y1="234" x2="2171" y2="508"/>
+			<polyline  points="1564,233 1564,305 1365,305 			"/>
+			<line  x1="1769" y1="234" x2="1769" y2="507"/>
+			<line  x1="1970" y1="234" x2="1970" y2="507"/>
+			<polyline  points="2608,607 1563,607 1563,506 			"/>
+			<polyline  points="1769,607 1769,558 3329,558 			"/>
+			<polyline  points="1970,608 1970,632 545,632 			"/>
+			<path  d="M1159.8,235.1"/>
+			<polyline  points="1159,234 1159,507 544,507 			"/>
+			<polyline  points="2931,83 2931,222 2990,222 			"/>
+			<polyline  points="3348,82 2909,82 2909,222 2874,222 			"/>
+			<line  x1="2751" y1="290" x2="2751" y2="319"/>
+			<line  x1="2985" y1="292.5" x2="2985" y2="321.5"/>
+			<polyline  points="2784,391 2784,448 3319,448 			"/>
+			<line  x1="3019" y1="390" x2="3019" y2="447"/>
+			<polyline  points="543,328 543,620 543,685 918,685 2113,685 2113,752 2383,752 			"/>
+			<polyline  points="2112,702 379,702 379,629 			"/>
+			<line  x1="2662" y1="82" x2="2909" y2="82"/>
+			<line  x1="2382.5" y1="838" x2="2382.5" y2="751"/>
+			<polyline  points="1535,702 1535,752 1797,752 1797,839 			"/>
+			<polyline  points="913,702 913,752 1189,752 1189,836 			"/>
+			<line  x1="379" y1="327" x2="379" y2="638"/>
+		</g>
+	</g>
+	<g class="arc">
+		<g class="gas">
+			<path  d="M426,244v-41c-3.3,0-6-1.5-6-5c0-3.5,2.7-5,6-5v-12"/>
+			<path  d="M465,225v-22c-3.3,0-6-1.5-6-5c0-3.5,2.7-5,6-5v-12V97h1674v26"/>
+			<path  d="M465,282v-35c-3.3,0-6-1.5-6-5c0-3.5,2.7-5,6-5v-15"/>
+			<polyline  points="426,187 426,73 2376,73 2376,508 			"/>
+			<polyline  points="2140,122 505,122 505,199 			"/>
+			<path  d="M2607,607v-44c-3.3,0-6-1.5-6-5s2.7-5,6-5v-28"/>
+			<path  d="M2936.8,104.7"/>
+			<path  d="M2607,531v-19c-3.3,0-6-1.5-6-5s2.7-5,6-5v-35"/>
+			<line  x1="2607" y1="488" x2="2607" y2="156"/>
+		</g>
+	</g>
+	<g class="arrows">
+		<g class="gas">
+			<polyline  points="432,157 426,164 420,157 			"/>
+			<polyline  points="1165,394 1159,401 1153,394 			"/>
+			<polyline  points="1368,394 1362,401 1356,394 			"/>
+			<polyline  points="1569,550 1563,557 1557,550 			"/>
+			<polyline  points="459,164 465,157 471,164 			"/>
+			<polyline  points="373,665 379,658 385,665 			"/>
+			<polyline  points="499,164 505,157 511,164 			"/>
+			<polyline  points="2370,164 2376,157 2382,164 			"/>
+			<polyline  points="1214.5,116.5 1221.5,122.5 1214.5,128.5 			"/>
+			<polyline  points="1214.5,91.5 1221.5,97.5 1214.5,103.5 			"/>
+			<polyline  points="1221.5,78.5 1214.5,72.5 1221.5,66.5 			"/>
+			<polyline  points="740.5,512.5 733.5,506.5 740.5,500.5 			"/>
+			<polyline  points="733.5,626.5 740.5,632.5 733.5,638.5 			"/>
+			<polyline  points="2079.5,551.5 2086.5,557.5 2079.5,563.5 			"/>
+		</g>
+	</g>
+	<g class="points">
+		<g class="gas">
+			<circle  cx="505" cy="198" r="4.5"/>
+			<circle  cx="920" cy="122" r="4.5"/>
+			<circle  cx="1126" cy="122" r="4.5"/>
+			<circle  cx="1159" cy="305" r="4.5"/>
+			<circle  cx="1362" cy="304" r="4.5"/>
+			<circle  cx="1970" cy="507" r="4.5"/>
+			<circle  cx="1970" cy="607" r="4.5"/>
+			<circle  cx="1769" cy="607" r="4.5"/>
+			<circle  cx="2930" cy="82" r="4.5"/>
+			<circle  cx="2909" cy="82" r="4.5"/>
+			<circle  cx="3019" cy="448" r="4.5"/>
+			<circle  cx="2171" cy="507" r="4.5"/>
+			<circle  cx="2376" cy="507" r="4.5"/>
+			<circle  cx="1769" cy="507" r="4.5"/>
+			<circle  cx="1563" cy="507" r="4.5"/>
+			<circle  cx="1329" cy="122" r="4.5"/>
+			<circle  cx="1531" cy="122" r="4.5"/>
+			<circle  cx="1735" cy="122" r="4.5"/>
+			<circle  cx="1935" cy="122" r="4.5"/>
+			<circle  cx="2139" cy="122" r="4.5"/>
+			<circle  cx="465" cy="280" r="4.5"/>
+			<circle  cx="543" cy="327" r="4.5"/>
+			<circle  cx="543" cy="479" r="4.5"/>
+			<circle  cx="543" cy="632" r="4.5"/>
+			<circle  cx="543" cy="591" r="4.5"/>
+			<circle  cx="1535" cy="702" r="4.5"/>
+			<circle  cx="2113" cy="702" r="4.5"/>
+			<circle  cx="379" cy="592" r="4.5"/>
+			<circle  cx="913" cy="702" r="4.5"/>
+			<circle  cx="543" cy="507" r="4.5"/>
+			<circle  cx="379" cy="479" r="4.5"/>
+			<circle  cx="379" cy="327" r="4.5"/>
+			<circle  cx="426" cy="242" r="4.5"/>
+		</g>
+	</g>
+</g>
+<g class="text">
+	<g class="px20">
+		<g>
+			<text transform="matrix(1 0 0 1 2577.6904 95.3149)"><tspan x="0" y="0" >Поз.81 </tspan><tspan x="-7.3" y="17" >Станция </tspan><tspan x="-18.7" y="34" >подготовки</tspan><tspan x="7.2" y="51" >воды</tspan></text>
+		</g>
+		<text transform="matrix(1 0 0 1 2894.4216 65.3695)" >Поз 82</text>
+		<text transform="matrix(1 0 0 1 1678.432 63.9532)" >Поз 99</text>
+		<g>
+			<text transform="matrix(1 0 0 1 2302.7385 683.3217)" >ВЗС</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 1672.839 30.4768)" >ГКП - 51</text>
+		</g>
+	</g>
+	<g class="px17">
+		<text transform="matrix(1 0 0 1 1174.7366 989.3989)" >Арт. скв.3</text>
+		<text transform="matrix(1 0 0 1 1783.4933 990.0276)" >Арт. скв.2</text>
+		<text transform="matrix(1 0 0 1 2367.51 990.7554)" >Арт. скв.1</text>
+	</g>
+</g>
+</svg>
+</div>
+    
+    <div id="match-quad" class="invisible"></div>
+
+    <canvas id="editor_canvas"></canvas>
+    </body>
+    </html>

@@ -1,0 +1,14 @@
+---
+default:
+  parameters: {}
+  width: 28.0
+  height: 34.0
+arrow-pic_no-caption:
+  parameters: {}
+  width: 28.0
+  height: 34.0
+arrow-pic_caption:
+  parameters:
+    0._scaption: "Txt"
+  width: 28.0
+  height: 61.0

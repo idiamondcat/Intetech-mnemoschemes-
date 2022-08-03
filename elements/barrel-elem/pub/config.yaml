@@ -1,0 +1,10 @@
+---
+default:
+  parameters:
+    0._scaption: "gdrgfg"
+  width: 299.0
+  height: 128.0
+csdd:
+  width: 431.0
+  height: 203.0
+  parameters: {}

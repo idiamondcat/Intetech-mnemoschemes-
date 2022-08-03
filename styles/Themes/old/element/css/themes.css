@@ -1,0 +1,4003 @@
+body.default {
+  /*
+  UNDERLAYERS
+  */
+  /*
+  Absorber_lines
+  */
+  /*
+  Degasator_30d11_lines
+  */
+  /*
+  Divider_25_lines
+  */
+  /*
+  Divider_30r11_lines
+  */
+  /*
+  Divider_30r21_lines
+  */
+  /*
+  Emkost_09e1_lines
+  */
+  /*
+  $Emkost_12e1_12e2_12e3_12e4_lines
+  */
+  /*
+  Emkost_25e2_lines
+  */
+  /*
+  Emkost_30e1_lines
+  */
+  /*
+  Emkost_30e2_lines
+  */
+  /*
+  Emkost_30e3_lines
+  */
+  /*
+  Emkost_30e4_30e5_lines
+  */
+  /*
+  Emkost_49e4_49e9_lines
+  */
+  /*
+  Emkost_49e5_49e6_49e7_lines
+  */
+  /*
+  Fh1_lines
+  */
+  /*
+  Fh2_lines
+  */
+  /*
+  Gis_lines
+  */
+  /*
+  Kc_1_lines
+  */
+  /*
+  Kgs_4skv_lines
+  */
+  /*
+  Kgs_tur_lines
+  */
+  /*
+  Kgs_3skv_lines
+  */
+  /*
+  Nasos_30n8_lines
+  */
+  /*
+  Nasosnaya_reagentov_lines
+  */
+  /*
+  Nm_lines
+  */
+  /*
+  Nm_ppum_lines
+  */
+  /*
+  Separator_11s1_lines
+  */
+  /*
+  Separators_11s1_lines
+  */
+  /*
+  Skv_174_lines
+  */
+  /*
+  Skv_184_lines
+  */
+  /*
+  Skv_1902_lines
+  */
+  /*
+  To_11t1_lines
+  */
+  /*
+  To_30t11_lines
+  */
+  /*
+  Udvms_lines
+  */
+  /*
+  Uog_lines
+  */
+  /*
+  Uptpg_lines
+  */
+  /*
+  Uptpg_zu_lines
+  */
+  /*
+  Urt_sptg_lines
+  */
+  /*
+  Waterpull_south_lines
+  */
+  /*
+  Watersupply_south_lines
+  */
+  /*
+  BARRELS
+  */
+  /*
+  Absorbers
+  */
+  /*
+  Absorber_big
+  */
+  /*
+  Absorber_medium
+  */
+  /*
+  Separators
+  */
+  /*
+  Separators_big
+  */
+  /*
+  Separators_medium
+  */
+  /*
+  Barrel
+  */
+  /*
+  Degasator
+  */
+  /*
+  Heat_exchanger
+  */
+  /*
+  Pumpbarrel
+  */
+  /*
+  SVG
+  */
+  /*
+  Brm
+  */
+  /*
+  Crane
+  */
+  /*
+  Divider_unique
+  */
+  /*
+  Dsp
+  */
+  /*
+  Filter
+  */
+  /*
+  Filter_big
+  */
+  /*
+  Gpa
+  */
+  /*
+  Heater
+  */
+  /*
+  Meter + (Degasator)
+  */
+  /*
+  Pg
+  */
+  /*
+  Pump
+  */
+  /*
+  Quarry_mini
+  */
+  /*
+  Torch
+  */
+  /*
+  Transition_button + (Transition_button_mini)
+  */
+  /*
+  mini
+  */
+  /*
+  Valve + (Valve_switch) + (Valve_switch_bit)
+  */
+  /*
+  mini_unactive
+  */
+  /*
+  valve_switch_bit
+  */
+  /*
+  Ventil_sys
+  */
+  /*
+  Wastemeter
+  */
+  /*
+  NON_SVG
+  */
+  /*
+  Bg_for_quarry_graph
+  */
+  /*
+  Level
+  */
+  /*
+  Level_for_barrels
+  */
+  /*
+  Naming
+  */
+  /*
+  Naming_col_inversed
+  */
+  /*
+  Naming_with_bg
+  */
+  /*
+  Num_value + (Tag_naming)
+  */
+  /*
+  Hatch
+  */
+  /*
+  Num
+  */
+  /*
+  Lines
+  */
+  /*
+  Pointer_line
+  */
+  /*
+  Range_universal_line + (Range_vert_line)
+  */
+  /*
+  Switcher_naming
+  */
+  /*
+  Tit + (Tit_tags) + (Tit_formulated) + (Tit_dyn_sum) + (Tit_alt)
+  */
+  /*
+  Name-container
+  */
+  /*
+  Tit_col_inversed
+  */
+  /*
+  Name-container
+  */
+  /*
+  Tit_alt_on_barrel
+  */
+  /*
+  Name-container
+  */
+  /*
+  SERVING
+  */
+  /*
+  UNDERLAYERS
+  */
+  /*
+  Absorber_lines
+  */
+  /*
+  Degasator_30d11_lines
+  */
+  /*
+  Divider_25_lines
+  */
+  /*
+  Divider_30r11_lines
+  */
+  /*
+  Divider_30r21_lines
+  */
+  /*
+  Emkost_09e1_lines
+  */
+  /*
+  $Emkost_12e1_12e2_12e3_12e4_lines
+  */
+  /*
+  Emkost_25e2_lines
+  */
+  /*
+  Emkost_30e1_lines
+  */
+  /*
+  Emkost_30e2_lines
+  */
+  /*
+  Emkost_30e3_lines
+  */
+  /*
+  Emkost_30e4_30e5_lines
+  */
+  /*
+  Emkost_49e4_49e9_lines
+  */
+  /*
+  Emkost_49e5_49e6_49e7_lines
+  */
+  /*
+  Fh1_lines
+  */
+  /*
+  Fh2_lines
+  */
+  /*
+  Gis_lines
+  */
+  /*
+  Kc_1_lines
+  */
+  /*
+  Kgs_4skv_lines
+  */
+  /*
+  Kgs_tur_lines
+  */
+  /*
+  Kgs_3skv_lines
+  */
+  /*
+  Nasos_30n8_lines
+  */
+  /*
+  Nasosnaya_reagentov_lines
+  */
+  /*
+  Nm_lines
+  */
+  /*
+  Nm_ppum_lines
+  */
+  /*
+  Separator_11s1_lines
+  */
+  /*
+  Separators_11s1_lines
+  */
+  /*
+  Skv_174_lines
+  */
+  /*
+  Skv_184_lines
+  */
+  /*
+  Skv_1902_lines
+  */
+  /*
+  To_11t1_lines
+  */
+  /*
+  To_30t11_lines
+  */
+  /*
+  Udvms_lines
+  */
+  /*
+  Uog_lines
+  */
+  /*
+  Uptpg_lines
+  */
+  /*
+  Uptpg_zu_lines
+  */
+  /*
+  Urt_sptg_lines
+  */
+  /*
+  Waterpull_south_lines
+  */
+  /*
+  Watersupply_south_lines
+  */
+  /*
+  BARRELS
+  */
+  /*
+  Absorbers
+  */
+  /*
+  Absorber_big
+  */
+  /*
+  Absorber_medium
+  */
+  /*
+  Separators
+  */
+  /*
+  Separators_big
+  */
+  /*
+  Separators_medium
+  */
+  /*
+  Barrel
+  */
+  /*
+  Degasator
+  */
+  /*
+  Heat_exchanger
+  */
+  /*
+  Pumpbarrel
+  */
+  /*
+  SVG
+  */
+  /*
+  Brm
+  */
+  /*
+  Crane
+  */
+  /*
+  Divider_unique
+  */
+  /*
+  Dsp
+  */
+  /*
+  Filter
+  */
+  /*
+  Filter_big
+  */
+  /*
+  Gpa
+  */
+  /*
+  Heater
+  */
+  /*
+  Meter + (Degasator)
+  */
+  /*
+  Pg
+  */
+  /*
+  Pump
+  */
+  /*
+  Quarry_mini
+  */
+  /*
+  Torch
+  */
+  /*
+  Transition_button + (Transition_button_mini)
+  */
+  /*
+  mini
+  */
+  /*
+  Valve + (Valve_switch) + (Valve_switch_bit)
+  */
+  /*
+  mini_unactive
+  */
+  /*
+  valve_switch_bit
+  */
+  /*
+  Ventil_sys
+  */
+  /*
+  Wastemeter
+  */
+  /*
+  NON_SVG
+  */
+  /*
+  Bg_for_quarry_graph
+  */
+  /*
+  Level
+  */
+  /*
+  Level_for_barrels
+  */
+  /*
+  Naming
+  */
+  /*
+  Naming_col_inversed
+  */
+  /*
+  Naming_with_bg
+  */
+  /*
+  Num_value + (Tag_naming)
+  */
+  /*
+  Hatch
+  */
+  /*
+  Num
+  */
+  /*
+  Lines
+  */
+  /*
+  Pointer_line
+  */
+  /*
+  Range_universal_line + (Range_vert_line)
+  */
+  /*
+  Switcher_naming
+  */
+  /*
+  Tit + (Tit_tags) + (Tit_formulated) + (Tit_dyn_sum) + (Tit_alt)
+  */
+  /*
+  Name-container
+  */
+  /*
+  Tit_col_inversed
+  */
+  /*
+  Name-container
+  */
+  /*
+  Tit_alt_on_barrel
+  */
+  /*
+  Name-container
+  */
+  /*
+  SERVING
+  */
+  /*
+  ------------
+  ==========================
+  ------------
+  */
+  /*
+  UNDERLAYERS
+  */
+  /*
+  BARRELS
+  */
+  /*
+  Absorbers
+  */
+  /*
+  Separators
+  */
+  /*
+  ---
+  */
+  /*
+  SVG
+  */
+  /*
+  NON_SVG
+  */
+  /*
+  end
+  */
+  background-color: #ebebeb; }
+  body.default .absorber_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.default .absorber_lines .lines .pipes .ntag {
+    fill: #444b9d; }
+  body.default .absorber_lines .lines .pipes .drain {
+    fill: #aaabb5; }
+  body.default .absorber_lines .lines .pipes .rtag {
+    fill: #8b7e52; }
+  body.default .absorber_lines .lines .points .oreols {
+    fill: white; }
+  body.default .absorber_lines .lines .points .gas .fills {
+    fill: #ffbc00; }
+  body.default .absorber_lines .lines .points .ntag .fills {
+    fill: #444b9d; }
+  body.default .absorber_lines .lines .points .drain .fills {
+    fill: #aaabb5; }
+  body.default .absorber_lines .lines .points .rtag .fills {
+    fill: #8b7e52; }
+  body.default .absorber_lines .tables .t1,
+  body.default .absorber_lines .tables .t2 {
+    fill: #646464; }
+  body.default .degasator_30d11_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.default .degasator_30d11_lines .lines .pipes .drain {
+    fill: #aaabb5; }
+  body.default .degasator_30d11_lines .lines .pipes .glycol {
+    fill: #9e520d; }
+  body.default .degasator_30d11_lines .lines .pipes .n-glycol {
+    fill: #490505; }
+  body.default .degasator_30d11_lines .lines .points .oreols {
+    fill: white; }
+  body.default .degasator_30d11_lines .lines .points .gas .fills {
+    fill: #ffbc00; }
+  body.default .degasator_30d11_lines .lines .points .drain .fills {
+    fill: #aaabb5; }
+  body.default .degasator_30d11_lines .lines .points .glycol .fills {
+    fill: #9e520d; }
+  body.default .degasator_30d11_lines .lines .points .n-glycol .fills {
+    fill: #490505; }
+  body.default .divider_25_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.default .divider_25_lines .lines .pipes .vms {
+    fill: #3f4aa1; }
+  body.default .divider_25_lines .lines .pipes .water {
+    fill: #122168; }
+  body.default .divider_25_lines .lines .pipes .drain {
+    fill: #aaabb5; }
+  body.default .divider_25_lines .lines .points .oreols {
+    fill: white; }
+  body.default .divider_25_lines .lines .points .gas .fills {
+    fill: #ffbc00; }
+  body.default .divider_25_lines .lines .points .vms .fills {
+    fill: #3f4aa1; }
+  body.default .divider_25_lines .lines .points .water .fills {
+    fill: #122168; }
+  body.default .divider_25_lines .lines .points .drain .fills {
+    fill: #aaabb5; }
+  body.default .divider_25_lines .tables .t1 {
+    fill: #646464; }
+  body.default .divider_30r11_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.default .divider_30r11_lines .lines .pipes .k {
+    fill: #6b6a64; }
+  body.default .divider_30r11_lines .lines .pipes .drain {
+    fill: #aaabb5; }
+  body.default .divider_30r11_lines .lines .pipes .n-glycol {
+    fill: #490505; }
+  body.default .divider_30r11_lines .lines .points .oreols {
+    fill: white; }
+  body.default .divider_30r11_lines .lines .points .gas .fills {
+    fill: #ffbc00; }
+  body.default .divider_30r11_lines .lines .points .k .fills {
+    fill: #6b6a64; }
+  body.default .divider_30r11_lines .lines .points .drain .fills {
+    fill: #aaabb5; }
+  body.default .divider_30r11_lines .lines .points .n-glycol .fills {
+    fill: #490505; }
+  body.default .divider_30r11_lines .tables .t1 {
+    fill: #646464; }
+  body.default .divider_30r11_lines .tables .t2 {
+    fill: #646464; }
+  body.default .divider_30r11_lines .tables .t3 {
+    fill: #646464; }
+  body.default .divider_30r21_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.default .divider_30r21_lines .lines .pipes .water {
+    fill: #122168; }
+  body.default .divider_30r21_lines .lines .pipes .condencat {
+    fill: #6b6a64; }
+  body.default .divider_30r21_lines .lines .points .oreols {
+    fill: white; }
+  body.default .divider_30r21_lines .lines .points .water .fills {
+    fill: #122168; }
+  body.default .divider_30r21_lines .lines .points .condencat .fills {
+    fill: #6b6a64; }
+  body.default .divider_30r21_lines .tables .t1 {
+    fill: #646464; }
+  body.default .emkost_09e1_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.default .emkost_09e1_lines .lines .pipes .drain {
+    fill: #aaabb5; }
+  body.default .emkost_09e1_lines .lines .pipes .water {
+    fill: #122168; }
+  body.default .emkost_09e1_lines .lines .points .oreols {
+    fill: white; }
+  body.default .emkost_09e1_lines .lines .points .gas .fills {
+    fill: #ffbc00; }
+  body.default .emkost_09e1_lines .lines .points .drain .fills {
+    fill: #aaabb5; }
+  body.default .emkost_09e1_lines .lines .points .water .fills {
+    fill: #122168; }
+  body.default .emkost_09e1_lines .lines .arrows .gas {
+    fill: #ffbc00; }
+  body.default .emkost_09e1_lines .lines .arrows .drain {
+    fill: #aaabb5; }
+  body.default .emkost_09e1_lines .lines .arrows .water {
+    fill: #122168; }
+  body.default .emkost_12e1_12e2_12e3_12e4_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.default .emkost_12e1_12e2_12e3_12e4_lines .lines .pipes .drain {
+    fill: #aaabb5; }
+  body.default .emkost_12e1_12e2_12e3_12e4_lines .lines .pipes .vms {
+    fill: #3f4aa1; }
+  body.default .emkost_12e1_12e2_12e3_12e4_lines .lines .pipes .ntag {
+    fill: #490505; }
+  body.default .emkost_12e1_12e2_12e3_12e4_lines .lines .pipes .heatnet {
+    fill: black; }
+  body.default .emkost_12e1_12e2_12e3_12e4_lines .lines .points .oreols {
+    fill: white; }
+  body.default .emkost_12e1_12e2_12e3_12e4_lines .lines .points .gas .fills {
+    fill: #ffbc00; }
+  body.default .emkost_12e1_12e2_12e3_12e4_lines .lines .points .drain .fills {
+    fill: #aaabb5; }
+  body.default .emkost_12e1_12e2_12e3_12e4_lines .lines .arrows .heatnet {
+    fill: black; }
+  body.default .emkost_25e2_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.default .emkost_25e2_lines .lines .pipes .vms {
+    fill: #3f4aa1; }
+  body.default .emkost_25e2_lines .lines .pipes .water {
+    fill: #122168; }
+  body.default .emkost_25e2_lines .lines .pipes .drain {
+    fill: #aaabb5; }
+  body.default .emkost_25e2_lines .lines .points .oreols {
+    fill: white; }
+  body.default .emkost_25e2_lines .lines .points .gas .fills {
+    fill: #ffbc00; }
+  body.default .emkost_25e2_lines .lines .points .vms .fills {
+    fill: #3f4aa1; }
+  body.default .emkost_25e2_lines .lines .points .water .fills {
+    fill: #122168; }
+  body.default .emkost_25e2_lines .lines .points .drain .fills {
+    fill: #aaabb5; }
+  body.default .emkost_25e2_lines .tables .t1,
+  body.default .emkost_25e2_lines .tables .t2 {
+    fill: #646464; }
+  body.default .emkost_30e1_lines .lines .pipes .glycol {
+    fill: #9e520d; }
+  body.default .emkost_30e1_lines .lines .pipes .drain {
+    fill: #aaabb5; }
+  body.default .emkost_30e1_lines .lines .points .oreols {
+    fill: white; }
+  body.default .emkost_30e1_lines .lines .points .glycol .fills {
+    fill: #9e520d; }
+  body.default .emkost_30e1_lines .lines .points .drain .fills {
+    fill: #aaabb5; }
+  body.default .emkost_30e2_lines .lines .pipes .glycol {
+    fill: #9e520d; }
+  body.default .emkost_30e2_lines .lines .pipes .drain {
+    fill: #aaabb5; }
+  body.default .emkost_30e2_lines .lines .points .oreols {
+    fill: white; }
+  body.default .emkost_30e2_lines .lines .points .glycol .fills {
+    fill: #9e520d; }
+  body.default .emkost_30e2_lines .lines .points .drain .fills {
+    fill: #aaabb5; }
+  body.default .emkost_30e3_lines .lines .pipes .glycol {
+    fill: #9e520d; }
+  body.default .emkost_30e3_lines .lines .pipes .drain {
+    fill: #aaabb5; }
+  body.default .emkost_30e3_lines .lines .pipes .jo {
+    fill: #122168; }
+  body.default .emkost_30e3_lines .lines .points .oreols {
+    fill: white; }
+  body.default .emkost_30e3_lines .lines .points .glycol .fills {
+    fill: #9e520d; }
+  body.default .emkost_30e3_lines .lines .points .drain .fills {
+    fill: #aaabb5; }
+  body.default .emkost_30e3_lines .lines .points .jo .fills {
+    fill: #122168; }
+  body.default .emkost_30e4_30e5_lines .lines .pipes .glycol {
+    fill: #9e520d; }
+  body.default .emkost_30e4_30e5_lines .lines .pipes .drain {
+    fill: #aaabb5; }
+  body.default .emkost_30e4_30e5_lines .lines .points .oreols {
+    fill: white; }
+  body.default .emkost_30e4_30e5_lines .lines .points .glycol .fills {
+    fill: #9e520d; }
+  body.default .emkost_30e4_30e5_lines .lines .points .drain .fills {
+    fill: #aaabb5; }
+  body.default .emkost_49e4_49e9_lines .lines .pipes .drain {
+    fill: #aaabb5; }
+  body.default .emkost_49e4_49e9_lines .lines .pipes .dt {
+    fill: #424200; }
+  body.default .emkost_49e4_49e9_lines .lines .points .oreols {
+    fill: white; }
+  body.default .emkost_49e4_49e9_lines .lines .points .drain .fills {
+    fill: #aaabb5; }
+  body.default .emkost_49e4_49e9_lines .lines .points .dt .fills {
+    fill: #424200; }
+  body.default .emkost_49e4_49e9_lines .tables .t1,
+  body.default .emkost_49e4_49e9_lines .tables .t2,
+  body.default .emkost_49e4_49e9_lines .tables .t3 {
+    fill: #646464; }
+  body.default .emkost_49e5_49e6_49e7_lines .lines .pipes .tag {
+    fill: #490505; }
+  body.default .emkost_49e5_49e6_49e7_lines .lines .pipes .drain {
+    fill: #aaabb5; }
+  body.default .emkost_49e5_49e6_49e7_lines .lines .pipes .water {
+    fill: #122168; }
+  body.default .emkost_49e5_49e6_49e7_lines .lines .points .oreols {
+    fill: white; }
+  body.default .emkost_49e5_49e6_49e7_lines .lines .points .tag .fills {
+    fill: #490505; }
+  body.default .emkost_49e5_49e6_49e7_lines .lines .points .drain .fills {
+    fill: #aaabb5; }
+  body.default .emkost_49e5_49e6_49e7_lines .lines .arrows .tag {
+    fill: #490505; }
+  body.default .emkost_49e5_49e6_49e7_lines .lines .arrows .drain {
+    fill: #aaabb5; }
+  body.default .emkost_49e5_49e6_49e7_lines .lines .arrows .water {
+    fill: #122168; }
+  body.default .fh1_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.default .fh1_lines .lines .pipes .drain {
+    fill: #aaabb5; }
+  body.default .fh1_lines .lines .points .oreols {
+    fill: white; }
+  body.default .fh1_lines .lines .points .gas .fills {
+    fill: #ffbc00; }
+  body.default .fh1_lines .lines .points .drain .fills {
+    fill: #aaabb5; }
+  body.default .fh1_lines .lines .arrows .gas {
+    fill: #ffbc00; }
+  body.default .fh1_lines .lines .arrows .drain {
+    fill: #aaabb5; }
+  body.default .fh2_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.default .fh2_lines .lines .pipes .drain {
+    fill: #aaabb5; }
+  body.default .fh2_lines .lines .points .oreols {
+    fill: white; }
+  body.default .fh2_lines .lines .points .gas .fills {
+    fill: #ffbc00; }
+  body.default .fh2_lines .lines .points .drain .fills {
+    fill: #aaabb5; }
+  body.default .fh2_lines .lines .arrows .gas {
+    fill: #ffbc00; }
+  body.default .fh2_lines .lines .arrows .drain {
+    fill: #aaabb5; }
+  body.default .fh2_lines .tables .t1,
+  body.default .fh2_lines .tables .t2,
+  body.default .fh2_lines .tables .t3 {
+    fill: #646464; }
+  body.default .gis_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.default .gis_lines .lines .points .oreols {
+    fill: white; }
+  body.default .gis_lines .lines .points .gas .fills {
+    fill: #ffbc00; }
+  body.default .gis_lines .lines .arrows .gas {
+    fill: #ffbc00; }
+  body.default .gis_lines .tables .t1 {
+    fill: #646464; }
+  body.default .kgs_4skv_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.default .kgs_4skv_lines .lines .pipes .vms {
+    fill: #3f4aa1; }
+  body.default .kgs_4skv_lines .lines .points .oreols {
+    fill: white; }
+  body.default .kgs_4skv_lines .lines .points .gas .fills {
+    fill: #ffbc00; }
+  body.default .kgs_4skv_lines .lines .points .vms .fills {
+    fill: #3f4aa1; }
+  body.default .kgs_4skv_lines .lines .arrows .gas {
+    fill: #ffbc00; }
+  body.default .kgs_4skv_lines .lines .arrows .vms {
+    fill: #3f4aa1; }
+  body.default .kgs_4skv_lines .tables .t1 {
+    fill: #646464; }
+  body.default .kgs_tur_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.default .kgs_tur_lines .lines .pipes .vms {
+    fill: #3f4aa1; }
+  body.default .kgs_tur_lines .lines .points .oreols {
+    fill: white; }
+  body.default .kgs_tur_lines .lines .points .gas .fills {
+    fill: #ffbc00; }
+  body.default .kgs_tur_lines .lines .points .vms .fills {
+    fill: #3f4aa1; }
+  body.default .kgs_tur_lines .lines .arrows .gas {
+    fill: #ffbc00; }
+  body.default .kgs_tur_lines .lines .arrows .vms {
+    fill: #3f4aa1; }
+  body.default .kgs_tur_lines .tables .t1 {
+    fill: #646464; }
+  body.default .kgs_3skv_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.default .kgs_3skv_lines .lines .pipes .vms {
+    fill: #3f4aa1; }
+  body.default .kgs_3skv_lines .lines .points .oreols {
+    fill: white; }
+  body.default .kgs_3skv_lines .lines .points .gas .fills {
+    fill: #ffbc00; }
+  body.default .kgs_3skv_lines .lines .points .vms .fills {
+    fill: #3f4aa1; }
+  body.default .kgs_3skv_lines .lines .arrows .gas {
+    fill: #ffbc00; }
+  body.default .kgs_3skv_lines .lines .arrows .vms {
+    fill: #3f4aa1; }
+  body.default .kgs_3skv_lines .tables .t1 {
+    fill: #646464; }
+  body.default .kc_1_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.default .kc_1_lines .lines .points .oreols {
+    fill: white; }
+  body.default .kc_1_lines .lines .points .gas .fills {
+    fill: #ffbc00; }
+  body.default .kc_1_lines .lines .arrows .gas {
+    fill: #ffbc00; }
+  body.default .kc_1_lines .tables .t1 {
+    fill: #646464; }
+  body.default .nasos_30n8_lines .lines .pipes .jo {
+    fill: #122168; }
+  body.default .nasos_30n8_lines .lines .pipes .glycol {
+    fill: #9e520d; }
+  body.default .nasos_30n8_lines .lines .points .oreols {
+    fill: white; }
+  body.default .nasos_30n8_lines .lines .points .jo .fills {
+    fill: #122168; }
+  body.default .nasos_30n8_lines .lines .points .glycol .fills {
+    fill: #9e520d; }
+  body.default .nasos_30n8_lines .lines .arrows .jo {
+    fill: #122168; }
+  body.default .nasos_30n8_lines .lines .arrows .glycol {
+    fill: #9e520d; }
+  body.default .nasosnaya_reagentov_lines .lines .pipes .tag {
+    fill: #9e520d; }
+  body.default .nasosnaya_reagentov_lines .lines .pipes .k {
+    fill: #6b6a64; }
+  body.default .nasosnaya_reagentov_lines .lines .pipes .dt {
+    fill: #5b590b; }
+  body.default .nasosnaya_reagentov_lines .lines .points .oreols {
+    fill: white; }
+  body.default .nasosnaya_reagentov_lines .lines .points .tag .fills {
+    fill: #9e520d; }
+  body.default .nasosnaya_reagentov_lines .lines .points .k .fills {
+    fill: #6b6a64; }
+  body.default .nasosnaya_reagentov_lines .lines .points .dt .fills {
+    fill: #5b590b; }
+  body.default .nm_lines .lines .pipes .metanol {
+    fill: #444b9d; }
+  body.default .nm_lines .lines .pipes .colorer {
+    fill: #6d459b; }
+  body.default .nm_lines .lines .points .oreols {
+    fill: white; }
+  body.default .nm_lines .lines .points .metanol .fills {
+    fill: #444b9d; }
+  body.default .nm_lines .lines .points .colorer .fills {
+    fill: #6d459b; }
+  body.default .nm_ppum_lines .lines .pipes .metanol {
+    fill: #444b9d; }
+  body.default .nm_ppum_lines .lines .pipes .drain {
+    fill: #aaabb5; }
+  body.default .nm_ppum_lines .lines .points .oreols {
+    fill: white; }
+  body.default .nm_ppum_lines .lines .points .metanol .fills {
+    fill: #444b9d; }
+  body.default .nm_ppum_lines .lines .points .drain .fills {
+    fill: #aaabb5; }
+  body.default .nm_ppum_lines .lines .arrows .metanol {
+    fill: #444b9d; }
+  body.default .nm_ppum_lines .lines .arrows .drain {
+    fill: #aaabb5; }
+  body.default .nm_ppum_lines .tables .t1 {
+    fill: #646464; }
+  body.default .nm_ppum_lines .tables .t2 {
+    fill: #646464; }
+  body.default .to_11t1_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.default .to_11t1_lines .lines .points .oreols {
+    fill: white; }
+  body.default .to_11t1_lines .lines .points .gas .fills {
+    fill: #ffbc00; }
+  body.default .to_11t1_lines .lines .arrows .gas {
+    fill: #ffbc00; }
+  body.default .separator_11s1_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.default .separator_11s1_lines .lines .pipes .vms {
+    fill: #3f4aa1; }
+  body.default .separator_11s1_lines .lines .pipes .pj {
+    fill: #aaabb5; }
+  body.default .separator_11s1_lines .lines .pipes .drain {
+    fill: #aaabb5; }
+  body.default .separator_11s1_lines .lines .points .oreols {
+    fill: white; }
+  body.default .separator_11s1_lines .lines .points .gas {
+    fill: #ffbc00; }
+  body.default .separator_11s1_lines .lines .points .vms {
+    fill: #3f4aa1; }
+  body.default .separator_11s1_lines .lines .points .pj {
+    fill: #aaabb5; }
+  body.default .separators_11s1_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.default .separators_11s1_lines .lines .pipes .vms {
+    fill: #3f4aa1; }
+  body.default .separators_11s1_lines .lines .pipes .pj {
+    fill: #aaabb5; }
+  body.default .separators_11s1_lines .lines .points .oreols {
+    fill: white; }
+  body.default .separators_11s1_lines .lines .points .gas {
+    fill: #ffbc00; }
+  body.default .separators_11s1_lines .lines .points .vms {
+    fill: #3f4aa1; }
+  body.default .separators_11s1_lines .lines .points .pj {
+    fill: #aaabb5; }
+  body.default .separators_11s1_lines .lines .arrows .gas {
+    fill: #ffbc00; }
+  body.default .separators_11s1_lines .lines .arrows .vms {
+    fill: #3f4aa1; }
+  body.default .separators_11s1_lines .lines .arrows .pj {
+    fill: #aaabb5; }
+  body.default .skv_174_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.default .skv_174_lines .lines .pipes .vms {
+    fill: #3f4aa1; }
+  body.default .skv_174_lines .lines .points .oreols {
+    fill: white; }
+  body.default .skv_174_lines .lines .points .gas .fills {
+    fill: #ffbc00; }
+  body.default .skv_174_lines .lines .points .vms .fills {
+    fill: #3f4aa1; }
+  body.default .skv_174_lines .lines .arrows .gas {
+    fill: #ffbc00; }
+  body.default .skv_174_lines .lines .arrows .vms {
+    fill: #3f4aa1; }
+  body.default .skv_184_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.default .skv_184_lines .lines .pipes .vms {
+    fill: #3f4aa1; }
+  body.default .skv_184_lines .lines .arrows .gas {
+    fill: #ffbc00; }
+  body.default .skv_184_lines .lines .arrows .vms {
+    fill: #3f4aa1; }
+  body.default .skv_1902_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.default .skv_1902_lines .lines .pipes .vms {
+    fill: #3f4aa1; }
+  body.default .skv_1902_lines .lines .arrows .gas {
+    fill: #ffbc00; }
+  body.default .skv_1902_lines .lines .arrows .vms {
+    fill: #3f4aa1; }
+  body.default .to_30t11_lines .lines .pipes .rglycol {
+    fill: #9e520d; }
+  body.default .to_30t11_lines .lines .pipes .nglycol {
+    fill: #490505; }
+  body.default .to_30t11_lines .lines .points .oreols {
+    fill: white; }
+  body.default .to_30t11_lines .lines .points .rglycol .fills {
+    fill: #9e520d; }
+  body.default .to_30t11_lines .lines .points .nglycol .fills {
+    fill: #490505; }
+  body.default .to_30t11_lines .tables .t1,
+  body.default .to_30t11_lines .tables .t2 {
+    fill: #646464; }
+  body.default .udvms_lines .lines .arrows .k2 {
+    fill: #6b6a64; }
+  body.default .udvms_lines .lines .pipes .k {
+    fill: #6b6a64; }
+  body.default .udvms_lines .lines .pipes .k2 {
+    fill: #6b6a64; }
+  body.default .udvms_lines .lines .pipes .d {
+    fill: #aaabb5; }
+  body.default .udvms_lines .lines .points .oreols {
+    fill: white; }
+  body.default .udvms_lines .lines .points .k .fills {
+    fill: #6b6a64; }
+  body.default .udvms_lines .lines .points .k2 .fills {
+    fill: #6b6a64; }
+  body.default .uog_lines .lines .arrows .rtag {
+    fill: #8b7e52; }
+  body.default .uog_lines .lines .arrows .ntag {
+    fill: #8b7e52; }
+  body.default .uog_lines .lines .arrows .dirtygas {
+    fill: #ffbc00; }
+  body.default .uog_lines .lines .arrows .puregas {
+    fill: #ffbc00; }
+  body.default .uog_lines .lines .arrows .vms {
+    fill: #3f4aa1; }
+  body.default .uog_lines .lines .arrows .gray {
+    fill: #aaabb5; }
+  body.default .uog_lines .lines .pipes .rtag {
+    fill: #8b7e52; }
+  body.default .uog_lines .lines .pipes .ntag {
+    fill: #8b7e52; }
+  body.default .uog_lines .lines .pipes .dirtygas {
+    fill: #ffbc00; }
+  body.default .uog_lines .lines .pipes .puregas {
+    fill: #ffbc00; }
+  body.default .uog_lines .lines .pipes .vms {
+    fill: #3f4aa1; }
+  body.default .uog_lines .lines .pipes .gray {
+    fill: #aaabb5; }
+  body.default .uog_lines .lines .points .oreols {
+    fill: white; }
+  body.default .uog_lines .lines .points .rtag .fills {
+    fill: #8b7e52; }
+  body.default .uog_lines .lines .points .ntag .fills {
+    fill: #8b7e52; }
+  body.default .uog_lines .lines .points .dirtygas .fills {
+    fill: #ffbc00; }
+  body.default .uog_lines .lines .points .puregas .fills {
+    fill: #ffbc00; }
+  body.default .uog_lines .lines .points .vms .fills {
+    fill: #3f4aa1; }
+  body.default .uog_lines .lines .points .gray .fills {
+    fill: #aaabb5; }
+  body.default .uog_lines .tables .t1,
+  body.default .uog_lines .tables .t2 {
+    fill: #646464; }
+  body.default .uptpg_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.default .uptpg_lines .lines .pipes .water {
+    fill: #122168; }
+  body.default .uptpg_lines .lines .points .oreols {
+    fill: white; }
+  body.default .uptpg_lines .lines .points .gas .fills {
+    fill: #ffbc00; }
+  body.default .uptpg_lines .lines .points .water .fills {
+    fill: #122168; }
+  body.default .uptpg_lines .lines .arrows .gas {
+    fill: #ffbc00; }
+  body.default .uptpg_lines .lines .arrows .water {
+    fill: #122168; }
+  body.default .uptpg_lines .tables .t1 {
+    fill: #646464; }
+  body.default .uptpg_zu_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.default .uptpg_zu_lines .lines .points .oreols {
+    fill: white; }
+  body.default .uptpg_zu_lines .lines .points .gas .fills {
+    fill: #ffbc00; }
+  body.default .uptpg_zu_lines .tables .t1,
+  body.default .uptpg_zu_lines .tables .t2 {
+    fill: #646464; }
+  body.default .urt_sptg_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.default .urt_sptg_lines .lines .pipes .dizel {
+    fill: #424200; }
+  body.default .urt_sptg_lines .lines .pipes .azot {
+    fill: #400080; }
+  body.default .urt_sptg_lines .lines .points .oreols {
+    fill: white; }
+  body.default .urt_sptg_lines .lines .points .gas .fills {
+    fill: #ffbc00; }
+  body.default .waterpull_south_lines .lines .pipes .k1 {
+    fill: #122168; }
+  body.default .waterpull_south_lines .lines .pipes .k2 {
+    fill: #122168; }
+  body.default .watersupply_south_lines .lines .pipes .vz {
+    fill: #122168; }
+  body.default .absorber_big .elem .absorber-barrel {
+    fill: #27272c; }
+  body.default .absorber_big .elem .zones .dirtygas {
+    fill: #86836d; }
+  body.default .absorber_big .elem .zones .absorbent {
+    fill: #718584; }
+  body.default .absorber_big .elem .zones .puregas {
+    fill: #bec6bd; }
+  body.default .absorber_big .elem .zones .firstnet,
+  body.default .absorber_big .elem .zones .secondnet,
+  body.default .absorber_big .elem .zones .thirdnet {
+    fill: white;
+    opacity: 0.6; }
+  body.default .absorber_medium .elem .absorber-barrel {
+    fill: #27272c; }
+  body.default .absorber_medium .elem .zones .dirtygas {
+    fill: #86836d; }
+  body.default .absorber_medium .elem .zones .absorbent {
+    fill: #718584; }
+  body.default .absorber_medium .elem .zones .firstnet,
+  body.default .absorber_medium .elem .zones .secondnet {
+    fill: white;
+    opacity: 0.6; }
+  body.default .separator_big .elem .barrel {
+    fill: #27272c; }
+  body.default .separator_big .elem .zones .areas .a1 {
+    fill: #718584; }
+  body.default .separator_big .elem .zones .areas .a2 {
+    fill: #969664; }
+  body.default .separator_big .elem .zones .areas .a3 {
+    fill: #c8c8c8; }
+  body.default .separator_big .elem .nets .n1,
+  body.default .separator_big .elem .nets .n2,
+  body.default .separator_big .elem .nets .n3 {
+    fill: white;
+    opacity: 0.6; }
+  body.default .separator_small .elem .barrel {
+    fill: #27272c; }
+  body.default .separator_small .elem .zones .colorcell {
+    fill: #969664; }
+  body.default .separator_small .elem .zones .dividers .d1 {
+    fill: white;
+    opacity: 0.6; }
+  body.default .separator_small .elem .zones .dividers .d2 {
+    fill: white;
+    opacity: 0.6; }
+  body.default .barrel .elem-holder .leftcap-round,
+  body.default .barrel .elem-holder .rightcap-round,
+  body.default .barrel .elem-holder .leftcap-square,
+  body.default .barrel .elem-holder .rightcap-square {
+    fill: #27272c; }
+  body.default .barrel .elem-holder .central-part {
+    background-color: #27272c; }
+  body.default .degasator .elem-holder .leftcap-round,
+  body.default .degasator .elem-holder .rightcap-round,
+  body.default .degasator .elem-holder .leftcap-square,
+  body.default .degasator .elem-holder .rightcap-square {
+    fill: #27272c; }
+  body.default .degasator .elem-holder .central-part {
+    background-color: #27272c; }
+  body.default .degasator .deco-cont .meter .stroke {
+    fill: white;
+    opacity: 0.6; }
+  body.default .degasator .deco-cont .meter .fill {
+    fill: #27272c; }
+  body.default .degasator .deco-cont .meter .glass {
+    fill: #d4d8d9; }
+  body.default .degasator .deco-cont .meter .color path:nth-child(1) {
+    fill: #c64606; }
+  body.default .degasator .deco-cont .meter .color path:nth-child(2) {
+    fill: #dea030; }
+  body.default .degasator .deco-cont .meter .color path:nth-child(3) {
+    fill: #fede45; }
+  body.default .degasator .deco-cont .meter .arrow {
+    fill: #353a3d; }
+  body.default .heat_exchanger .elem-holder .leftcap-round,
+  body.default .heat_exchanger .elem-holder .rightcap-round,
+  body.default .heat_exchanger .elem-holder .leftcap-square,
+  body.default .heat_exchanger .elem-holder .rightcap-square {
+    fill: #27272c; }
+  body.default .heat_exchanger .elem-holder .central-part {
+    background-color: #27272c; }
+    body.default .heat_exchanger .elem-holder .central-part .left_side {
+      fill: white;
+      opacity: 0.2; }
+    body.default .heat_exchanger .elem-holder .central-part .right_side {
+      fill: white;
+      opacity: 0.2; }
+    body.default .heat_exchanger .elem-holder .central-part .rails-container .rail {
+      background-color: white;
+      opacity: 0.2; }
+  body.default .pumpbarrel .elem-holder .leftcap-round,
+  body.default .pumpbarrel .elem-holder .rightcap-round,
+  body.default .pumpbarrel .elem-holder .leftcap-square,
+  body.default .pumpbarrel .elem-holder .rightcap-square {
+    fill: #27272c; }
+  body.default .pumpbarrel .elem-holder .central-part {
+    background-color: #27272c; }
+  body.default .pumpbarrel .deco-cont .pump .stroke {
+    fill: white;
+    opacity: 0.6; }
+  body.default .pumpbarrel .deco-cont .pump .unactive-color {
+    fill: #27272c; }
+  body.default .pumpbarrel .deco-cont .pump .placeholder {
+    /*
+    Alarm-container
+    */ }
+    body.default .pumpbarrel .deco-cont .pump .placeholder .visible {
+      fill: rgba(80, 80, 80, 0.3); }
+    body.default .pumpbarrel .deco-cont .pump .placeholder .invisible {
+      fill: none; }
+  body.default .brm .elem .color {
+    fill: #4d4d4d; }
+  body.default .crane .elem .color {
+    fill: #4d4d4d; }
+  body.default .divider_unique .elem .color {
+    fill: #27272c; }
+  body.default .dsp .elem .color {
+    fill: #4d4d4d; }
+  body.default .filter .elem .color {
+    fill: #4d4d4d; }
+  body.default .filter_big .elem .color {
+    fill: #4d4d4d; }
+  body.default .gpa .elem .stroke {
+    fill: white; }
+  body.default .gpa .elem .color {
+    fill: #4d4d4d; }
+    body.default .gpa .elem .color .fen .transparent path {
+      opacity: 0.2; }
+  body.default .heater .outgoing-pipes .str {
+    background-color: white;
+    opacity: 0.6; }
+  body.default .heater .outgoing-pipes .col {
+    background-color: #27272c; }
+  body.default .heater .heater-elem .stroke {
+    fill: white;
+    opacity: 0.6; }
+  body.default .heater .heater-elem .color {
+    fill: #27272c; }
+  body.default .meter .elem .shell {
+    fill: #353a3d; }
+    body.default .meter .elem .shell .shadow {
+      fill: .000000;
+      opacity: 0.25; }
+  body.default .meter .elem .glass {
+    fill: #d4d8d9; }
+  body.default .meter .elem .color path:nth-child(1) {
+    fill: #c64606; }
+  body.default .meter .elem .color path:nth-child(2) {
+    fill: #dea030; }
+  body.default .meter .elem .color path:nth-child(3) {
+    fill: #fede45; }
+  body.default .meter .elem .arrow {
+    fill: #353a3d; }
+  body.default .pg .elem .color {
+    fill: #27272c; }
+  body.default .pump .elem .shadow {
+    fill: black; }
+    body.default .pump .elem .shadow .outer {
+      opacity: 0.02; }
+    body.default .pump .elem .shadow .medium {
+      opacity: 0.02; }
+    body.default .pump .elem .shadow .inner {
+      opacity: 0.08; }
+  body.default .pump .elem .stroke {
+    fill: white; }
+  body.default .pump .elem .unactive-color {
+    fill: #1e1e1e; }
+  body.default .pump .elem .color {
+    fill: #4d4d4d; }
+  body.default .pump .placeholder {
+    /*
+    Alarm-container
+    */ }
+    body.default .pump .placeholder .visible {
+      fill: rgba(80, 80, 80, 0.3); }
+    body.default .pump .placeholder .invisible {
+      fill: none; }
+  body.default .quarry_mini .elem .color {
+    fill: #4d4d4d; }
+  body.default .torch .elem .color .torch {
+    fill: #27272c; }
+  body.default .torch .elem .color .flame {
+    fill: #ff3200; }
+  body.default .transition_button {
+    border-bottom-color: rgba(0, 0, 0, 0.15);
+    border-left-color: rgba(0, 0, 0, 0.15); }
+    body.default .transition_button .unactive-part {
+      fill: #dddddd; }
+    body.default .transition_button .color {
+      fill: #b7c170; }
+    body.default .transition_button .main-container .naming-container .naming {
+      color: white;
+      text-shadow: -1px -1px 0px #4e4e51, -1px 0px 0px #4e4e51, -1px 1px 0px #4e4e51, 0px -1px 0px #4e4e51, 0px 1px 0px #4e4e51, 1px -1px 0px #4e4e51, 1px 0px 0px #4e4e51, 1px 1px 0px #4e4e51, 1px 1px 0px #4e4e51; }
+    body.default .transition_button .main-container .arrow-container svg {
+      fill: #4e4e51;
+      stroke: white; }
+  body.default .transition_button_mini .main-container {
+    background-color: #dddddd;
+    box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.2); }
+    body.default .transition_button_mini .main-container .arrow-container svg {
+      fill: #4e4e51;
+      stroke: white; }
+  body.default .valve .elem .shadow,
+  body.default .valve_switch .elem .shadow {
+    fill: black; }
+    body.default .valve .elem .shadow .outer,
+    body.default .valve_switch .elem .shadow .outer {
+      opacity: 0.02; }
+    body.default .valve .elem .shadow .medium,
+    body.default .valve_switch .elem .shadow .medium {
+      opacity: 0.02; }
+    body.default .valve .elem .shadow .inner,
+    body.default .valve_switch .elem .shadow .inner {
+      opacity: 0.08; }
+  body.default .valve .elem .stroke,
+  body.default .valve_switch .elem .stroke {
+    fill: white; }
+  body.default .valve .elem .unactive-color,
+  body.default .valve_switch .elem .unactive-color {
+    fill: #1e1e1e; }
+  body.default .valve .elem .color,
+  body.default .valve_switch .elem .color {
+    fill: #c8c8c8; }
+  body.default .valve .placeholder,
+  body.default .valve_switch .placeholder {
+    /*
+    Alarm-container
+    */ }
+    body.default .valve .placeholder .visible,
+    body.default .valve_switch .placeholder .visible {
+      fill: rgba(80, 80, 80, 0.3); }
+    body.default .valve .placeholder .invisible,
+    body.default .valve_switch .placeholder .invisible {
+      fill: none; }
+  body.default .valve_mini_unactive .elem .stroke {
+    fill: white; }
+  body.default .valve_mini_unactive .elem .color {
+    fill: #c8c8c8; }
+  body.default .valve_mini_unactive .elem .overlay {
+    fill: rgba(255, 255, 255, 0.4); }
+  body.default .valve_switch_bit .elem .shadow {
+    fill: black; }
+    body.default .valve_switch_bit .elem .shadow .outer {
+      opacity: 0.02; }
+    body.default .valve_switch_bit .elem .shadow .medium {
+      opacity: 0.02; }
+    body.default .valve_switch_bit .elem .shadow .inner {
+      opacity: 0.08; }
+  body.default .valve_switch_bit .elem .stroke.default {
+    fill: white; }
+  body.default .valve_switch_bit .elem .stroke.error {
+    fill: #f00000; }
+  body.default .valve_switch_bit .elem .unactive-color {
+    fill: #1e1e1e; }
+  body.default .valve_switch_bit .elem .color {
+    fill: #c8c8c8; }
+  body.default .valve_switch_bit .placeholder {
+    /*
+    Alarm-container
+    */ }
+    body.default .valve_switch_bit .placeholder .visible {
+      fill: rgba(80, 80, 80, 0.3); }
+    body.default .valve_switch_bit .placeholder .invisible {
+      fill: none; }
+  body.default .ventil_sys .unactive .color {
+    fill: #323232; }
+  body.default .ventil_sys .active .color {
+    fill: #ffbc00; }
+  body.default .wastemeter .elem .color {
+    fill: #4d4d4d; }
+  body.default .background_for_quarry_graph .upper-container .top-line {
+    background-color: #323232; }
+  body.default .background_for_quarry_graph .upper-container .bot-line {
+    background-color: #323232; }
+  body.default .background_for_quarry_graph .lower-container .hatched-block {
+    background: repeating-linear-gradient(-30deg, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 2.5px, #c4c4c4 3px, #c4c4c4 4px, rgba(0, 0, 0, 0) 4.5px, rgba(0, 0, 0, 0) 7px); }
+  body.default .level .nums-container .val-block {
+    color: black; }
+  body.default .level .slider-container .linear-container .top-meas-part,
+  body.default .level .slider-container .linear-container .middle-meas-part,
+  body.default .level .slider-container .linear-container .bottom-meas-part {
+    background-color: #2e2e2e; }
+  body.default .level .slider-container .linear-container .top-meas-part .color-block {
+    background-color: #a70000; }
+  body.default .level .slider-container .linear-container .bottom-meas-part .color-block {
+    background-color: #949494; }
+  body.default .level .slider-container .linear-container .inner-container .filled-val {
+    background-color: #ffc600; }
+  body.default .level .slider-container .hor-blocks .top-bar {
+    background-color: #750000; }
+  body.default .level .slider-container .hor-blocks .optim-bar {
+    background-color: #2e2e2e; }
+  body.default .level .slider-container .hor-blocks .bot-bar {
+    background-color: #676767; }
+  body.default .level_for_barrels {
+    /*
+    Alarm-container
+    */ }
+    body.default .level_for_barrels .slider-container .bar-container-bg {
+      background-color: black; }
+      body.default .level_for_barrels .slider-container .bar-container-bg .inner-bar-container {
+        background-color: #111111; }
+    body.default .level_for_barrels .slider-container .marklines-bg-container .markline {
+      background-color: black; }
+    body.default .level_for_barrels .slider-container .marklines-fg-container .markline {
+      background-color: #111111; }
+    body.default .level_for_barrels .slider-container .filling-area .filler {
+      background-color: #ffc600; }
+    body.default .level_for_barrels .nums-container .val-block {
+      color: white; }
+    body.default .level_for_barrels .alarm-container .visible {
+      background-color: rgba(180, 180, 180, 0.3); }
+    body.default .level_for_barrels .alarm-container .invisible {
+      background-color: none; }
+  body.default .naming .main-container .info-container-block .somenaming {
+    color: #57575b;
+    text-shadow: -1px -1px 0px rgba(255, 255, 255, 0.4), -1px 0px 0px rgba(255, 255, 255, 0.4), -1px 1px 0px rgba(255, 255, 255, 0.4), 0px -1px 0px rgba(255, 255, 255, 0.4), 0px 1px 0px rgba(255, 255, 255, 0.4), 1px -1px 0px rgba(255, 255, 255, 0.4), 1px 0px 0px rgba(255, 255, 255, 0.4), 1px 1px 0px rgba(255, 255, 255, 0.4); }
+  body.default .naming_col_inversed .main-container .info-container-block .somenaming {
+    color: white; }
+  body.default .naming_with_bg .main-container {
+    background-color: #f4f4f4;
+    border-bottom-color: rgba(0, 0, 0, 0.15);
+    border-left-color: rgba(0, 0, 0, 0.15); }
+    body.default .naming_with_bg .main-container .info-container-block .caption {
+      color: #57575b; }
+    body.default .naming_with_bg .main-container .info-container-block .units {
+      color: #57575b; }
+  body.default .num_value {
+    /*
+    Main-container
+    */ }
+    body.default .num_value .main-container {
+      box-shadow: inset 0 0 10px 0 black;
+      background-color: #141414; }
+      body.default .num_value .main-container .info-container-block .num-vert-container .num-placer {
+        text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.6), -1px 0px 0px rgba(0, 0, 0, 0.6), -1px 1px 0px rgba(0, 0, 0, 0.6), 0px -1px 0px rgba(0, 0, 0, 0.6), 0px 1px 0px rgba(0, 0, 0, 0.6), 1px -1px 0px rgba(0, 0, 0, 0.6), 1px 0px 0px rgba(0, 0, 0, 0.6), 1px 1px 0px rgba(0, 0, 0, 0.6), 1px 1px 0px rgba(0, 0, 0, 0.6); }
+    body.default .num_value .unknown .hatch-container {
+      background: repeating-linear-gradient(-45deg, white 0px, white 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 6px, white 6px, white 7px, rgba(0, 0, 0, 0) 7px, rgba(0, 0, 0, 0) 12px);
+      opacity: 0.3; }
+    body.default .num_value .unknown .info-container-block .num-vert-container .num-placer {
+      color: white; }
+    body.default .num_value .unknown .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: white; }
+    body.default .num_value .unknown .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: white; }
+    body.default .num_value .lower-than-lowest .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.default .num_value .lower-than-lowest .info-container-block .num-vert-container .num-placer {
+      color: red; }
+    body.default .num_value .lower-than-lowest .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: rgba(0, 0, 0, 0); }
+    body.default .num_value .lower-than-lowest .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: red; }
+    body.default .num_value .lower-than-optim .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.default .num_value .lower-than-optim .info-container-block .num-vert-container .num-placer {
+      color: #c8c832; }
+    body.default .num_value .lower-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: rgba(0, 0, 0, 0); }
+    body.default .num_value .lower-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: #c8c832; }
+    body.default .num_value .optimal .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.default .num_value .optimal .info-container-block .num-vert-container .num-placer {
+      color: white; }
+    body.default .num_value .optimal .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: #979797; }
+    body.default .num_value .optimal .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: #979797; }
+    body.default .num_value .higher-than-optim .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.default .num_value .higher-than-optim .info-container-block .num-vert-container .num-placer {
+      color: #c8c832; }
+    body.default .num_value .higher-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: #c8c832; }
+    body.default .num_value .higher-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: rgba(0, 0, 0, 0); }
+    body.default .num_value .higher-than-highest .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.default .num_value .higher-than-highest .info-container-block .num-vert-container .num-placer {
+      color: red; }
+    body.default .num_value .higher-than-highest .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: red; }
+    body.default .num_value .higher-than-highest .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: rgba(0, 0, 0, 0); }
+  body.default .pointer_line .middle-container {
+    /*
+    Triangle
+    */ }
+    body.default .pointer_line .middle-container .line-container {
+      background-color: #313131; }
+    body.default .pointer_line .middle-container .pos {
+      border-top: 6px solid transparent;
+      border-right: 6px solid transparent;
+      border-bottom: 6px solid #313131;
+      border-left: 6px solid transparent; }
+    body.default .pointer_line .middle-container .neg {
+      border-top: 6px solid #313131;
+      border-right: 6px solid transparent;
+      border-bottom: 6px solid transparent;
+      border-left: 6px solid transparent; }
+  body.default .range_universal_line .main-container .edgeline {
+    background-color: #313131; }
+  body.default .range_universal_line .main-container .rangeline {
+    background-color: #313131; }
+  body.default .range_vert_line .main-container .holder-row .line {
+    background-color: #313131; }
+  body.default .range_vert_line .main-container .line-row {
+    background-color: #313131; }
+  body.default .range_vert_line .right .arrows-row .with .triangle:nth-child(1) {
+    border: 4px solid rgba(0, 0, 0, 0);
+    border-top: 4px solid #313131;
+    border-left: 4px solid #313131; }
+  body.default .range_vert_line .right .arrows-row .with .triangle:nth-child(2) {
+    border: 4px solid rgba(0, 0, 0, 0);
+    border-bottom: 4px solid #313131;
+    border-left: 4px solid #313131; }
+  body.default .range_vert_line .left .arrows-row .with .triangle:nth-child(1) {
+    border: 4px solid rgba(0, 0, 0, 0);
+    border-top: 4px solid #313131;
+    border-right: 4px solid #313131; }
+  body.default .range_vert_line .left .arrows-row .with .triangle:nth-child(2) {
+    border: 4px solid rgba(0, 0, 0, 0);
+    border-bottom: 4px solid #313131;
+    border-right: 4px solid #313131; }
+  body.default .switcher_naming.normal.on .main-container {
+    background-color: rgba(0, 150, 0, 0.3); }
+    body.default .switcher_naming.normal.on .main-container .info-container-block .somenaming {
+      color: #323232; }
+  body.default .switcher_naming.normal.off .main-container {
+    background-color: rgba(150, 0, 0, 0.3); }
+    body.default .switcher_naming.normal.off .main-container .info-container-block .somenaming {
+      color: #323232; }
+  body.default .switcher_naming.normal.undefined .main-container {
+    background: repeating-linear-gradient(-45deg, rgba(50, 50, 50, 0.3) 0px, rgba(50, 50, 50, 0.3) 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 6px, rgba(50, 50, 50, 0.3) 6px, rgba(50, 50, 50, 0.3) 7px, rgba(0, 0, 0, 0) 7px, rgba(0, 0, 0, 0) 12px); }
+    body.default .switcher_naming.normal.undefined .main-container .info-container-block .somenaming {
+      color: #323232; }
+  body.default .switcher_naming.inversed.on .main-container {
+    background-color: rgba(150, 0, 0, 0.3); }
+    body.default .switcher_naming.inversed.on .main-container .info-container-block .somenaming {
+      color: #323232; }
+  body.default .switcher_naming.inversed.off .main-container {
+    background-color: rgba(0, 150, 0, 0.3); }
+    body.default .switcher_naming.inversed.off .main-container .info-container-block .somenaming {
+      color: #323232; }
+  body.default .switcher_naming.inversed.undefined .main-container {
+    background: repeating-linear-gradient(-45deg, rgba(50, 50, 50, 0.3) 0px, rgba(50, 50, 50, 0.3) 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 6px, rgba(50, 50, 50, 0.3) 6px, rgba(50, 50, 50, 0.3) 7px, rgba(0, 0, 0, 0) 7px, rgba(0, 0, 0, 0) 12px); }
+    body.default .switcher_naming.inversed.undefined .main-container .info-container-block .somenaming {
+      color: #323232; }
+  body.default .tag_naming {
+    /*
+    Main-container
+    */ }
+    body.default .tag_naming .main-container {
+      background-color: #141414;
+      box-shadow: inset 0 0 10px 0 black; }
+      body.default .tag_naming .main-container .info-container-block .somenaming {
+        color: white;
+        text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.6), -1px 0px 0px rgba(0, 0, 0, 0.6), -1px 1px 0px rgba(0, 0, 0, 0.6), 0px -1px 0px rgba(0, 0, 0, 0.6), 0px 1px 0px rgba(0, 0, 0, 0.6), 1px -1px 0px rgba(0, 0, 0, 0.6), 1px 0px 0px rgba(0, 0, 0, 0.6), 1px 1px 0px rgba(0, 0, 0, 0.6), 1px 1px 0px rgba(0, 0, 0, 0.6); }
+    body.default .tag_naming .reachable .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.default .tag_naming .unreachable .hatch-container {
+      background: repeating-linear-gradient(-45deg, white 0px, white 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 6px, white 6px, white 7px, rgba(0, 0, 0, 0) 7px, rgba(0, 0, 0, 0) 12px);
+      opacity: 0.3; }
+  body.default .tit,
+  body.default .tit_dyn_sum,
+  body.default .tit_tags,
+  body.default .tit_formulated {
+    border-bottom-color: rgba(0, 0, 0, 0.15);
+    border-left-color: rgba(0, 0, 0, 0.15);
+    /*
+    Name-container
+    */
+    /*
+    Val-container
+    */ }
+    body.default .tit .name-container,
+    body.default .tit_dyn_sum .name-container,
+    body.default .tit_tags .name-container,
+    body.default .tit_formulated .name-container {
+      background-color: #f2f3f1; }
+      body.default .tit .name-container .info-container-block .caption-block,
+      body.default .tit .name-container .info-container-block .unit-block,
+      body.default .tit_dyn_sum .name-container .info-container-block .caption-block,
+      body.default .tit_dyn_sum .name-container .info-container-block .unit-block,
+      body.default .tit_tags .name-container .info-container-block .caption-block,
+      body.default .tit_tags .name-container .info-container-block .unit-block,
+      body.default .tit_formulated .name-container .info-container-block .caption-block,
+      body.default .tit_formulated .name-container .info-container-block .unit-block {
+        color: black; }
+    body.default .tit .val-container,
+    body.default .tit_dyn_sum .val-container,
+    body.default .tit_tags .val-container,
+    body.default .tit_formulated .val-container {
+      box-shadow: inset 0 0 10px 0 black;
+      background-color: #141414; }
+      body.default .tit .val-container .info-container-block .num-vert-container .num-placer,
+      body.default .tit_dyn_sum .val-container .info-container-block .num-vert-container .num-placer,
+      body.default .tit_tags .val-container .info-container-block .num-vert-container .num-placer,
+      body.default .tit_formulated .val-container .info-container-block .num-vert-container .num-placer {
+        text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.6), -1px 0px 0px rgba(0, 0, 0, 0.6), -1px 1px 0px rgba(0, 0, 0, 0.6), 0px -1px 0px rgba(0, 0, 0, 0.6), 0px 1px 0px rgba(0, 0, 0, 0.6), 1px -1px 0px rgba(0, 0, 0, 0.6), 1px 0px 0px rgba(0, 0, 0, 0.6), 1px 1px 0px rgba(0, 0, 0, 0.6), 1px 1px 0px rgba(0, 0, 0, 0.6); }
+    body.default .tit .unknown .hatch-container,
+    body.default .tit_dyn_sum .unknown .hatch-container,
+    body.default .tit_tags .unknown .hatch-container,
+    body.default .tit_formulated .unknown .hatch-container {
+      background: repeating-linear-gradient(-45deg, white 0px, white 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 6px, white 6px, white 7px, rgba(0, 0, 0, 0) 7px, rgba(0, 0, 0, 0) 12px);
+      opacity: 0.3; }
+    body.default .tit .unknown .info-container-block .num-vert-container .num-placer,
+    body.default .tit_dyn_sum .unknown .info-container-block .num-vert-container .num-placer,
+    body.default .tit_tags .unknown .info-container-block .num-vert-container .num-placer,
+    body.default .tit_formulated .unknown .info-container-block .num-vert-container .num-placer {
+      color: white; }
+    body.default .tit .unknown .info-container-block .line-vert-container .line-element .square:nth-child(1),
+    body.default .tit_dyn_sum .unknown .info-container-block .line-vert-container .line-element .square:nth-child(1),
+    body.default .tit_tags .unknown .info-container-block .line-vert-container .line-element .square:nth-child(1),
+    body.default .tit_formulated .unknown .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: white; }
+    body.default .tit .unknown .info-container-block .line-vert-container .line-element .square:nth-child(2),
+    body.default .tit_dyn_sum .unknown .info-container-block .line-vert-container .line-element .square:nth-child(2),
+    body.default .tit_tags .unknown .info-container-block .line-vert-container .line-element .square:nth-child(2),
+    body.default .tit_formulated .unknown .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: white; }
+    body.default .tit .lower-than-lowest .hatch-container,
+    body.default .tit_dyn_sum .lower-than-lowest .hatch-container,
+    body.default .tit_tags .lower-than-lowest .hatch-container,
+    body.default .tit_formulated .lower-than-lowest .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.default .tit .lower-than-lowest .info-container-block .num-vert-container .num-placer,
+    body.default .tit_dyn_sum .lower-than-lowest .info-container-block .num-vert-container .num-placer,
+    body.default .tit_tags .lower-than-lowest .info-container-block .num-vert-container .num-placer,
+    body.default .tit_formulated .lower-than-lowest .info-container-block .num-vert-container .num-placer {
+      color: red; }
+    body.default .tit .lower-than-lowest .info-container-block .line-vert-container .line-element .square:nth-child(1),
+    body.default .tit_dyn_sum .lower-than-lowest .info-container-block .line-vert-container .line-element .square:nth-child(1),
+    body.default .tit_tags .lower-than-lowest .info-container-block .line-vert-container .line-element .square:nth-child(1),
+    body.default .tit_formulated .lower-than-lowest .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: rgba(0, 0, 0, 0); }
+    body.default .tit .lower-than-lowest .info-container-block .line-vert-container .line-element .square:nth-child(2),
+    body.default .tit_dyn_sum .lower-than-lowest .info-container-block .line-vert-container .line-element .square:nth-child(2),
+    body.default .tit_tags .lower-than-lowest .info-container-block .line-vert-container .line-element .square:nth-child(2),
+    body.default .tit_formulated .lower-than-lowest .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: red; }
+    body.default .tit .lower-than-optim .hatch-container,
+    body.default .tit_dyn_sum .lower-than-optim .hatch-container,
+    body.default .tit_tags .lower-than-optim .hatch-container,
+    body.default .tit_formulated .lower-than-optim .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.default .tit .lower-than-optim .info-container-block .num-vert-container .num-placer,
+    body.default .tit_dyn_sum .lower-than-optim .info-container-block .num-vert-container .num-placer,
+    body.default .tit_tags .lower-than-optim .info-container-block .num-vert-container .num-placer,
+    body.default .tit_formulated .lower-than-optim .info-container-block .num-vert-container .num-placer {
+      color: #c8c832; }
+    body.default .tit .lower-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(1),
+    body.default .tit_dyn_sum .lower-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(1),
+    body.default .tit_tags .lower-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(1),
+    body.default .tit_formulated .lower-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: rgba(0, 0, 0, 0); }
+    body.default .tit .lower-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(2),
+    body.default .tit_dyn_sum .lower-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(2),
+    body.default .tit_tags .lower-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(2),
+    body.default .tit_formulated .lower-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: #c8c832; }
+    body.default .tit .optimal .hatch-container,
+    body.default .tit_dyn_sum .optimal .hatch-container,
+    body.default .tit_tags .optimal .hatch-container,
+    body.default .tit_formulated .optimal .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.default .tit .optimal .info-container-block .num-vert-container .num-placer,
+    body.default .tit_dyn_sum .optimal .info-container-block .num-vert-container .num-placer,
+    body.default .tit_tags .optimal .info-container-block .num-vert-container .num-placer,
+    body.default .tit_formulated .optimal .info-container-block .num-vert-container .num-placer {
+      color: white; }
+    body.default .tit .optimal .info-container-block .line-vert-container .line-element .square:nth-child(1),
+    body.default .tit_dyn_sum .optimal .info-container-block .line-vert-container .line-element .square:nth-child(1),
+    body.default .tit_tags .optimal .info-container-block .line-vert-container .line-element .square:nth-child(1),
+    body.default .tit_formulated .optimal .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: #979797; }
+    body.default .tit .optimal .info-container-block .line-vert-container .line-element .square:nth-child(2),
+    body.default .tit_dyn_sum .optimal .info-container-block .line-vert-container .line-element .square:nth-child(2),
+    body.default .tit_tags .optimal .info-container-block .line-vert-container .line-element .square:nth-child(2),
+    body.default .tit_formulated .optimal .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: #979797; }
+    body.default .tit .higher-than-optim .hatch-container,
+    body.default .tit_dyn_sum .higher-than-optim .hatch-container,
+    body.default .tit_tags .higher-than-optim .hatch-container,
+    body.default .tit_formulated .higher-than-optim .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.default .tit .higher-than-optim .info-container-block .num-vert-container .num-placer,
+    body.default .tit_dyn_sum .higher-than-optim .info-container-block .num-vert-container .num-placer,
+    body.default .tit_tags .higher-than-optim .info-container-block .num-vert-container .num-placer,
+    body.default .tit_formulated .higher-than-optim .info-container-block .num-vert-container .num-placer {
+      color: #c8c832; }
+    body.default .tit .higher-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(1),
+    body.default .tit_dyn_sum .higher-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(1),
+    body.default .tit_tags .higher-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(1),
+    body.default .tit_formulated .higher-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: #c8c832; }
+    body.default .tit .higher-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(2),
+    body.default .tit_dyn_sum .higher-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(2),
+    body.default .tit_tags .higher-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(2),
+    body.default .tit_formulated .higher-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: rgba(0, 0, 0, 0); }
+    body.default .tit .higher-than-highest .hatch-container,
+    body.default .tit_dyn_sum .higher-than-highest .hatch-container,
+    body.default .tit_tags .higher-than-highest .hatch-container,
+    body.default .tit_formulated .higher-than-highest .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.default .tit .higher-than-highest .info-container-block .num-vert-container .num-placer,
+    body.default .tit_dyn_sum .higher-than-highest .info-container-block .num-vert-container .num-placer,
+    body.default .tit_tags .higher-than-highest .info-container-block .num-vert-container .num-placer,
+    body.default .tit_formulated .higher-than-highest .info-container-block .num-vert-container .num-placer {
+      color: red; }
+    body.default .tit .higher-than-highest .info-container-block .line-vert-container .line-element .square:nth-child(1),
+    body.default .tit_dyn_sum .higher-than-highest .info-container-block .line-vert-container .line-element .square:nth-child(1),
+    body.default .tit_tags .higher-than-highest .info-container-block .line-vert-container .line-element .square:nth-child(1),
+    body.default .tit_formulated .higher-than-highest .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: red; }
+    body.default .tit .higher-than-highest .info-container-block .line-vert-container .line-element .square:nth-child(2),
+    body.default .tit_dyn_sum .higher-than-highest .info-container-block .line-vert-container .line-element .square:nth-child(2),
+    body.default .tit_tags .higher-than-highest .info-container-block .line-vert-container .line-element .square:nth-child(2),
+    body.default .tit_formulated .higher-than-highest .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: rgba(0, 0, 0, 0); }
+  body.default .tit_alt {
+    border-color: rgba(0, 0, 0, 0.15);
+    /*
+    Val-container
+    */ }
+    body.default .tit_alt .name-container {
+      background-color: #f2f3f1;
+      color: black; }
+    body.default .tit_alt .val-container {
+      box-shadow: inset 0 0 10px 0 black;
+      background-color: #141414; }
+      body.default .tit_alt .val-container .info-container-block .num-vert-container .num-placer {
+        text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.6), -1px 0px 0px rgba(0, 0, 0, 0.6), -1px 1px 0px rgba(0, 0, 0, 0.6), 0px -1px 0px rgba(0, 0, 0, 0.6), 0px 1px 0px rgba(0, 0, 0, 0.6), 1px -1px 0px rgba(0, 0, 0, 0.6), 1px 0px 0px rgba(0, 0, 0, 0.6), 1px 1px 0px rgba(0, 0, 0, 0.6), 1px 1px 0px rgba(0, 0, 0, 0.6); }
+    body.default .tit_alt .unknown .hatch-container {
+      background: repeating-linear-gradient(-45deg, white 0px, white 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 6px, white 6px, white 7px, rgba(0, 0, 0, 0) 7px, rgba(0, 0, 0, 0) 12px);
+      opacity: 0.3; }
+    body.default .tit_alt .unknown .info-container-block .num-vert-container .num-placer {
+      color: white; }
+    body.default .tit_alt .unknown .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: white; }
+    body.default .tit_alt .unknown .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: white; }
+    body.default .tit_alt .lower-than-lowest .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.default .tit_alt .lower-than-lowest .info-container-block .num-vert-container .num-placer {
+      color: red; }
+    body.default .tit_alt .lower-than-lowest .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: rgba(0, 0, 0, 0); }
+    body.default .tit_alt .lower-than-lowest .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: red; }
+    body.default .tit_alt .lower-than-optim .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.default .tit_alt .lower-than-optim .info-container-block .num-vert-container .num-placer {
+      color: #c8c832; }
+    body.default .tit_alt .lower-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: rgba(0, 0, 0, 0); }
+    body.default .tit_alt .lower-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: #c8c832; }
+    body.default .tit_alt .optimal .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.default .tit_alt .optimal .info-container-block .num-vert-container .num-placer {
+      color: white; }
+    body.default .tit_alt .optimal .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: #979797; }
+    body.default .tit_alt .optimal .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: #979797; }
+    body.default .tit_alt .higher-than-optim .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.default .tit_alt .higher-than-optim .info-container-block .num-vert-container .num-placer {
+      color: #c8c832; }
+    body.default .tit_alt .higher-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: #c8c832; }
+    body.default .tit_alt .higher-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: rgba(0, 0, 0, 0); }
+    body.default .tit_alt .higher-than-highest .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.default .tit_alt .higher-than-highest .info-container-block .num-vert-container .num-placer {
+      color: red; }
+    body.default .tit_alt .higher-than-highest .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: red; }
+    body.default .tit_alt .higher-than-highest .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: rgba(0, 0, 0, 0); }
+  body.default .tit_alt_on_barrel {
+    border-color: #0a0a0a;
+    /*
+    Val-container
+    */ }
+    body.default .tit_alt_on_barrel .name-container {
+      background-color: #232328;
+      color: white; }
+    body.default .tit_alt_on_barrel .val-container {
+      box-shadow: inset 0 0 10px 0 black;
+      background-color: #141414; }
+      body.default .tit_alt_on_barrel .val-container .info-container-block .num-vert-container .num-placer {
+        text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.6), -1px 0px 0px rgba(0, 0, 0, 0.6), -1px 1px 0px rgba(0, 0, 0, 0.6), 0px -1px 0px rgba(0, 0, 0, 0.6), 0px 1px 0px rgba(0, 0, 0, 0.6), 1px -1px 0px rgba(0, 0, 0, 0.6), 1px 0px 0px rgba(0, 0, 0, 0.6), 1px 1px 0px rgba(0, 0, 0, 0.6), 1px 1px 0px rgba(0, 0, 0, 0.6); }
+    body.default .tit_alt_on_barrel .unknown .hatch-container {
+      background: repeating-linear-gradient(-45deg, white 0px, white 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 6px, white 6px, white 7px, rgba(0, 0, 0, 0) 7px, rgba(0, 0, 0, 0) 12px);
+      opacity: 0.3; }
+    body.default .tit_alt_on_barrel .unknown .info-container-block .num-vert-container .num-placer {
+      color: white; }
+    body.default .tit_alt_on_barrel .unknown .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: white; }
+    body.default .tit_alt_on_barrel .unknown .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: white; }
+    body.default .tit_alt_on_barrel .lower-than-lowest .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.default .tit_alt_on_barrel .lower-than-lowest .info-container-block .num-vert-container .num-placer {
+      color: red; }
+    body.default .tit_alt_on_barrel .lower-than-lowest .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: rgba(0, 0, 0, 0); }
+    body.default .tit_alt_on_barrel .lower-than-lowest .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: red; }
+    body.default .tit_alt_on_barrel .lower-than-optim .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.default .tit_alt_on_barrel .lower-than-optim .info-container-block .num-vert-container .num-placer {
+      color: #c8c832; }
+    body.default .tit_alt_on_barrel .lower-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: rgba(0, 0, 0, 0); }
+    body.default .tit_alt_on_barrel .lower-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: #c8c832; }
+    body.default .tit_alt_on_barrel .optimal .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.default .tit_alt_on_barrel .optimal .info-container-block .num-vert-container .num-placer {
+      color: white; }
+    body.default .tit_alt_on_barrel .optimal .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: #979797; }
+    body.default .tit_alt_on_barrel .optimal .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: #979797; }
+    body.default .tit_alt_on_barrel .higher-than-optim .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.default .tit_alt_on_barrel .higher-than-optim .info-container-block .num-vert-container .num-placer {
+      color: #c8c832; }
+    body.default .tit_alt_on_barrel .higher-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: #c8c832; }
+    body.default .tit_alt_on_barrel .higher-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: rgba(0, 0, 0, 0); }
+    body.default .tit_alt_on_barrel .higher-than-highest .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.default .tit_alt_on_barrel .higher-than-highest .info-container-block .num-vert-container .num-placer {
+      color: red; }
+    body.default .tit_alt_on_barrel .higher-than-highest .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: red; }
+    body.default .tit_alt_on_barrel .higher-than-highest .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: rgba(0, 0, 0, 0); }
+  body.default .tit_col_inversed {
+    border-color: rgba(0, 0, 0, 0.7);
+    /*
+    Name-container
+    */
+    /*
+    Val-container
+    */ }
+    body.default .tit_col_inversed .name-container {
+      background-color: #27272c; }
+      body.default .tit_col_inversed .name-container .info-container-block .caption-block,
+      body.default .tit_col_inversed .name-container .info-container-block .unit-block {
+        color: white; }
+    body.default .tit_col_inversed .val-container {
+      box-shadow: inset 0 0 10px 0 black;
+      background-color: #141414; }
+      body.default .tit_col_inversed .val-container .info-container-block .num-vert-container .num-placer {
+        text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.6), -1px 0px 0px rgba(0, 0, 0, 0.6), -1px 1px 0px rgba(0, 0, 0, 0.6), 0px -1px 0px rgba(0, 0, 0, 0.6), 0px 1px 0px rgba(0, 0, 0, 0.6), 1px -1px 0px rgba(0, 0, 0, 0.6), 1px 0px 0px rgba(0, 0, 0, 0.6), 1px 1px 0px rgba(0, 0, 0, 0.6), 1px 1px 0px rgba(0, 0, 0, 0.6); }
+    body.default .tit_col_inversed .unknown .hatch-container {
+      background: repeating-linear-gradient(-45deg, white 0px, white 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 6px, white 6px, white 7px, rgba(0, 0, 0, 0) 7px, rgba(0, 0, 0, 0) 12px);
+      opacity: 0.3; }
+    body.default .tit_col_inversed .unknown .info-container-block .num-vert-container .num-placer {
+      color: white; }
+    body.default .tit_col_inversed .unknown .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: white; }
+    body.default .tit_col_inversed .unknown .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: white; }
+    body.default .tit_col_inversed .lower-than-lowest .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.default .tit_col_inversed .lower-than-lowest .info-container-block .num-vert-container .num-placer {
+      color: red; }
+    body.default .tit_col_inversed .lower-than-lowest .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: rgba(0, 0, 0, 0); }
+    body.default .tit_col_inversed .lower-than-lowest .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: red; }
+    body.default .tit_col_inversed .lower-than-optim .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.default .tit_col_inversed .lower-than-optim .info-container-block .num-vert-container .num-placer {
+      color: #c8c832; }
+    body.default .tit_col_inversed .lower-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: rgba(0, 0, 0, 0); }
+    body.default .tit_col_inversed .lower-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: #c8c832; }
+    body.default .tit_col_inversed .optimal .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.default .tit_col_inversed .optimal .info-container-block .num-vert-container .num-placer {
+      color: white; }
+    body.default .tit_col_inversed .optimal .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: #979797; }
+    body.default .tit_col_inversed .optimal .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: #979797; }
+    body.default .tit_col_inversed .higher-than-optim .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.default .tit_col_inversed .higher-than-optim .info-container-block .num-vert-container .num-placer {
+      color: #c8c832; }
+    body.default .tit_col_inversed .higher-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: #c8c832; }
+    body.default .tit_col_inversed .higher-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: rgba(0, 0, 0, 0); }
+    body.default .tit_col_inversed .higher-than-highest .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.default .tit_col_inversed .higher-than-highest .info-container-block .num-vert-container .num-placer {
+      color: red; }
+    body.default .tit_col_inversed .higher-than-highest .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: red; }
+    body.default .tit_col_inversed .higher-than-highest .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: rgba(0, 0, 0, 0); }
+
+body.dark {
+  /*
+  UNDERLAYERS
+  */
+  /*
+  Absorber_lines
+  */
+  /*
+  Degasator_30d11_lines
+  */
+  /*
+  Divider_25_lines
+  */
+  /*
+  Divider_30r11_lines
+  */
+  /*
+  Divider_30r21_lines
+  */
+  /*
+  Emkost_09e1_lines
+  */
+  /*
+  $Emkost_12e1_12e2_12e3_12e4_lines
+  */
+  /*
+  Emkost_25e2_lines
+  */
+  /*
+  Emkost_30e1_lines
+  */
+  /*
+  Emkost_30e2_lines
+  */
+  /*
+  Emkost_30e3_lines
+  */
+  /*
+  Emkost_30e4_30e5_lines
+  */
+  /*
+  Emkost_49e4_49e9_lines
+  */
+  /*
+  Emkost_49e5_49e6_49e7_lines
+  */
+  /*
+  Fh1_lines
+  */
+  /*
+  Fh2_lines
+  */
+  /*
+  Gis_lines
+  */
+  /*
+  kc_1_lines
+  */
+  /*
+  Kgs_4skv_lines
+  */
+  /*
+  Kgs_tur_lines
+  */
+  /*
+  Kgs_3skv_lines
+  */
+  /*
+  Nasos_30n8_lines
+  */
+  /*
+  Nasosnaya_reagentov_lines
+  */
+  /*
+  Nm_lines
+  */
+  /*
+  Nm_ppum_lines
+  */
+  /*
+  Separator_11s1_lines
+  */
+  /*
+  Separators_11s1_lines
+  */
+  /*
+  Skv_174_lines
+  */
+  /*
+  Skv_184_lines
+  */
+  /*
+  Skv_1902_lines
+  */
+  /*
+  To_11t1_lines
+  */
+  /*
+  To_30t11_lines
+  */
+  /*
+  Udvms_lines
+  */
+  /*
+  Uog_lines
+  */
+  /*
+  Uptpg_lines
+  */
+  /*
+  Uptpg_zu_lines
+  */
+  /*
+  Urt_sptg_lines
+  */
+  /*
+  Waterpull_south_lines
+  */
+  /*
+  Watersupply_south_lines
+  */
+  /*
+  BARRELS
+  */
+  /*
+  Absorbers
+  */
+  /*
+  Absorber_big
+  */
+  /*
+  Absorber_medium
+  */
+  /*
+  Separators
+  */
+  /*
+  Separators_big
+  */
+  /*
+  Separators_medium
+  */
+  /*
+  Barrel
+  */
+  /*
+  Degasator
+  */
+  /*
+  Heat_exchanger
+  */
+  /*
+  Pumpbarrel
+  */
+  /*
+  SVG
+  */
+  /*
+  Brm
+  */
+  /*
+  Crane
+  */
+  /*
+  Divider_unique
+  */
+  /*
+  Dsp
+  */
+  /*
+  Filter
+  */
+  /*
+  Filter_big
+  */
+  /*
+  Gpa
+  */
+  /*
+  Heater
+  */
+  /*
+  Meter + (Degasator)
+  */
+  /*
+  Pg
+  */
+  /*
+  Pump
+  */
+  /*
+  Quarry_mini
+  */
+  /*
+  Torch
+  */
+  /*
+  Transition_button + (Transition_button_mini)
+  */
+  /*
+  mini
+  */
+  /*
+  Valve + (Valve_switch) + (Valve_switch_bit)
+  */
+  /*
+  mini_unactive
+  */
+  /*
+  valve_switch_bit
+  */
+  /*
+  Ventil_sys
+  */
+  /*
+  Wastemeter
+  */
+  /*
+  NON_SVG
+  */
+  /*
+  Bg_for_quarry_graph
+  */
+  /*
+  Level
+  */
+  /*
+  Level_for_barrels
+  */
+  /*
+  Naming
+  */
+  /*
+  Naming_col_inversed
+  */
+  /*
+  Naming_with_bg
+  */
+  /*
+  Num_value + (Tag_naming)
+  */
+  /*
+  Hatch
+  */
+  /*
+  Num
+  */
+  /*
+  Lines
+  */
+  /*
+  Pointer_line
+  */
+  /*
+  Range_universal_line + (Range_vert_line)
+  */
+  /*
+  Switcher_naming
+  */
+  /*
+  Tit + (Tit_tags) + (Tit_formulated) + (Tit_dyn_sum) + (Tit_alt)
+  */
+  /*
+  Name-container
+  */
+  /*
+  Tit_col_inversed
+  */
+  /*
+  Name-container
+  */
+  /*
+  Tit_alt_on_barrel
+  */
+  /*
+  Name-container
+  */
+  /*
+  SERVING
+  */
+  /*
+  UNDERLAYERS
+  */
+  /*
+  Absorber_lines
+  */
+  /*
+  Degasator_30d11_lines
+  */
+  /*
+  Divider_25_lines
+  */
+  /*
+  Divider_30r11_lines
+  */
+  /*
+  Divider_30r21_lines
+  */
+  /*
+  Emkost_09e1_lines
+  */
+  /*
+  $Emkost_12e1_12e2_12e3_12e4_lines
+  */
+  /*
+  Emkost_25e2_lines
+  */
+  /*
+  Emkost_30e1_lines
+  */
+  /*
+  Emkost_30e2_lines
+  */
+  /*
+  Emkost_30e3_lines
+  */
+  /*
+  Emkost_30e4_30e5_lines
+  */
+  /*
+  Emkost_49e4_49e9_lines
+  */
+  /*
+  Emkost_49e5_49e6_49e7_lines
+  */
+  /*
+  Fh1_lines
+  */
+  /*
+  Fh2_lines
+  */
+  /*
+  Gis_lines
+  */
+  /*
+  Kc_1_lines
+  */
+  /*
+  Kgs_4skv_lines
+  */
+  /*
+  Kgs_tur_lines
+  */
+  /*
+  Kgs_3skv_lines
+  */
+  /*
+  Nasos_30n8_lines
+  */
+  /*
+  Nasosnaya_reagentov_lines
+  */
+  /*
+  Nm_lines
+  */
+  /*
+  Nm_ppum_lines
+  */
+  /*
+  Separator_11s1_lines
+  */
+  /*
+  Separators_11s1_lines
+  */
+  /*
+  Skv_174_lines
+  */
+  /*
+  Skv_184_lines
+  */
+  /*
+  Skv_1902_lines
+  */
+  /*
+  To_11t1_lines
+  */
+  /*
+  To_30t11_lines
+  */
+  /*
+  Udvms_lines
+  */
+  /*
+  Uog_lines
+  */
+  /*
+  Uptpg_lines
+  */
+  /*
+  Uptpg_zu_lines
+  */
+  /*
+  Urt_sptg_lines
+  */
+  /*
+  Waterpull_south_lines
+  */
+  /*
+  Watersupply_south_lines
+  */
+  /*
+  BARRELS
+  */
+  /*
+  Absorbers
+  */
+  /*
+  Absorber_big
+  */
+  /*
+  Absorber_medium
+  */
+  /*
+  Separators
+  */
+  /*
+  Separators_big
+  */
+  /*
+  Separators_medium
+  */
+  /*
+  Barrel
+  */
+  /*
+  Degasator
+  */
+  /*
+  Heat_exchanger
+  */
+  /*
+  Pumpbarrel
+  */
+  /*
+  SVG
+  */
+  /*
+  Brm
+  */
+  /*
+  Crane
+  */
+  /*
+  Divider_unique
+  */
+  /*
+  Dsp
+  */
+  /*
+  Filter
+  */
+  /*
+  Filter_big
+  */
+  /*
+  Gpa
+  */
+  /*
+  Heater
+  */
+  /*
+  Meter + (Degasator)
+  */
+  /*
+  Pg
+  */
+  /*
+  Pump
+  */
+  /*
+  Quarry_mini
+  */
+  /*
+  Torch
+  */
+  /*
+  Transition_button + (Transition_button_mini)
+  */
+  /*
+  mini
+  */
+  /*
+  Valve + (Valve_switch) + (Valve_switch_bit)
+  */
+  /*
+  mini_unactive
+  */
+  /*
+  valve_switch_bit
+  */
+  /*
+  Ventil_sys
+  */
+  /*
+  Wastemeter
+  */
+  /*
+  NON_SVG
+  */
+  /*
+  Bg_for_quarry_graph
+  */
+  /*
+  Level
+  */
+  /*
+  Level_for_barrels
+  */
+  /*
+  Naming
+  */
+  /*
+  Naming_col_inversed
+  */
+  /*
+  Naming_with_bg
+  */
+  /*
+  Num_value + (Tag_naming)
+  */
+  /*
+  Hatch
+  */
+  /*
+  Num
+  */
+  /*
+  Lines
+  */
+  /*
+  Pointer_line
+  */
+  /*
+  Range_universal_line + (Range_vert_line)
+  */
+  /*
+  Switcher_naming
+  */
+  /*
+  Tit + (Tit_tags) + (Tit_formulated) + (Tit_dyn_sum) + (Tit_alt)
+  */
+  /*
+  Name-container
+  */
+  /*
+  Tit_col_inversed
+  */
+  /*
+  Name-container
+  */
+  /*
+  Tit_alt_on_barrel
+  */
+  /*
+  Name-container
+  */
+  /*
+  SERVING
+  */
+  /*
+  ------------
+  ==========================
+  ------------
+  */
+  /*
+  UNDERLAYERS
+  */
+  /*
+  BARRELS
+  */
+  /*
+  Absorbers
+  */
+  /*
+  Separators
+  */
+  /*
+  ---
+  */
+  /*
+  SVG
+  */
+  /*
+  NON_SVG
+  */
+  /*
+  end
+  */
+  background-color: #1e1e1e; }
+  body.dark .absorber_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.dark .absorber_lines .lines .pipes .ntag {
+    fill: #177dc4; }
+  body.dark .absorber_lines .lines .pipes .drain {
+    fill: #aaabb5; }
+  body.dark .absorber_lines .lines .pipes .rtag {
+    fill: #a84b50; }
+  body.dark .absorber_lines .lines .points .oreols {
+    fill: #1e1e1e; }
+  body.dark .absorber_lines .lines .points .gas .fills {
+    fill: #ffbc00; }
+  body.dark .absorber_lines .lines .points .ntag .fills {
+    fill: #177dc4; }
+  body.dark .absorber_lines .lines .points .drain .fills {
+    fill: #aaabb5; }
+  body.dark .absorber_lines .lines .points .rtag .fills {
+    fill: #a84b50; }
+  body.dark .absorber_lines .tables .t1,
+  body.dark .absorber_lines .tables .t2 {
+    fill: #c8c8c8; }
+  body.dark .degasator_30d11_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.dark .degasator_30d11_lines .lines .pipes .drain {
+    fill: #aaabb5; }
+  body.dark .degasator_30d11_lines .lines .pipes .glycol {
+    fill: #c8640f; }
+  body.dark .degasator_30d11_lines .lines .pipes .n-glycol {
+    fill: #780a0a; }
+  body.dark .degasator_30d11_lines .lines .points .oreols {
+    fill: #1e1e1e; }
+  body.dark .degasator_30d11_lines .lines .points .gas .fills {
+    fill: #ffbc00; }
+  body.dark .degasator_30d11_lines .lines .points .drain .fills {
+    fill: #aaabb5; }
+  body.dark .degasator_30d11_lines .lines .points .glycol .fills {
+    fill: #c8640f; }
+  body.dark .degasator_30d11_lines .lines .points .n-glycol .fills {
+    fill: #780a0a; }
+  body.dark .divider_25_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.dark .divider_25_lines .lines .pipes .vms {
+    fill: #3f4aa1; }
+  body.dark .divider_25_lines .lines .pipes .water {
+    fill: #17289a; }
+  body.dark .divider_25_lines .lines .pipes .drain {
+    fill: #aaabb5; }
+  body.dark .divider_25_lines .lines .points .oreols {
+    fill: #1e1e1e; }
+  body.dark .divider_25_lines .lines .points .gas .fills {
+    fill: #ffbc00; }
+  body.dark .divider_25_lines .lines .points .vms .fills {
+    fill: #3f4aa1; }
+  body.dark .divider_25_lines .lines .points .water .fills {
+    fill: #17289a; }
+  body.dark .divider_25_lines .lines .points .drain .fills {
+    fill: #aaabb5; }
+  body.dark .divider_25_lines .tables .t1 {
+    fill: #c8c8c8; }
+  body.dark .divider_30r11_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.dark .divider_30r11_lines .lines .pipes .k {
+    fill: white; }
+  body.dark .divider_30r11_lines .lines .pipes .drain {
+    fill: #aaabb5; }
+  body.dark .divider_30r11_lines .lines .pipes .n-glycol {
+    fill: #780a0a; }
+  body.dark .divider_30r11_lines .lines .points .oreols {
+    fill: #1e1e1e; }
+  body.dark .divider_30r11_lines .lines .points .gas .fills {
+    fill: #ffbc00; }
+  body.dark .divider_30r11_lines .lines .points .k .fills {
+    fill: white; }
+  body.dark .divider_30r11_lines .lines .points .drain .fills {
+    fill: #aaabb5; }
+  body.dark .divider_30r11_lines .lines .points .n-glycol .fills {
+    fill: #780a0a; }
+  body.dark .divider_30r11_lines .tables .t1 {
+    fill: #c8c8c8; }
+  body.dark .divider_30r11_lines .tables .t2 {
+    fill: #c8c8c8; }
+  body.dark .divider_30r11_lines .tables .t3 {
+    fill: #c8c8c8; }
+  body.dark .divider_30r21_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.dark .divider_30r21_lines .lines .pipes .water {
+    fill: #17289a; }
+  body.dark .divider_30r21_lines .lines .pipes .condencat {
+    fill: #aaabb5; }
+  body.dark .divider_30r21_lines .lines .points .oreols {
+    fill: #1e1e1e; }
+  body.dark .divider_30r21_lines .lines .points .water .fills {
+    fill: #17289a; }
+  body.dark .divider_30r21_lines .lines .points .condencat .fills {
+    fill: #aaabb5; }
+  body.dark .divider_30r21_lines .tables .t1 {
+    fill: #c8c8c8; }
+  body.dark .emkost_09e1_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.dark .emkost_09e1_lines .lines .pipes .drain {
+    fill: #aaabb5; }
+  body.dark .emkost_09e1_lines .lines .pipes .water {
+    fill: #17289a; }
+  body.dark .emkost_09e1_lines .lines .points .oreols {
+    fill: #1e1e1e; }
+  body.dark .emkost_09e1_lines .lines .points .gas .fills {
+    fill: #ffbc00; }
+  body.dark .emkost_09e1_lines .lines .points .drain .fills {
+    fill: #aaabb5; }
+  body.dark .emkost_09e1_lines .lines .points .water .fills {
+    fill: #17289a; }
+  body.dark .emkost_09e1_lines .lines .arrows .gas {
+    fill: #ffbc00; }
+  body.dark .emkost_09e1_lines .lines .arrows .drain {
+    fill: #aaabb5; }
+  body.dark .emkost_09e1_lines .lines .arrows .water {
+    fill: #17289a; }
+  body.dark .emkost_12e1_12e2_12e3_12e4_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.dark .emkost_12e1_12e2_12e3_12e4_lines .lines .pipes .drain {
+    fill: #aaabb5; }
+  body.dark .emkost_12e1_12e2_12e3_12e4_lines .lines .pipes .vms {
+    fill: #3f4aa1; }
+  body.dark .emkost_12e1_12e2_12e3_12e4_lines .lines .pipes .ntag {
+    fill: #ad0f0f; }
+  body.dark .emkost_12e1_12e2_12e3_12e4_lines .lines .pipes .heatnet {
+    fill: white; }
+  body.dark .emkost_12e1_12e2_12e3_12e4_lines .lines .points .oreols {
+    fill: #1e1e1e; }
+  body.dark .emkost_12e1_12e2_12e3_12e4_lines .lines .points .gas .fills {
+    fill: #ffbc00; }
+  body.dark .emkost_12e1_12e2_12e3_12e4_lines .lines .points .drain .fills {
+    fill: #aaabb5; }
+  body.dark .emkost_12e1_12e2_12e3_12e4_lines .lines .arrows .heatnet {
+    fill: white; }
+  body.dark .emkost_25e2_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.dark .emkost_25e2_lines .lines .pipes .vms {
+    fill: #3f4aa1; }
+  body.dark .emkost_25e2_lines .lines .pipes .water {
+    fill: #17289a; }
+  body.dark .emkost_25e2_lines .lines .pipes .drain {
+    fill: #aaabb5; }
+  body.dark .emkost_25e2_lines .lines .points .oreols {
+    fill: #1e1e1e; }
+  body.dark .emkost_25e2_lines .lines .points .gas .fills {
+    fill: #ffbc00; }
+  body.dark .emkost_25e2_lines .lines .points .vms .fills {
+    fill: #3f4aa1; }
+  body.dark .emkost_25e2_lines .lines .points .water .fills {
+    fill: #17289a; }
+  body.dark .emkost_25e2_lines .lines .points .drain .fills {
+    fill: #aaabb5; }
+  body.dark .emkost_25e2_lines .tables .t1,
+  body.dark .emkost_25e2_lines .tables .t2 {
+    fill: #c8c8c8; }
+  body.dark .emkost_30e1_lines .lines .pipes .glycol {
+    fill: #c8640f; }
+  body.dark .emkost_30e1_lines .lines .pipes .drain {
+    fill: #aaabb5; }
+  body.dark .emkost_30e1_lines .lines .points .oreols {
+    fill: #1e1e1e; }
+  body.dark .emkost_30e1_lines .lines .points .glycol .fills {
+    fill: #c8640f; }
+  body.dark .emkost_30e1_lines .lines .points .drain .fills {
+    fill: #aaabb5; }
+  body.dark .emkost_30e2_lines .lines .pipes .glycol {
+    fill: #c8640f; }
+  body.dark .emkost_30e2_lines .lines .pipes .drain {
+    fill: #aaabb5; }
+  body.dark .emkost_30e2_lines .lines .points .oreols {
+    fill: #1e1e1e; }
+  body.dark .emkost_30e2_lines .lines .points .glycol .fills {
+    fill: #c8640f; }
+  body.dark .emkost_30e2_lines .lines .points .drain .fills {
+    fill: #aaabb5; }
+  body.dark .emkost_30e3_lines .lines .pipes .glycol {
+    fill: #c8640f; }
+  body.dark .emkost_30e3_lines .lines .pipes .drain {
+    fill: #aaabb5; }
+  body.dark .emkost_30e3_lines .lines .pipes .jo {
+    fill: #2346c8; }
+  body.dark .emkost_30e3_lines .lines .points .oreols {
+    fill: #1e1e1e; }
+  body.dark .emkost_30e3_lines .lines .points .glycol .fills {
+    fill: #c8640f; }
+  body.dark .emkost_30e3_lines .lines .points .drain .fills {
+    fill: #aaabb5; }
+  body.dark .emkost_30e3_lines .lines .points .jo .fills {
+    fill: #2346c8; }
+  body.dark .emkost_30e4_30e5_lines .lines .pipes .glycol {
+    fill: #c8640f; }
+  body.dark .emkost_30e4_30e5_lines .lines .pipes .drain {
+    fill: #aaabb5; }
+  body.dark .emkost_30e4_30e5_lines .lines .points .oreols {
+    fill: #1e1e1e; }
+  body.dark .emkost_30e4_30e5_lines .lines .points .glycol .fills {
+    fill: #c8640f; }
+  body.dark .emkost_30e4_30e5_lines .lines .points .drain .fills {
+    fill: #aaabb5; }
+  body.dark .emkost_49e4_49e9_lines .lines .pipes .drain {
+    fill: #aaabb5; }
+  body.dark .emkost_49e4_49e9_lines .lines .pipes .dt {
+    fill: olive; }
+  body.dark .emkost_49e4_49e9_lines .lines .points .oreols {
+    fill: #1e1e1e; }
+  body.dark .emkost_49e4_49e9_lines .lines .points .drain .fills {
+    fill: #aaabb5; }
+  body.dark .emkost_49e4_49e9_lines .lines .points .dt .fills {
+    fill: olive; }
+  body.dark .emkost_49e4_49e9_lines .tables .t1,
+  body.dark .emkost_49e4_49e9_lines .tables .t2,
+  body.dark .emkost_49e4_49e9_lines .tables .t3 {
+    fill: #c8c8c8; }
+  body.dark .emkost_49e5_49e6_49e7_lines .lines .pipes .tag {
+    fill: #780a0a; }
+  body.dark .emkost_49e5_49e6_49e7_lines .lines .pipes .drain {
+    fill: #aaabb5; }
+  body.dark .emkost_49e5_49e6_49e7_lines .lines .pipes .water {
+    fill: #17289a; }
+  body.dark .emkost_49e5_49e6_49e7_lines .lines .points .oreols {
+    fill: #1e1e1e; }
+  body.dark .emkost_49e5_49e6_49e7_lines .lines .points .tag .fills {
+    fill: #780a0a; }
+  body.dark .emkost_49e5_49e6_49e7_lines .lines .points .drain .fills {
+    fill: #aaabb5; }
+  body.dark .emkost_49e5_49e6_49e7_lines .lines .arrows .tag {
+    fill: #780a0a; }
+  body.dark .emkost_49e5_49e6_49e7_lines .lines .arrows .drain {
+    fill: #aaabb5; }
+  body.dark .emkost_49e5_49e6_49e7_lines .lines .arrows .water {
+    fill: #17289a; }
+  body.dark .fh1_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.dark .fh1_lines .lines .pipes .drain {
+    fill: #aaabb5; }
+  body.dark .fh1_lines .lines .points .oreols {
+    fill: #1e1e1e; }
+  body.dark .fh1_lines .lines .points .gas .fills {
+    fill: #ffbc00; }
+  body.dark .fh1_lines .lines .points .drain .fills {
+    fill: #aaabb5; }
+  body.dark .fh1_lines .lines .arrows .gas {
+    fill: #ffbc00; }
+  body.dark .fh1_lines .lines .arrows .drain {
+    fill: #aaabb5; }
+  body.dark .fh2_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.dark .fh2_lines .lines .pipes .drain {
+    fill: #aaabb5; }
+  body.dark .fh2_lines .lines .points .oreols {
+    fill: #1e1e1e; }
+  body.dark .fh2_lines .lines .points .gas .fills {
+    fill: #ffbc00; }
+  body.dark .fh2_lines .lines .points .drain .fills {
+    fill: #aaabb5; }
+  body.dark .fh2_lines .lines .arrows .gas {
+    fill: #ffbc00; }
+  body.dark .fh2_lines .lines .arrows .drain {
+    fill: #aaabb5; }
+  body.dark .fh2_lines .tables .t1,
+  body.dark .fh2_lines .tables .t2,
+  body.dark .fh2_lines .tables .t3 {
+    fill: #c8c8c8; }
+  body.dark .gis_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.dark .gis_lines .lines .points .oreols {
+    fill: #1e1e1e; }
+  body.dark .gis_lines .lines .points .gas .fills {
+    fill: #ffbc00; }
+  body.dark .gis_lines .lines .arrows .gas {
+    fill: #ffbc00; }
+  body.dark .gis_lines .tables .t1 {
+    fill: #c8c8c8; }
+  body.dark .kgs_4skv_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.dark .kgs_4skv_lines .lines .pipes .vms {
+    fill: #3f4aa1; }
+  body.dark .kgs_4skv_lines .lines .points .oreols {
+    fill: #1e1e1e; }
+  body.dark .kgs_4skv_lines .lines .points .gas .fills {
+    fill: #ffbc00; }
+  body.dark .kgs_4skv_lines .lines .points .vms .fills {
+    fill: #3f4aa1; }
+  body.dark .kgs_4skv_lines .lines .arrows .gas {
+    fill: #ffbc00; }
+  body.dark .kgs_4skv_lines .lines .arrows .vms {
+    fill: #3f4aa1; }
+  body.dark .kgs_4skv_lines .tables .t1 {
+    fill: #c8c8c8; }
+  body.dark .kgs_tur_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.dark .kgs_tur_lines .lines .pipes .vms {
+    fill: #3f4aa1; }
+  body.dark .kgs_tur_lines .lines .points .oreols {
+    fill: #1e1e1e; }
+  body.dark .kgs_tur_lines .lines .points .gas .fills {
+    fill: #ffbc00; }
+  body.dark .kgs_tur_lines .lines .points .vms .fills {
+    fill: #3f4aa1; }
+  body.dark .kgs_tur_lines .lines .arrows .gas {
+    fill: #ffbc00; }
+  body.dark .kgs_tur_lines .lines .arrows .vms {
+    fill: #3f4aa1; }
+  body.dark .kgs_tur_lines .tables .t1 {
+    fill: #c8c8c8; }
+  body.dark .kgs_3skv_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.dark .kgs_3skv_lines .lines .pipes .vms {
+    fill: #3f4aa1; }
+  body.dark .kgs_3skv_lines .lines .points .oreols {
+    fill: #1e1e1e; }
+  body.dark .kgs_3skv_lines .lines .points .gas .fills {
+    fill: #ffbc00; }
+  body.dark .kgs_3skv_lines .lines .points .vms .fills {
+    fill: #3f4aa1; }
+  body.dark .kgs_3skv_lines .lines .arrows .gas {
+    fill: #ffbc00; }
+  body.dark .kgs_3skv_lines .lines .arrows .vms {
+    fill: #3f4aa1; }
+  body.dark .kgs_3skv_lines .tables .t1 {
+    fill: #c8c8c8; }
+  body.dark .kc_1_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.dark .kc_1_lines .lines .points .oreols {
+    fill: #1e1e1e; }
+  body.dark .kc_1_lines .lines .points .gas .fills {
+    fill: #ffbc00; }
+  body.dark .kc_1_lines .lines .arrows .gas {
+    fill: #ffbc00; }
+  body.dark .kc_1_lines .tables .t1 {
+    fill: #c8c8c8; }
+  body.dark .nasos_30n8_lines .lines .pipes .jo {
+    fill: #2346c8; }
+  body.dark .nasos_30n8_lines .lines .pipes .glycol {
+    fill: #c8640f; }
+  body.dark .nasos_30n8_lines .lines .points .oreols {
+    fill: #1e1e1e; }
+  body.dark .nasos_30n8_lines .lines .points .jo .fills {
+    fill: #2346c8; }
+  body.dark .nasos_30n8_lines .lines .points .glycol .fills {
+    fill: #c8640f; }
+  body.dark .nasos_30n8_lines .lines .arrows .jo {
+    fill: #2346c8; }
+  body.dark .nasos_30n8_lines .lines .arrows .glycol {
+    fill: #c8640f; }
+  body.dark .nasosnaya_reagentov_lines .lines .pipes .tag {
+    fill: #c8640f; }
+  body.dark .nasosnaya_reagentov_lines .lines .pipes .k {
+    fill: #94959b; }
+  body.dark .nasosnaya_reagentov_lines .lines .pipes .dt {
+    fill: #969614; }
+  body.dark .nasosnaya_reagentov_lines .lines .points .oreols {
+    fill: #1e1e1e; }
+  body.dark .nasosnaya_reagentov_lines .lines .points .tag .fills {
+    fill: #c8640f; }
+  body.dark .nasosnaya_reagentov_lines .lines .points .k .fills {
+    fill: #94959b; }
+  body.dark .nasosnaya_reagentov_lines .lines .points .dt .fills {
+    fill: #969614; }
+  body.dark .nm_lines .lines .pipes .metanol {
+    fill: #177dc4; }
+  body.dark .nm_lines .lines .pipes .colorer {
+    fill: #9632c8; }
+  body.dark .nm_lines .lines .points .oreols {
+    fill: #1e1e1e; }
+  body.dark .nm_lines .lines .points .metanol .fills {
+    fill: #177dc4; }
+  body.dark .nm_lines .lines .points .colorer .fills {
+    fill: #9632c8; }
+  body.dark .nm_ppum_lines .lines .pipes .metanol {
+    fill: #177dc4; }
+  body.dark .nm_ppum_lines .lines .pipes .drain {
+    fill: #aaabb5; }
+  body.dark .nm_ppum_lines .lines .points .oreols {
+    fill: #1e1e1e; }
+  body.dark .nm_ppum_lines .lines .points .metanol .fills {
+    fill: #177dc4; }
+  body.dark .nm_ppum_lines .lines .points .drain .fills {
+    fill: #aaabb5; }
+  body.dark .nm_ppum_lines .lines .arrows .metanol {
+    fill: #177dc4; }
+  body.dark .nm_ppum_lines .lines .arrows .drain {
+    fill: #aaabb5; }
+  body.dark .nm_ppum_lines .tables .t1 {
+    fill: #c8c8c8; }
+  body.dark .nm_ppum_lines .tables .t2 {
+    fill: #c8c8c8; }
+  body.dark .to_11t1_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.dark .to_11t1_lines .lines .points .oreols {
+    fill: #1e1e1e; }
+  body.dark .to_11t1_lines .lines .points .gas .fills {
+    fill: #ffbc00; }
+  body.dark .to_11t1_lines .lines .arrows .gas {
+    fill: #ffbc00; }
+  body.dark .separator_11s1_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.dark .separator_11s1_lines .lines .pipes .vms {
+    fill: #3f4aa1; }
+  body.dark .separator_11s1_lines .lines .pipes .pj {
+    fill: #aaabb5; }
+  body.dark .separator_11s1_lines .lines .pipes .drain {
+    fill: #aaabb5; }
+  body.dark .separator_11s1_lines .lines .points .oreols {
+    fill: #1e1e1e; }
+  body.dark .separator_11s1_lines .lines .points .gas {
+    fill: #ffbc00; }
+  body.dark .separator_11s1_lines .lines .points .vms {
+    fill: #3f4aa1; }
+  body.dark .separator_11s1_lines .lines .points .pj {
+    fill: #aaabb5; }
+  body.dark .separators_11s1_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.dark .separators_11s1_lines .lines .pipes .vms {
+    fill: #3f4aa1; }
+  body.dark .separators_11s1_lines .lines .pipes .pj {
+    fill: #aaabb5; }
+  body.dark .separators_11s1_lines .lines .points .oreols {
+    fill: #1e1e1e; }
+  body.dark .separators_11s1_lines .lines .points .gas {
+    fill: #ffbc00; }
+  body.dark .separators_11s1_lines .lines .points .vms {
+    fill: #3f4aa1; }
+  body.dark .separators_11s1_lines .lines .points .pj {
+    fill: #aaabb5; }
+  body.dark .separators_11s1_lines .lines .arrows .gas {
+    fill: #ffbc00; }
+  body.dark .separators_11s1_lines .lines .arrows .vms {
+    fill: #3f4aa1; }
+  body.dark .separators_11s1_lines .lines .arrows .pj {
+    fill: #aaabb5; }
+  body.dark .skv_174_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.dark .skv_174_lines .lines .pipes .vms {
+    fill: #3f4aa1; }
+  body.dark .skv_174_lines .lines .points .oreols {
+    fill: #1e1e1e; }
+  body.dark .skv_174_lines .lines .points .gas .fills {
+    fill: #ffbc00; }
+  body.dark .skv_174_lines .lines .points .vms .fills {
+    fill: #3f4aa1; }
+  body.dark .skv_174_lines .lines .arrows .gas {
+    fill: #ffbc00; }
+  body.dark .skv_174_lines .lines .arrows .vms {
+    fill: #3f4aa1; }
+  body.dark .skv_184_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.dark .skv_184_lines .lines .pipes .vms {
+    fill: #3f4aa1; }
+  body.dark .skv_184_lines .lines .arrows .gas {
+    fill: #ffbc00; }
+  body.dark .skv_184_lines .lines .arrows .vms {
+    fill: #3f4aa1; }
+  body.dark .skv_1902_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.dark .skv_1902_lines .lines .pipes .vms {
+    fill: #3f4aa1; }
+  body.dark .skv_1902_lines .lines .arrows .gas {
+    fill: #ffbc00; }
+  body.dark .skv_1902_lines .lines .arrows .vms {
+    fill: #3f4aa1; }
+  body.dark .to_30t11_lines .lines .pipes .rglycol {
+    fill: #c8640f; }
+  body.dark .to_30t11_lines .lines .pipes .nglycol {
+    fill: #ad0f0f; }
+  body.dark .to_30t11_lines .lines .points .oreols {
+    fill: #1e1e1e; }
+  body.dark .to_30t11_lines .lines .points .rglycol .fills {
+    fill: #c8640f; }
+  body.dark .to_30t11_lines .lines .points .nglycol .fills {
+    fill: #ad0f0f; }
+  body.dark .to_30t11_lines .tables .t1,
+  body.dark .to_30t11_lines .tables .t2 {
+    fill: #c8c8c8; }
+  body.dark .udvms_lines .lines .arrows .k2 {
+    fill: #94959b; }
+  body.dark .udvms_lines .lines .pipes .k {
+    fill: #94959b; }
+  body.dark .udvms_lines .lines .pipes .k2 {
+    fill: #94959b; }
+  body.dark .udvms_lines .lines .pipes .d {
+    fill: #55544a; }
+  body.dark .udvms_lines .lines .points .oreols {
+    fill: #1e1e1e; }
+  body.dark .udvms_lines .lines .points .k .fills {
+    fill: #94959b; }
+  body.dark .udvms_lines .lines .points .k2 .fills {
+    fill: #94959b; }
+  body.dark .uog_lines .lines .arrows .rtag {
+    fill: #8b7e52; }
+  body.dark .uog_lines .lines .arrows .ntag {
+    fill: #8b7e52; }
+  body.dark .uog_lines .lines .arrows .dirtygas {
+    fill: #ffbc00; }
+  body.dark .uog_lines .lines .arrows .puregas {
+    fill: #ffbc00; }
+  body.dark .uog_lines .lines .arrows .vms {
+    fill: #3f4aa1; }
+  body.dark .uog_lines .lines .arrows .gray {
+    fill: #aaabb5; }
+  body.dark .uog_lines .lines .pipes .rtag {
+    fill: #8b7e52; }
+  body.dark .uog_lines .lines .pipes .ntag {
+    fill: #8b7e52; }
+  body.dark .uog_lines .lines .pipes .dirtygas {
+    fill: #ffbc00; }
+  body.dark .uog_lines .lines .pipes .puregas {
+    fill: #ffbc00; }
+  body.dark .uog_lines .lines .pipes .vms {
+    fill: #3f4aa1; }
+  body.dark .uog_lines .lines .pipes .gray {
+    fill: #aaabb5; }
+  body.dark .uog_lines .lines .points .oreols {
+    fill: #1e1e1e; }
+  body.dark .uog_lines .lines .points .rtag .fills {
+    fill: #8b7e52; }
+  body.dark .uog_lines .lines .points .ntag .fills {
+    fill: #8b7e52; }
+  body.dark .uog_lines .lines .points .dirtygas .fills {
+    fill: #ffbc00; }
+  body.dark .uog_lines .lines .points .puregas .fills {
+    fill: #ffbc00; }
+  body.dark .uog_lines .lines .points .vms .fills {
+    fill: #3f4aa1; }
+  body.dark .uog_lines .lines .points .gray .fills {
+    fill: #aaabb5; }
+  body.dark .uog_lines .tables .t1,
+  body.dark .uog_lines .tables .t2 {
+    fill: #c8c8c8; }
+  body.dark .uptpg_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.dark .uptpg_lines .lines .pipes .water {
+    fill: #2346c8; }
+  body.dark .uptpg_lines .lines .points .oreols {
+    fill: #1e1e1e; }
+  body.dark .uptpg_lines .lines .points .gas .fills {
+    fill: #ffbc00; }
+  body.dark .uptpg_lines .lines .points .water .fills {
+    fill: #2346c8; }
+  body.dark .uptpg_lines .lines .arrows .gas {
+    fill: #ffbc00; }
+  body.dark .uptpg_lines .lines .arrows .water {
+    fill: #2346c8; }
+  body.dark .uptpg_lines .tables .t1 {
+    fill: #c8c8c8; }
+  body.dark .uptpg_zu_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.dark .uptpg_zu_lines .lines .points .oreols {
+    fill: #1e1e1e; }
+  body.dark .uptpg_zu_lines .lines .points .gas .fills {
+    fill: #ffbc00; }
+  body.dark .uptpg_zu_lines .tables .t1,
+  body.dark .uptpg_zu_lines .tables .t2 {
+    fill: #c8c8c8; }
+  body.dark .urt_sptg_lines .lines .pipes .gas {
+    fill: #ffbc00; }
+  body.dark .urt_sptg_lines .lines .pipes .dizel {
+    fill: olive; }
+  body.dark .urt_sptg_lines .lines .pipes .azot {
+    fill: #8000ff; }
+  body.dark .urt_sptg_lines .lines .points .oreols {
+    fill: #1e1e1e; }
+  body.dark .urt_sptg_lines .lines .points .gas .fills {
+    fill: #ffbc00; }
+  body.dark .waterpull_south_lines .lines .pipes .k1 {
+    fill: #2346c8; }
+  body.dark .waterpull_south_lines .lines .pipes .k2 {
+    fill: #2346c8; }
+  body.dark .watersupply_south_lines .lines .pipes .vz {
+    fill: #2346c8; }
+  body.dark .absorber_big .elem .absorber-barrel {
+    fill: #d8d8d3; }
+  body.dark .absorber_big .elem .zones .dirtygas {
+    fill: #8e8862; }
+  body.dark .absorber_big .elem .zones .absorbent {
+    fill: #84b2af; }
+  body.dark .absorber_big .elem .zones .puregas {
+    fill: #dcffff; }
+  body.dark .absorber_big .elem .zones .firstnet,
+  body.dark .absorber_big .elem .zones .secondnet,
+  body.dark .absorber_big .elem .zones .thirdnet {
+    fill: black;
+    opacity: 0.6; }
+  body.dark .absorber_medium .elem .absorber-barrel {
+    fill: #d8d8d3; }
+  body.dark .absorber_medium .elem .zones .dirtygas {
+    fill: #8e8862; }
+  body.dark .absorber_medium .elem .zones .absorbent {
+    fill: #84b2af; }
+  body.dark .absorber_medium .elem .zones .firstnet,
+  body.dark .absorber_medium .elem .zones .secondnet {
+    fill: black;
+    opacity: 0.6; }
+  body.dark .separator_big .elem .barrel {
+    fill: #d8d8d3; }
+  body.dark .separator_big .elem .zones .areas .a1 {
+    fill: #84b2af; }
+  body.dark .separator_big .elem .zones .areas .a2 {
+    fill: #828246; }
+  body.dark .separator_big .elem .zones .areas .a3 {
+    fill: #dcffff; }
+  body.dark .separator_big .elem .nets .n1,
+  body.dark .separator_big .elem .nets .n2,
+  body.dark .separator_big .elem .nets .n3 {
+    fill: black;
+    opacity: 0.6; }
+  body.dark .separator_small .elem .barrel {
+    fill: #d8d8d3; }
+  body.dark .separator_small .elem .zones .colorcell {
+    fill: #828246; }
+  body.dark .separator_small .elem .zones .dividers .d1 {
+    fill: black;
+    opacity: 0.6; }
+  body.dark .separator_small .elem .zones .dividers .d2 {
+    fill: black;
+    opacity: 0.6; }
+  body.dark .barrel .elem-holder .leftcap-round,
+  body.dark .barrel .elem-holder .rightcap-round,
+  body.dark .barrel .elem-holder .leftcap-square,
+  body.dark .barrel .elem-holder .rightcap-square {
+    fill: #d8d8d3; }
+  body.dark .barrel .elem-holder .central-part {
+    background-color: #d8d8d3; }
+  body.dark .degasator .elem-holder .leftcap-round,
+  body.dark .degasator .elem-holder .rightcap-round,
+  body.dark .degasator .elem-holder .leftcap-square,
+  body.dark .degasator .elem-holder .rightcap-square {
+    fill: #d8d8d3; }
+  body.dark .degasator .elem-holder .central-part {
+    background-color: #d8d8d3; }
+  body.dark .degasator .deco-cont .meter .stroke {
+    fill: #1e1e1e;
+    opacity: 0.6; }
+  body.dark .degasator .deco-cont .meter .fill {
+    fill: #d8d8d3; }
+  body.dark .degasator .deco-cont .meter .glass {
+    fill: #353a3d; }
+  body.dark .degasator .deco-cont .meter .color path:nth-child(1) {
+    fill: #c82828; }
+  body.dark .degasator .deco-cont .meter .color path:nth-child(2) {
+    fill: #dc3c3c; }
+  body.dark .degasator .deco-cont .meter .color path:nth-child(3) {
+    fill: #f06464; }
+  body.dark .degasator .deco-cont .meter .arrow {
+    fill: #e6e6e6; }
+  body.dark .heat_exchanger .elem-holder .leftcap-round,
+  body.dark .heat_exchanger .elem-holder .rightcap-round,
+  body.dark .heat_exchanger .elem-holder .leftcap-square,
+  body.dark .heat_exchanger .elem-holder .rightcap-square {
+    fill: #d8d8d3; }
+  body.dark .heat_exchanger .elem-holder .central-part {
+    background-color: #d8d8d3; }
+    body.dark .heat_exchanger .elem-holder .central-part .left_side {
+      fill: #1e1e1e;
+      opacity: 0.2; }
+    body.dark .heat_exchanger .elem-holder .central-part .right_side {
+      fill: #1e1e1e;
+      opacity: 0.2; }
+    body.dark .heat_exchanger .elem-holder .central-part .rails-container .rail {
+      background-color: #1e1e1e;
+      opacity: 0.2; }
+  body.dark .pumpbarrel .elem-holder .leftcap-round,
+  body.dark .pumpbarrel .elem-holder .rightcap-round,
+  body.dark .pumpbarrel .elem-holder .leftcap-square,
+  body.dark .pumpbarrel .elem-holder .rightcap-square {
+    fill: #d8d8d3; }
+  body.dark .pumpbarrel .elem-holder .central-part {
+    background-color: #d8d8d3; }
+  body.dark .pumpbarrel .deco-cont .pump .stroke {
+    fill: #1e1e1e;
+    opacity: 0.6; }
+  body.dark .pumpbarrel .deco-cont .pump .unactive-color {
+    fill: #d8d8d3; }
+  body.dark .pumpbarrel .deco-cont .pump .placeholder {
+    /*
+    Alarm-container
+    */ }
+    body.dark .pumpbarrel .deco-cont .pump .placeholder .visible {
+      fill: rgba(180, 180, 180, 0.3); }
+    body.dark .pumpbarrel .deco-cont .pump .placeholder .invisible {
+      fill: none; }
+  body.dark .brm .elem .color {
+    fill: white; }
+  body.dark .crane .elem .color {
+    fill: white; }
+  body.dark .divider_unique .elem .color {
+    fill: #d8d8d3; }
+  body.dark .dsp .elem .color {
+    fill: white; }
+  body.dark .filter .elem .color {
+    fill: white; }
+  body.dark .filter_big .elem .color {
+    fill: white; }
+  body.dark .gpa .elem .stroke {
+    fill: #4d4d4d; }
+  body.dark .gpa .elem .color {
+    fill: white; }
+    body.dark .gpa .elem .color .fen .transparent path {
+      opacity: 0.2; }
+  body.dark .heater .outgoing-pipes .str {
+    background-color: #4d4d4d;
+    opacity: 0.6; }
+  body.dark .heater .outgoing-pipes .col {
+    background-color: #d8d8d3; }
+  body.dark .heater .heater-elem .stroke {
+    fill: #4d4d4d;
+    opacity: 0.6; }
+  body.dark .heater .heater-elem .color {
+    fill: #d8d8d3; }
+  body.dark .meter .elem .shell {
+    fill: #e6e6e6; }
+    body.dark .meter .elem .shell .shadow {
+      fill: .000000;
+      opacity: 0.12; }
+  body.dark .meter .elem .glass {
+    fill: #353a3d; }
+  body.dark .meter .elem .color path:nth-child(1) {
+    fill: #c82828; }
+  body.dark .meter .elem .color path:nth-child(2) {
+    fill: #dc3c3c; }
+  body.dark .meter .elem .color path:nth-child(3) {
+    fill: #f06464; }
+  body.dark .meter .elem .arrow {
+    fill: #e6e6e6; }
+  body.dark .pg .elem .color {
+    fill: #d8d8d3; }
+  body.dark .pump .elem .shadow {
+    fill: white; }
+    body.dark .pump .elem .shadow .outer {
+      opacity: 0.02; }
+    body.dark .pump .elem .shadow .medium {
+      opacity: 0.02; }
+    body.dark .pump .elem .shadow .inner {
+      opacity: 0.08; }
+  body.dark .pump .elem .stroke {
+    fill: #4d4d4d; }
+  body.dark .pump .elem .unactive-color {
+    fill: #aaaaaa; }
+  body.dark .pump .elem .color {
+    fill: white; }
+  body.dark .pump .placeholder {
+    /*
+    Alarm-container
+    */ }
+    body.dark .pump .placeholder .visible {
+      fill: rgba(180, 180, 180, 0.3); }
+    body.dark .pump .placeholder .invisible {
+      fill: none; }
+  body.dark .quarry_mini .elem .color {
+    fill: white; }
+  body.dark .torch .elem .color .torch {
+    fill: #d8d8d3; }
+  body.dark .torch .elem .color .flame {
+    fill: #00ffc8; }
+  body.dark .transition_button {
+    border-bottom-color: rgba(255, 255, 255, 0.15);
+    border-left-color: rgba(255, 255, 255, 0.15); }
+    body.dark .transition_button .unactive-part {
+      fill: #dddddd; }
+    body.dark .transition_button .color {
+      fill: #b7c170; }
+    body.dark .transition_button .main-container .naming-container .naming {
+      color: white;
+      text-shadow: -1px -1px 0px #4e4e51, -1px 0px 0px #4e4e51, -1px 1px 0px #4e4e51, 0px -1px 0px #4e4e51, 0px 1px 0px #4e4e51, 1px -1px 0px #4e4e51, 1px 0px 0px #4e4e51, 1px 1px 0px #4e4e51, 1px 1px 0px #4e4e51; }
+    body.dark .transition_button .main-container .arrow-container svg {
+      fill: #4e4e51;
+      stroke: white; }
+  body.dark .transition_button_mini .main-container {
+    background-color: #dddddd;
+    box-shadow: -2px 2px 4px rgba(255, 255, 255, 0.2); }
+    body.dark .transition_button_mini .main-container .arrow-container svg {
+      fill: #4e4e51;
+      stroke: white; }
+  body.dark .valve .elem .shadow,
+  body.dark .valve_switch .elem .shadow {
+    fill: white; }
+    body.dark .valve .elem .shadow .outer,
+    body.dark .valve_switch .elem .shadow .outer {
+      opacity: 0.02; }
+    body.dark .valve .elem .shadow .medium,
+    body.dark .valve_switch .elem .shadow .medium {
+      opacity: 0.02; }
+    body.dark .valve .elem .shadow .inner,
+    body.dark .valve_switch .elem .shadow .inner {
+      opacity: 0.08; }
+  body.dark .valve .elem .stroke,
+  body.dark .valve_switch .elem .stroke {
+    fill: #4d4d4d; }
+  body.dark .valve .elem .unactive-color,
+  body.dark .valve_switch .elem .unactive-color {
+    fill: #aaaaaa; }
+  body.dark .valve .elem .color,
+  body.dark .valve_switch .elem .color {
+    fill: white; }
+  body.dark .valve .placeholder,
+  body.dark .valve_switch .placeholder {
+    /*
+    Alarm-container
+    */ }
+    body.dark .valve .placeholder .visible,
+    body.dark .valve_switch .placeholder .visible {
+      fill: rgba(180, 180, 180, 0.3); }
+    body.dark .valve .placeholder .invisible,
+    body.dark .valve_switch .placeholder .invisible {
+      fill: none; }
+  body.dark .valve_mini_unactive .elem .stroke {
+    fill: #4d4d4d; }
+  body.dark .valve_mini_unactive .elem .color {
+    fill: white; }
+  body.dark .valve_mini_unactive .elem .overlay {
+    fill: rgba(0, 0, 0, 0.2); }
+  body.dark .valve_switch_bit .elem .shadow {
+    fill: white; }
+    body.dark .valve_switch_bit .elem .shadow .outer {
+      opacity: 0.02; }
+    body.dark .valve_switch_bit .elem .shadow .medium {
+      opacity: 0.02; }
+    body.dark .valve_switch_bit .elem .shadow .inner {
+      opacity: 0.08; }
+  body.dark .valve_switch_bit .elem .stroke.default {
+    fill: #4d4d4d; }
+  body.dark .valve_switch_bit .elem .stroke.error {
+    fill: #960000; }
+  body.dark .valve_switch_bit .elem .unactive-color {
+    fill: #aaaaaa; }
+  body.dark .valve_switch_bit .elem .color {
+    fill: white; }
+  body.dark .valve_switch_bit .placeholder {
+    /*
+    Alarm-container
+    */ }
+    body.dark .valve_switch_bit .placeholder .visible {
+      fill: rgba(180, 180, 180, 0.3); }
+    body.dark .valve_switch_bit .placeholder .invisible {
+      fill: none; }
+  body.dark .ventil_sys .unactive .color {
+    fill: white; }
+  body.dark .ventil_sys .active .color {
+    fill: #ffbc00; }
+  body.dark .wastemeter .elem .color {
+    fill: white; }
+  body.dark .background_for_quarry_graph .upper-container .top-line {
+    background-color: #fafafa; }
+  body.dark .background_for_quarry_graph .upper-container .bot-line {
+    background-color: #fafafa; }
+  body.dark .background_for_quarry_graph .lower-container .hatched-block {
+    background: repeating-linear-gradient(-30deg, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 2.5px, #c4c4c4 3px, #c4c4c4 4px, rgba(0, 0, 0, 0) 4.5px, rgba(0, 0, 0, 0) 7px); }
+  body.dark .level .nums-container .val-block {
+    color: white; }
+  body.dark .level .slider-container .linear-container .top-meas-part,
+  body.dark .level .slider-container .linear-container .middle-meas-part,
+  body.dark .level .slider-container .linear-container .bottom-meas-part {
+    background-color: #828282; }
+  body.dark .level .slider-container .linear-container .top-meas-part .color-block {
+    background-color: #c82828; }
+  body.dark .level .slider-container .linear-container .bottom-meas-part .color-block {
+    background-color: #d2d2d2; }
+  body.dark .level .slider-container .linear-container .inner-container .filled-val {
+    background-color: #00c6ff; }
+  body.dark .level .slider-container .hor-blocks .top-bar {
+    background-color: #961919; }
+  body.dark .level .slider-container .hor-blocks .optim-bar {
+    background-color: #828282; }
+  body.dark .level .slider-container .hor-blocks .bot-bar {
+    background-color: #bebebe; }
+  body.dark .level_for_barrels {
+    /*
+    Alarm-container
+    */ }
+    body.dark .level_for_barrels .slider-container .bar-container-bg {
+      background-color: #323232; }
+      body.dark .level_for_barrels .slider-container .bar-container-bg .inner-bar-container {
+        background-color: #464646; }
+    body.dark .level_for_barrels .slider-container .marklines-bg-container .markline {
+      background-color: #323232; }
+    body.dark .level_for_barrels .slider-container .marklines-fg-container .markline {
+      background-color: #464646; }
+    body.dark .level_for_barrels .slider-container .filling-area .filler {
+      background-color: #c6ff00; }
+    body.dark .level_for_barrels .nums-container .val-block {
+      color: black; }
+    body.dark .level_for_barrels .alarm-container .visible {
+      background-color: rgba(80, 80, 80, 0.3); }
+    body.dark .level_for_barrels .alarm-container .invisible {
+      background-color: none; }
+  body.dark .naming .main-container .info-container-block .somenaming {
+    color: white;
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.4), -1px 0px 0px rgba(0, 0, 0, 0.4), -1px 1px 0px rgba(0, 0, 0, 0.4), 0px -1px 0px rgba(0, 0, 0, 0.4), 0px 1px 0px rgba(0, 0, 0, 0.4), 1px -1px 0px rgba(0, 0, 0, 0.4), 1px 0px 0px rgba(0, 0, 0, 0.4), 1px 1px 0px rgba(0, 0, 0, 0.4); }
+  body.dark .naming_col_inversed .main-container .info-container-block .somenaming {
+    color: #141414; }
+  body.dark .naming_with_bg .main-container {
+    background-color: #353a3d;
+    border-bottom-color: rgba(255, 255, 255, 0.15);
+    border-left-color: rgba(255, 255, 255, 0.15); }
+    body.dark .naming_with_bg .main-container .info-container-block .caption {
+      color: white; }
+    body.dark .naming_with_bg .main-container .info-container-block .units {
+      color: white; }
+  body.dark .num_value {
+    /*
+    Main-container
+    */ }
+    body.dark .num_value .main-container {
+      box-shadow: inset 0 0 10px 0 rgba(255, 255, 255, 0.7);
+      background-color: #1f1f1f; }
+      body.dark .num_value .main-container .info-container-block .num-vert-container .num-placer {
+        text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.6), -1px 0px 0px rgba(0, 0, 0, 0.6), -1px 1px 0px rgba(0, 0, 0, 0.6), 0px -1px 0px rgba(0, 0, 0, 0.6), 0px 1px 0px rgba(0, 0, 0, 0.6), 1px -1px 0px rgba(0, 0, 0, 0.6), 1px 0px 0px rgba(0, 0, 0, 0.6), 1px 1px 0px rgba(0, 0, 0, 0.6), 1px 1px 0px rgba(0, 0, 0, 0.6); }
+    body.dark .num_value .unknown .hatch-container {
+      background: repeating-linear-gradient(-45deg, white 0px, white 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 6px, white 6px, white 7px, rgba(0, 0, 0, 0) 7px, rgba(0, 0, 0, 0) 12px);
+      opacity: 0.3; }
+    body.dark .num_value .unknown .info-container-block .num-vert-container .num-placer {
+      color: white; }
+    body.dark .num_value .unknown .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: white; }
+    body.dark .num_value .unknown .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: white; }
+    body.dark .num_value .lower-than-lowest .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.dark .num_value .lower-than-lowest .info-container-block .num-vert-container .num-placer {
+      color: red; }
+    body.dark .num_value .lower-than-lowest .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: rgba(0, 0, 0, 0); }
+    body.dark .num_value .lower-than-lowest .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: red; }
+    body.dark .num_value .lower-than-optim .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.dark .num_value .lower-than-optim .info-container-block .num-vert-container .num-placer {
+      color: #c8c832; }
+    body.dark .num_value .lower-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: rgba(0, 0, 0, 0); }
+    body.dark .num_value .lower-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: #c8c832; }
+    body.dark .num_value .optimal .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.dark .num_value .optimal .info-container-block .num-vert-container .num-placer {
+      color: white; }
+    body.dark .num_value .optimal .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: #979797; }
+    body.dark .num_value .optimal .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: #979797; }
+    body.dark .num_value .higher-than-optim .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.dark .num_value .higher-than-optim .info-container-block .num-vert-container .num-placer {
+      color: #c8c832; }
+    body.dark .num_value .higher-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: #c8c832; }
+    body.dark .num_value .higher-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: rgba(0, 0, 0, 0); }
+    body.dark .num_value .higher-than-highest .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.dark .num_value .higher-than-highest .info-container-block .num-vert-container .num-placer {
+      color: red; }
+    body.dark .num_value .higher-than-highest .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: red; }
+    body.dark .num_value .higher-than-highest .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: rgba(0, 0, 0, 0); }
+  body.dark .pointer_line .middle-container {
+    /*
+    Triangle
+    */ }
+    body.dark .pointer_line .middle-container .line-container {
+      background-color: #cecece; }
+    body.dark .pointer_line .middle-container .pos {
+      border-top: 6px solid transparent;
+      border-right: 6px solid transparent;
+      border-bottom: 6px solid #cecece;
+      border-left: 6px solid transparent; }
+    body.dark .pointer_line .middle-container .neg {
+      border-top: 6px solid #cecece;
+      border-right: 6px solid transparent;
+      border-bottom: 6px solid transparent;
+      border-left: 6px solid transparent; }
+  body.dark .range_universal_line .main-container .edgeline {
+    background-color: #cecece; }
+  body.dark .range_universal_line .main-container .rangeline {
+    background-color: #cecece; }
+  body.dark .range_vert_line .main-container .holder-row .line {
+    background-color: #cecece; }
+  body.dark .range_vert_line .main-container .line-row {
+    background-color: #cecece; }
+  body.dark .range_vert_line .right .arrows-row .with .triangle:nth-child(1) {
+    border: 4px solid rgba(0, 0, 0, 0);
+    border-top: 4px solid #cecece;
+    border-left: 4px solid #cecece; }
+  body.dark .range_vert_line .right .arrows-row .with .triangle:nth-child(2) {
+    border: 4px solid rgba(0, 0, 0, 0);
+    border-bottom: 4px solid #cecece;
+    border-left: 4px solid #cecece; }
+  body.dark .range_vert_line .left .arrows-row .with .triangle:nth-child(1) {
+    border: 4px solid rgba(0, 0, 0, 0);
+    border-top: 4px solid #cecece;
+    border-right: 4px solid #cecece; }
+  body.dark .range_vert_line .left .arrows-row .with .triangle:nth-child(2) {
+    border: 4px solid rgba(0, 0, 0, 0);
+    border-bottom: 4px solid #cecece;
+    border-right: 4px solid #cecece; }
+  body.dark .switcher_naming.normal.on .main-container {
+    background-color: rgba(0, 150, 150, 0.3); }
+    body.dark .switcher_naming.normal.on .main-container .info-container-block .somenaming {
+      color: white; }
+  body.dark .switcher_naming.normal.off .main-container {
+    background-color: rgba(150, 0, 0, 0.3); }
+    body.dark .switcher_naming.normal.off .main-container .info-container-block .somenaming {
+      color: white; }
+  body.dark .switcher_naming.normal.undefined .main-container {
+    background: repeating-linear-gradient(-45deg, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.3) 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 6px, rgba(255, 255, 255, 0.3) 6px, rgba(255, 255, 255, 0.3) 7px, rgba(0, 0, 0, 0) 7px, rgba(0, 0, 0, 0) 12px); }
+    body.dark .switcher_naming.normal.undefined .main-container .info-container-block .somenaming {
+      color: white; }
+  body.dark .switcher_naming.inversed.on .main-container {
+    background-color: rgba(150, 0, 0, 0.3); }
+    body.dark .switcher_naming.inversed.on .main-container .info-container-block .somenaming {
+      color: white; }
+  body.dark .switcher_naming.inversed.off .main-container {
+    background-color: rgba(0, 150, 150, 0.3); }
+    body.dark .switcher_naming.inversed.off .main-container .info-container-block .somenaming {
+      color: white; }
+  body.dark .switcher_naming.inversed.undefined .main-container {
+    background: repeating-linear-gradient(-45deg, rgba(255, 255, 255, 0.3) 0px, rgba(255, 255, 255, 0.3) 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 6px, rgba(255, 255, 255, 0.3) 6px, rgba(255, 255, 255, 0.3) 7px, rgba(0, 0, 0, 0) 7px, rgba(0, 0, 0, 0) 12px); }
+    body.dark .switcher_naming.inversed.undefined .main-container .info-container-block .somenaming {
+      color: white; }
+  body.dark .tag_naming {
+    /*
+    Main-container
+    */ }
+    body.dark .tag_naming .main-container {
+      background-color: #1f1f1f;
+      box-shadow: inset 0 0 10px 0 rgba(255, 255, 255, 0.7); }
+      body.dark .tag_naming .main-container .info-container-block .somenaming {
+        color: white;
+        text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.6), -1px 0px 0px rgba(0, 0, 0, 0.6), -1px 1px 0px rgba(0, 0, 0, 0.6), 0px -1px 0px rgba(0, 0, 0, 0.6), 0px 1px 0px rgba(0, 0, 0, 0.6), 1px -1px 0px rgba(0, 0, 0, 0.6), 1px 0px 0px rgba(0, 0, 0, 0.6), 1px 1px 0px rgba(0, 0, 0, 0.6), 1px 1px 0px rgba(0, 0, 0, 0.6); }
+    body.dark .tag_naming .reachable .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.dark .tag_naming .unreachable .hatch-container {
+      background: repeating-linear-gradient(-45deg, white 0px, white 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 6px, white 6px, white 7px, rgba(0, 0, 0, 0) 7px, rgba(0, 0, 0, 0) 12px);
+      opacity: 0.3; }
+  body.dark .tit,
+  body.dark .tit_dyn_sum,
+  body.dark .tit_tags,
+  body.dark .tit_formulated {
+    border-bottom-color: rgba(255, 255, 255, 0.15);
+    border-left-color: rgba(255, 255, 255, 0.15);
+    /*
+    Name-container
+    */
+    /*
+    Val-container
+    */ }
+    body.dark .tit .name-container,
+    body.dark .tit_dyn_sum .name-container,
+    body.dark .tit_tags .name-container,
+    body.dark .tit_formulated .name-container {
+      background-color: #f2f3f1; }
+      body.dark .tit .name-container .info-container-block .caption-block,
+      body.dark .tit .name-container .info-container-block .unit-block,
+      body.dark .tit_dyn_sum .name-container .info-container-block .caption-block,
+      body.dark .tit_dyn_sum .name-container .info-container-block .unit-block,
+      body.dark .tit_tags .name-container .info-container-block .caption-block,
+      body.dark .tit_tags .name-container .info-container-block .unit-block,
+      body.dark .tit_formulated .name-container .info-container-block .caption-block,
+      body.dark .tit_formulated .name-container .info-container-block .unit-block {
+        color: black; }
+    body.dark .tit .val-container,
+    body.dark .tit_dyn_sum .val-container,
+    body.dark .tit_tags .val-container,
+    body.dark .tit_formulated .val-container {
+      box-shadow: inset 0 0 10px 0 rgba(255, 255, 255, 0.7);
+      background-color: #1f1f1f; }
+      body.dark .tit .val-container .info-container-block .num-vert-container .num-placer,
+      body.dark .tit_dyn_sum .val-container .info-container-block .num-vert-container .num-placer,
+      body.dark .tit_tags .val-container .info-container-block .num-vert-container .num-placer,
+      body.dark .tit_formulated .val-container .info-container-block .num-vert-container .num-placer {
+        text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.6), -1px 0px 0px rgba(0, 0, 0, 0.6), -1px 1px 0px rgba(0, 0, 0, 0.6), 0px -1px 0px rgba(0, 0, 0, 0.6), 0px 1px 0px rgba(0, 0, 0, 0.6), 1px -1px 0px rgba(0, 0, 0, 0.6), 1px 0px 0px rgba(0, 0, 0, 0.6), 1px 1px 0px rgba(0, 0, 0, 0.6), 1px 1px 0px rgba(0, 0, 0, 0.6); }
+    body.dark .tit .unknown .hatch-container,
+    body.dark .tit_dyn_sum .unknown .hatch-container,
+    body.dark .tit_tags .unknown .hatch-container,
+    body.dark .tit_formulated .unknown .hatch-container {
+      background: repeating-linear-gradient(-45deg, white 0px, white 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 6px, white 6px, white 7px, rgba(0, 0, 0, 0) 7px, rgba(0, 0, 0, 0) 12px);
+      opacity: 0.3; }
+    body.dark .tit .unknown .info-container-block .num-vert-container .num-placer,
+    body.dark .tit_dyn_sum .unknown .info-container-block .num-vert-container .num-placer,
+    body.dark .tit_tags .unknown .info-container-block .num-vert-container .num-placer,
+    body.dark .tit_formulated .unknown .info-container-block .num-vert-container .num-placer {
+      color: white; }
+    body.dark .tit .unknown .info-container-block .line-vert-container .line-element .square:nth-child(1),
+    body.dark .tit_dyn_sum .unknown .info-container-block .line-vert-container .line-element .square:nth-child(1),
+    body.dark .tit_tags .unknown .info-container-block .line-vert-container .line-element .square:nth-child(1),
+    body.dark .tit_formulated .unknown .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: white; }
+    body.dark .tit .unknown .info-container-block .line-vert-container .line-element .square:nth-child(2),
+    body.dark .tit_dyn_sum .unknown .info-container-block .line-vert-container .line-element .square:nth-child(2),
+    body.dark .tit_tags .unknown .info-container-block .line-vert-container .line-element .square:nth-child(2),
+    body.dark .tit_formulated .unknown .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: white; }
+    body.dark .tit .lower-than-lowest .hatch-container,
+    body.dark .tit_dyn_sum .lower-than-lowest .hatch-container,
+    body.dark .tit_tags .lower-than-lowest .hatch-container,
+    body.dark .tit_formulated .lower-than-lowest .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.dark .tit .lower-than-lowest .info-container-block .num-vert-container .num-placer,
+    body.dark .tit_dyn_sum .lower-than-lowest .info-container-block .num-vert-container .num-placer,
+    body.dark .tit_tags .lower-than-lowest .info-container-block .num-vert-container .num-placer,
+    body.dark .tit_formulated .lower-than-lowest .info-container-block .num-vert-container .num-placer {
+      color: red; }
+    body.dark .tit .lower-than-lowest .info-container-block .line-vert-container .line-element .square:nth-child(1),
+    body.dark .tit_dyn_sum .lower-than-lowest .info-container-block .line-vert-container .line-element .square:nth-child(1),
+    body.dark .tit_tags .lower-than-lowest .info-container-block .line-vert-container .line-element .square:nth-child(1),
+    body.dark .tit_formulated .lower-than-lowest .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: rgba(0, 0, 0, 0); }
+    body.dark .tit .lower-than-lowest .info-container-block .line-vert-container .line-element .square:nth-child(2),
+    body.dark .tit_dyn_sum .lower-than-lowest .info-container-block .line-vert-container .line-element .square:nth-child(2),
+    body.dark .tit_tags .lower-than-lowest .info-container-block .line-vert-container .line-element .square:nth-child(2),
+    body.dark .tit_formulated .lower-than-lowest .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: red; }
+    body.dark .tit .lower-than-optim .hatch-container,
+    body.dark .tit_dyn_sum .lower-than-optim .hatch-container,
+    body.dark .tit_tags .lower-than-optim .hatch-container,
+    body.dark .tit_formulated .lower-than-optim .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.dark .tit .lower-than-optim .info-container-block .num-vert-container .num-placer,
+    body.dark .tit_dyn_sum .lower-than-optim .info-container-block .num-vert-container .num-placer,
+    body.dark .tit_tags .lower-than-optim .info-container-block .num-vert-container .num-placer,
+    body.dark .tit_formulated .lower-than-optim .info-container-block .num-vert-container .num-placer {
+      color: #c8c832; }
+    body.dark .tit .lower-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(1),
+    body.dark .tit_dyn_sum .lower-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(1),
+    body.dark .tit_tags .lower-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(1),
+    body.dark .tit_formulated .lower-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: rgba(0, 0, 0, 0); }
+    body.dark .tit .lower-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(2),
+    body.dark .tit_dyn_sum .lower-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(2),
+    body.dark .tit_tags .lower-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(2),
+    body.dark .tit_formulated .lower-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: #c8c832; }
+    body.dark .tit .optimal .hatch-container,
+    body.dark .tit_dyn_sum .optimal .hatch-container,
+    body.dark .tit_tags .optimal .hatch-container,
+    body.dark .tit_formulated .optimal .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.dark .tit .optimal .info-container-block .num-vert-container .num-placer,
+    body.dark .tit_dyn_sum .optimal .info-container-block .num-vert-container .num-placer,
+    body.dark .tit_tags .optimal .info-container-block .num-vert-container .num-placer,
+    body.dark .tit_formulated .optimal .info-container-block .num-vert-container .num-placer {
+      color: white; }
+    body.dark .tit .optimal .info-container-block .line-vert-container .line-element .square:nth-child(1),
+    body.dark .tit_dyn_sum .optimal .info-container-block .line-vert-container .line-element .square:nth-child(1),
+    body.dark .tit_tags .optimal .info-container-block .line-vert-container .line-element .square:nth-child(1),
+    body.dark .tit_formulated .optimal .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: #979797; }
+    body.dark .tit .optimal .info-container-block .line-vert-container .line-element .square:nth-child(2),
+    body.dark .tit_dyn_sum .optimal .info-container-block .line-vert-container .line-element .square:nth-child(2),
+    body.dark .tit_tags .optimal .info-container-block .line-vert-container .line-element .square:nth-child(2),
+    body.dark .tit_formulated .optimal .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: #979797; }
+    body.dark .tit .higher-than-optim .hatch-container,
+    body.dark .tit_dyn_sum .higher-than-optim .hatch-container,
+    body.dark .tit_tags .higher-than-optim .hatch-container,
+    body.dark .tit_formulated .higher-than-optim .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.dark .tit .higher-than-optim .info-container-block .num-vert-container .num-placer,
+    body.dark .tit_dyn_sum .higher-than-optim .info-container-block .num-vert-container .num-placer,
+    body.dark .tit_tags .higher-than-optim .info-container-block .num-vert-container .num-placer,
+    body.dark .tit_formulated .higher-than-optim .info-container-block .num-vert-container .num-placer {
+      color: #c8c832; }
+    body.dark .tit .higher-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(1),
+    body.dark .tit_dyn_sum .higher-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(1),
+    body.dark .tit_tags .higher-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(1),
+    body.dark .tit_formulated .higher-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: #c8c832; }
+    body.dark .tit .higher-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(2),
+    body.dark .tit_dyn_sum .higher-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(2),
+    body.dark .tit_tags .higher-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(2),
+    body.dark .tit_formulated .higher-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: rgba(0, 0, 0, 0); }
+    body.dark .tit .higher-than-highest .hatch-container,
+    body.dark .tit_dyn_sum .higher-than-highest .hatch-container,
+    body.dark .tit_tags .higher-than-highest .hatch-container,
+    body.dark .tit_formulated .higher-than-highest .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.dark .tit .higher-than-highest .info-container-block .num-vert-container .num-placer,
+    body.dark .tit_dyn_sum .higher-than-highest .info-container-block .num-vert-container .num-placer,
+    body.dark .tit_tags .higher-than-highest .info-container-block .num-vert-container .num-placer,
+    body.dark .tit_formulated .higher-than-highest .info-container-block .num-vert-container .num-placer {
+      color: red; }
+    body.dark .tit .higher-than-highest .info-container-block .line-vert-container .line-element .square:nth-child(1),
+    body.dark .tit_dyn_sum .higher-than-highest .info-container-block .line-vert-container .line-element .square:nth-child(1),
+    body.dark .tit_tags .higher-than-highest .info-container-block .line-vert-container .line-element .square:nth-child(1),
+    body.dark .tit_formulated .higher-than-highest .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: red; }
+    body.dark .tit .higher-than-highest .info-container-block .line-vert-container .line-element .square:nth-child(2),
+    body.dark .tit_dyn_sum .higher-than-highest .info-container-block .line-vert-container .line-element .square:nth-child(2),
+    body.dark .tit_tags .higher-than-highest .info-container-block .line-vert-container .line-element .square:nth-child(2),
+    body.dark .tit_formulated .higher-than-highest .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: rgba(0, 0, 0, 0); }
+  body.dark .tit_alt {
+    border-color: rgba(255, 255, 255, 0.15);
+    /*
+    Val-container
+    */ }
+    body.dark .tit_alt .name-container {
+      background-color: #f2f3f1;
+      color: black; }
+    body.dark .tit_alt .val-container {
+      box-shadow: inset 0 0 10px 0 rgba(255, 255, 255, 0.7);
+      background-color: #1f1f1f; }
+      body.dark .tit_alt .val-container .info-container-block .num-vert-container .num-placer {
+        text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.6), -1px 0px 0px rgba(0, 0, 0, 0.6), -1px 1px 0px rgba(0, 0, 0, 0.6), 0px -1px 0px rgba(0, 0, 0, 0.6), 0px 1px 0px rgba(0, 0, 0, 0.6), 1px -1px 0px rgba(0, 0, 0, 0.6), 1px 0px 0px rgba(0, 0, 0, 0.6), 1px 1px 0px rgba(0, 0, 0, 0.6), 1px 1px 0px rgba(0, 0, 0, 0.6); }
+    body.dark .tit_alt .unknown .hatch-container {
+      background: repeating-linear-gradient(-45deg, white 0px, white 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 6px, white 6px, white 7px, rgba(0, 0, 0, 0) 7px, rgba(0, 0, 0, 0) 12px);
+      opacity: 0.3; }
+    body.dark .tit_alt .unknown .info-container-block .num-vert-container .num-placer {
+      color: white; }
+    body.dark .tit_alt .unknown .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: white; }
+    body.dark .tit_alt .unknown .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: white; }
+    body.dark .tit_alt .lower-than-lowest .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.dark .tit_alt .lower-than-lowest .info-container-block .num-vert-container .num-placer {
+      color: red; }
+    body.dark .tit_alt .lower-than-lowest .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: rgba(0, 0, 0, 0); }
+    body.dark .tit_alt .lower-than-lowest .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: red; }
+    body.dark .tit_alt .lower-than-optim .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.dark .tit_alt .lower-than-optim .info-container-block .num-vert-container .num-placer {
+      color: #c8c832; }
+    body.dark .tit_alt .lower-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: rgba(0, 0, 0, 0); }
+    body.dark .tit_alt .lower-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: #c8c832; }
+    body.dark .tit_alt .optimal .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.dark .tit_alt .optimal .info-container-block .num-vert-container .num-placer {
+      color: white; }
+    body.dark .tit_alt .optimal .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: #979797; }
+    body.dark .tit_alt .optimal .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: #979797; }
+    body.dark .tit_alt .higher-than-optim .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.dark .tit_alt .higher-than-optim .info-container-block .num-vert-container .num-placer {
+      color: #c8c832; }
+    body.dark .tit_alt .higher-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: #c8c832; }
+    body.dark .tit_alt .higher-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: rgba(0, 0, 0, 0); }
+    body.dark .tit_alt .higher-than-highest .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.dark .tit_alt .higher-than-highest .info-container-block .num-vert-container .num-placer {
+      color: red; }
+    body.dark .tit_alt .higher-than-highest .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: red; }
+    body.dark .tit_alt .higher-than-highest .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: rgba(0, 0, 0, 0); }
+  body.dark .tit_alt_on_barrel {
+    border-color: whitesmoke;
+    /*
+    Val-container
+    */ }
+    body.dark .tit_alt_on_barrel .name-container {
+      background-color: #dcdcd7;
+      color: black; }
+    body.dark .tit_alt_on_barrel .val-container {
+      box-shadow: inset 0 0 10px 0 rgba(255, 255, 255, 0.7);
+      background-color: #1f1f1f; }
+      body.dark .tit_alt_on_barrel .val-container .info-container-block .num-vert-container .num-placer {
+        text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.6), -1px 0px 0px rgba(0, 0, 0, 0.6), -1px 1px 0px rgba(0, 0, 0, 0.6), 0px -1px 0px rgba(0, 0, 0, 0.6), 0px 1px 0px rgba(0, 0, 0, 0.6), 1px -1px 0px rgba(0, 0, 0, 0.6), 1px 0px 0px rgba(0, 0, 0, 0.6), 1px 1px 0px rgba(0, 0, 0, 0.6), 1px 1px 0px rgba(0, 0, 0, 0.6); }
+    body.dark .tit_alt_on_barrel .unknown .hatch-container {
+      background: repeating-linear-gradient(-45deg, white 0px, white 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 6px, white 6px, white 7px, rgba(0, 0, 0, 0) 7px, rgba(0, 0, 0, 0) 12px);
+      opacity: 0.3; }
+    body.dark .tit_alt_on_barrel .unknown .info-container-block .num-vert-container .num-placer {
+      color: white; }
+    body.dark .tit_alt_on_barrel .unknown .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: white; }
+    body.dark .tit_alt_on_barrel .unknown .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: white; }
+    body.dark .tit_alt_on_barrel .lower-than-lowest .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.dark .tit_alt_on_barrel .lower-than-lowest .info-container-block .num-vert-container .num-placer {
+      color: red; }
+    body.dark .tit_alt_on_barrel .lower-than-lowest .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: rgba(0, 0, 0, 0); }
+    body.dark .tit_alt_on_barrel .lower-than-lowest .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: red; }
+    body.dark .tit_alt_on_barrel .lower-than-optim .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.dark .tit_alt_on_barrel .lower-than-optim .info-container-block .num-vert-container .num-placer {
+      color: #c8c832; }
+    body.dark .tit_alt_on_barrel .lower-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: rgba(0, 0, 0, 0); }
+    body.dark .tit_alt_on_barrel .lower-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: #c8c832; }
+    body.dark .tit_alt_on_barrel .optimal .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.dark .tit_alt_on_barrel .optimal .info-container-block .num-vert-container .num-placer {
+      color: white; }
+    body.dark .tit_alt_on_barrel .optimal .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: #979797; }
+    body.dark .tit_alt_on_barrel .optimal .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: #979797; }
+    body.dark .tit_alt_on_barrel .higher-than-optim .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.dark .tit_alt_on_barrel .higher-than-optim .info-container-block .num-vert-container .num-placer {
+      color: #c8c832; }
+    body.dark .tit_alt_on_barrel .higher-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: #c8c832; }
+    body.dark .tit_alt_on_barrel .higher-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: rgba(0, 0, 0, 0); }
+    body.dark .tit_alt_on_barrel .higher-than-highest .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.dark .tit_alt_on_barrel .higher-than-highest .info-container-block .num-vert-container .num-placer {
+      color: red; }
+    body.dark .tit_alt_on_barrel .higher-than-highest .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: red; }
+    body.dark .tit_alt_on_barrel .higher-than-highest .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: rgba(0, 0, 0, 0); }
+  body.dark .tit_col_inversed {
+    border-color: rgba(255, 255, 255, 0.7);
+    /*
+    Name-container
+    */
+    /*
+    Val-container
+    */ }
+    body.dark .tit_col_inversed .name-container {
+      background-color: #c4c4c4; }
+      body.dark .tit_col_inversed .name-container .info-container-block .caption-block,
+      body.dark .tit_col_inversed .name-container .info-container-block .unit-block {
+        color: black; }
+    body.dark .tit_col_inversed .val-container {
+      box-shadow: inset 0 0 10px 0 rgba(255, 255, 255, 0.7);
+      background-color: #1f1f1f; }
+      body.dark .tit_col_inversed .val-container .info-container-block .num-vert-container .num-placer {
+        text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.6), -1px 0px 0px rgba(0, 0, 0, 0.6), -1px 1px 0px rgba(0, 0, 0, 0.6), 0px -1px 0px rgba(0, 0, 0, 0.6), 0px 1px 0px rgba(0, 0, 0, 0.6), 1px -1px 0px rgba(0, 0, 0, 0.6), 1px 0px 0px rgba(0, 0, 0, 0.6), 1px 1px 0px rgba(0, 0, 0, 0.6), 1px 1px 0px rgba(0, 0, 0, 0.6); }
+    body.dark .tit_col_inversed .unknown .hatch-container {
+      background: repeating-linear-gradient(-45deg, white 0px, white 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 6px, white 6px, white 7px, rgba(0, 0, 0, 0) 7px, rgba(0, 0, 0, 0) 12px);
+      opacity: 0.3; }
+    body.dark .tit_col_inversed .unknown .info-container-block .num-vert-container .num-placer {
+      color: white; }
+    body.dark .tit_col_inversed .unknown .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: white; }
+    body.dark .tit_col_inversed .unknown .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: white; }
+    body.dark .tit_col_inversed .lower-than-lowest .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.dark .tit_col_inversed .lower-than-lowest .info-container-block .num-vert-container .num-placer {
+      color: red; }
+    body.dark .tit_col_inversed .lower-than-lowest .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: rgba(0, 0, 0, 0); }
+    body.dark .tit_col_inversed .lower-than-lowest .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: red; }
+    body.dark .tit_col_inversed .lower-than-optim .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.dark .tit_col_inversed .lower-than-optim .info-container-block .num-vert-container .num-placer {
+      color: #c8c832; }
+    body.dark .tit_col_inversed .lower-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: rgba(0, 0, 0, 0); }
+    body.dark .tit_col_inversed .lower-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: #c8c832; }
+    body.dark .tit_col_inversed .optimal .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.dark .tit_col_inversed .optimal .info-container-block .num-vert-container .num-placer {
+      color: white; }
+    body.dark .tit_col_inversed .optimal .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: #979797; }
+    body.dark .tit_col_inversed .optimal .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: #979797; }
+    body.dark .tit_col_inversed .higher-than-optim .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.dark .tit_col_inversed .higher-than-optim .info-container-block .num-vert-container .num-placer {
+      color: #c8c832; }
+    body.dark .tit_col_inversed .higher-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: #c8c832; }
+    body.dark .tit_col_inversed .higher-than-optim .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: rgba(0, 0, 0, 0); }
+    body.dark .tit_col_inversed .higher-than-highest .hatch-container {
+      background: none;
+      opacity: 0; }
+    body.dark .tit_col_inversed .higher-than-highest .info-container-block .num-vert-container .num-placer {
+      color: red; }
+    body.dark .tit_col_inversed .higher-than-highest .info-container-block .line-vert-container .line-element .square:nth-child(1) {
+      background-color: red; }
+    body.dark .tit_col_inversed .higher-than-highest .info-container-block .line-vert-container .line-element .square:nth-child(2) {
+      background-color: rgba(0, 0, 0, 0); }
+
+/*# sourceMappingURL=themes.css.map */

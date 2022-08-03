@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <!--'Classes of pipes in scheme:
+        
+        -->
+        <meta charset="UTF-8">
+        <title>24_1_pumping_methanol-41</title>
+        <link href="/Data/styles/mnemo_styles.css" rel="stylesheet" type="text/css">
+        <link href="/Data/styles/Themes/default.css" rel="stylesheet" type="text/css">
+        <!-- <link href="/Data/styles/Themes/white_theme.css" rel="stylesheet" type="text/css"> -->
+        <link href="/Data/styles/Themes/achim_white_theme.css" rel="stylesheet" type="text/css">
+        
+        <link href="/Data/styles/pipes_styles.css" rel="stylesheet" type="text/css">
+
+        <!-- <script src="/Data/libs/fabric.min.js"></script>
+        <script src="/Data/libs/underscore.js"></script> -->
+        <script src="/Data/scripts/mnemocore.js"></script>
+        
+        <script src="/Data/scripts/simpleelement.js"></script>
+        <script src="/Data/elements/arrow-pic/prototype.js"></script>
+<script src="/Data/elements/valve-n-elem/prototype.js"></script>
+<script src="/Data/elements/transition-button-elem/prototype.js"></script>
+<script src="/Data/elements/caption-elem/prototype.js"></script>
+<script src="/Data/elements/multi-tit-elem/prototype.js"></script>
+<script src="/Data/elements/pump-n-elem/prototype.js"></script>
+<script src="/Data/elements/tit-elem/prototype.js"></script>
+
+
+    </head>
+    <body class="default" oncontextmenu="return false;">
+    <div id="container_of_templates"></div>
+    <div id="container_of_elements">
+<arrow-pic id="1" style="width:28px; height:53px; transform:matrix(1,0,0,1,322,63.5); transform-origin: left top;" 0.  _scaption='Ф5' ></arrow-pic>
+<arrow-pic id="2" style="width:28px; height:53px; transform:matrix(1,0,0,1,322,176.5); transform-origin: left top;" 0.  _scaption='Ф6' ></arrow-pic>
+<arrow-pic id="3" style="width:28px; height:53px; transform:matrix(1,0,0,1,322,577.5); transform-origin: left top;" 0.  _scaption='Ф3' ></arrow-pic>
+<arrow-pic id="4" style="width:28px; height:53px; transform:matrix(1,0,0,1,322,713.5); transform-origin: left top;" 0.  _scaption='Ф4' ></arrow-pic>
+<arrow-pic id="5" style="width:28px; height:53px; transform:matrix(1,0,0,1,322,433.5); transform-origin: left top;" 0.  _scaption='Ф2' ></arrow-pic>
+<arrow-pic id="6" style="width:28px; height:53px; transform:matrix(1,0,0,1,322,313); transform-origin: left top;" 0.  _scaption='Ф1' ></arrow-pic>
+<transition-button-elem id="7" style="width:119px; height:34px; transform:matrix(1,0,0,1,10,119.5); transform-origin: left top;" 0._sarrowdirection='0' 0.  _scaption='ИК от Е24.2.8'  _slineheight='14.0'  _sfontsize='16.0' ></transition-button-elem>
+<transition-button-elem id="8" style="width:119px; height:34px; transform:matrix(1,0,0,1,10,313.5); transform-origin: left top;" 0._sarrowdirection='0' 0.  _scaption='Метанол от Е24.2.1-Е24.2.6'  _slineheight='13.0'  _sfontsize='14.0' ></transition-button-elem>
+<transition-button-elem id="9" style="width:119px; height:34px; transform:matrix(1,0,0,1,10,435); transform-origin: left top;" 0._sarrowdirection='0' 0.  _scaption='РИК от Е24.2.5, Е24.2.6'  _slineheight='13.0'  _sfontsize='14.0' ></transition-button-elem>
+<transition-button-elem id="10" style="width:119px; height:34px; transform:matrix(1,0,0,1,10,712.5); transform-origin: left top;" 0._sarrowdirection='0' 0.  _scaption='МН от Е24.7'  _slineheight='14.0'  _sfontsize='16.0' ></transition-button-elem>
+<transition-button-elem id="11" style="width:119px; height:34px; transform:matrix(1,0,0,1,2134,121); transform-origin: left top;" 0._sarrowdirection='0' 0.  _scaption='РИК на кусты'  _slineheight='14.0'  _sfontsize='16.0' ></transition-button-elem>
+<transition-button-elem id="12" style="width:119px; height:34px; transform:matrix(1,0,0,1,2134,282); transform-origin: left top;" 0._sarrowdirection='0' 0.  _scaption='МН на ЦЗПА и кусты'  _slineheight='14.0'  _sfontsize='14.0' ></transition-button-elem>
+<transition-button-elem id="13" style="width:119px; height:34px; transform:matrix(1,0,0,1,2134,884); transform-origin: left top;" 0._sarrowdirection='0' 0.  _scaption='МН на ЦПГК'  _slineheight='14.0'  _sfontsize='16.0' ></transition-button-elem>
+<multi-tit-elem id="62" style="width:152px; height:32px; transform:matrix(1,0,0,1,261,134); transform-origin: left top;" 0._stitcount='1' 0._sarroworient='bot'  _scaptions='["dP"]'  _sarrowval='45.0'  0._sarroworient ='bot' ></multi-tit-elem>
+<multi-tit-elem id="63" style="width:152px; height:32px; transform:matrix(1,0,0,1,261,21); transform-origin: left top;" 0._stitcount='1' 0._sarroworient='bot'  _scaptions='["dP"]'  _sarrowval='45.0'  0._sarroworient ='bot' ></multi-tit-elem>
+<multi-tit-elem id="64" style="width:152px; height:32px; transform:matrix(1,0,0,1,261,270.5); transform-origin: left top;" 0._stitcount='1' 0._sarroworient='bot'  _scaptions='["dP"]'  _sarrowval='45.0'  0._sarroworient ='bot' ></multi-tit-elem>
+<multi-tit-elem id="65" style="width:152px; height:32px; transform:matrix(1,0,0,1,261,391.5); transform-origin: left top;" 0._stitcount='1' 0._sarroworient='bot'  _scaptions='["dP"]'  _sarrowval='45.0'  0._sarroworient ='bot' ></multi-tit-elem>
+<multi-tit-elem id="66" style="width:152px; height:32px; transform:matrix(1,0,0,1,261,671.5); transform-origin: left top;" 0._stitcount='1' 0._sarroworient='bot'  _scaptions='["dP"]'  _sarrowval='45.0'  0._sarroworient ='bot' ></multi-tit-elem>
+<multi-tit-elem id="67" style="width:152px; height:32px; transform:matrix(1,0,0,1,261,534.5); transform-origin: left top;" 0._stitcount='1' 0._sarroworient='bot'  _scaptions='["dP"]'  _sarrowval='45.0'  0._sarroworient ='bot' ></multi-tit-elem>
+<multi-tit-elem id="68" style="width:134px; height:32px; transform:matrix(1,0,0,1,862,86); transform-origin: left top;" 0._stitcount='1'  _scaptions='["F"]' ></multi-tit-elem>
+<multi-tit-elem id="69" style="width:134px; height:64px; transform:matrix(1.0746,0,0,1,1144,462); transform-origin: left top;" 0._stitcount='2'  _scaptions='["F","T"]' ></multi-tit-elem>
+<multi-tit-elem id="70" style="width:134px; height:64px; transform:matrix(1.0746,0,0,1,1144,667.5); transform-origin: left top;" 0._stitcount='2'  _scaptions='["F","T"]' ></multi-tit-elem>
+<multi-tit-elem id="71" style="width:134px; height:64px; transform:matrix(1.0746,0,0,1,1144,216.5); transform-origin: left top;" 0._stitcount='2'  _scaptions='["F","T"]' ></multi-tit-elem>
+<multi-tit-elem id="72" style="width:134px; height:64px; transform:matrix(1.0746,0,0,1,1144,1087); transform-origin: left top;" 0._stitcount='2'  _scaptions='["F","T"]' ></multi-tit-elem>
+<multi-tit-elem id="78" style="width:134px; height:64px; transform:matrix(1.0746,0,0,1,1144,875.5); transform-origin: left top;" 0._stitcount='2'  _scaptions='["F","T"]' ></multi-tit-elem>
+<multi-tit-elem id="75" style="width:134px; height:96px; transform:matrix(1,0,0,1,1976.5,1056.5); transform-origin: left top;" 0._stitcount='3'  _scaptions='["F","P","T"]' ></multi-tit-elem>
+<multi-tit-elem id="77" style="width:134px; height:96px; transform:matrix(1,0,0,1,1976.5,23.5); transform-origin: left top;" 0._stitcount='3'  _scaptions='["F","P","T"]' ></multi-tit-elem>
+<multi-tit-elem id="73" style="width:134px; height:96px; transform:matrix(1,0,0,1,1976.5,183.5); transform-origin: left top;" 0._stitcount='3'  _scaptions='["F","P","T"]' ></multi-tit-elem>
+<multi-tit-elem id="74" style="width:134px; height:96px; transform:matrix(1,0,0,1,1976.5,784.5); transform-origin: left top;" 0._stitcount='3'  _scaptions='["F","P","T"]' ></multi-tit-elem>
+<transition-button-elem id="14" style="width:119px; height:34px; transform:matrix(1,0,0,1,2134,1153); transform-origin: left top;" 0._sarrowdirection='0' 0.  _scaption='М на ЦПГК'  _slineheight='13.0'  _sfontsize='16.0' ></transition-button-elem>
+<valve-n-elem id="15" style="width:71px; height:89px; transform:matrix(1,0,0,1,573.5,41.5); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='Кр 24.1.16'  _scolor='methanol' ></valve-n-elem>
+<valve-n-elem id="16" style="width:71px; height:89px; transform:matrix(1,0,0,1,573.5,153.5); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='Кр 24.1.17'  _scolor='methanol' ></valve-n-elem>
+<valve-n-elem id="17" style="width:71px; height:89px; transform:matrix(1,0,0,1,741.5,285); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='КрЭ 24.1.1'  _scolor='methanol' ></valve-n-elem>
+<valve-n-elem id="18" style="width:71px; height:89px; transform:matrix(1,0,0,1,741.5,539.5); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='КрЭ 24.1.6'  _scolor='methanol' ></valve-n-elem>
+<valve-n-elem id="19" style="width:71px; height:89px; transform:matrix(1,0,0,1,741.5,944.5); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='КрЭ 24.1.12'  _scolor='methanol' ></valve-n-elem>
+<valve-n-elem id="20" style="width:71px; height:89px; transform:matrix(1,0,0,1,741.5,739.5); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='КрЭ 24.1.9'  _scolor='methanol' ></valve-n-elem>
+<valve-n-elem id="21" style="width:71px; height:89px; transform:matrix(1,0,0,1,741.5,1158); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='КрЭ 24.1.15'  _scolor='methanol' ></valve-n-elem>
+<valve-n-elem id="22" style="width:71px; height:89px; transform:matrix(1,0,0,1,893.5,239.5); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='КрЭ 24.1.2'  _scolor='methanol' ></valve-n-elem>
+<valve-n-elem id="23" style="width:71px; height:89px; transform:matrix(1,0,0,1,893.5,405); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='КрЭ 24.1.4'  _scolor='gas' ></valve-n-elem>
+<valve-n-elem id="24" style="width:71px; height:89px; transform:matrix(1,0,0,1,893.5,151.5); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='КрЭ 24.1.3'  _scolor='gas' ></valve-n-elem>
+<valve-n-elem id="25" style="width:71px; height:89px; transform:matrix(1,0,0,1,893.5,493.5); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='КрЭ 24.1.5'  _scolor='methanol' ></valve-n-elem>
+<valve-n-elem id="26" style="width:71px; height:89px; transform:matrix(1,0,0,1,893.5,801.5); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='КрЭ 24.1.10'  _scolor='gas' ></valve-n-elem>
+<valve-n-elem id="27" style="width:71px; height:89px; transform:matrix(1,0,0,1,893.5,888.5); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='КрЭ 24.1.11'  _scolor='methanol' ></valve-n-elem>
+<valve-n-elem id="28" style="width:71px; height:89px; transform:matrix(1,0,0,1,893.5,686); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='КрЭ 24.1.8'  _scolor='methanol' ></valve-n-elem>
+<valve-n-elem id="29" style="width:71px; height:89px; transform:matrix(1,0,0,1,893.5,1011); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='КрЭ 24.1.13'  _scolor='gas' ></valve-n-elem>
+<valve-n-elem id="30" style="width:71px; height:89px; transform:matrix(1,0,0,1,893.5,600); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='КрЭ 24.1.7'  _scolor='gas' ></valve-n-elem>
+<valve-n-elem id="31" style="width:71px; height:89px; transform:matrix(1,0,0,1,893.5,1099.5); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='КрЭ 24.1.14'  _scolor='methanol' ></valve-n-elem>
+<valve-n-elem id="32" style="width:71px; height:89px; transform:matrix(1,0,0,1,1334.5,92.5); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='Кр 24.1.18'  _scolor='methanol' ></valve-n-elem>
+<valve-n-elem id="33" style="width:71px; height:89px; transform:matrix(1,0,0,1,1334.5,1000.5); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='Кр 24.1.22'  _scolor='methanol' ></valve-n-elem>
+<valve-n-elem id="34" style="width:71px; height:89px; transform:matrix(1,0,0,1,1334.5,796.5); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='Кр 24.1.21'  _scolor='methanol' ></valve-n-elem>
+<valve-n-elem id="35" style="width:71px; height:89px; transform:matrix(1,0,0,1,1334.5,589); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='Кр 24.1.20'  _scolor='methanol' ></valve-n-elem>
+<valve-n-elem id="36" style="width:71px; height:89px; transform:matrix(1,0,0,1,1334.5,379.5); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='Кр 24.1.19'  _scolor='methanol' ></valve-n-elem>
+<valve-n-elem id="37" style="width:71px; height:89px; transform:matrix(1,0,0,1,1507.5,796.5); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='КлР - 2'  _scolor='methanol' ></valve-n-elem>
+<valve-n-elem id="38" style="width:71px; height:89px; transform:matrix(1,0,0,1,1507.5,1000.5); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='КлР - 3'  _scolor='methanol' ></valve-n-elem>
+<valve-n-elem id="39" style="width:71px; height:89px; transform:matrix(1,0,0,1,1507.5,379.5); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='КлР 1'  _scolor='methanol' ></valve-n-elem>
+<valve-n-elem id="40" style="width:71px; height:89px; transform:matrix(1,0,0,1,1672.5,1006.5); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='КрЭ 24.1.35'  _scolor='gas' ></valve-n-elem>
+<valve-n-elem id="41" style="width:71px; height:89px; transform:matrix(1,0,0,1,1672.5,706.5); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='КрЭ 24.1.31'  _scolor='methanol' ></valve-n-elem>
+<valve-n-elem id="42" style="width:71px; height:89px; transform:matrix(1,0,0,1,1672.5,915.5); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='КрЭ 24.1.34'  _scolor='methanol' ></valve-n-elem>
+<valve-n-elem id="43" style="width:71px; height:89px; transform:matrix(1,0,0,1,1672.5,798); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='КрЭ 24.1.32'  _scolor='gas' ></valve-n-elem>
+<valve-n-elem id="44" style="width:71px; height:89px; transform:matrix(1,0,0,1,1672.5,383.5); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='КрЭ 24.1.26'  _scolor='gas' ></valve-n-elem>
+<valve-n-elem id="45" style="width:71px; height:89px; transform:matrix(1,0,0,1,1672.5,499.5); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='КрЭ 24.1.28'  _scolor='methanol' ></valve-n-elem>
+<valve-n-elem id="46" style="width:71px; height:89px; transform:matrix(1,0,0,1,1672.5,590); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='КрЭ 24.1.29'  _scolor='gas' ></valve-n-elem>
+<valve-n-elem id="47" style="width:71px; height:89px; transform:matrix(1,0,0,1,1672.5,92.5); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='КрЭ 24.1.23'  _scolor='gas' ></valve-n-elem>
+<valve-n-elem id="48" style="width:71px; height:89px; transform:matrix(1,0,0,1,1672.5,254); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='КрЭ 24.1.25'  _scolor='methanol' ></valve-n-elem>
+<valve-n-elem id="49" style="width:71px; height:89px; transform:matrix(1,0,0,1,1672.5,1125); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='КрЭ 24.1.37'  _scolor='methanol' ></valve-n-elem>
+<valve-n-elem id="50" style="width:71px; height:89px; transform:matrix(1,0,0,1,1769.5,855.5); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='КрЭ 24.1.33'  _scolor='methanol' ></valve-n-elem>
+<valve-n-elem id="51" style="width:71px; height:89px; transform:matrix(1,0,0,1,1769.5,1067); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='КрЭ 24.1.36'  _scolor='methanol' ></valve-n-elem>
+<valve-n-elem id="52" style="width:71px; height:89px; transform:matrix(1,0,0,1,1769.5,186); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='КрЭ 24.1.24'  _scolor='methanol' ></valve-n-elem>
+<valve-n-elem id="53" style="width:71px; height:89px; transform:matrix(1,0,0,1,1769.5,442.5); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='КрЭ 24.1.27'  _scolor='methanol' ></valve-n-elem>
+<valve-n-elem id="54" style="width:71px; height:89px; transform:matrix(1,0,0,1,1769.5,649); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='КрЭ 24.1.30'  _scolor='methanol' ></valve-n-elem>
+<pump-n-elem id="55" style="width:91px; height:92px; transform:matrix(1,0,0,1,703,33); transform-origin: left top;" 0._spumporient='h' 0+0.  _scaption='Н 24.1.6'  _scolor='methanol' ></pump-n-elem>
+<pump-n-elem id="56" style="width:91px; height:92px; transform:matrix(1,0,0,1,1039,278); transform-origin: left top;" 0._spumporient='h' 0+0.  _scaption='Н 24.1.1'  _scolor='methanol' ></pump-n-elem>
+<pump-n-elem id="57" style="width:91px; height:92px; transform:matrix(1,0,0,1,1039,529); transform-origin: left top;" 0._spumporient='h' 0+0.  _scaption='Н 24.1.2'  _scolor='methanol' ></pump-n-elem>
+<pump-n-elem id="58" style="width:91px; height:92px; transform:matrix(1,0,0,1,1039,732); transform-origin: left top;" 0._spumporient='h' 0+0.  _scaption='Н 24.1.3'  _scolor='methanol' ></pump-n-elem>
+<pump-n-elem id="59" style="width:91px; height:92px; transform:matrix(1,0,0,1,1039,1152); transform-origin: left top;" 0._spumporient='h' 0+0.  _scaption='Н 24.1.5'  _scolor='methanol' ></pump-n-elem>
+<pump-n-elem id="60" style="width:91px; height:92px; transform:matrix(1,0,0,1,1039,938); transform-origin: left top;" 0._spumporient='h' 0+0.  _scaption='Н 24.1.4'  _scolor='methanol' ></pump-n-elem>
+<pump-n-elem id="61" style="width:91px; height:92px; transform:matrix(1,0,0,1,703,145); transform-origin: left top;" 0._spumporient='h' 0+0.  _scaption='Н 24.1.7'  _scolor='methanol' ></pump-n-elem>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0) -->
+<svg class="simple_element" width="2264" height="1252.6" version="1.1" class="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="2264px" height="1252.6px" viewBox="0 0 2264 1252.6" style="enable-background:new 0 0 2264 1252.6;" xml:space="preserve"
+	>
+
+<g class="lines">
+	<g class="pipes">
+		<g class="methanol">
+			<polyline  points="1304,136.5 1436,136.5 1436,298.5 			"/>
+			<line  x1="1303" y1="426" x2="1303" y2="136"/>
+			<line  x1="1303" y1="639" x2="1303" y2="423"/>
+			<line  x1="1303" y1="843" x2="1303" y2="636"/>
+			<line  x1="1303" y1="1050" x2="1303" y2="844"/>
+			<line  x1="1303" y1="1172" x2="1303" y2="1044"/>
+			<line  x1="430" y1="136.5" x2="542" y2="136.5"/>
+			<line  x1="123" y1="136.5" x2="241" y2="136.5"/>
+			<line  x1="1434" y1="424" x2="1434" y2="544"/>
+			<line  x1="1434" y1="633" x2="1434" y2="747"/>
+			<line  x1="1434" y1="841" x2="1434" y2="952"/>
+			<line  x1="1305.5" y1="425" x2="1435.5" y2="425"/>
+			<line  x1="1478" y1="425" x2="1605" y2="425"/>
+			<line  x1="1302" y1="634.5" x2="1435" y2="634.5"/>
+			<line  x1="1301.5" y1="842" x2="1435.5" y2="842"/>
+			<line  x1="1477.5" y1="842" x2="1604" y2="842"/>
+			<line  x1="1303" y1="1046" x2="1435" y2="1046"/>
+			<line  x1="1434" y1="1173.5" x2="1434" y2="1044.5"/>
+			<line  x1="1642" y1="299" x2="1874" y2="299"/>
+			<line  x1="1477" y1="299" x2="1649" y2="299"/>
+			<line  x1="1434" y1="299" x2="1477" y2="299"/>
+			<line  x1="1872" y1="299" x2="1896" y2="299"/>
+			<line  x1="1644" y1="544" x2="1872" y2="544"/>
+			<line  x1="1475" y1="544" x2="1648" y2="544"/>
+			<line  x1="1434" y1="544" x2="1478" y2="544"/>
+			<line  x1="1645" y1="751" x2="1872" y2="751"/>
+			<line  x1="1476" y1="751" x2="1648" y2="751"/>
+			<line  x1="1365" y1="751" x2="1437" y2="751"/>
+			<line  x1="1436" y1="751" x2="1480" y2="751"/>
+			<line  x1="1652" y1="959" x2="1872" y2="959"/>
+			<line  x1="1479" y1="959" x2="1649" y2="959"/>
+			<line  x1="1440" y1="959" x2="1478" y2="959"/>
+			<line  x1="1302.5" y1="1170" x2="1118.5" y2="1170"/>
+			<line  x1="1435.5" y1="1170" x2="1307.5" y2="1170"/>
+			<line  x1="1480.5" y1="1170" x2="1433.5" y2="1170"/>
+			<line  x1="1649.5" y1="1170" x2="1479.5" y2="1170"/>
+			<line  x1="1872.5" y1="1170" x2="1652.5" y2="1170"/>
+			<line  x1="2160.5" y1="1170" x2="1870.5" y2="1170"/>
+			<line  x1="1048" y1="330.5" x2="995" y2="330.5"/>
+			<line  x1="997" y1="330.5" x2="890" y2="330.5"/>
+			<line  x1="1308" y1="136.5" x2="847" y2="136.5"/>
+			<line  x1="996" y1="584.5" x2="887" y2="584.5"/>
+			<line  x1="1049" y1="584.5" x2="1000" y2="584.5"/>
+			<line  x1="1047" y1="784" x2="994" y2="784"/>
+			<line  x1="996" y1="784" x2="891" y2="784"/>
+			<line  x1="1048" y1="989" x2="993" y2="989"/>
+			<line  x1="995" y1="989" x2="890" y2="989"/>
+			<line  x1="996.5" y1="1203" x2="706.5" y2="1203"/>
+			<line  x1="1049.5" y1="1203" x2="996.5" y2="1203"/>
+			<line  x1="994" y1="330" x2="994" y2="286"/>
+			<line  x1="994" y1="583" x2="994" y2="537"/>
+			<line  x1="994.5" y1="780" x2="994.5" y2="726"/>
+			<line  x1="993.5" y1="989.5" x2="993.5" y2="934.5"/>
+			<line  x1="994" y1="1201" x2="994" y2="1141"/>
+			<line  x1="708" y1="588" x2="708" y2="328"/>
+			<line  x1="875" y1="727" x2="875" y2="541"/>
+			<line  x1="875" y1="934" x2="875" y2="733"/>
+			<line  x1="875" y1="1144" x2="875" y2="934"/>
+			<line  x1="708" y1="782" x2="708" y2="586"/>
+			<line  x1="708" y1="985" x2="708" y2="779"/>
+			<line  x1="708" y1="1204" x2="708" y2="986"/>
+			<line  x1="996" y1="538" x2="874" y2="538"/>
+			<line  x1="995.5" y1="731" x2="874.5" y2="731"/>
+			<line  x1="995" y1="934.5" x2="872" y2="934.5"/>
+			<line  x1="995" y1="1144" x2="873.5" y2="1144"/>
+			<line  x1="1478.5" y1="303" x2="1478.5" y2="544"/>
+			<line  x1="1477" y1="747" x2="1477" y2="954"/>
+			<line  x1="1603.5" y1="424" x2="1603.5" y2="532"/>
+			<line  x1="1603.5" y1="558" x2="1603.5" y2="734"/>
+			<line  x1="1603.5" y1="840" x2="1603.5" y2="943"/>
+			<line  x1="1603.5" y1="769" x2="1603.5" y2="845"/>
+			<line  x1="1476.5" y1="1046.5" x2="1476.5" y2="1171.5"/>
+			<line  x1="1475" y1="1046" x2="1605" y2="1046"/>
+			<line  x1="1648" y1="544" x2="1648" y2="487"/>
+			<line  x1="1648" y1="744" x2="1648" y2="694"/>
+			<line  x1="1648" y1="955" x2="1648" y2="901"/>
+			<line  x1="1648" y1="1172" x2="1648" y2="1110"/>
+			<line  x1="1648" y1="300" x2="1648" y2="231"/>
+			<line  x1="1648" y1="487" x2="1864" y2="487"/>
+			<line  x1="1648" y1="694" x2="1866" y2="694"/>
+			<line  x1="1648" y1="901" x2="1861" y2="901"/>
+			<line  x1="1648" y1="1112" x2="1866" y2="1112"/>
+			<line  x1="1872" y1="300" x2="1872" y2="544"/>
+			<line  x1="1872" y1="544" x2="1872" y2="754"/>
+			<line  x1="1872" y1="751" x2="1872" y2="961"/>
+			<line  x1="1872" y1="960" x2="1872" y2="1170"/>
+			<line  x1="430.5" y1="332" x2="430.5" y2="457"/>
+			<line  x1="430.5" y1="599" x2="430.5" y2="728"/>
+			<line  x1="242" y1="596.5" x2="242" y2="729.5"/>
+			<line  x1="242" y1="332" x2="242" y2="455"/>
+			<polyline  points="542,136 542,86 713,86 			"/>
+			<polyline  points="242,131 242,81 351,81 			"/>
+			<polyline  points="242,140 242,194 351,194 			"/>
+			<polyline  points="429,140 429,194 348,194 			"/>
+			<polyline  points="428,131 428,81 347,81 			"/>
+			<polyline  points="542,136 542,198 714,198 			"/>
+			<polyline  points="849,134 849,52 784,52 			"/>
+			<polyline  points="849,135 849,164 783,164 			"/>
+			<polyline  points="1648,232 1915,232 1915,489 			"/>
+			<line  x1="691" y1="731" x2="106" y2="731"/>
+			<line  x1="1884.5" y1="1112" x2="1916.5" y2="1112"/>
+			<line  x1="834.5" y1="731" x2="723.5" y2="731"/>
+			<line  x1="850" y1="731" x2="874" y2="731"/>
+			<line  x1="1927" y1="299" x2="2151" y2="299"/>
+			<line  x1="1883" y1="487" x2="1911" y2="487"/>
+			<line  x1="1881" y1="694" x2="1911" y2="694"/>
+			<line  x1="1957" y1="901" x2="2234" y2="901"/>
+			<line  x1="1884" y1="901" x2="1912" y2="901"/>
+			<line  x1="1603.5" y1="1047" x2="1603.5" y2="978"/>
+			<line  x1="827" y1="330.5" x2="709" y2="330.5"/>
+			<line  x1="706" y1="330.5" x2="100" y2="330.5"/>
+			<line  x1="827" y1="584.5" x2="708" y2="584.5"/>
+			<line  x1="829" y1="784" x2="708" y2="784"/>
+			<line  x1="831" y1="989" x2="708" y2="989"/>
+			<path  d="M1119,959h177c0-3.3,3.5-8,7-8s6,4.7,6,8h122"/>
+			<polyline  points="994,285 875,285 875,542 			"/>
+			<line  x1="1914.5" y1="485.5" x2="1914.5" y2="688.5"/>
+			<line  x1="1914.5" y1="693.5" x2="1914.5" y2="906.5"/>
+			<line  x1="1914.5" y1="901.5" x2="1914.5" y2="1112.5"/>
+		</g>
+		<g class="gas">
+			<line  x1="1648" y1="842" x2="1857" y2="842"/>
+			<line  x1="1646.5" y1="634" x2="1855.5" y2="634"/>
+			<line  x1="1646.5" y1="428" x2="1854.5" y2="428"/>
+			<line  x1="1646.5" y1="1052" x2="1857.5" y2="1052"/>
+			<line  x1="1949.5" y1="428" x2="1949.5" y2="638"/>
+			<line  x1="1949.5" y1="637" x2="1949.5" y2="845"/>
+			<line  x1="1949.5" y1="840" x2="1949.5" y2="1053"/>
+			<line  x1="1949.5" y1="325" x2="1949.5" y2="429"/>
+			<line  x1="1949.5" y1="135" x2="1949.5" y2="265"/>
+			<line  x1="430.5" y1="595" x2="430.5" y2="455"/>
+			<line  x1="242" y1="596" x2="242" y2="454"/>
+			<line  x1="431.5" y1="595" x2="240.5" y2="595"/>
+			<line  x1="1648" y1="487" x2="1648" y2="428"/>
+			<line  x1="1648" y1="694" x2="1648" y2="632.5"/>
+			<line  x1="1648" y1="902.5" x2="1648" y2="840.5"/>
+			<line  x1="1648" y1="1110" x2="1648" y2="1051"/>
+			<polyline  points="994,286 994,196 843,196 843,460 			"/>
+			<line  x1="994" y1="1144.5" x2="994" y2="1055.5"/>
+			<line  x1="993.5" y1="935" x2="993.5" y2="847"/>
+			<line  x1="683" y1="451" x2="111" y2="451"/>
+			<line  x1="994" y1="535.5" x2="994" y2="449.5"/>
+			<line  x1="994.5" y1="727.5" x2="994.5" y2="645.5"/>
+			<polyline  points="1949,138 1648,138 1648,233 			"/>
+			<line  x1="843" y1="845" x2="843" y2="1058"/>
+			<line  x1="843" y1="645" x2="843" y2="848"/>
+			<line  x1="843" y1="450" x2="843" y2="647"/>
+			<line  x1="1951" y1="138" x2="2160" y2="138"/>
+		</g>
+	</g>
+	<g class="arrows">
+		<g class="methanol">
+			<polyline  points="1879,583 1872,591 1865,583 			"/>
+			<polyline  points="1018,130 1026,137 1018,144 			"/>
+			<polyline  points="485,130 493,137 485,144 			"/>
+			<polyline  points="487,323 495,330 487,337 			"/>
+			<polyline  points="1187,292 1195,299 1187,306 			"/>
+			<polyline  points="1443,245 1436,253 1429,245 			"/>
+			<polyline  points="1441,474 1434,482 1427,474 			"/>
+			<polyline  points="868,482 875,474 882,482 			"/>
+			<polyline  points="1441,681 1434,689 1427,681 			"/>
+			<polyline  points="868,689 875,681 882,689 			"/>
+			<polyline  points="1441,886 1434,894 1427,886 			"/>
+			<polyline  points="869,891.5 875,882.5 881,891.5 			"/>
+			<polyline  points="1441,1108 1434,1116 1427,1108 			"/>
+			<polyline  points="868,1116 875,1108 882,1116 			"/>
+			<polyline  points="701,482 708,474 715,482 			"/>
+			<polyline  points="701,689 708,681 715,689 			"/>
+			<polyline  points="701,891.5 708,882.5 714,891.5 			"/>
+			<polyline  points="701,1116 708,1108 715,1116 			"/>
+			<polyline  points="1187,537 1195,544 1187,551 			"/>
+			<polyline  points="1187,744 1195,751 1187,758 			"/>
+			<polyline  points="1187,952 1195,959 1187,966 			"/>
+			<polyline  points="1187,1163 1195,1170 1187,1177 			"/>
+			<polyline  points="1016,323 1024,330 1016,337 			"/>
+			<polyline  points="1016,577 1024,584 1016,591 			"/>
+			<polyline  points="1016,777 1024,784 1016,791 			"/>
+			<polyline  points="1016,982 1024,989 1016,996 			"/>
+			<polyline  points="1016,1196 1024,1203 1016,1210 			"/>
+			<polyline  points="853,1196 861,1203 853,1210 			"/>
+			<polyline  points="1799,292 1807,299 1799,306 			"/>
+			<polyline  points="1799,537 1807,544 1799,551 			"/>
+			<polyline  points="1799,744 1807,751 1799,758 			"/>
+			<polyline  points="1799,952 1807,959 1799,966 			"/>
+			<polyline  points="1799,1163 1807,1170 1799,1177 			"/>
+			<polyline  points="487,724 495,731 487,738 			"/>
+			<polyline  points="180,130 188,137 180,144 			"/>
+			<polyline  points="1879,785 1872,793 1865,785 			"/>
+			<polyline  points="1879,983 1872,991 1865,983 			"/>
+		</g>
+		<g class="gas">
+			<polyline  points="1799,131 1807,138 1799,145 			"/>
+			<polyline  points="836,482 843,474 850,482 			"/>
+			<polyline  points="836,253 843,245 850,253 			"/>
+			<polyline  points="1799,421 1807,428 1799,435 			"/>
+			<polyline  points="836,689 843,681 850,689 			"/>
+			<polyline  points="1799,627 1807,634 1799,641 			"/>
+			<polyline  points="837,891.5 843,882.5 849,891.5 			"/>
+			<polyline  points="1799,835 1807,842 1799,849 			"/>
+			<polyline  points="1799,1045 1807,1052 1799,1059 			"/>
+			<polyline  points="487,444 495,451 487,458 			"/>
+		</g>
+	</g>
+	<g class="arc">
+		<g class="methanol">
+			<path  d="M823.4,989H837c0-3.3,2.5-7,6-7s7,2.7,7,7h10.5"/>
+			<path  d="M822,784h14c0-3.3,3-7,6.5-7s6.5,2.7,6.5,7h10"/>
+			<path  d="M854,584.5h15c0-3.3,2.5-7,6-7s6,2.7,6,7h11"/>
+			<path  d="M823,584.5h14c0-3.3,2.5-7,6-7s6.5,2.7,6.5,7H860"/>
+			<path  d="M1852,1112h14c0-3.3,3-7,6.5-7s6.5,2.7,6.5,7h6"/>
+			<path  d="M1895,299h14c0-3.3,2.5-6.5,6-6.5s6,2.2,6,6.5h24"/>
+			<path  d="M1851.5,487h14c0-3.3,2.5-7,6-7s7,2.7,7,7h6"/>
+			<path  d="M1852,694h14c0-3.3,2.5-7,6-7s6,2.7,6,7h7"/>
+			<path  d="M1918,901h25c0-3.3,2.5-7,6-7s6,2.7,6,7h7"/>
+			<path  d="M1852,901h14c0-3.3,3-7,6.5-7s6.5,2.7,6.5,7h6"/>
+			<path  d="M854,989h15c0-3.3,2.5-7,6-7s6,2.7,6,7h11"/>
+			<path  d="M1603.5,979v-14c-3.3,0-7-2.5-7-6s2.7-7,7-7v-10"/>
+			<path  d="M1603.5,772v-15c-3.3,0-6-2.5-6-6s1.7-6,6-6v-22"/>
+			<path  d="M1603.5,564v-14c-3.3,0-7-2.5-7-6s2.7-6,7-6v-22"/>
+			<path  d="M687.5,731h14c0-3.3,2.5-7,6-7s7,2.7,7,7h10"/>
+			<path  d="M823,731h14c0-3.3,2.5-7,6-7s7,2.7,7,7h10"/>
+			<path  d="M854,784h14c0-3.3,3-7,6.5-7s6.5,2.7,6.5,7h11"/>
+			<path  d="M855,330.5h14c0-3.3,2.5-7,6-7s6.5,2.7,6.5,7H892"/>
+			<path  d="M823,330.5h14c0-3.3,2.5-7,6-7s6.5,2.7,6.5,7H860"/>
+			<path  d="M1120,751h176c0-3.3,3-7,6.5-7s6.5,3.7,6.5,7h70"/>
+			<path  d="M1120,544h176.5c0-3.3,3-7,6.5-7s6,3.7,6,7h124"/>
+			<path  d="M1120,299h176c0-3.3,3.5-7,7-7s7.5,3.7,7.5,7H1433"/>
+		</g>
+		<g class="gas">
+			<path  d="M1841,842h25c0-3.3,2.5-7,6-7s6,3.7,6,7h14"/>
+			<path  d="M1842,1052h23c0-3.3,2.5-7,6-7s7,3.7,7,7h14"/>
+			<path  d="M1885,1052h24c0-3.3,2.5-7,6-7s6,3.7,6,7h29"/>
+			<path  d="M1884,842h25c0-3.3,2.5-7,6-7s6,3.7,6,7h29"/>
+			<path  d="M1842,634h24c0-3.3,3-7,6.5-7s6.5,3.7,6.5,7h10"/>
+			<path  d="M1843,428h23c0-6.3,4-7,7.5-7s5.5,3.7,5.5,7h10"/>
+			<path  d="M1884,634h25c0-3.3,2.5-7,6-7s6,3.7,6,7h30"/>
+			<path  d="M1884,428h25c0-3.3,2.5-7,6.1-7s5.9,3.7,5.9,7h28"/>
+			<path  d="M678,451h23.5c0-3.3,3-7,6.5-7s6,3.7,6,7h130"/>
+			<path  d="M845,645.5h24c0-3.3,2.5-6,6-6s6,2.7,6,6h115"/>
+			<path  d="M842,1057h26.8c0-3.3,2.6-7,6.2-7s6.8,3.7,6.8,7H995"/>
+			<path  d="M845,847h23c0-3.3,3.5-7,7-7s6.6,3.7,6.6,7H995"/>
+			<path  d="M845,451h24c0-3.3,3-7,6.5-7s6.5,3.7,6.5,7h111"/>
+			<path  d="M1949.5,329v-23.8c-3.3,0-7-2.6-7-6.2s3.7-7,7-7v-28"/>
+		</g>
+	</g>
+	<g class="points">
+		<g class="methanol">
+			<circle  cx="242.5" cy="136" r="4.5"/>
+			<circle  cx="242" cy="330.5" r="4.5"/>
+			<circle  cx="242" cy="731" r="4.5"/>
+			<circle  cx="430.5" cy="731" r="4.5"/>
+			<circle  cx="430.5" cy="331" r="4.5"/>
+			<circle  cx="708" cy="330.5" r="4.5"/>
+			<circle  cx="994" cy="286" r="4.5"/>
+			<circle  cx="1303" cy="136.5" r="4.5"/>
+			<circle  cx="1303" cy="425" r="4.5"/>
+			<circle  cx="1436" cy="299" r="4.5"/>
+			<circle  cx="1478.5" cy="299" r="4.5"/>
+			<circle  cx="1478.5" cy="425" r="4.5"/>
+			<circle  cx="1478.5" cy="544" r="4.5"/>
+			<circle  cx="1648" cy="487" r="4.5"/>
+			<circle  cx="1648" cy="299" r="4.5"/>
+			<circle  cx="1648" cy="232" r="4.5"/>
+			<circle  cx="1872" cy="299" r="4.5"/>
+			<circle  cx="1914.5" cy="487" r="4.5"/>
+			<circle  cx="1872" cy="544" r="4.5"/>
+			<circle  cx="1648" cy="694" r="4.5"/>
+			<circle  cx="1648" cy="750" r="4.5"/>
+			<circle  cx="1872.4" cy="751.3" r="4.5"/>
+			<circle  cx="1915" cy="901" r="4.5"/>
+			<circle  cx="1872" cy="959" r="4.5"/>
+			<circle  cx="1872" cy="1170" r="4.5"/>
+			<circle  cx="1648" cy="1170" r="4.5"/>
+			<circle  cx="1648" cy="1112" r="4.5"/>
+			<circle  cx="1648" cy="959" r="4.5"/>
+			<circle  cx="1648" cy="901" r="4.5"/>
+			<circle  cx="1914" cy="694" r="4.5"/>
+			<circle  cx="1648" cy="544" r="4.5"/>
+			<circle  cx="1434" cy="751" r="4.5"/>
+			<circle  cx="1303" cy="634.5" r="4.5"/>
+			<circle  cx="1477" cy="751" r="4.5"/>
+			<circle  cx="1477.5" cy="842" r="4.5"/>
+			<circle  cx="1603.5" cy="842" r="4.5"/>
+			<circle  cx="1477" cy="958" r="4.5"/>
+			<circle  cx="1476.5" cy="1170" r="4.5"/>
+			<circle  cx="1434.5" cy="958" r="4.5"/>
+			<circle  cx="1434" cy="1170" r="4.5"/>
+			<circle  cx="1303" cy="1046" r="4.5"/>
+			<circle  cx="1303" cy="1170" r="4.5"/>
+			<circle  cx="1303" cy="842" r="4.5"/>
+			<circle  cx="1434.5" cy="544" r="4.5"/>
+			<circle  cx="994.3" cy="331.2" r="4.5"/>
+			<circle  cx="994" cy="538" r="4.5"/>
+			<circle  cx="875.5" cy="538" r="4.5"/>
+			<circle  cx="708" cy="583.5" r="4.5"/>
+			<circle  cx="994" cy="584.5" r="4.5"/>
+			<circle  cx="994.5" cy="731" r="4.5"/>
+			<circle  cx="994.5" cy="784" r="4.5"/>
+			<circle  cx="993.5" cy="934.5" r="4.5"/>
+			<circle  cx="875.5" cy="934.5" r="4.5"/>
+			<circle  cx="993.5" cy="989" r="4.5"/>
+			<circle  cx="994" cy="1145" r="4.5"/>
+			<circle  cx="708" cy="989" r="4.5"/>
+			<circle  cx="994" cy="1203" r="4.5"/>
+			<circle  cx="875" cy="731" r="4.5"/>
+			<circle  cx="708" cy="783" r="4.5"/>
+			<circle  cx="429" cy="136.5" r="4.5"/>
+			<circle  cx="541.8" cy="136.4" r="4.5"/>
+			<circle  cx="849" cy="136.5" r="4.5"/>
+			<circle  cx="430.5" cy="595" r="4.5"/>
+			<circle  cx="430.5" cy="451" r="4.5"/>
+			<circle  cx="242" cy="451" r="4.5"/>
+			<circle  cx="242" cy="595" r="4.5"/>
+		</g>
+		<g class="gas">
+			<circle  cx="843" cy="847" r="4.5"/>
+			<circle  cx="843" cy="645.5" r="4.5"/>
+			<circle  cx="1949.5" cy="138" r="4.5"/>
+			<circle  cx="1949.5" cy="427" r="4.5"/>
+			<circle  cx="1948.5" cy="634" r="4.5"/>
+			<circle  cx="1949.5" cy="842" r="4.5"/>
+			<circle  cx="843" cy="451" r="4.5"/>
+		</g>
+	</g>
+</g>
+</svg>
+</div>
+    
+    <div id="match-quad" class="invisible"></div>
+
+    <canvas id="editor_canvas"></canvas>
+    </body>
+    </html>

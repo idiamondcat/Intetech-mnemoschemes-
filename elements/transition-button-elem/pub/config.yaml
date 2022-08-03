@@ -1,0 +1,19 @@
+---
+default:
+  parameters:
+    0._sarrowdirection: "0"
+    0._scaption: "Text"
+  width: 152.0
+  height: 46.0
+transition-button_arrowdirection-0:
+  parameters:
+    0._sarrowdirection: "0"
+    0._scaption: "Text"
+  width: 152.0
+  height: 46.0
+transition-button_arrowdirection-1:
+  parameters:
+    0._sarrowdirection: "1"
+    0._scaption: "Text"
+  width: 152.0
+  height: 46.0

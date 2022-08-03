@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1408px"
+	 height="928px" viewBox="0 0 1408 928" style="enable-background:new 0 0 1408 928;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#F5B323;stroke-width:3;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;stroke:#FCC10D;stroke-width:3;stroke-miterlimit:10;}
+	.st2{opacity:0.3;fill:#FFFFFF;stroke:#6D707B;stroke-miterlimit:10;}
+	.st3{fill:#FFFFFF;stroke:#6D707B;stroke-miterlimit:10;}
+	.st4{fill:#EFEFEF;stroke:#6D6F7A;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#22282D;stroke-miterlimit:10;stroke-dasharray:6;}
+	.st6{fill:#909091;}
+	.st7{font-family:'UbuntuCondensed-Regular';}
+	.st8{font-size:20px;}
+	.st9{fill:#595B64;}
+	.st10{font-size:13px;}
+	.st11{fill:#1C262B;}
+	.st12{font-size:18px;}
+	.st13{font-size:21px;}
+</style>
+<g id="слои">
+	<g id="трубы_воздух">
+	</g>
+	<g id="Элементы">
+		<g id="краны_газ">
+			<g id="Краны_процент">
+			</g>
+		</g>
+		<g id="краны_серые">
+		</g>
+		<g id="краны_неакт">
+		</g>
+		<g id="ТИТ1">
+		</g>
+		<g id="ТИТ2">
+		</g>
+		<g id="ТИТ_график">
+		</g>
+	</g>
+	<g id="текст">
+	</g>
+	<g id="направляющие">
+		<g id="верт">
+		</g>
+		<g id="гориз">
+		</g>
+	</g>
+</g>
+<g id="lines">
+	<g id="pipes">
+		<g id="gas">
+			<line class="st0" x1="449" y1="527" x2="158" y2="527"/>
+			<polyline class="st0" points="1135,71 1135,158 1248,158 1248,71 			"/>
+			<polyline class="st0" points="471,614 356,614 356,704 			"/>
+			<polyline class="st0" points="471,437 356,437 356,527 			"/>
+			<polyline class="st0" points="916,436 802,436 802,527 			"/>
+			<polyline class="st0" points="916,613 802,613 802,704 			"/>
+			<polyline class="st0" points="356,883 356,793 471,793 471,158 			"/>
+			<polyline class="st0" points="218,704 218,615 331,615 331,704 			"/>
+			<line class="st0" x1="915.5" y1="159" x2="963.5" y2="159"/>
+			<polyline class="st0" points="916,260 802,260 802,351 			"/>
+			<polyline class="st0" points="218,350 218,261 331,261 331,350 			"/>
+			<polyline class="st0" points="218,527 218,437 331,437 331,526 			"/>
+			<polyline class="st0" points="471,261 356,261 356,351 			"/>
+			<polyline class="st0" points="802,883 802,792 917,792 917,158 			"/>
+			<polyline class="st0" points="218,883 218,794 331,794 331,883 			"/>
+			<polyline class="st0" points="157,73 157,883 1095,883 1095,71 			"/>
+			<line class="st0" x1="1359" y1="71" x2="127" y2="71"/>
+			<line class="st0" x1="435" y1="350" x2="158" y2="350"/>
+			<path class="st0" d="M158.1,456.2"/>
+			<path class="st0" d="M996.8,296.2"/>
+			<line class="st0" x1="158" y1="158" x2="517" y2="158"/>
+			<line class="st0" x1="426" y1="704" x2="158" y2="704"/>
+		</g>
+	</g>
+	<g id="arc">
+		<g id="gas_00000074405316093550996200000004135717244601363883_">
+			<path class="st0" d="M1095,527H924c0-3.9-3.1-8-7-8s-7,4.1-7,8h-46"/>
+			<path class="st0" d="M865,527H478c0-3.9-3.1-8-7-8s-7,4.1-7,8h-46"/>
+			<path class="st0" d="M1095,350H924c0-3.9-3.1-7-7-7s-7,3.1-7,7h-46"/>
+			<path class="st0" d="M865,350H478c0-3.9-3.1-7-7-7s-7,3.1-7,7h-46"/>
+			<path class="st0" d="M1095,704H924c0-3.9-3.1-7-7-7s-7,3.1-7,7h-46"/>
+			<path class="st0" d="M865,704H478c0-3.9-3.1-7-7-7s-7,3.1-7,7h-46"/>
+		</g>
+	</g>
+	<g id="arrows">
+		<g id="gas_00000042735944710461838150000014853000554856071837_">
+		</g>
+	</g>
+	<g id="points">
+		<g id="gas_00000167384605878742327980000012530599866269522568_">
+			<circle class="st1" cx="156" cy="72" r="4.5"/>
+			<circle class="st1" cx="1095" cy="72" r="4.5"/>
+			<circle class="st1" cx="1095" cy="350" r="4.5"/>
+			<circle class="st1" cx="1095" cy="527" r="4.5"/>
+			<circle class="st1" cx="1095" cy="704" r="4.5"/>
+			<circle class="st1" cx="1135" cy="72" r="4.5"/>
+			<circle class="st1" cx="1248" cy="72" r="4.5"/>
+			<circle class="st1" cx="157" cy="158" r="4.5"/>
+			<circle class="st1" cx="471" cy="158" r="4.5"/>
+			<circle class="st1" cx="157" cy="350" r="4.5"/>
+			<circle class="st1" cx="218" cy="350" r="4.5"/>
+			<circle class="st1" cx="331" cy="350" r="4.5"/>
+			<circle class="st1" cx="356" cy="350" r="4.5"/>
+			<circle class="st1" cx="470" cy="261" r="4.5"/>
+			<circle class="st1" cx="470" cy="436" r="4.5"/>
+			<circle class="st1" cx="470" cy="613" r="4.5"/>
+			<circle class="st1" cx="917" cy="260" r="4.5"/>
+			<circle class="st1" cx="917" cy="436" r="4.5"/>
+			<circle class="st1" cx="802" cy="526" r="4.5"/>
+			<circle class="st1" cx="802" cy="704" r="4.5"/>
+			<circle class="st1" cx="802" cy="884" r="4.5"/>
+			<circle class="st1" cx="802" cy="350" r="4.5"/>
+			<circle class="st1" cx="917" cy="613" r="4.5"/>
+			<circle class="st1" cx="331" cy="527" r="4.5"/>
+			<circle class="st1" cx="356" cy="527" r="4.5"/>
+			<circle class="st1" cx="331" cy="703" r="4.5"/>
+			<circle class="st1" cx="356" cy="703" r="4.5"/>
+			<circle class="st1" cx="331" cy="884" r="4.5"/>
+			<circle class="st1" cx="356" cy="884" r="4.5"/>
+			<circle class="st1" cx="218" cy="527" r="4.5"/>
+			<circle class="st1" cx="218" cy="704" r="4.5"/>
+			<circle class="st1" cx="218" cy="884" r="4.5"/>
+			<circle class="st1" cx="157" cy="527" r="4.5"/>
+			<circle class="st1" cx="157" cy="704" r="4.5"/>
+		</g>
+	</g>
+</g>
+<g id="SimpleElements">
+	<g id="valve-n-elem">
+		
+			<image style="overflow:visible;" width="71" height="88" id="id1" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 239.2551 23.6965)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id2" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 239.2551 111.6965)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id3" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 239.2551 213.6965)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id4" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 239.2551 302.6965)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id5" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 239.2551 389.6965)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id6" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 239.2551 479.6965)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id7" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 239.2551 567.6965)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id8" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 239.2551 657.6965)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id9" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 239.2551 745.6965)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id10" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 239.2551 836.6965)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id11" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 376.2551 213.6965)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id12" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 376.2551 389.6965)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id13" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 376.2551 567.6965)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id14" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 376.2551 745.6965)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id15" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 825.2551 213.6965)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id16" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 825.2551 389.6965)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id17" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 825.2551 567.6965)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id18" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 825.2551 745.6965)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id19" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 972.2551 302.6965)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id20" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 972.2551 479.6965)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id21" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 972.2551 657.6965)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id22" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 972.2551 836.6965)">
+		</image>
+		
+			<image style="overflow:visible;" width="101" height="71" id="id23" xlink:href="../../../elements/valve-n-elem/pub/valve-n_v_caption.png"  transform="matrix(0.9802 0 0 0.9802 1047.4989 186.2022)">
+		</image>
+		
+			<image style="overflow:visible;" width="101" height="71" id="id38" xlink:href="../../../elements/valve-n-elem/pub/valve-n_v_caption.png"  transform="matrix(0.9802 0 0 0.9802 109.4989 186.2022)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id24" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 1155.7551 111.6965)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="88" id="id25" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1.0069 0 0 1.0069 1155.7551 23.6965)">
+		</image>
+	</g>
+	<g id="multi-tit-elem">
+		
+			<image style="overflow:visible;" width="152" height="32" id="id27" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_arroworient-bot.png"  transform="matrix(0.7623 0 0 0.7623 1032.5669 28.8036)">
+		</image>
+		
+			<image style="overflow:visible;" width="134" height="64" id="id29" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_titcount-2_no-arroworient.png"  transform="matrix(0.8804 0 0 0.8804 669.5142 282.8277)">
+		</image>
+		
+			<image style="overflow:visible;" width="134" height="64" id="id30" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_titcount-2_no-arroworient.png"  transform="matrix(0.8804 0 0 0.8804 669.5142 458.8277)">
+		</image>
+		
+			<image style="overflow:visible;" width="134" height="64" id="id31" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_titcount-2_no-arroworient.png"  transform="matrix(0.8804 0 0 0.8804 669.5142 636.3277)">
+		</image>
+		
+			<image style="overflow:visible;" width="134" height="64" id="id32" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_titcount-2_no-arroworient.png"  transform="matrix(0.8804 0 0 0.8804 669.5142 812.8277)">
+		</image>
+		
+			<image style="overflow:visible;" width="134" height="32" id="id33" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_no-arroworient.png"  transform="matrix(0.8595 0 0 0.8595 9.4162 17.2486)">
+		</image>
+		
+			<image style="overflow:visible;" width="134" height="64" id="id26" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_titcount-2_arroworient-left.png"  transform="matrix(0.8804 0 0 0.8804 1107.0143 281.8277)">
+		</image>
+		
+			<image style="overflow:visible;" width="152" height="32" id="id28" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_arroworient-right.png"  transform="matrix(1 0 0 1 3 287)">
+		</image>
+	</g>
+	<g id="transition-button-elem">
+		
+			<image style="overflow:visible;" width="119" height="34" id="id34" xlink:href="../../../elements/transition-button-elem/pub/transition-button_arrowdirection-0.png"  transform="matrix(1 0 0 1 10 55)">
+		</image>
+		
+			<image style="overflow:visible;" width="119" height="34" id="id35" xlink:href="../../../elements/transition-button-elem/pub/transition-button_arrowdirection-0.png"  transform="matrix(1 0 0 1 490.5 141)">
+		</image>
+		
+			<image style="overflow:visible;" width="119" height="34" id="id36" xlink:href="../../../elements/transition-button-elem/pub/transition-button_arrowdirection-0.png"  transform="matrix(1 0 0 1 929.5 142)">
+		</image>
+		
+			<image style="overflow:visible;" width="119" height="34" id="id37" xlink:href="../../../elements/transition-button-elem/pub/transition-button_arrowdirection-0.png"  transform="matrix(1 0 0 1 1279.5 55)">
+		</image>
+	</g>
+	<g id="custom-multi-tit-elem">
+		
+			<image style="overflow:visible;" width="212" height="108" xlink:href="../../../elements/custom-multi-tit-elem/pub/default.png"  transform="matrix(1 0 0 1 216.5605 344.121)">
+		</image>
+		
+			<image style="overflow:visible;" width="212" height="108" xlink:href="../../../elements/custom-multi-tit-elem/pub/default.png"  transform="matrix(1 0 0 1 110.1656 502.7962)">
+		</image>
+		
+			<image style="overflow:visible;" width="212" height="108" xlink:href="../../../elements/custom-multi-tit-elem/pub/default.png"  transform="matrix(1 0 0 1 127.5924 660.5541)">
+		</image>
+		
+			<image style="overflow:visible;" width="212" height="108" xlink:href="../../../elements/custom-multi-tit-elem/pub/default.png"  transform="matrix(1 0 0 1 452.6295 228.8277)">
+		</image>
+	</g>
+</g>
+<g id="tables">
+</g>
+<g id="tables-solid">
+	<g id="t3">
+		<rect x="1140" y="488" class="st2" width="210" height="262"/>
+	</g>
+	<g id="t9">
+		<path class="st3" d="M1330,528h-50c-2.7,0-4-2.3-4-5l0-16.1c0-2.7,1.3-4.9,4-4.9h50c2.7,0,5,1.3,5,4v17
+			C1335,525.7,1332.7,528,1330,528z"/>
+	</g>
+	<g id="t8">
+		<path class="st3" d="M1330,569h-50c-2.7,0-4-2.3-4-5l0-16.1c0-2.7,1.3-4.9,4-4.9h50c2.7,0,5,1.3,5,4v17
+			C1335,566.7,1332.7,569,1330,569z"/>
+	</g>
+	<g id="t7">
+		<path class="st3" d="M1330,610h-50c-2.7,0-4-2.3-4-5l0-16.1c0-2.7,1.3-4.9,4-4.9h50c2.7,0,5,1.3,5,4v17
+			C1335,607.7,1332.7,610,1330,610z"/>
+	</g>
+	<g id="t6">
+		<path class="st3" d="M1330,651h-50c-2.7,0-4-2.3-4-5l0-16.1c0-2.7,1.3-4.9,4-4.9h50c2.7,0,5,1.3,5,4v17
+			C1335,648.7,1332.7,651,1330,651z"/>
+	</g>
+	<g id="t5">
+		<path class="st3" d="M1330,693h-50c-2.7,0-4-2.3-4-5l0-16.1c0-2.7,1.3-4.9,4-4.9h50c2.7,0,5,1.3,5,4v17
+			C1335,690.7,1332.7,693,1330,693z"/>
+	</g>
+	<g id="t4">
+		<path class="st3" d="M1330,737h-50c-2.7,0-4-2.3-4-5l0-16.1c0-2.7,1.3-4.9,4-4.9h50c2.7,0,5,1.3,5,4v17
+			C1335,734.7,1332.7,737,1330,737z"/>
+	</g>
+	<g id="t2">
+		<path class="st4" d="M1392,884h-184c-2.7,0-5,2.3-5,5v23c0,2.7,2.3,5,5,5l184-1c2.7,0,5-2.3,5-5v-22
+			C1397,886.3,1394.7,884,1392,884z"/>
+	</g>
+	<g id="t1_00000151523036743936322440000002384522648807380608_">
+		<path class="st4" d="M1392,845h-184c-2.7,0-5,2.3-5,5v22c0,2.7,2.3,5,5,5h184c2.7,0,5-2.3,5-5v-22C1397,847.3,1394.7,845,1392,845
+			z"/>
+	</g>
+</g>
+<g id="tables-dashed">
+	<g id="t10">
+		<rect x="487.5" y="200.5" class="st5" width="452" height="700"/>
+	</g>
+</g>
+<g id="text">
+	<g id="px20">
+		<text transform="matrix(1 0 0 1 681.4431 223.8519)" class="st6 st7 st8">Блок-бокс</text>
+	</g>
+</g>
+<g id="text-inversed">
+	<g id="px13">
+		<g>
+			<text transform="matrix(1.0453 0 0 1 1156.1166 595.8694)"><tspan x="0" y="0" class="st9 st7 st10">Расход газа с начала </tspan><tspan x="5" y="11" class="st9 st7 st10">суток, тыс.м³/сутки</tspan></text>
+		</g>
+		<text transform="matrix(1.0453 0 0 1 1156.3904 515.1241)"><tspan x="0" y="0" class="st9 st7 st10">Мгновенный расход </tspan><tspan x="21.1" y="11" class="st9 st7 st10">Газа, тыс. м³</tspan></text>
+		<g>
+			<text transform="matrix(1.0453 0 0 1 1157.8704 679.6451)"><tspan x="0" y="0" class="st9 st7 st10">Расход газа с начала</tspan><tspan x="9.4" y="11" class="st9 st7 st10">года, млн.м³/год</tspan></text>
+		</g>
+		<g>
+			<text transform="matrix(1.0453 0 0 1 1156.1869 638.3449)"><tspan x="0" y="0" class="st9 st7 st10">Расход газа с начала </tspan><tspan x="-1.5" y="11" class="st9 st7 st10">месяца, тыс.м³/месяц</tspan></text>
+		</g>
+		<g>
+			<text transform="matrix(1.0453 0 0 1 1170.5852 555.0923)"><tspan x="0" y="0" class="st9 st7 st10">Среднечасовой</tspan><tspan x="-10.4" y="11" class="st9 st7 st10">расход газа, тыс. м³</tspan></text>
+		</g>
+		<g>
+			<text transform="matrix(1.0453 0 0 1 1158.0715 720.0542)"><tspan x="0" y="0" class="st9 st7 st10">Расход газа с начала</tspan><tspan x="17" y="11" class="st9 st7 st10">пуска, млн.м³</tspan></text>
+		</g>
+	</g>
+	<g id="px18">
+		<text transform="matrix(1 0 0 1 1280.8021 603.8694)" class="st11 st7 st12">3520.0</text>
+		<text transform="matrix(1 0 0 1 1280.6301 562.0923)" class="st11 st7 st12">3520.0</text>
+		<text transform="matrix(1 0 0 1 1280.9949 520.1241)" class="st11 st7 st12">3520.0</text>
+		<text transform="matrix(1 0 0 1 1280.8021 686.5573)" class="st11 st7 st12">3520.0</text>
+		<text transform="matrix(1 0 0 1 1280.8021 645.5573)" class="st11 st7 st12">3520.0</text>
+		<text transform="matrix(1 0 0 1 1281.3865 729.5728)" class="st11 st7 st12">3520.0</text>
+	</g>
+	<g id="px21">
+		<g>
+			<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 1284.5087 868.4511)" class="st6 st7 st13">БКК</text>
+		</g>
+		<g>
+			<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 1209.4982 907.3197)" class="st6 st7 st13">Компонентный состав</text>
+		</g>
+	</g>
+</g>
+</svg>

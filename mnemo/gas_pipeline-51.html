@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <!--'Classes of pipes in scheme:
+        class="p2 p3 p5 or"; class="p5 p7p6 or"; class="p7 p12 or"; class="p3 p4 or"; class="p2 p3 p4 or"; class="p1 p4 or"; class="p6 p11"; class="p1 p2 or"; class="p1 p3 or"
+        -->
+        <meta charset="UTF-8">
+        <title>gas_pipeline-51</title>
+        <link href="/Data/styles/mnemo_styles.css" rel="stylesheet" type="text/css">
+        <link href="/Data/styles/Themes/default.css" rel="stylesheet" type="text/css">
+        <!-- <link href="/Data/styles/Themes/white_theme.css" rel="stylesheet" type="text/css"> -->
+        <link href="/Data/styles/Themes/achim_white_theme.css" rel="stylesheet" type="text/css">
+        
+        <link href="/Data/styles/pipes_styles.css" rel="stylesheet" type="text/css">
+
+        <!-- <script src="/Data/libs/fabric.min.js"></script>
+        <script src="/Data/libs/jquery-3.6.0.min.js"></script>
+        <script src="/Data/libs/underscore.js"></script> -->
+        <script src="/Data/scripts/mnemocore.js"></script>
+        
+        <script src="/Data/scripts/simpleelement.js"></script>
+        <script src="/Data/elements/ukpg-elem/prototype.js"></script>
+<script src="/Data/elements/valve-n-elem/prototype.js"></script>
+<script src="/Data/elements/valve-mini-unactive-elem/prototype.js"></script>
+<script src="/Data/elements/transition-button-elem/prototype.js"></script>
+<script src="/Data/elements/camers-elem/prototype.js"></script>
+<script src="/Data/elements/candle-elem/prototype.js"></script>
+<script src="/Data/elements/caption-elem/prototype.js"></script>
+<script src="/Data/elements/barrel-elem/prototype.js"></script>
+<script src="/Data/elements/multi-tit-elem/prototype.js"></script>
+<script src="/Data/elements/arrow-valve-elem/prototype.js"></script>
+<script src="/Data/elements/tit-elem/prototype.js"></script>
+
+        
+
+    </head>
+    <body class="default" oncontextmenu="return false;">
+    <div id="container_of_templates"></div>
+    <div id="container_of_elements">
+<valve-n-elem id="1" style="width:98px; height:71px; transform:matrix(1,0,0,1,440,397.5); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _svalveorient="v" ></valve-n-elem>
+<valve-n-elem id="2" style="width:98px; height:71px; transform:matrix(1,0,0,1,1693,138.5); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _svalveorient="v" ></valve-n-elem>
+<valve-n-elem id="3" style="width:98px; height:71px; transform:matrix(1,0,0,1,1887,138.5); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _svalveorient="v" ></valve-n-elem>
+<valve-n-elem id="4" style="width:98px; height:71px; transform:matrix(1,0,0,1,2047,138.5); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _svalveorient="v" ></valve-n-elem>
+<valve-n-elem id="5" style="width:98px; height:71px; transform:matrix(1,0,0,1,1404.5,138.5); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _svalveorient="v" ></valve-n-elem>
+<valve-n-elem id="6" style="width:71px; height:89px; transform:matrix(1,0,0,1,907.5,495.5); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _svalveorient="h" ></valve-n-elem>
+<valve-n-elem id="7" style="width:71px; height:89px; transform:matrix(1,0,0,1,536.5,234.5); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _svalveorient="h" ></valve-n-elem>
+<valve-n-elem id="8" style="width:98px; height:71px; transform:matrix(1,0,0,1,1590,397.5); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _svalveorient="v" ></valve-n-elem>
+<valve-n-elem id="9" style="width:98px; height:71px; transform:matrix(1,0,0,1,1139,397.5); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _svalveorient="v" ></valve-n-elem>
+<valve-n-elem id="10" style="width:98px; height:71px; transform:matrix(1,0,0,1,1476,397.5); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _svalveorient="v" ></valve-n-elem>
+<valve-n-elem id="11" style="width:98px; height:71px; transform:matrix(1,0,0,1,2048,397.5); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _svalveorient="v" ></valve-n-elem>
+<valve-n-elem id="12" style="width:98px; height:71px; transform:matrix(1,0,0,1,1693,397.5); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _svalveorient="v" ></valve-n-elem>
+<valve-n-elem id="13" style="width:71px; height:89px; transform:matrix(1,0,0,1,800.5,336.5); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _svalveorient="h" ></valve-n-elem>
+<valve-n-elem id="14" style="width:71px; height:89px; transform:matrix(1,0,0,1,800.5,495.5); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _svalveorient="h" ></valve-n-elem>
+<valve-n-elem id="15" style="width:98px; height:71px; transform:matrix(1,0,0,1,598,397.5); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _svalveorient="v" ></valve-n-elem>
+<valve-n-elem id="16" style="width:71px; height:89px; transform:matrix(1,0,0,1,1969.5,54.5); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _svalveorient="h" ></valve-n-elem>
+<valve-n-elem id="17" style="width:71px; height:89px; transform:matrix(1,0,0,1,1538.1625,234.5); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _svalveorient="h" ></valve-n-elem>
+<valve-n-elem id="18" style="width:71px; height:89px; transform:matrix(1,0,0,1,1330.5,171.5); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _svalveorient="h" ></valve-n-elem>
+<valve-n-elem id="19" style="width:71px; height:89px; transform:matrix(1,0,0,1,1330.5,54.5); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _svalveorient="h" ></valve-n-elem>
+<valve-n-elem id="20" style="width:71px; height:89px; transform:matrix(1,0,0,1,1086.5,54.5); transform-origin: left top;" _dCurrentVal="1" _scaption="Text" _svalveorient="h" ></valve-n-elem>
+<barrel-elem id="21" style="width:299px; height:128px; transform:matrix(0.6789,0,0,0.6523,1475.5,501.25); transform-origin: left top;" _scaption="gdrgfg" ></barrel-elem>
+<valve-mini-unactive-elem id="22" style="width:38px; height:57px; transform:matrix(1,0,0,1,1697.5,514.5); transform-origin: left top;" _scaption="Text" _svalveminiorient="h" ></valve-mini-unactive-elem>
+<multi-tit-elem id="23" style="width:114px; height:32px; transform:matrix(1,0,0,1,668,343); transform-origin: left top;" _stitcount="1" ></multi-tit-elem>
+<multi-tit-elem id="24" style="width:114px; height:32px; transform:matrix(1,0,0,1,668,499); transform-origin: left top;" _stitcount="1" ></multi-tit-elem>
+<multi-tit-elem id="25" style="width:114px; height:64px; transform:matrix(1,0,0,1,1198.5,108); transform-origin: left top;" _stitcount="2" ></multi-tit-elem>
+<multi-tit-elem id="26" style="width:114px; height:32px; transform:matrix(1,0,0,1,1198.5,228); transform-origin: left top;" _stitcount="1" ></multi-tit-elem>
+<multi-tit-elem id="27" style="width:114px; height:32px; transform:matrix(1,0,0,1,1939,228); transform-origin: left top;" _stitcount="1" ></multi-tit-elem>
+<transition-button-elem id="28" style="width:119px; height:34px; transform:matrix(1,0,0,1,2183.5,85); transform-origin: left top;" _sarrowdirection="0" _scaption="Text" ></transition-button-elem>
+<ukpg-elem id="29" style="width:404px; height:279px; transform:matrix(1,0,0,1,13,293.5); transform-origin: left top;" _scaption="УКПГ-54" ></ukpg-elem>
+<arrow-valve-elem id="30" style="width:70px; height:60px; transform:matrix(1,0,0,1,1828,81.5); transform-origin: left top;" _scaption="Text" ></arrow-valve-elem>
+<camers-elem id="31" style="width:54px; height:35px; transform:matrix(1,0,0,1,465,264.5); transform-origin: left top;" _sfunction="kz" ></camers-elem>
+<camers-elem id="32" style="width:54px; height:35px; transform:matrix(1,0,0,1,1710,264.5); transform-origin: left top;" _sfunction="kp" ></camers-elem>
+<candle-elem id="33" style="width:21px; height:38px; transform:matrix(1,0,0,1,979,349); transform-origin: left top;" ></candle-elem>
+<candle-elem id="34" style="width:21px; height:38px; transform:matrix(1,0,0,1,1171.5,349); transform-origin: left top;" ></candle-elem>
+<candle-elem id="35" style="width:21px; height:38px; transform:matrix(1,0,0,1,1907.5,349); transform-origin: left top;" ></candle-elem>
+<candle-elem id="36" style="width:21px; height:38px; transform:matrix(1,0,0,1,1055.5,20); transform-origin: left top;" ></candle-elem>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0) -->
+<svg class="simple_element" width="2321.6" height="618.6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2321.6 618.6" style="enable-background:new 0 0 2321.6 618.6;" xml:space="preserve">
+
+<g class="tables">
+	<g class="t1">
+		<rect x="1756" y="525"  width="35" height="29"/>
+	</g>
+	<g class="t2">
+		<path  d="M1778,609h-726c-12.9,0-23-14-23-27V36c0-13,10.1-27,23-26h726c12.9-1,23,13,23,26v546
+			C1801,595,1790.9,609,1778,609z"/>
+	</g>
+	<g class="t3">
+		<path  d="M991,609H458c-14.8,0-26-12.2-26-27V36c0-14.8,11.2-26,26-26h533c14.8,0,27,11.2,27,26v546
+			C1018,596.8,1005.8,609,991,609z"/>
+	</g>
+	<g class="t4">
+		<path  d="M2288,609h-447c-13,0-24-14-24-27V36c0-13,11-26,24-26h447c13,0,23,13,23,26v546C2311,595,2301,609,2288,609z
+			"/>
+	</g>
+</g>
+<g class="lines">
+	<g class="pipes">
+		<g class="gas">
+			<g>
+				<path  d="M351.6,144.4"/>
+			</g>
+			<polyline class="p9"  points="889.5,541 989.5,541 989.5,383 			"/>
+			<line class="p2"  x1="485" y1="540" x2="485" y2="275"/>
+			<line class="p2 p3 p4 or"  x1="641.5" y1="282" x2="1448.5" y2="282"/>
+			<line class="p10"  x1="1450.5" y1="282" x2="1741.5" y2="282"/>
+			<line class="p2"  x1="480.5" y1="282" x2="644.5" y2="282"/>
+			<line class="p3"  x1="644" y1="540" x2="644" y2="382"/>
+			<line class="p3 p4 or"  x1="644" y1="386" x2="644" y2="282"/>
+			<line class="p4"  x1="645.5" y1="383" x2="887.5" y2="383"/>
+			<line class="p4"  x1="886" y1="382" x2="886" y2="537"/>
+			<line class="p22"  x1="1737" y1="286" x2="1737" y2="100"/>
+			<line class="p5"  x1="1449" y1="281" x2="1449" y2="218"/>
+			<line class="p7"  x1="1449" y1="221" x2="1449" y2="102"/>
+			<polyline class="p11"  points="1181,102 1066,102 1066,58 			"/>
+			<line class="p6"  x1="1449" y1="220" x2="1181" y2="220"/>
+			<line class="p6"  x1="1181" y1="221.5" x2="1181" y2="100.5"/>
+			<polyline class="p19"  points="1931,102 1931,219 2093,219 			"/>
+			<polyline class="p19-p20"  points="2093,222 2093,540 1917,540 1917,386 			"/>
+			<polyline class="p21"  points="1183.5,385 1183.5,541 1525.5,541 			"/>
+			<line class="p1"  x1="401.5" y1="541" x2="489.5" y2="541"/>
+			<line class="p1"  x1="485" y1="541" x2="645" y2="541"/>
+			<line class="p8"  x1="646" y1="541" x2="885" y2="541"/>
+			<line class="p12"  x1="1183" y1="102" x2="1736" y2="102"/>
+			<line class="p17"  x1="1736" y1="102" x2="1917" y2="102"/>
+			<line class="p18"  x1="1917" y1="102" x2="2098" y2="102"/>
+			<line class="p18"  x1="2096" y1="102" x2="2277" y2="102"/>
+			<line class="p20"  x1="2093" y1="219" x2="2093" y2="100"/>
+		</g>
+		<g class="drainage">
+			<polyline class="p15"  points="1737,282 1737,483 1636,483 			"/>
+			<line class="p14"  x1="1635" y1="282" x2="1635" y2="481"/>
+			<line class="p14-p15-or"  x1="1635" y1="482" x2="1635" y2="562"/>
+			<line class="p16"  x1="1756" y1="540" x2="1670" y2="540"/>
+			<line class="p13"  x1="1521" y1="221" x2="1521" y2="101"/>
+			<line class="p13"  x1="1521" y1="525.5" x2="1521" y2="296"/>
+		</g>
+	</g>
+	<g class="points">
+		<g class="gas">
+			<circle class="p2 p3 p4 or"  cx="644" cy="282" r="4.5"/>
+			<circle class="p1 p2 or"  cx="485" cy="541" r="4.5"/>
+			<circle class="p1 p3 or"  cx="644" cy="541" r="4.5"/>
+			<circle class="p3 p4 or"  cx="644" cy="383" r="4.5"/>
+			<circle class="p1 p4 or"  cx="886" cy="541" r="4.5"/>
+			<circle class="p6 p11"  cx="1181" cy="102" r="4.5"/>
+			<circle class="p7 p12 or"  cx="1449" cy="102" r="4.5"/>
+			<circle class="p12-p17-p22-or"  cx="1737" cy="102" r="4.5"/>
+			<circle class="p17-p18-p19-or"  cx="1931" cy="102" r="4.5"/>
+			<circle class="p18-p20-or"  cx="2093" cy="102" r="4.5"/>
+			<circle class="p19-p20-or"  cx="2093" cy="219" r="4.5"/>
+			<circle class="p5 p7p6 or"  cx="1449" cy="220" r="4.5"/>
+			<circle class="p2 p3 p5 or"  cx="1449" cy="282" r="4.5"/>
+		</g>
+		<g class="drainage">
+			<circle class="p14-p15-or"  cx="1635" cy="483" r="4.5"/>
+			<circle class="p10-p14-or"  cx="1635" cy="282" r="4.5"/>
+			<circle class="p12-p13-or"  cx="1521" cy="102" r="4.5"/>
+		</g>
+	</g>
+	<g class="arc">
+		<g class="drainage">
+			<path class="p13"  d="M1521,195v80c-3.9,0-8,3.1-8,7s4.1,7,8,7v9"
+				/>
+		</g>
+	</g>
+	<g class="arrows">
+		<g class="gas">
+			<polyline class="p2 p3 p4 or"  points="836,290 845,282 836,275 
+							"/>
+			<polyline class="p2 p3 p4 or"  points="1160,290 1169,282 
+				1160,275 			"/>
+			<polyline class="p1"  points="569,548 577,541 569,534 			"/>
+		</g>
+	</g>
+</g>
+<g class="text">
+	<g class="px17">
+		<text transform="matrix(0.9848 0 0 1 1761.4688 545.4064)" >БРС</text>
+	</g>
+	<g class="px23">
+		<text transform="matrix(1 0 0 1 848.7465 34.1806)" >Узел запуска ОУ</text>
+		<text transform="matrix(1 0 0 1 1619.0912 33.9444)" >Узел приема ОУ</text>
+		<text transform="matrix(1.0707 0 0 1 2124.4524 34.607)" >Крановой узел 1</text>
+	</g>
+	<g class="px20">
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 1506.8007 547.6876)" >Конденсаотосборник</text>
+	</g>
+</g>
+</svg>
+</div>
+    
+    <div id="match-quad" class="invisible"></div>
+
+    <canvas id="editor_canvas"></canvas>
+    </body>
+    </html>

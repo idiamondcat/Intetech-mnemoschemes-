@@ -1,0 +1,6 @@
+---
+default:
+  parameters:
+    0._scaption: "П1.1"
+  width: 272.5
+  height: 130.0

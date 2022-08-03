@@ -1,0 +1,54 @@
+---
+default:
+  width: 395.0
+  height: 152.0
+  parameters:
+    0._scaption: "Text"
+    0._sleftblock: "0"
+    0._sleftblockcontent: "level"
+    0._srightblock: "0"
+    0._srightblockcontent: "level"
+    0._stitcount: "2"
+    0+6._sshowreservoir: "0"
+separator-h_left-level_right-level_titcount-2:
+  parameters:
+    0._scaption: "Text"
+    0._sleftblock: "0"
+    0._sleftblockcontent: "level"
+    0._srightblock: "0"
+    0._srightblockcontent: "level"
+    0._stitcount: "2"
+  width: 395.0
+  height: 152.0
+separator-h_left-pump_right-level_titcount-3:
+  parameters:
+    0._scaption: "Text"
+    0._sleftblock: "0"
+    0._sleftblockcontent: "pump"
+    0._srightblock: "0"
+    0._srightblockcontent: "level"
+    0._stitcount: "3"
+  width: 395.0
+  height: 152.0
+separator-h_left-pump_right-level_titcount-1_statedisplayer-0:
+  width: 395.0
+  height: 152.0
+  parameters:
+    0._scaption: "Text"
+    0._sleftblock: "0"
+    0._sleftblockcontent: "pump"
+    0._srightblock: "0"
+    0._srightblockcontent: "level"
+    0._stitcount: "1"
+    0._sstatedisplayer: "0"
+separator-h_left-level_right-pump_titcount-1_statedisplayer-1:
+  width: 395.0
+  height: 152.0
+  parameters:
+    0._scaption: "Text"
+    0._sleftblock: "0"
+    0._sleftblockcontent: "level"
+    0._srightblock: "0"
+    0._srightblockcontent: "pump"
+    0._stitcount: "1"
+    0._sstatedisplayer: "1"

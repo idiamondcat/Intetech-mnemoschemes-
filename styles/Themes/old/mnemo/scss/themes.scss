@@ -1,0 +1,11 @@
+.default {
+	@import "variables_set/default/vars.scss";
+
+	@import "_mnemo_styles";
+}
+
+.dark {
+	@import "variables_set/dark/vars.scss";
+
+	@import "_mnemo_styles";
+}

@@ -1,0 +1,43 @@
+---
+default:
+  parameters:
+    0._scaption: "Text"
+    0._sfontsize: "26"
+    0._swellcount: "5"
+  width: 208.0
+  height: 90.0
+gas-wells-cluster_wellcount-1:
+  parameters:
+    0._scaption: "Text"
+    0._sfontsize: "26"
+    0._swellcount: "1"
+  width: 208.0
+  height: 90.0
+gas-wells-cluster_wellcount-2:
+  parameters:
+    0._scaption: "Text"
+    0._sfontsize: "26"
+    0._swellcount: "2"
+  width: 208.0
+  height: 90.0
+gas-wells-cluster_wellcount-3:
+  parameters:
+    0._scaption: "Text"
+    0._sfontsize: "26"
+    0._swellcount: "3"
+  width: 208.0
+  height: 90.0
+gas-wells-cluster_wellcount-4:
+  parameters:
+    0._scaption: "Text"
+    0._sfontsize: "26"
+    0._swellcount: "4"
+  width: 208.0
+  height: 90.0
+gas-wells-cluster_wellcount-5:
+  parameters:
+    0._scaption: "Text"
+    0._sfontsize: "26"
+    0._swellcount: "5"
+  width: 208.0
+  height: 90.0

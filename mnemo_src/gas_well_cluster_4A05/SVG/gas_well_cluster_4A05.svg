@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1118.7 259.3" style="enable-background:new 0 0 1118.7 259.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#93398C;stroke-width:3;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#F2C711;stroke-width:3;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#933B8D;stroke-width:3;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#F2C709;stroke-width:3;stroke-miterlimit:10;}
+	.st4{fill:#F5F3F2;stroke:#93398C;stroke-width:3;stroke-miterlimit:10;}
+</style>
+<g id="lines">
+	<g id="pipes">
+		<g id="methanol">
+			<polyline class="st0" points="194.5,210 794.5,210 794.5,91 			"/>
+		</g>
+		<g id="gas">
+			<polyline class="st1" points="1008.5,91 274.5,91 274.5,198 228.5,198 			"/>
+		</g>
+	</g>
+	<g id="arrows">
+		<g id="methanol_00000017499177765999547110000004692805457166367907_">
+			<polyline class="st2" points="414.5,217 421.5,210 414.5,204 			"/>
+			<polyline class="st2" points="629.5,217 636.5,210 629.5,204 			"/>
+		</g>
+		<g id="gas_00000181791645510919408480000001508528604665350074_">
+			<polyline class="st3" points="421.5,98 413.5,91 421.5,84 			"/>
+			<polyline class="st3" points="635.5,98 627.5,91 635.5,84 			"/>
+		</g>
+	</g>
+	<g id="arc">
+		<g id="methanol_00000088835071401046716390000018034930008121431169_">
+		</g>
+		<g id="gas_00000023277163111697319350000006820493815660171150_">
+		</g>
+	</g>
+	<g id="points">
+		<g id="methanol_00000116226266014739984290000004415751384931828666_">
+			<circle class="st4" cx="794.5" cy="91" r="4.5"/>
+		</g>
+		<g id="gas_00000150098098206018795060000009596324627341115303_">
+		</g>
+	</g>
+</g>
+<g id="SimpleElements">
+	<g id="multi-tit-elem">
+		
+			<image style="overflow:visible;" width="114" height="64" id="id1" xlink:href="../../../../../Users/evgen/OneDrive/Рабочий стол/workspace/_work/arh/Elements/multi-tit-elem/pub/multi-tit_titcount-2_no-arroworient.png"  transform="matrix(1 0 0 1 361.5 9)">
+		</image>
+		
+			<image style="overflow:visible;" width="114" height="64" id="id2" xlink:href="../../../../../Users/evgen/OneDrive/Рабочий стол/workspace/_work/arh/Elements/multi-tit-elem/pub/multi-tit_titcount-2_no-arroworient.png"  transform="matrix(1 0 0 1 361.5 129)">
+		</image>
+		
+			<image style="overflow:visible;" width="114" height="64" id="id3" xlink:href="../../../../../Users/evgen/OneDrive/Рабочий стол/workspace/_work/arh/Elements/multi-tit-elem/pub/multi-tit_titcount-2_no-arroworient.png"  transform="matrix(1 0 0 1 574.5 9)">
+		</image>
+		
+			<image style="overflow:visible;" width="114" height="64" id="id5_00000134235283683981206310000014745419697225740448_" xlink:href="../../../../../Users/evgen/OneDrive/Рабочий стол/workspace/_work/arh/Elements/multi-tit-elem/pub/multi-tit_titcount-2_no-arroworient.png"  transform="matrix(1 0 0 1 861.5 9)">
+		</image>
+	</g>
+	<g id="valve-mini-unactive-elem">
+		
+			<image style="overflow:visible;" width="38" height="57" id="id6" xlink:href="../../../../../Users/evgen/OneDrive/Рабочий стол/workspace/_work/arh/Elements/valve-mini-unactive-elem/pub/valve-mini-unactive_h_caption.png"  transform="matrix(1 0 0 1 302.5 62.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="38" height="57" id="id10" xlink:href="../../../../../Users/evgen/OneDrive/Рабочий стол/workspace/_work/arh/Elements/valve-mini-unactive-elem/pub/valve-mini-unactive_h_caption.png"  transform="matrix(1 0 0 1 722 62.5)">
+		</image>
+	</g>
+	<g id="transition-button-elem">
+		
+			<image style="overflow:visible;" width="119" height="34" id="id12_00000085932632124694840350000014152991433048540853_" xlink:href="../../../../../Users/evgen/OneDrive/Рабочий стол/workspace/_work/arh/Elements/transition-button-elem/pub/transition-button_arrowdirection-1.png"  transform="matrix(1 0 0 1 988.5 74)">
+		</image>
+	</g>
+	<g id="valve-n-elem">
+		
+			<image style="overflow:visible;" width="71" height="89" id="id13" xlink:href="../../../../../Users/evgen/OneDrive/Рабочий стол/workspace/_work/arh/Elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1 0 0 1 489.5 45)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="89" id="id14" xlink:href="../../../../../Users/evgen/OneDrive/Рабочий стол/workspace/_work/arh/Elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1 0 0 1 489.5 163)">
+		</image>
+	</g>
+	<g id="ukpg-elem">
+		
+			<image style="overflow:visible;" width="404" height="279" id="id15" xlink:href="../../../../../Users/evgen/OneDrive/Рабочий стол/workspace/_work/arh/Elements/ukpg-elem/pub/default.png"  transform="matrix(0.6287 0 0 0.6287 10.5 51.2946)">
+		</image>
+	</g>
+</g>
+<g id="helpers">
+</g>
+</svg>

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1817.7 915" style="enable-background:new 0 0 1817.7 915;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#202331;}
+	.st1{fill:none;stroke:#FCC10A;stroke-width:3;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#836EED;stroke-width:3;stroke-miterlimit:10;}
+	.st3{fill:#2A2D3F;stroke:#FCC10A;stroke-width:2;stroke-miterlimit:10;}
+	.st4{fill:#2A2D3F;stroke:#836EED;stroke-width:2;stroke-miterlimit:10;}
+	.st5{fill:#191A28;}
+	.st6{font-family:'UbuntuCondensed-Regular';}
+	.st7{font-size:18.9999px;}
+	.st8{letter-spacing:-1;}
+	.st9{font-size:11.9999px;}
+	.st10{fill:#F49A1A;}
+	.st11{font-size:20.9999px;}
+	.st12{fill:#EAEAEA;}
+	.st13{font-size:14.9999px;}
+	
+		.st14{clip-path:url(#SVGID_00000140731164393877184090000004376447495991581348_);fill:none;stroke:#FCC10A;stroke-width:60;stroke-miterlimit:10;}
+	
+		.st15{clip-path:url(#SVGID_00000017481187489509991660000014960408774237021063_);fill:none;stroke:#FCCE71;stroke-width:50;stroke-miterlimit:10;}
+	
+		.st16{clip-path:url(#SVGID_00000076594277125732442550000010824691939474189972_);fill:none;stroke:#FDE2B2;stroke-width:40;stroke-miterlimit:10;}
+	
+		.st17{clip-path:url(#SVGID_00000009550935996557017910000002696966825796442245_);fill:none;stroke:#FFFFFF;stroke-width:30;stroke-miterlimit:10;}
+	.st18{font-size:22px;}
+	.st19{fill:#BBBABC;}
+	.st20{font-size:21px;}
+	.st21{font-size:17px;}
+	.st22{font-size:36px;}
+	.st23{font-size:20px;}
+</style>
+<g id="tables-solid">
+	<g id="t1">
+		<path class="st0" d="M1398,870H30c-10.7,0-19-9.3-19-20V469c0-10.7,8.3-19,19-19h1368c10.7,0,19,8.3,19,19v381
+			c0,10.7-7.8,20-18.5,20"/>
+	</g>
+	<g id="t2">
+		<path class="st0" d="M1398,430H30c-10.7,0-19-9.3-19-20V29c0-10.7,8.3-19,19-19h1368c10.7,0,19,8.3,19,19v381
+			c0,10.7-7.8,20-18.5,20"/>
+	</g>
+</g>
+<g id="lines">
+	<g id="pipes">
+		<g id="gas_00000112617034179852417870000013613717610648012217_">
+			<polyline class="st1" points="1702,618 1171,618 1171,738 			"/>
+			<polyline class="st1" points="532,297 532,480 532,504 479,504 479,711 			"/>
+			<polyline class="st1" points="479,755 479,875 479,887 538,887 			"/>
+			<line class="st1" x1="172" y1="294" x2="320" y2="294"/>
+			<line class="st1" x1="1384" y1="553" x2="1384" y2="618"/>
+			<line class="st1" x1="172" y1="737" x2="320" y2="737"/>
+			<polyline class="st1" points="1371,538 1371,294 1152,294 961,294 320,294 			"/>
+			<polyline class="st1" points="321,294 321,200 172,200 			"/>
+			<line class="st1" x1="1371" y1="611" x2="1371" y2="553"/>
+			<line class="st1" x1="1371" y1="738" x2="1371" y2="625"/>
+			<polyline class="st1" points="321,738 321,644 172,644 			"/>
+			<line class="st1" x1="1172" y1="738" x2="1701" y2="738"/>
+			<line class="st1" x1="1701" y1="887" x2="533" y2="887"/>
+			<polyline class="st1" points="1172,738 961,738 320,738 			"/>
+			<line class="st1" x1="533" y1="740" x2="533" y2="886"/>
+			<polyline class="st1" points="1171,294 1171,175 1384,175 1384,539 			"/>
+		</g>
+		<g id="methanol_00000002378190591878918630000012878563275278681237_">
+			<line class="st2" x1="1067" y1="546" x2="1702" y2="546"/>
+			<polyline class="st2" points="1014,103 961,103 961,294 			"/>
+			<polyline class="st2" points="1014,546 961,546 961,737 			"/>
+			<polyline class="st2" points="1066,102.5 1398,102.5 1398,545.5 			"/>
+		</g>
+	</g>
+	<g id="arrows">
+		<g id="gas_00000111891399112484433930000009275356023608594306_">
+			<polyline class="st1" points="269,301 277,294 269,287 			"/>
+			<polyline class="st1" points="269,745 277,738 269,731 			"/>
+			<polyline class="st1" points="314,243 321,251 328,243 			"/>
+			<polyline class="st2" points="954,243 961,251 968,243 			"/>
+			<polyline class="st2" points="1405,251 1398,243 1391,251 			"/>
+			<polyline class="st2" points="954,693 961,701 968,693 			"/>
+			<polyline class="st1" points="314,691 321,699 328,691 			"/>
+		</g>
+		<g id="methanol_00000111874030505983480260000013824134347055355319_">
+		</g>
+	</g>
+	<g id="arc">
+		<g id="gas">
+			<path class="st1" d="M1384,533v7c-3.9,0-7,2.1-7,6s3.1,6,7,6v10"/>
+			<path class="st1" d="M1371,533v7c-3.9,0-7,2.1-7,6s3.1,7,7,7v10"/>
+			<path class="st1" d="M1371,596v16c-3.9,0-7,2.1-7,6s3.1,6,7,6v7"/>
+			<path class="st1" d="M479,695v36c-3.9,0-7,3.1-7,7s3.1,7,7,7v15"/>
+		</g>
+		<g id="methanol">
+		</g>
+	</g>
+	<g id="points">
+		<g id="gas_00000105419816287201618490000011510463110256560019_">
+			<circle class="st3" cx="321" cy="294" r="4"/>
+			<circle class="st3" cx="532" cy="294" r="4"/>
+			<circle class="st3" cx="1171" cy="294" r="4"/>
+			<circle class="st3" cx="1171" cy="738" r="4"/>
+			<circle class="st3" cx="533" cy="738" r="4"/>
+			<circle class="st3" cx="533" cy="887" r="4"/>
+			<circle class="st3" cx="321" cy="738" r="4"/>
+			<circle class="st3" cx="1370" cy="738" r="4"/>
+			<circle class="st3" cx="1384" cy="618" r="4"/>
+		</g>
+		<g id="methanol_00000075867632104688053370000012956214445475632031_">
+			<circle class="st4" cx="961" cy="294" r="4"/>
+			<circle class="st4" cx="1398" cy="546" r="4"/>
+			<circle class="st4" cx="961" cy="738" r="4"/>
+		</g>
+	</g>
+</g>
+<g id="Слой_1">
+	<line class="st2" x1="955.1" y1="150.5" x2="955.1" y2="150.5"/>
+	<line class="st2" x1="955.1" y1="593.5" x2="955.1" y2="593.5"/>
+	<line class="st1" x1="313.7" y1="687.7" x2="313.7" y2="687.7"/>
+	<line class="st1" x1="313.8" y1="245.1" x2="313.8" y2="245.1"/>
+	<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 811.2081 274.7317)"><tspan x="0" y="0" class="st5 st6 st7 st8">F</tspan><tspan x="6.4" y="0" class="st5 st6 st7">, </tspan></text>
+	<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 825.72 274.6808)" class="st5 st6 st9">м</text>
+	<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 833.0398 274.6628)" class="st5 st6 st9">³</text>
+	<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 836.4001 274.6545)" class="st5 st6 st9">/ч</text>
+	<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 871.0651 274.6066)" class="st10 st6 st11">6319</text>
+	<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 811.2088 717.3526)" class="st12 st6 st7">F</text>
+	<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 819.262 717.3719)" class="st12 st6 st13">, м</text>
+	<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 834.8167 717.3329)" class="st12 st6 st13">³</text>
+	<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 839.0168 717.3231)" class="st12 st6 st13">/ч</text>
+	<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 871.0645 717.2289)" class="st12 st6 st11">8450</text>
+	<g>
+		<defs>
+			<polygon id="SVGID_1_" points="1517.6,40 1486.4,81.3 1539,123.9 1563.9,102.8 1595.2,98.8 1640,109 1670.8,135.9 1678,199.9 
+				1646.6,242.7 1682.7,301.4 1715.6,285.2 1743.7,238.4 1752.7,183.8 1747.2,117.5 1716.4,73.6 1661.4,31.4 1591.2,22.3 			"/>
+		</defs>
+		<clipPath id="SVGID_00000033350938847314396840000003373832436048511133_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		
+			<ellipse transform="matrix(0.9239 -0.3827 0.3827 0.9239 54.6117 627.9287)" style="clip-path:url(#SVGID_00000033350938847314396840000003373832436048511133_);fill:none;stroke:#FCC10A;stroke-width:60;stroke-miterlimit:10;" cx="1605.7" cy="176.7" rx="115.3" ry="115.3"/>
+	</g>
+	<g>
+		<defs>
+			<polygon id="SVGID_00000114070091471482477120000018411042955472042163_" points="1551.4,242.8 1517.8,287.3 1564.1,320.8 
+				1627.3,322.7 1682.9,299.8 1651.6,248.7 1619.9,247.9 1560.8,240.2 			"/>
+		</defs>
+		<clipPath id="SVGID_00000088117584115180129790000010596405933459093157_">
+			<use xlink:href="#SVGID_00000114070091471482477120000018411042955472042163_"  style="overflow:visible;"/>
+		</clipPath>
+		
+			<path style="clip-path:url(#SVGID_00000088117584115180129790000010596405933459093157_);fill:none;stroke:#FCCE71;stroke-width:50;stroke-miterlimit:10;" d="
+			M1490.9,174.1c0-62.6,50.7-113.3,113.3-113.3c62.6,0,113.3,50.7,113.3,113.3s-50.7,113.3-113.3,113.3
+			C1541.6,287.4,1490.9,236.7,1490.9,174.1z"/>
+	</g>
+	<g>
+		<defs>
+			<polygon id="SVGID_00000091713087066449146120000007735578223571703989_" points="1466,185 1474.2,242.3 1521,283.2 
+				1551.4,242.9 1518.2,181.8 			"/>
+		</defs>
+		<clipPath id="SVGID_00000018205795466425138020000009376462493213551795_">
+			<use xlink:href="#SVGID_00000091713087066449146120000007735578223571703989_"  style="overflow:visible;"/>
+		</clipPath>
+		
+			<ellipse transform="matrix(1.808736e-03 -1 1 1.808736e-03 1422.2207 1777.3575)" style="clip-path:url(#SVGID_00000018205795466425138020000009376462493213551795_);fill:none;stroke:#FDE2B2;stroke-width:40;stroke-miterlimit:10;" cx="1601.4" cy="176.3" rx="104.9" ry="104.9"/>
+	</g>
+	<g>
+		<defs>
+			<polygon id="SVGID_00000122703320897143383800000002913005471283962011_" points="1472.4,134.3 1467.6,183.3 1476.7,184.3 
+				1520,181.8 1538.9,123.7 1502.2,94 			"/>
+		</defs>
+		<clipPath id="SVGID_00000012450692381798836370000009780124866380349875_">
+			<use xlink:href="#SVGID_00000122703320897143383800000002913005471283962011_"  style="overflow:visible;"/>
+		</clipPath>
+		
+			<ellipse style="clip-path:url(#SVGID_00000012450692381798836370000009780124866380349875_);fill:none;stroke:#FFFFFF;stroke-width:30;stroke-miterlimit:10;" cx="1619.9" cy="175.7" rx="118.6" ry="99.7"/>
+	</g>
+	<text transform="matrix(1 0 0 1 1694.0352 117.3506)" class="st5 st6 st18">1</text>
+	<text transform="matrix(1 0 0 1 1593.6494 296.4966)" class="st5 st6 st18">2</text>
+	<text transform="matrix(1 0 0 1 1505.1875 232.8506)" class="st5 st6 st18">3</text>
+	<text transform="matrix(1 0 0 1 1501.6895 154.3545)" class="st5 st6 st18">4</text>
+	<text transform="matrix(1 0 0 1 1556.5596 209.1621)"><tspan x="0" y="0" class="st19 st6 st20">F</tspan><tspan x="8.5" y="0" class="st19 st6 st20">r </tspan><tspan x="19.5" y="0" class="st19 st6 st20">с</tspan><tspan x="27.1" y="0" class="st19 st6 st20">у</tspan><tspan x="35.3" y="0" class="st19 st6 st20">мм</tspan></text>
+	<text transform="matrix(1 0 0 1 1617.5215 209.1621)" class="st19 st6 st21">, м</text>
+	<text transform="matrix(1 0 0 1 1635.1504 209.1621)" class="st19 st6 st21">³</text>
+	<text transform="matrix(1 0 0 1 1639.9102 209.1621)" class="st19 st6 st21">/ч</text>
+	<text transform="matrix(1 0 0 1 1566.9072 184.1045)" class="st12 st6 st22">55731</text>
+</g>
+<g id="SimpleElements">
+	<g id="gasser-elem">
+		
+			<image style="overflow:visible;" width="160" height="301" id="id1" xlink:href="../../../elements/gasser-elem/pub/default.png"  transform="matrix(1 0 0 1 23 108.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="160" height="301" id="id2" xlink:href="../../../elements/gasser-elem/pub/default.png"  transform="matrix(1 0 0 1 23 551.5)">
+		</image>
+	</g>
+	<g id="valve-n-elem">
+		
+			<image style="overflow:visible;" width="71" height="89" id="id3" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1 0 0 1 587.5 247.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="89" id="id4" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1 0 0 1 706.5 247.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="89" id="id5" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1 0 0 1 706.5 691.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="89" id="id6" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1 0 0 1 1004.5 55.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="89" id="id7" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1 0 0 1 1004.5 498.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="89" id="id8" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1 0 0 1 1263.5 246.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="89" id="id9" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1 0 0 1 1263.5 691.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="98" height="71" id="id10" xlink:href="../../../elements/valve-n-elem/pub/valve-n_v_caption.png"  transform="matrix(1 0 0 1 1127 197.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="98" height="71" id="id11" xlink:href="../../../elements/valve-n-elem/pub/valve-n_v_caption.png"  transform="matrix(1 0 0 1 1127 637.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="89" id="id12" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1 0 0 1 1263.5 498.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="89" id="id13" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1 0 0 1 587.5 690.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="89" id="id14" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1 0 0 1 1263.5 54.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="89" id="id15" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1 0 0 1 1590.5 498.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="71" height="89" id="id16" xlink:href="../../../elements/valve-n-elem/pub/valve-n_h_caption.png"  transform="matrix(1 0 0 1 1590.5 689.5)">
+		</image>
+	</g>
+	<g id="valve-mini-unactive-elem">
+		
+			<image style="overflow:visible;" width="37" height="38" id="id17" xlink:href="../../../elements/valve-mini-unactive-elem/pub/valve-mini-unactive_v_no-caption.png"  transform="matrix(1 0 0 1 507.5 331)">
+		</image>
+		
+			<image style="overflow:visible;" width="37" height="38" id="id18" xlink:href="../../../elements/valve-mini-unactive-elem/pub/valve-mini-unactive_v_no-caption.png"  transform="matrix(1 0 0 1 507.5 781)">
+		</image>
+	</g>
+	<g id="multi-tit-elem">
+		
+			<image style="overflow:visible;" width="114" height="64" id="id19" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_titcount-2_no-arroworient.png"  transform="matrix(1 0 0 1 147.5 349)">
+		</image>
+		
+			<image style="overflow:visible;" width="114" height="64" id="id20" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_titcount-2_no-arroworient.png"  transform="matrix(1 0 0 1 147.5 796)">
+		</image>
+		
+			<image style="overflow:visible;" width="114" height="64" id="id21" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_titcount-2_no-arroworient.png"  transform="matrix(1 0 0 1 188 572)">
+		</image>
+		
+			<image style="overflow:visible;" width="114" height="64" id="id22" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_titcount-2_no-arroworient.png"  transform="matrix(1 0 0 1 346 221)">
+		</image>
+		
+			<image style="overflow:visible;" width="114" height="64" id="id23" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_titcount-2_no-arroworient.png"  transform="matrix(1 0 0 1 346 664)">
+		</image>
+		
+			<image style="overflow:visible;" width="114" height="64" id="id24" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_titcount-2_no-arroworient.png"  transform="matrix(1 0 0 1 188 126)">
+		</image>
+		
+			<image style="overflow:visible;" width="114" height="32" id="id25" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_no-arroworient.png"  transform="matrix(1 0 0 1 1110 61)">
+		</image>
+		
+			<image style="overflow:visible;" width="114" height="32" id="id26" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_no-arroworient.png"  transform="matrix(1 0 0 1 1110 505)">
+		</image>
+		
+			<image style="overflow:visible;" width="114" height="64" id="id27" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_titcount-2_no-arroworient.png"  transform="matrix(1 0 0 1 982 221)">
+		</image>
+		
+			<image style="overflow:visible;" width="114" height="64" id="id28" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_titcount-2_no-arroworient.png"  transform="matrix(1 0 0 1 974 664)">
+		</image>
+		
+			<image style="overflow:visible;" width="114" height="32" id="id29" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_arroworient-left.png"  transform="matrix(1 0 0 1 137 674.5)">
+		</image>
+		
+			<image style="overflow:visible;" width="114" height="32" id="id30" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_arroworient-left.png"  transform="matrix(1 0 0 1 137 227)">
+		</image>
+		
+			<image style="overflow:visible;" width="114" height="32" id="id31" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_no-arroworient.png"  transform="matrix(1 0 0 1 1441 505)">
+		</image>
+		
+			<image style="overflow:visible;" width="114" height="32" id="id32" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_no-arroworient.png"  transform="matrix(1 0 0 1 1548.4204 337.7539)">
+		</image>
+		
+			<image style="overflow:visible;" width="114" height="32" id="id33" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_no-arroworient.png"  transform="matrix(1 0 0 1 1548.4204 377.5796)">
+		</image>
+		
+			<image style="overflow:visible;" width="114" height="32" id="id34" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_no-arroworient.png"  transform="matrix(1 0 0 1 1441 578)">
+		</image>
+		
+			<image style="overflow:visible;" width="114" height="64" id="id35" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_titcount-2_no-arroworient.png"  transform="matrix(1 0 0 1 1441 664)">
+		</image>
+	</g>
+	<g id="transition-button-elem">
+		
+			<image style="overflow:visible;" width="119" height="34" id="id36" xlink:href="../../../elements/transition-button-elem/pub/transition-button_arrowdirection-0.png"  transform="matrix(1 0 0 1 1689.5 721)">
+		</image>
+		
+			<image style="overflow:visible;" width="119" height="34" id="id37" xlink:href="../../../elements/transition-button-elem/pub/transition-button_arrowdirection-0.png"  transform="matrix(1 0 0 1 1689.5 601)">
+		</image>
+		
+			<image style="overflow:visible;" width="119" height="34" id="id38" xlink:href="../../../elements/transition-button-elem/pub/transition-button_arrowdirection-0.png"  transform="matrix(1 0 0 1 1689.5 870)">
+		</image>
+		
+			<image style="overflow:visible;" width="119" height="34" id="id39" xlink:href="../../../elements/transition-button-elem/pub/transition-button_arrowdirection-1.png"  transform="matrix(1 0 0 1 1689.5 529)">
+		</image>
+	</g>
+</g>
+<g id="text">
+	<g id="px20">
+		<text transform="matrix(1 0 0 1 54.1631 34.2881)"><tspan x="0" y="0" class="st19 st6 st23">Ск</tspan><tspan x="17.9" y="0" class="st19 st6 st23">в</tspan><tspan x="27.2" y="0" class="st19 st6 st23">ажина 1</tspan></text>
+		<text transform="matrix(1 0 0 1 54.1631 475.5283)"><tspan x="0" y="0" class="st19 st6 st23">Ск</tspan><tspan x="17.9" y="0" class="st19 st6 st23">в</tspan><tspan x="27.2" y="0" class="st19 st6 st23">ажина 2</tspan></text>
+	</g>
+</g>
+</svg>

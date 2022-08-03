@@ -1,0 +1,116 @@
+:root {
+/*Main*/
+	--body-bg-color: rgba(242, 242, 242, 1);
+
+/*Underlayers*/
+	--underlayer-gas-color: rgba(243, 200, 13, 1);
+	--underlayer-glycol-color: rgba(255, 160, 0, 1);
+	--underlayer-drainage-color: rgba(109, 111, 122, 1);
+	--underlayer-heat-carrier-color: rgba(40, 138, 57, 1);
+	--underlayer-methanol-color: rgba(165, 38, 159, 1);
+	--underlayer-antifreeze-color: rgba(255, 160, 160, 1);
+	--underlayer-water-color: rgba(102, 102, 255, 1);
+	--underlayer-default-color: rgba(168, 169, 169, 1);
+
+/*Elements*/
+	--main-object-fill-color: rgba(109, 111, 122, 1);
+	--main-txt-color-a0: rgba(27, 38, 44, 1);
+	--main-txt-color-inversed-a0: rgba(27, 38, 44, 1);
+
+	--text-box-color: rgba(87, 90, 99, 1);
+	--table-solid-fill-color: rgba(255,255,255,0.5);
+
+	--toggle-fill-color-a0: rgba(109, 111, 122, 1);
+	--toggle-fill-color-a1: rgba(24, 145, 56, 1);
+	--toggle-fill-color-a2: rgba(255, 160, 0, 1);
+	--toggle-fill-color-a3: rgba(255, 208, 0, 1);
+	--toggle-fill-color-a4: rgba(178, 176, 175, 1);
+	--toggle-fill-color-a5: rgba(178, 25, 23, 1);
+
+	--flame-color: rgba(231, 27, 0, 1);
+
+	--small-object-fill-color: rgba(30, 30, 30, 1);
+
+	--kgs-color-01: rgba(170, 170, 170, 1);
+	--kgs-color-02: rgba(226, 0, 54, 1);
+	--kgs-color-03: rgba(239, 193, 0, 1);
+	--kgs-color-04: rgba(24, 138, 57, 1);
+	--kgs-color-05: rgba(165, 38, 159, 1);
+	--kgs-color-06: rgba(28, 169, 201, 1);
+	--kgs-color-07: rgba(221, 119, 224, 1);
+	--kgs-color-08: rgba(113, 216, 159, 1);
+	--kgs-color-09: rgba(64, 81, 204, 1);
+	--kgs-color-10: rgba(183, 81, 123, 1);
+	--kgs-color-11: rgba(204, 157, 94, 1);
+	--kgs-color-12: rgba(117, 116, 116, 1);
+
+/*Tit-elems*/
+	--tit-name-cont-bg-color: rgb(255, 255, 255);
+	--tit-name-cont-txt-color: rgba(27, 38, 44, 1);
+	--tit-cont-negative-color: rgba(41, 49, 63, 1);
+	--tit-cont-txt-negative-color: rgba(238, 238, 238, 1);
+
+/*Transition-buttons*/
+	--transition-button-txt-color: rgba(87, 90, 99, 1);
+
+/*Num-value-box*/
+
+	--num-value-bg-color: rgba(20, 20, 20, 1);
+	--num-value-bg-shade: rgba(0, 0, 0, 1);
+	--num-value-hatch-class-unreachable-color: 109, 111, 122, 1;
+	--num-value-hatch-class-unreachable-alternative-color: 255, 255, 255, 1;
+	--num-value-hatch-opacity: 0.5;
+
+	--num-value-linecolor-unknown: rgba(168, 169, 169, 1);
+	--num-value-linecolor-invis: rgba(0, 0, 0, 0);
+	--num-value-numcolor-ok: rgba(27, 38, 44, 1);
+	--num-value-linecolor-ok: rgba(109, 111, 122, 1);
+	--num-value-numcolor-bad: rgba(234, 141, 7, 1);
+	--num-value-linecolor-bad: rgba(246, 179, 35, 1);
+	--num-value-numcolor-awful: rgba(231, 27, 0, 1);
+	--num-value-linecolor-awful: rgba(231, 27, 0, 1);
+
+
+/* Levels */
+	--level-for-barrels-self-fill: rgba(166, 169, 169, 1);
+
+	/* --level-botbar-color: #6e6e6e;
+	--level-botpart-color: #6e6e6e;
+	--level-topbar-color: #961414;
+	--level-toppart-color: #961414;
+	--level-for-barrels-self-fill: rgba(15, 15, 15, 1);
+	--levels-filler-color: rgba(185, 215, 210, 1);
+
+	--levels-filler-color-ok: rgba(185, 215, 210, 1);
+	--levels-filler-color-bad: rgba(200, 200, 50, 1);
+	--levels-filler-color-awful: rgba(255, 0, 0, 1); */
+	--level-for-barrels-color:rgba(166, 169, 169, 1);
+	--level-for-barrels-contur-fill-ok: rgba(127, 175, 174, 1);
+	--level-for-barrels-numcolor-ok: rgba(27, 38, 44, 1);
+	--level-for-barrels-contur-fill-bad: rgba(246, 179, 35, 1);
+	--level-for-barrels-numcolor-bad: rgba(243, 154, 34, 1);
+	--level-for-barrels-contur-fill-awful: rgba(231, 27, 0, 1);
+	--level-for-barrels-numcolor-awful: rgba(231, 27, 0, 1);
+
+/* Separators */
+	--barrels-fill: rgba(98, 113, 137, 1);
+	--barrels-txt-color: rgba(255, 255, 255, 1);
+
+/*System*/
+		--sys-unavailable-color: rgba(109, 111, 122, 0.4);
+		--sys-numvalue-fontsize: 21px;
+		--sys-numvalue-lineheight: 25px;
+		--sys-tit-caption-fontsize: 16px;
+		--sys-tit-caption-lineheight: 23px;
+		--sys-tit-unit-fontsize: 15px;
+		--sys-tit-unit-lineheight: 18px;
+		--sys-text-box-fontsize: 16px;
+		--sys-text-box-lineheight: 18px;
+
+/* Chart */
+	--chart-main-color: rgb(252, 193, 10);
+	--chart-extra-color: rgb(255, 255, 255);
+	--chart-sector-txt: rgb(25, 26, 40);
+	--chart-center-txt: rgb(94, 94, 94);
+}
+

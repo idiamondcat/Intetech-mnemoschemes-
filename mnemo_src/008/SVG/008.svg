@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 724 552" style="enable-background:new 0 0 724 552;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#EEEEEF;stroke:#6C6E7A;stroke-miterlimit:10;}
+	.st1{fill:#909091;}
+	.st2{font-family:'UbuntuCondensed-Regular';}
+	.st3{font-size:16px;}
+	.st4{font-size:14px;}
+	.st5{font-size:20px;}
+	.st6{fill:#21282D;}
+	.st7{font-size:21px;}
+	.st8{fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
+	.st9{fill:none;stroke:#6C6E7A;stroke-width:6;stroke-miterlimit:10;}
+	.st10{fill:none;stroke:#7030A0;stroke-width:6;stroke-miterlimit:10;}
+	.st11{fill:#F5F3F3;stroke:#6C6E7A;stroke-miterlimit:10;}
+	.st12{fill:#F5F3F3;stroke:#7030A0;stroke-miterlimit:10;}
+	.st13{fill:#F5F3F3;}
+</style>
+<g id="SimpleElements">
+	<g id="switch-cart-elem">
+		
+			<image style="overflow:visible;" width="22" height="69" id="id1" xlink:href="../../../elements/switch-cart-elem/pub/default.png"  transform="matrix(1 0 0 1 14.5 132.307)">
+		</image>
+	</g>
+	<g id="multi-tit-elem">
+		
+			<image style="overflow:visible;" width="134" height="192" id="id2" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_titcount-6_no-arroworient.png"  transform="matrix(1.0969 0 0 1.0969 78.9241 309.6967)">
+		</image>
+		
+			<image style="overflow:visible;" width="134" height="192" id="id3" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_titcount-6_no-arroworient.png"  transform="matrix(1.0969 0 0 1.0969 328.9241 309.6967)">
+		</image>
+		
+			<image style="overflow:visible;" width="134" height="192" id="id4" xlink:href="../../../elements/multi-tit-elem/pub/multi-tit_titcount-6_no-arroworient.png"  transform="matrix(1.0969 0 0 1.0969 571.9241 309.6967)">
+		</image>
+	</g>
+	<g id="earthing-knife-elem">
+		
+			<image style="overflow:visible;" width="45" height="18" id="id5" xlink:href="../../../elements/earthing-knife-elem/pub/default.png"  transform="matrix(1 0 0 1 22 214)">
+		</image>
+		
+			<image style="overflow:visible;" width="45" height="18" id="id6" xlink:href="../../../elements/earthing-knife-elem/pub/default.png"  transform="matrix(1 0 0 1 22 407.637)">
+		</image>
+		
+			<image style="overflow:visible;" width="45" height="18" id="id7" xlink:href="../../../elements/earthing-knife-elem/pub/default.png"  transform="matrix(1 0 0 1 272.25 407.637)">
+		</image>
+		
+			<image style="overflow:visible;" width="45" height="18" id="id8" xlink:href="../../../elements/earthing-knife-elem/pub/default.png"  transform="matrix(1 0 0 1 522 407.637)">
+		</image>
+	</g>
+	<g id="disconnector-elem">
+		
+			<image style="overflow:visible;" width="16" height="11" id="id9" xlink:href="../../../elements/disconnector-elem/pub/default.png"  transform="matrix(0 -1 1 0 20 348.637)">
+		</image>
+		
+			<image style="overflow:visible;" width="16" height="11" id="id10" xlink:href="../../../elements/disconnector-elem/pub/default.png"  transform="matrix(0 -1 1 0 20 506)">
+		</image>
+		
+			<image style="overflow:visible;" width="16" height="11" id="id11" xlink:href="../../../elements/disconnector-elem/pub/default.png"  transform="matrix(0 -1 1 0 270 348.637)">
+		</image>
+		
+			<image style="overflow:visible;" width="16" height="11" id="id12" xlink:href="../../../elements/disconnector-elem/pub/default.png"  transform="matrix(0 -1 1 0 270 506)">
+		</image>
+		
+			<image style="overflow:visible;" width="16" height="11" id="id13" xlink:href="../../../elements/disconnector-elem/pub/default.png"  transform="matrix(0 -1 1 0 520 348.637)">
+		</image>
+		
+			<image style="overflow:visible;" width="16" height="11" id="id14" xlink:href="../../../elements/disconnector-elem/pub/default.png"  transform="matrix(0 -1 1 0 520 506)">
+		</image>
+	</g>
+</g>
+<g id="tables">
+	<g id="rect">
+		<path class="st0" d="M712.45,54.53V14.82c-0.01-2.66-1.81-4.83-4-4.82L15.48,10.27c-2.19,0.01-3.99,2.19-3.98,4.84l0.01,6.24
+			l0.03,32.82c0.01,2.66,1.81,4.83,4,4.82l692.97-0.27c2.19-0.01,3.99-2.19,3.98-4.84L712.45,54.53z"/>
+	</g>
+	<g id="text">
+		<g id="elem-text">
+			<text transform="matrix(1 0 0 1 40.7643 462.9904)" class="st1 st2 st3">Т1</text>
+			<text transform="matrix(1 0 0 1 290.7643 462.9904)" class="st1 st2 st3">Т1</text>
+			<text transform="matrix(1 0 0 1 540.7643 462.9904)" class="st1 st2 st3">Т1</text>
+		</g>
+		<g id="subtitles">
+			<text transform="matrix(1 0 0 1 36.3437 502.5474)" class="st1 st2 st4">1ВВ</text>
+			<text transform="matrix(1 0 0 1 36.3124 345.6372)" class="st1 st2 st4">УВН1</text>
+			<text transform="matrix(1 0 0 1 11.1686 97.0469)" class="st1 st2 st4">1С-10</text>
+			<text transform="matrix(1 0 0 1 12.3122 539.0464)" class="st1 st2 st4">С-0,4</text>
+			<text transform="matrix(1 0 0 1 286.3437 502.5474)" class="st1 st2 st4">1ВВ</text>
+			<text transform="matrix(1 0 0 1 286.3124 345.6372)" class="st1 st2 st4">УВН1</text>
+			<text transform="matrix(1 0 0 1 262.3122 539.0464)" class="st1 st2 st4">С-0,4</text>
+			<text transform="matrix(1 0 0 1 536.3437 502.5474)" class="st1 st2 st4">1ВВ</text>
+			<text transform="matrix(1 0 0 1 536.3124 345.6372)" class="st1 st2 st4">УВН1</text>
+			<text transform="matrix(1 0 0 1 512.3122 539.0464)" class="st1 st2 st4">С-0,4</text>
+			<text transform="matrix(1 0 0 1 137.1359 243.9102)" class="st1 st2 st4">ВЛ-10</text>
+		</g>
+		<g id="titles">
+			<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 132.002 289.3439)" class="st1 st2 st5">ТП-4Г</text>
+			<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 368.6724 288.6673)" class="st1 st2 st5">ТП-4МП2</text>
+			<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 618.6724 288.0658)" class="st1 st2 st5">ТП-4МП1</text>
+			<text transform="matrix(1 0 0 1 122.7671 102.9292)" class="st1 st2 st5">РУ-10кВ</text>
+			<text transform="matrix(1 0 0 1 46.2686 176.9292)" class="st1 st2 st5">25</text>
+		</g>
+		<g id="main">
+			<g>
+				<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 46.5745 44.3288)" class="st6 st2 st7">Электроснабжение метанолопровода и газопровода ГП-41 от 1С-10кВ РУ-10кВ</text>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="lines">
+	<g id="pipes">
+		<g id="lep">
+			<line class="st8" x1="25.5" y1="110.5" x2="25.5" y2="132.5"/>
+			<line class="st8" x1="25.5" y1="505.5" x2="25.5" y2="525.55"/>
+			<line class="st8" x1="25.5" y1="471.39" x2="25.5" y2="490.5"/>
+			<line class="st8" x1="25.5" y1="201.31" x2="25.5" y2="333.14"/>
+			<line class="st8" x1="525.5" y1="251.5" x2="25.5" y2="251.5"/>
+			<line class="st8" x1="25.5" y1="348.14" x2="25.5" y2="441.89"/>
+			<line class="st8" x1="275.5" y1="505.5" x2="275.5" y2="525.55"/>
+			<line class="st8" x1="275.5" y1="471.39" x2="275.5" y2="490.5"/>
+			<line class="st8" x1="275.5" y1="251.5" x2="275.5" y2="333.14"/>
+			<line class="st8" x1="275.5" y1="348.14" x2="275.5" y2="441.89"/>
+			<line class="st8" x1="525.5" y1="505.5" x2="525.5" y2="525.55"/>
+			<line class="st8" x1="525.5" y1="471.39" x2="525.5" y2="490.5"/>
+			<line class="st8" x1="525.5" y1="348.14" x2="525.5" y2="441.89"/>
+			<line class="st8" x1="525.5" y1="251.5" x2="525.5" y2="333.14"/>
+		</g>
+		<g id="kV04">
+			<line class="st9" x1="11" y1="520.5" x2="40" y2="520.5"/>
+			<line class="st9" x1="261" y1="520.5" x2="290" y2="520.5"/>
+			<line class="st9" x1="511" y1="520.5" x2="540" y2="520.5"/>
+		</g>
+		<g id="kV10">
+			<line class="st10" x1="10.54" y1="106.5" x2="39.54" y2="106.5"/>
+		</g>
+	</g>
+	<g id="points">
+		<g id="kV04_1_">
+			<circle class="st11" cx="25.5" cy="520.5" r="4"/>
+			<circle class="st11" cx="275.5" cy="520.5" r="4"/>
+			<circle class="st11" cx="525.5" cy="520.5" r="4"/>
+		</g>
+		<g id="kV10_1_">
+			<circle class="st12" cx="25.5" cy="106.5" r="4"/>
+		</g>
+	</g>
+	<g id="arc">
+		<g>
+			<circle cx="25.5" cy="251.5" r="2.5"/>
+			<path class="st13" d="M25.5,250c0.83,0,1.5,0.67,1.5,1.5s-0.67,1.5-1.5,1.5s-1.5-0.67-1.5-1.5S24.67,250,25.5,250 M25.5,248
+				c-1.93,0-3.5,1.57-3.5,3.5s1.57,3.5,3.5,3.5s3.5-1.57,3.5-3.5S27.43,248,25.5,248L25.5,248z"/>
+		</g>
+		<g>
+			<circle cx="275.5" cy="251.5" r="2.5"/>
+			<path class="st13" d="M275.5,250c0.83,0,1.5,0.67,1.5,1.5s-0.67,1.5-1.5,1.5s-1.5-0.67-1.5-1.5S274.67,250,275.5,250 M275.5,248
+				c-1.93,0-3.5,1.57-3.5,3.5s1.57,3.5,3.5,3.5s3.5-1.57,3.5-3.5S277.43,248,275.5,248L275.5,248z"/>
+		</g>
+		<g>
+			<circle cx="525.5" cy="251.5" r="2.5"/>
+			<path class="st13" d="M525.5,250c0.83,0,1.5,0.67,1.5,1.5s-0.67,1.5-1.5,1.5s-1.5-0.67-1.5-1.5S524.67,250,525.5,250 M525.5,248
+				c-1.93,0-3.5,1.57-3.5,3.5s1.57,3.5,3.5,3.5s3.5-1.57,3.5-3.5S527.43,248,525.5,248L525.5,248z"/>
+		</g>
+	</g>
+</g>
+<g id="elems">
+	<g id="resists">
+		<g>
+			<path class="st1" d="M30,373v18h-9v-18H30 M31,372h-1h-9h-1v1v18v1h1h9h1v-1v-18V372L31,372z"/>
+		</g>
+		<g>
+			<path class="st1" d="M280,373v18h-9v-18H280 M281,372h-1h-9h-1v1v18v1h1h9h1v-1v-18V372L281,372z"/>
+		</g>
+		<g>
+			<path class="st1" d="M530,373v18h-9v-18H530 M531,372h-1h-9h-1v1v18v1h1h9h1v-1v-18V372L531,372z"/>
+		</g>
+	</g>
+	<g id="tt">
+		<g>
+			<path class="st1" d="M525.48,451.89c5.38,0,9.75,4.37,9.75,9.75c0,5.38-4.37,9.75-9.75,9.75c-5.38,0-9.75-4.37-9.75-9.75
+				C515.73,456.25,520.1,451.89,525.48,451.89 M525.48,450.89c-5.93,0-10.75,4.82-10.75,10.75s4.82,10.75,10.75,10.75
+				c5.93,0,10.75-4.82,10.75-10.75S531.41,450.89,525.48,450.89L525.48,450.89z"/>
+		</g>
+		<g>
+			<path class="st1" d="M525.47,441.89c0.38,0,0.76,0.02,1.14,0.07c5.35,0.63,9.18,5.47,8.55,10.82c-0.58,4.96-4.79,8.62-9.67,8.62
+				c-0.38,0-0.76-0.02-1.14-0.07c-5.35-0.63-9.18-5.47-8.55-10.82C516.38,445.54,520.59,441.89,525.47,441.89 M525.47,440.89
+				c-5.45,0-10.03,4.08-10.66,9.5c-0.33,2.85,0.46,5.66,2.24,7.92s4.33,3.68,7.18,4.01c0.42,0.05,0.84,0.07,1.26,0.07
+				c5.45,0,10.03-4.08,10.66-9.5c0.69-5.89-3.54-11.24-9.43-11.92C526.31,440.91,525.89,440.89,525.47,440.89L525.47,440.89z"/>
+		</g>
+		<g>
+			<path class="st1" d="M275.48,451.89c5.38,0,9.75,4.37,9.75,9.75c0,5.38-4.37,9.75-9.75,9.75c-5.38,0-9.75-4.37-9.75-9.75
+				C265.73,456.25,270.1,451.89,275.48,451.89 M275.48,450.89c-5.93,0-10.75,4.82-10.75,10.75s4.82,10.75,10.75,10.75
+				c5.93,0,10.75-4.82,10.75-10.75S281.41,450.89,275.48,450.89L275.48,450.89z"/>
+		</g>
+		<g>
+			<path class="st1" d="M275.47,441.89c0.38,0,0.76,0.02,1.14,0.07c5.35,0.63,9.18,5.47,8.55,10.82c-0.58,4.96-4.79,8.62-9.67,8.62
+				c-0.38,0-0.76-0.02-1.14-0.07c-5.35-0.63-9.18-5.47-8.55-10.82C266.38,445.54,270.59,441.89,275.47,441.89 M275.47,440.89
+				c-5.45,0-10.03,4.08-10.66,9.5c-0.33,2.85,0.46,5.66,2.24,7.92c1.78,2.25,4.33,3.68,7.18,4.01c0.42,0.05,0.84,0.07,1.26,0.07
+				c5.45,0,10.03-4.08,10.66-9.5c0.69-5.89-3.54-11.24-9.43-11.92C276.31,440.91,275.89,440.89,275.47,440.89L275.47,440.89z"/>
+		</g>
+		<g>
+			<path class="st1" d="M25.48,451.89c5.38,0,9.75,4.37,9.75,9.75c0,5.38-4.37,9.75-9.75,9.75c-5.38,0-9.75-4.37-9.75-9.75
+				C15.73,456.25,20.1,451.89,25.48,451.89 M25.48,450.89c-5.93,0-10.75,4.82-10.75,10.75s4.82,10.75,10.75,10.75
+				s10.75-4.82,10.75-10.75S31.41,450.89,25.48,450.89L25.48,450.89z"/>
+		</g>
+		<g>
+			<path class="st1" d="M25.47,441.89c0.38,0,0.76,0.02,1.14,0.07c5.35,0.63,9.18,5.47,8.55,10.82c-0.58,4.96-4.79,8.62-9.67,8.62
+				c-0.38,0-0.76-0.02-1.14-0.07c-5.35-0.63-9.18-5.47-8.55-10.82C16.38,445.54,20.59,441.89,25.47,441.89 M25.47,440.89
+				c-5.45,0-10.03,4.08-10.66,9.5c-0.69,5.89,3.54,11.24,9.43,11.92c0.42,0.05,0.84,0.07,1.26,0.07c5.45,0,10.03-4.08,10.66-9.5
+				c0.69-5.89-3.54-11.24-9.43-11.92C26.31,440.91,25.89,440.89,25.47,440.89L25.47,440.89z"/>
+		</g>
+	</g>
+</g>
+<g id="helpers">
+</g>
+</svg>

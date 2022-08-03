@@ -1,0 +1,17 @@
+---
+level-for-barrels-elem_orient-1:
+  parameters:
+    0._sadditionallines: "2"
+    0._sorient: "1"
+  width: 50.0
+  height: 98.0
+level-for-barrels-elem_orient-0:
+  parameters:
+    0._sadditionallines: "2"
+    0._sorient: "0"
+  width: 50.0
+  height: 98.0
+default:
+  parameters: {}
+  width: 50.0
+  height: 98.0

@@ -1,0 +1,13 @@
+---
+default:
+  parameters: {}
+  width: 300.0
+  height: 400.0
+no-caption:
+  parameters: {}
+  width: 71.0
+  height: 67.0
+caption:
+  parameters: {}
+  width: 71.0
+  height: 67.0

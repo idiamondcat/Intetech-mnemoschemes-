@@ -1,0 +1,7 @@
+---
+default:
+  parameters:
+    0._scaption: "Text"
+    0._sfontsize: "16"
+  width: 265.0
+  height: 165.0

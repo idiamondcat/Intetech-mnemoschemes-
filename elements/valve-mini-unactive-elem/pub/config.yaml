@@ -1,0 +1,29 @@
+---
+default:
+  parameters:
+    0+0._scaption: "Text"
+    0._svalveminiorient: "h"
+  width: 38.0
+  height: 68.0
+valve-mini-unactive_v_no-caption:
+  parameters:
+    0._svalveminiorient: "v"
+  width: 37.5
+  height: 38.0
+valve-mini-unactive_v_caption:
+  parameters:
+    0+0._scaption: "Text"
+    0._svalveminiorient: "v"
+  width: 75.0
+  height: 38.0
+valve-mini-unactive_h_caption:
+  parameters:
+    0+0._scaption: "Text"
+    0._svalveminiorient: "h"
+  width: 38.0
+  height: 68.0
+valve-mini-unactive_h_no-caption:
+  parameters:
+    0._svalveminiorient: "h"
+  width: 38.0
+  height: 37.5

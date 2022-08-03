@@ -1,0 +1,7 @@
+---
+default:
+  parameters:
+    0+0._scaption: "Text"
+    0._sbottomblock: "0"
+  width: 176.0
+  height: 280.0

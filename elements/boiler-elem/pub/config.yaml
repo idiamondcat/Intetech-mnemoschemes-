@@ -1,0 +1,12 @@
+---
+default:
+  parameters:
+    0._stitle: "Ацс1-300"
+    0._scaption: "Text"
+    0._smtcaptions: '["V", "P"]'
+    0+0._stitcount: "2"
+    0+0._scaptionfontsizes: '["16", "16"]'
+    0+0._svaluefontsizes: '["19", "19"]'
+    0+1._sfontsize: "25"
+  width: 232.0
+  height: 290.0

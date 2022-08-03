@@ -1,0 +1,488 @@
+/*
+UNDERLAYERS
+*/
+	/*
+	Absorber_lines
+	*/
+		$absorber_lines-gas-col: rgba(255, 188, 0, 1);
+		$absorber_lines-ntag-col: rgba(23, 125, 196, 1);
+		$absorber_lines-rtag-col: rgba(168, 75, 80, 1);
+		$absorber_lines-drain-col: rgba(170, 171, 181, 1);
+	/*
+	Degasator_30d11_lines
+	*/
+		$degasator_30d11_lines-gas-col: rgba(255, 188, 0, 1);
+		$degasator_30d11_lines-drain-col: rgba(170, 171, 181, 1);
+		$degasator_30d11_lines-glycol-col: rgba(200, 100, 15, 1);
+		$degasator_30d11_lines-n-glycol-col: rgba(120, 10, 10, 1);
+	/*
+	Divider_25_lines
+	*/
+		$divider_25_lines-gas-col: rgba(255, 188, 0, 1);
+		$divider_25_lines-vms-col: rgba(63, 74, 161, 1);
+		$divider_25_lines-water-col: rgba(23, 40, 154, 1);
+		$divider_25_lines-drain-col: rgba(170, 171, 181, 1);
+	/*
+	Divider_30r11_lines
+	*/
+		$divider_30r11_lines-gas-col: rgba(255, 188, 0, 1);
+		$divider_30r11_lines-k-col: rgba(255, 255, 255, 1);
+		$divider_30r11_lines-n-glycol-col: rgba(120, 10, 10, 1);
+		$divider_30r11_lines-drain-col: rgba(170, 171, 181, 1);
+	/*
+	Divider_30r21_lines
+	*/
+		$divider_30r21_lines-gas-col: rgba(255, 188, 0, 1);
+		$divider_30r21_lines-condencat-col: rgba(170, 171, 181, 1);
+		$divider_30r21_lines-water-col: rgba(23, 40, 154, 1);
+	/*
+	Emkost_09e1_lines
+	*/
+		$emkost_09e1_lines-gas-col: rgba(255, 188, 0, 1);
+		$emkost_09e1_lines-drain-col: rgba(170, 171, 181, 1);
+		$emkost_09e1_lines-water-col: rgba(23, 40, 154, 1);
+	/*
+	$Emkost_12e1_12e2_12e3_12e4_lines
+	*/
+		$emkost_12e1_12e2_12e3_12e4_lines-gas-col: rgba(255, 188, 0, 1);
+		$emkost_12e1_12e2_12e3_12e4_lines-vms-col: rgba(63, 74, 161, 1);
+		$emkost_12e1_12e2_12e3_12e4_lines-drain-col: rgba(170, 171, 181, 1);
+		$emkost_12e1_12e2_12e3_12e4_lines-ntag-col: rgba(173, 15, 15, 1);
+		$emkost_12e1_12e2_12e3_12e4_lines-heatnet-col: rgba(255, 255, 255, 1);
+	/*
+	Emkost_25e2_lines
+	*/
+		$emkost_25e2_lines-gas-col: rgba(255, 188, 0, 1);
+		$emkost_25e2_lines-drain-col: rgba(170, 171, 181, 1);
+		$emkost_25e2_lines-water-col: rgba(23, 40, 154, 1);
+		$emkost_25e2_lines-vms-col: rgba(63, 74, 161, 1);
+	/*
+	Emkost_30e1_lines
+	*/
+		$emkost_30e1_lines-glycol-col: rgba(200, 100, 15, 1);
+		$emkost_30e1_lines-drain-col: rgba(170, 171, 181, 1);
+	/*
+	Emkost_30e2_lines
+	*/
+		$emkost_30e2_lines-glycol-col: rgba(200, 100, 15, 1);
+		$emkost_30e2_lines-drain-col: rgba(170, 171, 181, 1);
+	/*
+	Emkost_30e3_lines
+	*/
+		$emkost_30e3_lines-glycol-col: rgba(200, 100, 15, 1);
+		$emkost_30e3_lines-drain-col: rgba(170, 171, 181, 1);
+		$emkost_30e3_lines-jo-col: rgba(35, 70, 200, 1);
+	/*
+	Emkost_30e4_30e5_lines
+	*/
+		$emkost_30e4_30e5_lines-glycol-col: rgba(200, 100, 15, 1);
+		$emkost_30e4_30e5_lines-drain-col: rgba(170, 171, 181, 1);
+	/*
+	Emkost_49e4_49e9_lines
+	*/
+		$emkost_49e4_49e9_lines-dt-col: rgba(128, 128, 0, 1);
+		$emkost_49e4_49e9_lines-drain-col: rgba(170, 171, 181, 1);
+	/*
+	Emkost_49e5_49e6_49e7_lines
+	*/
+		$emkost_49e5_49e6_49e7_lines-tag-col: rgba(120, 10, 10, 1);
+		$emkost_49e5_49e6_49e7_lines-drain-col: rgba(170, 171, 181, 1);
+		$emkost_49e5_49e6_49e7_lines-water-col: rgba(23, 40, 154, 1);
+	/*
+	Fh1_lines
+	*/
+		$fh1_lines-gas-col: rgba(255, 188, 0, 1);
+		$fh1_lines-drain-col: rgba(170, 171, 181, 1);
+	/*
+	Fh2_lines
+	*/
+		$fh2_lines-gas-col: rgba(255, 188, 0, 1);
+		$fh2_lines-drain-col: rgba(170, 171, 181, 1);
+	/*
+	Gis_lines
+	*/
+		$gis_lines-gas-col: rgba(255, 188, 0, 1);
+	/*
+	kc_1_lines
+	*/
+		$kc_1_lines-gas-col: rgba(255, 188, 0, 1);
+	/*
+	Kgs_4skv_lines
+	*/
+		$kgs_4skv_lines-gas-col: rgba(255, 188, 0, 1);
+		$kgs_4skv_lines-vms-col: rgba(63, 74, 161, 1);
+	/*
+	Kgs_tur_lines
+	*/
+		$kgs_tur_lines-gas-col: rgba(255, 188, 0, 1);
+		$kgs_tur_lines-vms-col: rgba(63, 74, 161, 1);
+	/*
+	Kgs_3skv_lines
+	*/
+		$kgs_3skv_lines-gas-col: rgba(255, 188, 0, 1);
+		$kgs_3skv_lines-vms-col: rgba(63, 74, 161, 1);
+	/*
+	Nasos_30n8_lines
+	*/
+		$nasos_30n8_lines-jo-col: rgba(35, 70, 200, 1);
+		$nasos_30n8_lines-glycol-col: rgba(200, 100, 15, 1);
+	/*
+	Nasosnaya_reagentov_lines
+	*/
+		$nasosnaya_reagentov_lines-tag-col: rgba(200, 100, 15, 1);
+		$nasosnaya_reagentov_lines-k-col: rgba(148, 149, 155, 1);
+		$nasosnaya_reagentov_lines-dt-col: rgba(150, 150, 20, 1);
+	/*
+	Nm_lines
+	*/
+		$nm_lines-metanol-col: rgba(23, 125, 196, 1);
+		$nm_lines-colorer-col: rgba(150, 50, 200, 1);
+	/*
+	Nm_ppum_lines
+	*/
+		$nm_ppum_lines-metanol-col: rgba(23, 125, 196, 1);
+		$nm_ppum_lines-drain-col: rgba(170, 171, 181, 1);
+	/*
+	Separator_11s1_lines
+	*/
+		$separator_11s1_lines-gas-col: rgba(255, 188, 0, 1);
+		$separator_11s1_lines-vms-col: rgba(63, 74, 161, 1);
+		$separator_11s1_lines-pj-col: rgba(170, 171, 181, 1);
+		$separator_11s1_lines-drain-col: rgba(170, 171, 181, 1);
+	/*
+	Separators_11s1_lines
+	*/
+		$separators_11s1_lines-gas-col: rgba(255, 188, 0, 1);
+		$separators_11s1_lines-vms-col: rgba(63, 74, 161, 1);
+		$separators_11s1_lines-pj-col: rgba(170, 171, 181, 1);
+	/*
+	Skv_174_lines
+	*/
+		$skv_174_lines-gas-col: rgba(255, 188, 0, 1);
+		$skv_174_lines-vms-col: rgba(63, 74, 161, 1);
+	/*
+	Skv_184_lines
+	*/
+		$skv_184_lines-gas-col: rgba(255, 188, 0, 1);
+		$skv_184_lines-vms-col: rgba(63, 74, 161, 1);
+	/*
+	Skv_1902_lines
+	*/
+		$skv_1902_lines-gas-col: rgba(255, 188, 0, 1);
+		$skv_1902_lines-vms-col: rgba(63, 74, 161, 1);
+	/*
+	To_11t1_lines
+	*/
+		$to_11t1_lines-gas-col: rgba(255, 188, 0, 1);
+	/*
+	To_30t11_lines
+	*/
+		$to_30t11_lines-rglycol-col: rgba(200, 100, 15, 1);
+		$to_30t11_lines-nglycol-col: rgba(173, 15, 15, 1);
+	/*
+	Udvms_lines
+	*/
+		$udvms_lines-k-col: rgba(148, 149, 155, 1);
+		$udvms_lines-k2-col: rgba(148, 149, 155, 1);
+		$udvms_lines-d-col: rgba(85, 84, 74, 1);
+	/*
+	Uog_lines
+	*/
+		$uog_lines-rtag-col: rgba(139, 126, 82, 1);
+		$uog_lines-ntag-col: rgba(139, 126, 82, 1);
+		$uog_lines-dirtygas-col: rgba(255, 188, 0, 1);
+		$uog_lines-puregas-col: rgba(255, 188, 0, 1);
+		$uog_lines-vms-col: rgba(63, 74, 161, 1);
+		$uog_lines-gray-col: rgba(170, 171, 181, 1);
+	/*
+	Uptpg_lines
+	*/
+		$uptpg_lines-gas-col: rgba(255, 188, 0, 1);
+		$uptpg_lines-water-col: rgba(35, 70, 200, 1);
+	/*
+	Uptpg_zu_lines
+	*/
+		$uptpg_zu_lines-gas-col: rgba(255, 188, 0, 1);
+	/*
+	Urt_sptg_lines
+	*/
+		$urt_sptg_lines-gas-col: rgba(255, 188, 0, 1);
+		$urt_sptg_lines-dizel-col: rgba(128, 128, 0, 1);
+		$urt_sptg_lines-azot-col: rgba(128, 0, 255, 1);
+	/*
+	Waterpull_south_lines
+	*/
+		$waterpull_south_lines-k1-col: rgba(35, 70, 200, 1);
+		$waterpull_south_lines-k2-col: rgba(35, 70, 200, 1);
+	/*
+	Watersupply_south_lines
+	*/
+		$watersupply_south_lines-vz-col: rgba(35, 70, 200, 1);
+
+
+
+	$underlayer-table-color: rgba(200, 200, 200, 1);
+	$underlayer-oreols-col: rgba(30, 30, 30, 1);
+/*
+BARRELS
+*/
+	/*
+	Absorbers
+	*/
+		$absorbers-all-dirtygas: rgba(142, 136, 98, 1);
+		$absorbers-all-absorbent: rgba(132, 178, 175, 1);
+		$absorbers-all-puregas: rgba(220, 255, 255, 1);
+		$absorbers-all-net-color: rgba(0, 0, 0, 1);
+		$absorbers-all-net-opacity: 0.6;
+		/*
+		Absorber_big
+		*/
+		/*
+		Absorber_medium
+		*/
+	/*
+	Separators
+	*/
+		$separators-all-lower: rgba(132, 178, 175, 1);
+		$separators-all-middle: rgba(130, 130, 70, 1);
+		$separators-all-upper: rgba(220, 255, 255, 1);
+		$separators-all-net-color: rgba(0, 0, 0, 1);
+		$separators-all-net-opacity: 0.6;
+		/*
+		Separators_big
+		*/
+		/*
+		Separators_medium
+		*/
+	/*
+	Barrel
+	*/
+		$barrel-color: rgba(216, 216, 211, 1);
+	/*
+	Degasator
+	*/
+		$degasator-stroke-col: rgba(30, 30, 30, 1);
+		$degasator-stroke-opacity: 0.6;
+	/*
+	Heat_exchanger
+	*/
+		$heat_exchanger-rails-col: rgba(30, 30, 30, 1);
+		$heat_exchanger-rails-opacity: 0.2;
+	/*
+	Pumpbarrel
+	*/
+		$pumpbarrel-stroke-col: rgba(30, 30, 30, 1);
+		$pumpbarrel-stroke-opacity: 0.6;
+/*
+SVG
+*/
+	/*
+	Brm
+	*/
+		$brm-svg-fill: rgba(255, 255, 255, 1);
+	/*
+	Crane
+	*/
+		$crane-svg-fill: rgba(255, 255, 255, 1);
+	/*
+	Divider_unique
+	*/
+		$divider_unique-svg-fill: rgba(216, 216, 211, 1);
+	/*
+	Dsp
+	*/
+		$dsp-svg-fill: rgba(255, 255, 255, 1);
+	/*
+	Filter
+	*/
+		$filter-svg-fill: rgba(255, 255, 255, 1);
+	/*
+	Filter_big
+	*/
+		$filter_big-svg-fill: rgba(255, 255, 255, 1);
+	/*
+	Gpa
+	*/
+		$gpa-svg-fill: rgba(255, 255, 255, 1);
+	/*
+	Heater
+	*/
+		$heater-svg-stroke-opacity: 0.6;
+	/*
+	Meter + (Degasator)
+	*/
+		$meter-main-color: rgba(230, 230, 230, 1);
+		$meter-glass-color: rgba(53, 58, 61, 1);
+		$meter-shadow-intensity: 0.12;
+		$meter-bad: rgba(200, 40, 40, 1);
+		$meter-so: rgba(220, 60, 60, 1);
+		$meter-good: rgba(240, 100, 100, 1);
+	/*
+	Pg
+	*/
+		$pg-svg-fill: rgba(216, 216, 211, 1);
+	/*
+	Pump
+	*/
+		$pump-svg-fill: rgba(255, 255, 255, 1);
+		$pump-shadow-col: rgba(255, 255, 255, 1);
+	/*
+	Quarry_mini
+	*/
+		$quarry_mini-svg-fill: rgba(255, 255, 255, 1);
+	/*
+	Torch
+	*/
+		$torch-main-fill: rgba(216, 216, 211, 1);
+		$torch-flame-fill: rgba(0, 255, 200, 1);
+	/*
+	Transition_button + (Transition_button_mini)
+	*/
+		$transition_button-shadow-col: rgba(255, 255, 255, 0.15);
+		$transition_button-unactive-part-col: rgba(221, 221, 221, 1);
+		$transition_button-active-part-col: rgba(183, 193, 112, 1);
+		$transition_button-txt-col: rgba(255, 255, 255, 1);
+		$transition_button-txt-shadow: rgba(78, 78, 81, 1);
+		/*
+		mini
+		*/
+			$transition_button_mini-shadow-col: rgba(255, 255, 255, 0.2);
+	/*
+	Valve + (Valve_switch) + (Valve_switch_bit)
+	*/
+		$valve-svg-fill: rgba(255, 255, 255, 1);
+		$valve-shadow-col: rgba(255, 255, 255, 1);
+		/*
+		mini_unactive
+		*/
+			$valve_mini_unactive-overlay-col: rgba(0, 0, 0, 0.2);
+		/*
+		valve_switch_bit
+		*/
+			$valve_switch_bit-outline-error: rgba(150, 0, 0, 1);
+	/*
+	Ventil_sys
+	*/
+		$ventil_sys-svg-unactive-fill: rgba(255, 255, 255, 1);
+		$ventil_sys-svg-active-fill: rgba(255, 188, 0, 1);
+	/*
+	Wastemeter
+	*/
+		$wastemeter-svg-fill: rgba(255, 255, 255, 1);
+
+
+
+	$svg-outline-fill: rgba(77, 77, 77, 1);
+	$svg-unactive-color-fill: rgba(170, 170, 170, 1);
+/*
+NON_SVG
+*/
+	/*
+	Bg_for_quarry_graph
+	*/
+		$bg_for_quarry_graph-line-color: rgba(250, 250, 250, 1);
+		$bg_for_quarry_graph-hatch-color: rgba(196, 196, 196, 1);
+	/*
+	Level
+	*/
+		$level-nums-color: rgba(255, 255, 255, 1);
+		$level-main-color: rgba(130, 130, 130, 1);
+		$level-toppart-color: rgba(200, 40, 40, 1);
+		$level-botpart-color: rgba(210, 210, 210, 1);
+		$level-topbar-color: rgba(150, 25, 25, 1);
+		$level-botbar-color: rgba(190, 190, 190, 1);
+		$level-filled-color: rgba(0, 198, 255, 1);
+	/*
+	Level_for_barrels
+	*/
+		$level_for_barrels-nums-color: rgba(0, 0, 0, 1);
+		$level_for_barrels-contour-fill: rgba(50, 50, 50, 1);
+		$level_for_barrels-self-fill: rgba(70, 70, 70, 1);
+		$level_for_barrels-filler-color: rgba(198, 255, 0, 1);
+	/*
+	Naming
+	*/
+		$naming-txt-color: rgba(255, 255, 255, 1);
+		$naming-txt-shadow-color: rgba(0, 0, 0, 0.4);
+	/*
+	Naming_col_inversed
+	*/
+		$naming_col_inversed-txt-color: rgba(20, 20, 20, 1);
+	/*
+	Naming_with_bg
+	*/
+		$naming_with_bg-background-color: rgba(53, 58, 61, 1);
+	/*
+	Num_value + (Tag_naming)
+	*/
+		$num_value-bg-color: rgba(31, 31, 31, 1);
+		$num_value-bg-shade: rgba(255, 255, 255, 0.7);
+		/*
+		Hatch
+		*/
+			$num_value-hatch-class-unreachable: rgba(255, 255, 255, 1);
+			$num_value-hatch-opacity: 0.3;
+		/*
+		Num
+		*/
+			$num_value-numshade: rgba(0, 0, 0, 0.6);
+			$num_value-ok-numcolor: rgba(255, 255, 255, 1);
+			$num_value-bad-numcolor: rgba(200, 200, 50, 1);
+			$num_value-awful-numcolor: rgba(255, 0, 0, 1);
+		/*
+		Lines
+		*/
+			$num_value-line-unknown: rgba(255, 255, 255, 1);
+			$num_value-line-invis: rgba(0, 0, 0, 0);
+			$num_value-line-awful: rgba(255, 0, 0, 1);
+			$num_value-line-bad: rgba(200, 200, 50, 1);
+			$num_value-line-ok: rgba(151, 151, 151, 1);
+	/*
+	Pointer_line
+	*/
+		$pointer_line-color: rgba(206, 206, 206, 1);
+	/*
+	Range_universal_line + (Range_vert_line)
+	*/
+		$range_universal_line-color: rgba(206, 206, 206, 1);
+	/*
+	Switcher_naming
+	*/
+		$switcher_naming-on-txt-col: rgba(255, 255, 255, 1);
+		$switcher_naming-off-txt-col: rgba(255, 255, 255, 1);
+		$switcher_naming-on-bg-col: rgba(0, 150, 150, 0.3);
+		$switcher_naming-off-bg-col: rgba(150, 0, 0, 0.3);
+		$switcher_naming-unknown-txt-col: rgba(255, 255, 255, 1);
+		$switcher_naming-unknown-hatch-col: rgba(255, 255, 255, 0.3);
+	/*
+	Tit + (Tit_tags) + (Tit_formulated) + (Tit_dyn_sum) + (Tit_alt)
+	*/
+		$tit-shadow-color: rgba(255, 255, 255, 0.15);
+		/*
+		Name-container
+		*/
+			$tit-name-cont-bg-col: rgba(242, 243, 241, 1);
+			$tit-name-cont-txt-col: rgba(0, 0, 0, 1);
+	/*
+	Tit_col_inversed
+	*/
+		$tit_col_inver-shadow-color: rgba(255, 255, 255, 0.7);
+		/*
+		Name-container
+		*/
+			$tit_col_inver-name-cont-bg-col: rgba(196, 196, 196, 1);
+			$tit_col_inver-name-cont-txt-col: rgba(0, 0, 0, 1);
+	/*
+	Tit_alt_on_barrel
+	*/
+		$tit_alt_on_barrel-shadow-color: rgba(245, 245, 245, 1);
+		/*
+		Name-container
+		*/
+			$tit_alt_on_barrel-name-bg: rgba(220, 220, 215, 1);
+			$tit_alt_on_barrel-name-txt-col: rgba(0, 0, 0, 1);
+/*
+SERVING
+*/
+	$unavailable-color: rgba(180, 180, 180, 0.3);
+	$unavailable-color-inversed: rgba(80, 80, 80, 0.3);

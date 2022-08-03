@@ -1,0 +1,12 @@
+.default {
+	@import "variables_set/default/vars.scss";
+
+	@import "_main_styles";
+}
+
+
+.dark {
+	@import "variables_set/dark/vars.scss";
+
+	@import "_main_styles";
+}

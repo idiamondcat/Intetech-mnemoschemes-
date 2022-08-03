@@ -1,0 +1,71 @@
+.default {
+  /*
+  	@mixin border-setter($width, $color, $rad) {
+  		border: $width solid $color;
+  		border-radius: $rad;
+  	}
+  
+  
+  	& {
+  		background-color: $main-color;
+  		color: $txt-color;
+  	}
+  
+  	.management-panel {
+  		@include border-setter(1px, $txt-color, 10px);
+  	}
+  
+  	.management-panel div:nth-child(2n + 1) {
+  		background-color: $main-color;
+  	}
+  
+  	.management-panel div:nth-child(2n) {
+  		background-color: $additional-color;
+  	}
+  */ }
+  .default {
+    background-image: url("../../../ThemesRes/default/background.png");
+    color: #1e1e1e; }
+    .default .management-panel {
+      border: 1px solid #1e1e1e; }
+      .default .management-panel div:nth-child(2n + 1) {
+        background-color: white; }
+      .default .management-panel div:nth-child(2n) {
+        background-color: gainsboro; }
+
+.dark {
+  /*
+  	@mixin border-setter($width, $color, $rad) {
+  		border: $width solid $color;
+  		border-radius: $rad;
+  	}
+  
+  
+  	& {
+  		background-color: $main-color;
+  		color: $txt-color;
+  	}
+  
+  	.management-panel {
+  		@include border-setter(1px, $txt-color, 10px);
+  	}
+  
+  	.management-panel div:nth-child(2n + 1) {
+  		background-color: $main-color;
+  	}
+  
+  	.management-panel div:nth-child(2n) {
+  		background-color: $additional-color;
+  	}
+  */ }
+  .dark {
+    background-image: url("../../../ThemesRes/dark/background.png");
+    color: white; }
+    .dark .management-panel {
+      border: 1px solid white; }
+      .dark .management-panel div:nth-child(2n + 1) {
+        background-color: #323232; }
+      .dark .management-panel div:nth-child(2n) {
+        background-color: black; }
+
+/*# sourceMappingURL=themes.css.map */

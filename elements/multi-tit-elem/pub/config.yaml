@@ -1,0 +1,164 @@
+---
+multi-tit_titcount-2_arroworient-right:
+  parameters:
+    "0._scaptions": "[\"V\", \"T\"]"
+    "0._scaptionfontsizes": "[\"16\", \"16\"]"
+    "0._svaluefontsizes": "[\"19\", \"19\"]"
+    "0._sdisplaystates": "[\"\", \"\"]"
+    "0._sarroworient": "right"
+    "0._stitcount": "2"
+  width: 152.0
+  height: 64.0
+multi-tit_arroworient-bot:
+  parameters:
+    "0._sarroworient": "bot"
+    "0._stitcount": "1"
+  width: 152.0
+  height: 32.0
+default:
+  parameters: {}
+  width: 152.0
+  height: 32.0
+multi-tit_no-arroworient:
+  parameters:
+    "0._stitcount": "1"
+  width: 134.0
+  height: 32.0
+multi-tit_titcount-4_no-arroworient:
+  parameters:
+    "0._stitcount": "4"
+  width: 152.0
+  height: 128.0
+multi-tit_arroworient-left:
+  parameters:
+    "0._sarroworient": "left"
+    "0._stitcount": "1"
+  width: 152.0
+  height: 32.0
+multi-tit_titcount-2_arroworient-left:
+  parameters:
+    "0._sarroworient": "left"
+    "0._stitcount": "2"
+  width: 134.0
+  height: 64.0
+multi-tit_arroworient-right:
+  width: 132.0
+  height: 32.0
+  parameters:
+    "0._stitcount": "1"
+    "0._sarroworient": "right"
+multi-tit_titcount-3_no-arroworient:
+  parameters:
+    "0._stitcount": "3"
+  width: 134.0
+  height: 96.0
+multi-tit_arroworient-top:
+  parameters:
+    "0._sarroworient": "top"
+    "0._stitcount": "1"
+  width: 152.0
+  height: 32.0
+multi-tit_titcount-2_no-arroworient:
+  parameters:
+    "0._stitcount": "2"
+  width: 134.0
+  height: 64.0
+multi-tit_titcount-9_no-arroworient:
+  parameters:
+    "0._stitcount": "9"
+  width: 152.0
+  height: 288.0
+multi-tit_long:
+  width: 184.0
+  height: 32.0
+  parameters:
+    "0._stitcount": "1"
+multi-tit_mid_titcount-2_arroworient-left:
+  width: 154.0
+  height: 64.0
+  parameters:
+    "0._stitcount": "2"
+    "0._sarroworient": "left"
+    "0._sarrowval": "50"
+multi-tit_mid_titcount-2_no-arroworient:
+  width: 154.0
+  height: 64.0
+  parameters:
+    "0._stitcount": "2"
+multi-tit_mid_titcount-1:
+  width: 154.0
+  height: 32.0
+  parameters: {}
+multi-tit_mid_titcount-1_arroworient-left:
+  width: 154.0
+  height: 32.0
+  parameters:
+    "0._stitcount": "1"
+    "0._sarroworient": "left"
+multi-tit_w182_no-arroworient:
+  width: 182.0
+  height: 32.0
+  parameters: {}
+multi-tit_titcount-2_w184_no-arroworient:
+  width: 184.0
+  height: 64.0
+  parameters:
+    "0._stitcount": "2"
+multi-tit_w184_no-arroworient:
+  width: 184.0
+  height: 32.0
+  parameters: {}
+multi-tit_w182_arroworient-left:
+  width: 182.0
+  height: 32.0
+  parameters:
+    "0._stitcount": "1"
+    "0._sarroworient": "left"
+multi-tit_w184_arroworient-right:
+  width: 184.0
+  height: 32.0
+  parameters:
+    "0._stitcount": "1"
+    "0._sarroworient": "right"
+multi-tit_w164_titcount-2_no-arroworient:
+  width: 164.0
+  height: 64.0
+  parameters:
+    "0._stitcount": "2"
+multi-tit_w192_arroworient-left:
+  width: 192.0
+  height: 32.0
+  parameters:
+    "0._stitcount": "1"
+    "0._sarroworient": "left"
+multi-tit_large:
+  width: 300.0
+  height: 42.0
+  parameters:
+    "0._stitcount": "1"
+multi-tit_w174_titcount-2_no-arroworient:
+  width: 174.0
+  height: 64.0
+  parameters:
+    "0._stitcount": "2"
+multi-tit_w212_arroworient-left:
+  width: 212.0
+  height: 32.0
+  parameters:
+    "0._stitcount": "1"
+    "0._sarroworient": "left"
+multi-tit_titcount-8_no-arroworient:
+  width: 134.0
+  height: 264.0
+  parameters:
+    "0._stitcount": "8"
+multi-tit_titcount-7_no-arroworient:
+  width: 134.0
+  height: 225.0
+  parameters:
+    "0._stitcount": "7"
+multi-tit_titcount-6_no-arroworient:
+  width: 134.0
+  height: 192.0
+  parameters:
+    "0._stitcount": "6"

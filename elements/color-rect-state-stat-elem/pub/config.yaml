@@ -1,0 +1,6 @@
+---
+default:
+  parameters:
+    0._scaption: "elem"
+  width: 44.0
+  height: 36.0

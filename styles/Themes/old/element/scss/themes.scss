@@ -1,0 +1,15 @@
+body.default {
+	@import "variables_set/default/vars.scss";
+
+	@import "_element_styles";
+
+	background-color: rgba(235,235,235,1);
+}
+
+body.dark {
+	@import "variables_set/dark/vars.scss";
+
+	@import "_element_styles";
+
+	background-color: rgba(30,30,30,1);
+}

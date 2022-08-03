@@ -1,0 +1,11 @@
+.default .container_of_elements {
+  background: none; }
+.default #c {
+  background-color: rgba(100, 100, 200, 0.1); }
+
+.dark .container_of_elements {
+  background: none; }
+.dark #c {
+  background-color: rgba(200, 100, 100, 0.1); }
+
+/*# sourceMappingURL=themes.css.map */

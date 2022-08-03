@@ -1,0 +1,11 @@
+---
+default:
+  width: 421.0
+  height: 215.0
+  parameters:
+    0._scaption: "Text"
+    0._sleftblock: "0"
+    0._sleftblockcontent: "level"
+    0._srightblock: "0"
+    0._srightblockcontent: "level"
+    0._stitcount: "5"

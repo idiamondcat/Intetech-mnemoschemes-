@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <!--'Classes of pipes in scheme:
+        
+        -->
+        <meta charset="UTF-8">
+        <title>8_gas_preparation_unit_for_own_needs</title>
+        <link href="/Data/styles/mnemo_styles.css" rel="stylesheet" type="text/css">
+        <link href="/Data/styles/Themes/default.css" rel="stylesheet" type="text/css">
+        <!-- <link href="/Data/styles/Themes/white_theme.css" rel="stylesheet" type="text/css"> -->
+        <link href="/Data/styles/Themes/achim_white_theme.css" rel="stylesheet" type="text/css">
+        
+        <link href="/Data/styles/pipes_styles.css" rel="stylesheet" type="text/css">
+
+        <!-- <script src="/Data/libs/fabric.min.js"></script>
+        <script src="/Data/libs/underscore.js"></script> -->
+        <script src="/Data/scripts/mnemocore.js"></script>
+        
+        <script src="/Data/scripts/simpleelement.js"></script>
+        <script src="/Data/elements/boiler-elem/prototype.js"></script>
+<script src="/Data/elements/transition-button-elem/prototype.js"></script>
+<script src="/Data/elements/state-displayer-elem/prototype.js"></script>
+<script src="/Data/elements/multi-tit-elem/prototype.js"></script>
+<script src="/Data/elements/barrel-v-elem/prototype.js"></script>
+<script src="/Data/elements/pump-n-elem/prototype.js"></script>
+<script src="/Data/elements/tit-elem/prototype.js"></script>
+<script src="/Data/elements/valve-n-elem/prototype.js"></script>
+<script src="/Data/elements/heat-exchanger-elem/prototype.js"></script>
+<script src="/Data/elements/num-value-elem/prototype.js"></script>
+<script src="/Data/elements/caption-elem/prototype.js"></script>
+
+
+    </head>
+    <body class="default" oncontextmenu="return false;">
+    <div id="container_of_templates"></div>
+    <div id="container_of_elements">
+<transition-button-elem id="1" style="width:152px; height:46px; transform:matrix(0.9843,0,0,0.9843,12.1906,1372.3604); transform-origin: left top;" 0._sarrowdirection='1' 0.  _scaption='Газ на дежурные горелки'  _scolor='gas'  _sfontsize='17.0'  _slineheight='16.0' ></transition-button-elem>
+<transition-button-elem id="2" style="width:152px; height:46px; transform:matrix(0.9843,0,0,0.9843,12.1906,1195.3604); transform-origin: left top;" 0._sarrowdirection='1' 0.  _scaption='Газ на продувку ФК'  _scolor='gas'  _sfontsize='17.0'  _slineheight='16.0' ></transition-button-elem>
+<transition-button-elem id="3" style="width:152px; height:46px; transform:matrix(0.9843,0,0,0.9843,11.6906,1021.3603); transform-origin: left top;" 0._sarrowdirection='1' 0.  _scaption='Газ на подогрев. конд. провод.'  _scolor='gas'  _sfontsize='17.0'  _slineheight='16.0' ></transition-button-elem>
+<transition-button-elem id="4" style="width:152px; height:46px; transform:matrix(0.9843,0,0,0.9843,11.6906,845.8603); transform-origin: left top;" 0._sarrowdirection='1' 0.  _scaption='Газ на котельную'  _scolor='gas'  _sfontsize='17.0'  _slineheight='16.0' ></transition-button-elem>
+<transition-button-elem id="5" style="width:152px; height:46px; transform:matrix(0.9843,0,0,0.9843,11.6906,670.3603); transform-origin: left top;" 0._sarrowdirection='1' 0.  _scaption='Газ на продувку конд. пров.'  _scolor='gas'  _sfontsize='17.0'  _slineheight='16.0' ></transition-button-elem>
+<transition-button-elem id="6" style="width:152px; height:46px; transform:matrix(0.9843,0,0,0.9843,11.6906,404.3603); transform-origin: left top;" 0._sarrowdirection='0' 0.  _scaption='Газ газ сушоный'  _scolor='gas'  _sfontsize='17.0'  _slineheight='16.0' ></transition-button-elem>
+<transition-button-elem id="7" style="width:152px; height:46px; transform:matrix(0.9843,0,0,0.9843,11.6906,62.3603); transform-origin: left top;" 0._sarrowdirection='0' 0.  _scaption='  Газ выветривания'  _scolor='gas'  _sfontsize='17.0'  _slineheight='16.0' ></transition-button-elem>
+<transition-button-elem id="8" style="width:152px; height:46px; transform:matrix(0.9843,0,0,0.9843,1846.1906,1132.3604); transform-origin: left top;" 0._sarrowdirection='0' 0.  _scaption='Выход теплоносителя'  _scolor='heatСarrier'  _sfontsize='17.0'  _slineheight='16.0' ></transition-button-elem>
+<transition-button-elem id="9" style="width:152px; height:46px; transform:matrix(0.9843,0,0,0.9843,1846.1906,1236.3604); transform-origin: left top;" 0._sarrowdirection='1' 0.  _scaption='Внешний теплоноситель'  _scolor='heatСarrier'  _sfontsize='17.0'  _slineheight='16.0' ></transition-button-elem>
+<transition-button-elem id="10" style="width:152px; height:46px; transform:matrix(0.9843,0,0,0.9843,1846.1906,1373.3604); transform-origin: left top;" 0._sarrowdirection='0' 0.  _scaption='Газ на факел'  _scolor='gas'  _sfontsize='17.0'  _slineheight='16.0' ></transition-button-elem>
+<valve-n-elem id="11" style="width:71px; height:89px; transform:matrix(1,0,0,1,219.5,823.5); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='Кш5-4'  _scolor='gas' ></valve-n-elem>
+<valve-n-elem id="12" style="width:71px; height:89px; transform:matrix(1,0,0,1,219.5,998.5); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='Кш6-4'  _scolor='gas' ></valve-n-elem>
+<valve-n-elem id="13" style="width:71px; height:89px; transform:matrix(1,0,0,1,219.5,648.5); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='Кш4-4'  _scolor='gas' ></valve-n-elem>
+<valve-n-elem id="14" style="width:71px; height:89px; transform:matrix(1,0,0,1,219.5,479); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='Кш1-7'  _scolor='gas' ></valve-n-elem>
+<valve-n-elem id="15" style="width:71px; height:89px; transform:matrix(1,0,0,1,219.5,382); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='Кш1-1'  _scolor='gas' ></valve-n-elem>
+<valve-n-elem id="16" style="width:71px; height:89px; transform:matrix(1,0,0,1,219.5,39.5); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='Кш1-2'  _scolor='gas' ></valve-n-elem>
+<valve-n-elem id="17" style="width:71px; height:89px; transform:matrix(1,0,0,1,638,1350.5); transform-origin: left top;" 0._svalveorient='h' 0+0.  _scaption='Кш8-6'  _scolor='gas' ></valve-n-elem>
+<multi-tit-elem id="55" style="width:152px; height:32px; transform:matrix(1,0,0,1,1227,1285); transform-origin: left top;" 0._stitcount='1' 0._sarroworient='left'  _sarrowval='25.0'  _scaptions='["P"]' ></multi-tit-elem>
+<multi-tit-elem id="18" style="width:134px; height:64px; transform:matrix(1,0,0,1,367,9); transform-origin: left top;" 0._stitcount='2'  _scaptions='["P","T"]' ></multi-tit-elem>
+<multi-tit-elem id="34" style="width:134px; height:64px; transform:matrix(1,0,0,1,1228,1076); transform-origin: left top;" 0._stitcount='2'  _scaptions='["P","T"]' ></multi-tit-elem>
+<multi-tit-elem id="29" style="width:134px; height:64px; transform:matrix(1,0,0,1,1228,721); transform-origin: left top;" 0._stitcount='2'  _scaptions='["P","T"]' ></multi-tit-elem>
+<multi-tit-elem id="19" style="width:134px; height:96px; transform:matrix(1,0,0,1,367,160); transform-origin: left top;" 0._stitcount='3'  _scaptions='["P","T","F"]' ></multi-tit-elem>
+<multi-tit-elem id="20" style="width:134px; height:96px; transform:matrix(1,0,0,1,367,318); transform-origin: left top;" 0._stitcount='3'  _scaptions='["P","T","F"]' ></multi-tit-elem>
+<multi-tit-elem id="21" style="width:134px; height:96px; transform:matrix(1,0,0,1,367,583); transform-origin: left top;" 0._stitcount='3'  _scaptions='["P","T","F"]' ></multi-tit-elem>
+<multi-tit-elem id="22" style="width:134px; height:96px; transform:matrix(1,0,0,1,367,759); transform-origin: left top;" 0._stitcount='3'  _scaptions='["P","T","F"]' ></multi-tit-elem>
+<multi-tit-elem id="23" style="width:134px; height:96px; transform:matrix(1,0,0,1,367,935); transform-origin: left top;" 0._stitcount='3'  _scaptions='["P","T","F"]' ></multi-tit-elem>
+<multi-tit-elem id="24" style="width:134px; height:96px; transform:matrix(1,0,0,1,367,1111); transform-origin: left top;" 0._stitcount='3'  _scaptions='["P","T","F"]' ></multi-tit-elem>
+<multi-tit-elem id="25" style="width:134px; height:96px; transform:matrix(1,0,0,1,367,1287); transform-origin: left top;" 0._stitcount='3'  _scaptions='["P","T","F"]' ></multi-tit-elem>
+<multi-tit-elem id="26" style="width:134px; height:32px; transform:matrix(1,0,0,1,609,647); transform-origin: left top;" 0._stitcount='1'  _scaptions='["P"]' ></multi-tit-elem>
+<multi-tit-elem id="27" style="width:134px; height:32px; transform:matrix(1,0,0,1,871,597); transform-origin: left top;" 0._stitcount='1'  _scaptions='["dP"]' ></multi-tit-elem>
+<multi-tit-elem id="28" style="width:134px; height:32px; transform:matrix(1,0,0,1,871,1033); transform-origin: left top;" 0._stitcount='1'  _scaptions='["dP"]' ></multi-tit-elem>
+<multi-tit-elem id="44" style="width:134px; height:32px; transform:matrix(1,0,0,1,1622,488); transform-origin: left top;" 0._stitcount='1'  _scaptions='["T"]' ></multi-tit-elem>
+<multi-tit-elem id="30" style="width:134px; height:32px; transform:matrix(1,0,0,1,1622,346); transform-origin: left top;" 0._stitcount='1'  _scaptions='["T"]' ></multi-tit-elem>
+<multi-tit-elem id="31" style="width:134px; height:32px; transform:matrix(1,0,0,1,1622,714); transform-origin: left top;" 0._stitcount='1'  _scaptions='["T"]' ></multi-tit-elem>
+<multi-tit-elem id="32" style="width:134px; height:32px; transform:matrix(1,0,0,1,963,180); transform-origin: left top;" 0._stitcount='1'  _scaptions='["T"]' ></multi-tit-elem>
+<multi-tit-elem id="33" style="width:134px; height:32px; transform:matrix(1,0,0,1,1622,1079); transform-origin: left top;" 0._stitcount='1'  _scaptions='["T"]' ></multi-tit-elem>
+<barrel-v-elem id="35" style="width:75px; height:134px; transform:matrix(1,0,0,1,898,1077); transform-origin: left top;" 0.  _scaption='ФС13' ></barrel-v-elem>
+<barrel-v-elem id="36" style="width:75px; height:134px; transform:matrix(1,0,0,1,898,640); transform-origin: left top;" 0.  _scaption='ФС13' ></barrel-v-elem>
+<heat-exchanger-elem id="37" style="width:172px; height:62px; transform:matrix(1,0,0,1,701,195); transform-origin: left top;" 0.  _scaption='Т2.1'  _scolor='gas' ></heat-exchanger-elem>
+<heat-exchanger-elem id="38" style="width:172px; height:62px; transform:matrix(1,0,0,1,853,395); transform-origin: left top;" 0.  _scaption='Т2.2'  _scolor='gas' ></heat-exchanger-elem>
+<pump-n-elem id="39" style="width:91px; height:73px; transform:matrix(1,0,0,1,1307,174); transform-origin: left top;" 0._spumporient='h'  _scolor='heatСarrier' ></pump-n-elem>
+<pump-n-elem id="40" style="width:91px; height:73px; transform:matrix(1,0,0,1,1307,372.5); transform-origin: left top;" 0._spumporient='h'  _scolor='heatСarrier' ></pump-n-elem>
+<boiler-elem id="41" style="width:232px; height:290px; transform:matrix(1,0,0,1,1376,609); transform-origin: left top;" 0+0._stitcount='2' 0._smtcaptions='["V", "P"]' 0+1._sfontsize='25' 0+0._svaluefontsizes='["19", "19"]' 0._stitle='Ацс1-300' 0+0._scaptionfontsizes='["16", "16"]' 0.  _scaption='Котёл №1' ></boiler-elem>
+<boiler-elem id="42" style="width:232px; height:290px; transform:matrix(1,0,0,1,1371,961); transform-origin: left top;" 0+0._stitcount='2' 0._smtcaptions='["V", "P"]' 0+1._sfontsize='25' 0+0._svaluefontsizes='["19", "19"]' 0._stitle='Ацс1-300' 0+0._scaptionfontsizes='["16", "16"]' 0.  _scaption='Котёл №2' ></boiler-elem>
+<num-value-elem id="43" style="width:72px; height:26px; transform:matrix(1,0,0,1,636,882); transform-origin: left top;" 0._sfontsize='18'  _sarrowval='25.0'  _scaptions='["P","T"]' ></num-value-elem>
+<num-value-elem id="47" style="width:72px; height:26px; transform:matrix(1,0,0,1,636,953); transform-origin: left top;" 0._sfontsize='18' ></num-value-elem>
+<num-value-elem id="45" style="width:72px; height:26px; transform:matrix(1,0,0,1,1602,105); transform-origin: left top;" 0._sfontsize='18' ></num-value-elem>
+<num-value-elem id="46" style="width:72px; height:26px; transform:matrix(1,0,0,1,1602,144); transform-origin: left top;" 0._sfontsize='18' ></num-value-elem>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0) -->
+<svg class="simple_element" width="2004" height="1450" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="2004px"
+	 height="1450px" viewBox="0 0 2004 1450" style="enable-background:new 0 0 2004 1450;" xml:space="preserve">
+
+<g class="lines">
+	<g class="pipes">
+		<g class="gas">
+			<line  x1="1105" y1="226.5" x2="671" y2="226.5"/>
+			<line  x1="1105.5" y1="720.5" x2="968.5" y2="720.5"/>
+			<line  x1="554.5" y1="692.5" x2="180.5" y2="692.5"/>
+			<line  x1="182.5" y1="692.5" x2="109.5" y2="692.5"/>
+			<line  x1="794.5" y1="692.5" x2="554.5" y2="692.5"/>
+			<line  x1="922.5" y1="692.5" x2="791.5" y2="692.5"/>
+			<line  x1="557" y1="269.5" x2="335" y2="269.5"/>
+			<line  x1="925.5" y1="1123.5" x2="788.5" y2="1123.5"/>
+			<line  x1="1104" y1="1153.5" x2="963" y2="1153.5"/>
+			<line  x1="671.5" y1="230" x2="671.5" y2="83"/>
+			<line  x1="555.5" y1="431" x2="555.5" y2="270"/>
+			<line  x1="336.5" y1="426.5" x2="336.5" y2="269.5"/>
+			<line  x1="675" y1="426.5" x2="122" y2="426.5"/>
+			<line  x1="1102" y1="426.5" x2="673" y2="426.5"/>
+			<polyline  points="557,524 179,524 179,687 			"/>
+			<line  x1="556.5" y1="1043.5" x2="117.5" y2="1043.5"/>
+			<line  x1="556.5" y1="867.5" x2="114.5" y2="867.5"/>
+			<line  x1="553" y1="1395.5" x2="1893" y2="1395.5"/>
+			<line  x1="557.5" y1="1219.5" x2="117.5" y2="1219.5"/>
+			<line  x1="558.5" y1="1395.5" x2="116.5" y2="1395.5"/>
+			<polyline  points="789,694 789,1324 925,1324 			"/>
+			<line  x1="556.5" y1="870.5" x2="556.5" y2="691.5"/>
+			<line  x1="556.5" y1="1045.5" x2="556.5" y2="864.5"/>
+			<line  x1="556.5" y1="1223.5" x2="556.5" y2="1042.5"/>
+			<line  x1="556.5" y1="1392.5" x2="556.5" y2="1217.5"/>
+			<line  x1="555.5" y1="526" x2="555.5" y2="426.5"/>
+			<line  x1="1156" y1="1317.5" x2="1213" y2="1317.5"/>
+			<line  x1="672.5" y1="84.5" x2="122.5" y2="84.5"/>
+			<line  x1="1103.5" y1="226" x2="1103.5" y2="427"/>
+			<line  x1="1103.5" y1="1153.5" x2="1103.5" y2="1270.5"/>
+			<line  x1="1211.5" y1="1319" x2="1211.5" y2="1150"/>
+			<polyline  points="1393,797.5 1211,797.5 1211,1156 			"/>
+			<line  x1="1213.5" y1="1153.5" x2="1394.5" y2="1153.5"/>
+			<line  x1="671" y1="229" x2="671" y2="430"/>
+			<line  x1="1103.5" y1="721" x2="1103.5" y2="1152"/>
+		</g>
+		<g class="heatCarrier">
+			<line  x1="934" y1="530.5" x2="1792" y2="530.5"/>
+			<line  x1="1317" y1="427.5" x2="1210" y2="427.5"/>
+			<line  x1="1885" y1="1259.5" x2="1789" y2="1259.5"/>
+			<line  x1="788" y1="85.5" x2="1213" y2="85.5"/>
+			<line  x1="939.5" y1="451" x2="939.5" y2="526"/>
+			<line  x1="788.5" y1="84.5" x2="788.5" y2="217.5"/>
+			<line  x1="1211.5" y1="231" x2="1211.5" y2="427.5"/>
+			<line  x1="1790.5" y1="1123" x2="1790.5" y2="1260"/>
+			<line  x1="1493" y1="392.5" x2="1389" y2="392.5"/>
+			<line  x1="1828" y1="392.5" x2="1494" y2="392.5"/>
+			<line  x1="1523.5" y1="759.5" x2="1794" y2="759.5"/>
+			<line  x1="1523" y1="1123.5" x2="1791" y2="1123.5"/>
+			<line  x1="1824" y1="1154.5" x2="1955" y2="1154.5"/>
+			<line  x1="1492.5" y1="192" x2="1492.5" y2="391"/>
+			<line  x1="1211.5" y1="86" x2="1211.5" y2="227"/>
+			<line  x1="1317" y1="225.5" x2="1215" y2="225.5"/>
+			<line  x1="1494" y1="192.5" x2="1386" y2="192.5"/>
+			<line  x1="938" y1="531" x2="787.5" y2="531"/>
+			<line  x1="1790.5" y1="1123" x2="1790.5" y2="756"/>
+			<line  x1="1790.5" y1="761" x2="1790.5" y2="531"/>
+		</g>
+	</g>
+	<g class="arrows">
+		<g class="heatCarrier">
+			<polyline  points="1708,1130.5 1716,1123.5 1708,1116.5 			"/>
+			<polyline  points="1654,1147 1646,1154 1654,1161 			"/>
+			<polyline  points="795.5,143 788.5,134 781.5,143 			"/>
+			<polyline  points="946.5,143 939.5,134 932.5,143 			"/>
+			<polyline  points="1205,135 1211.5,143 1218,135 			"/>
+			<polyline  points="1654.5,789 1646.5,795 1654.5,802 			"/>
+			<polyline  points="1820,474.5 1826.5,482.5 1833,474.5 			"/>
+			<polyline  points="1086,92 1094,85.5 1086,79 			"/>
+			<polyline  points="1708,766 1716,759.5 1708,753 			"/>
+		</g>
+		<g class="gas">
+			<polyline  points="562.5,473.5 555.5,480.5 548.5,473.5 			"/>
+			<polyline  points="186.5,609 179,616 172.5,609 			"/>
+			<polyline  points="1172,1311.5 1179,1317.5 1172,1323.5 			"/>
+			<polyline  points="679,699 671,692.5 679,686 			"/>
+			<polyline  points="1110,314.5 1103.5,322.5 1096,314.5 			"/>
+			<polyline  points="678,136 671.5,144 665,136 			"/>
+		</g>
+	</g>
+	<g class="arc">
+		<g class="heatCarrier">
+			<path  d="M939.5,400V234c3.6,0,7-2.8,7-6c0-6-3.4-7-7-7V86"/>
+			<path  d="M789,530v-96.5c-3.3,0-6-3-6-6.5s2.7-6.5,6-6.5V234"/>
+			<path  d="M1521,1154.5h263c0-3.3,3-7,6.5-7s7,3.7,7,7h34.5"/>
+			<path  d="M1522,795h262c0-3.7,3.1-7,7-7s6,3.3,6,7h29"/>
+			<line  x1="1826.5" y1="824.5" x2="1826.5" y2="391.5"/>
+			<line  x1="1826.5" y1="1150.5" x2="1826.5" y2="797.5"/>
+		</g>
+		<g class="gas">
+			<path  d="M1103,721V537c-3.7,0-7-2.1-7-6c0-3.9,3.3-6,7-6v-97"/>
+		</g>
+	</g>
+	<g class="points">
+		<g class="heatCarrier">
+			<circle  cx="940" cy="530" r="4.5"/>
+			<circle  cx="1790.5" cy="759.5" r="4.5"/>
+			<circle  cx="1826.5" cy="1154" r="4.5"/>
+			<circle  cx="1790.5" cy="1124" r="4.5"/>
+			<circle  cx="1826.5" cy="795" r="4.5"/>
+			<circle  cx="940" cy="85.5" r="4.5"/>
+			<circle  cx="1211.5" cy="226" r="4.5"/>
+			<circle  cx="1492.5" cy="392" r="4.5"/>
+		</g>
+		<g class="gas">
+			<circle  cx="555.5" cy="427" r="4.5"/>
+			<circle  cx="556.5" cy="693" r="4.5"/>
+			<circle  cx="556.5" cy="867" r="4.5"/>
+			<circle  cx="556.5" cy="1044" r="4.5"/>
+			<circle  cx="556.5" cy="1219" r="4.5"/>
+			<circle  cx="556.5" cy="1395.5" r="4.5"/>
+			<circle  cx="671.5" cy="227" r="4.5"/>
+			<circle  cx="1103" cy="427" r="4.5"/>
+			<circle  cx="1103" cy="721" r="4.5"/>
+			<circle  cx="1103" cy="1153" r="4.5"/>
+			<circle  cx="789" cy="1124" r="4.5"/>
+			<circle  cx="789" cy="692" r="4.5"/>
+			<circle  cx="1211.5" cy="1153.5" r="4.5"/>
+			<circle  cx="337" cy="426" r="4.5"/>
+			<circle  cx="671.5" cy="427" r="4.5"/>
+			<circle  cx="179" cy="692" r="4.5"/>
+		</g>
+	</g>
+</g>
+<g class="tables-solid">
+	<g class="t1">
+		<rect x="1591" y="88"  width="404" height="100"/>
+	</g>
+	<g class="t3">
+		<path  d="M1138,1361H942c-9.4,0-16-7.6-16-17v-57c0-9.4,6.6-17,16-17h196c9.4,0,17,7.6,17,17v57
+			C1155,1353.4,1147.4,1361,1138,1361z"/>
+	</g>
+	<g class="t6">
+		<rect x="579" y="835"  width="187" height="162"/>
+	</g>
+</g>
+<g class="tables-dashed">
+	<g class="t9">
+		<path  d="M507,451H333c-9.4,0-17-7.6-17-17V131c0-9.4,7.6-17,17-17h174c9.4,0,17,7.6,17,17v303
+			C524,443.4,516.4,451,507,451z"/>
+	</g>
+	<g class="t8">
+		<g>
+			<path  d="M507,709H364c-9.5,0-17-5.8-17-12V557c0-6.2,7.5-16,17-16h143c9.5,0,17,9.8,17,16v140
+				C524,703.2,516.5,709,507,709z"/>
+		</g>
+	</g>
+	<g class="t5">
+		<g>
+			<path  d="M511,883H364c-9.5,0-17-5.8-17-12V733c0-6.2,7.5-11,17-11h143c9.5,0,17,4.8,17,11l-1,138
+				C523,877.2,520.5,883,511,883z"/>
+		</g>
+	</g>
+	<g class="t4">
+		<g>
+			<path  d="M507,1056H364c-9.5,0-17-4.8-17-11V908c0-6.2,7.5-12,17-12h143c9.5,0,17,5.8,17,12v137
+				C524,1051.2,516.5,1056,507,1056z"/>
+		</g>
+	</g>
+	<g class="t7">
+		<g>
+			<path  d="M507,1411H364c-9.5,0-17-5.8-17-12v-137c0-6.2,6.5-11,16-11h144c9.5,0,17,4.8,17,11v137
+				C524,1405.2,516.5,1411,507,1411z"/>
+		</g>
+		<g>
+			<path  d="M507,1236H364c-9.5,0-17-5.8-17-12v-144c0-6.2,6.5-11,16-11h144c9.5,0,17,4.8,17,11v144
+				C524,1230.2,516.5,1236,507,1236z"/>
+		</g>
+	</g>
+</g>
+<g class="text">
+	<g class="px16">
+		<g>
+			<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 366.7522 1091.7252)" >Узел замера №4 (СГ7.1)</text>
+		</g>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 365.7522 1273.7252)" >Узел замера №5 (СГ8.1)</text>
+		<g>
+			<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 350.9521 141.2424)" >Узел замера №1 (СГ1.1)</text>
+		</g>
+		<g>
+			<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 369.7522 747.6233)" >Узел замера №2 (СГ5.1)</text>
+		</g>
+		<g>
+			<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 365.7522 920.7252)" >Узел замера №3 (СГ6.1)</text>
+		</g>
+		<g>
+			<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 366.7522 297.7252)" >Узел замера №2 (СГ1.2)</text>
+		</g>
+		<g>
+			<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 362.1692 568.6296)" >Узела замера №1 (СГ4.1)</text>
+		</g>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 597.3683 938.961)" >Разность расхода с УЗ№2</text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 597.3683 867.0405)" >Разность расхода с УЗ№1</text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 1693.8246 161.7626)" >Температура в узле подготовки теплоносителя</text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 1692.6243 123.8303)" >Температура в технологическом помещении</text>
+	</g>
+	<g class="px20">
+		<text transform="matrix(1 0 0 1 947.2744 1321.5801)" >Узел редуцирования СН</text>
+	</g>
+</g>
+</svg>
+</div>
+    
+    <div id="match-quad" class="invisible"></div>
+
+    <canvas id="editor_canvas"></canvas>
+    </body>
+    </html>

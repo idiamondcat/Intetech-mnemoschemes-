@@ -1,0 +1,22 @@
+---
+default:
+  parameters:
+    0._scaption: ""
+    0._scaptionfontsize: ""
+    0._svaluefontsize: ""
+    0._sdisplaystate: ""
+  width: 136.0
+  height: 24.0
+test:
+  width: 743.0
+  height: 403.0
+  parameters:
+    "0._scaptionfontsize": "40"
+    "0._svaluefontsize": "34"
+    "0._scaption": "lol"
+    "0._dlowestval": "-10"
+    "0._dhighestval": "50"
+    "0._dlowcrit": "0"
+    "0._dhighcrit": "40"
+    "0._dcurrentval": "45"
+    "0._douterstate": "45"

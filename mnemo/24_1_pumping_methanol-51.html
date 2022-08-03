@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <!--'Classes of pipes in scheme:
+        class="p45 p46 p47 p75 or"; class="p50 p51 p52 p71 or"; class="p24 p25 p45 p50 or"; class="p14 p25 or"; class="p44 p45 p46 p47 p75 or"; class="p32 p33 p34 p78 or"; class="p50 p51 p71 or"; class="p6 p14 p61 p26 p37 p77 or"; class="p60 p62 p69 or"; class="p39 p46 p50 p67 or"; class="p49 p54 or"; class="p4 p29 p34 p37 or"; class="p5 p35 or"; class="p38 p39 p40 p41 or"; class="p27 p28 p29 p30 or"; class="p32 p33 p34 p35 p37 or"; class="p12 p78 or"; class="p38 p70 or"; class="p19 p20 or"; class="p17 p18 p20 p23 or"; class="p11 p22 or"; class="p13 p22 or"; class="p5 p30 p35 or"; class="p61 p22 or"; class="p2 p3 or"; class="p17 p18 or"; class="p16 p22 p38 p39 p40 p41 p70 or"; class="p24 p25 p71 p75 or"; class="p11 p36 or"; class="p57 p58 p59 or"; class="p71 p75 or"; class="p17 p18"; class="p32 p33 p34 p35 p37 p78 or"; class="p77 p78 or"; class="p6 p26 p37 or"; class="p45 p46 p75 or"; class="p6 p37 or"; class="p44 p66 or"; class="p36 p40 p48 p53 or"; class="p63 p64 p65 or"; class="p26 p27 p28 p29 p30 p76 or"; class="p1 p60 p90 or"; class="p27 p28 p29 or"; class="p13 p67 or"; class="p15 p23 or"; class="p45 p75 or"; class="p17 p18 p22 p23 or"; class="p3 p33 or"; class="p11 p36 p55 or"; class="p48 p53 or"; class="p45 p50 or"; class="p62 p64 p66 or"; class="p38 p39 p41 p70 or"; class="p7 p8 p27 or"; class="p1 p2 p3 or"; class="p32 p33 p34 p35 p78 or"; class="p74 p72 p57 or"; class="p1 p2 p3 p4 or"; class="p2 p3 p4 p6 or"; class="p22 p60 or"; class="p15 p16 p49 p54 or"; class="p41 p78 p47 p52 or"; class="p1 p2 p3 p4 p6 p77 or"; class="p8 p23 p28 or"; class="p1 p2 p3 p4 p5 p6 or"; class="p4 p34 or"; class="p55 p58 or"; class="p12 p22 or"; class="p38 p39 p40 p41 p70 or"; class="p44 p65 or"; class="p61 p63 p69 or"; class="p27 p28 or"; class="p15 p23 p55 or"; class="p50 p71 or"; class="p14 p22 or"; class="p47 p52 or"; class="p19 p20 p21 or"; class="p38 p39 p41 or"; class="p2 p32 or"; class="p72 p74 or"; class="p38 p39 or"; class="p38 p39 p70 or"; class="p26 p27 p28 p29 p30 or"; class="p46 p50 or"; class="p56 p59 or"; class="p12 p78 p56 or"; class="p22 p74 or"; class="p13 p56 p67 or"
+        -->
+        <meta charset="UTF-8">
+        <title>24_1_pumping_methanol-51</title>
+        <link href="/Data/styles/mnemo_styles.css" rel="stylesheet" type="text/css">
+        <link href="/Data/styles/Themes/default.css" rel="stylesheet" type="text/css">
+        <!-- <link href="/Data/styles/Themes/white_theme.css" rel="stylesheet" type="text/css"> -->
+        <link href="/Data/styles/Themes/achim_white_theme.css" rel="stylesheet" type="text/css">
+        
+        <link href="/Data/styles/pipes_styles.css" rel="stylesheet" type="text/css">
+
+        <!-- <script src="/Data/libs/fabric.min.js"></script>
+        <script src="/Data/libs/underscore.js"></script> -->
+        <script src="/Data/scripts/mnemocore.js"></script>
+        
+        <script src="/Data/scripts/simpleelement.js"></script>
+        <script src="/Data/elements/arrow-pic/prototype.js"></script>
+<script src="/Data/elements/valve-n-elem/prototype.js"></script>
+<script src="/Data/elements/transition-button-elem/prototype.js"></script>
+<script src="/Data/elements/caption-elem/prototype.js"></script>
+<script src="/Data/elements/multi-tit-elem/prototype.js"></script>
+<script src="/Data/elements/pump-n-elem/prototype.js"></script>
+<script src="/Data/elements/tit-elem/prototype.js"></script>
+
+
+    </head>
+    <body class="default" oncontextmenu="return false;">
+    <div id="container_of_templates"></div>
+    <div id="container_of_elements">
+<arrow-pic id="1" style="width:28px; height:34px; transform:matrix(1,0,0,1,302,54); transform-origin: left top;" ></arrow-pic>
+<arrow-pic id="2" style="width:28px; height:34px; transform:matrix(1,0,0,1,302,167); transform-origin: left top;" ></arrow-pic>
+<arrow-pic id="3" style="width:28px; height:34px; transform:matrix(1,0,0,1,302,544); transform-origin: left top;" ></arrow-pic>
+<arrow-pic id="4" style="width:28px; height:34px; transform:matrix(1,0,0,1,302,680); transform-origin: left top;" ></arrow-pic>
+<arrow-pic id="5" style="width:28px; height:34px; transform:matrix(1,0,0,1,302,400); transform-origin: left top;" ></arrow-pic>
+<arrow-pic id="6" style="width:28px; height:34px; transform:matrix(1,0,0,1,302,303.5); transform-origin: left top;" ></arrow-pic>
+<transition-button-elem id="7" style="width:119px; height:34px; transform:matrix(1,0,0,1,10,109.5); transform-origin: left top;" 0._sarrowdirection='0' 0._scaption='Text' ></transition-button-elem>
+<transition-button-elem id="8" style="width:119px; height:34px; transform:matrix(1,0,0,1,10,303.5); transform-origin: left top;" 0._sarrowdirection='0' 0._scaption='Text' ></transition-button-elem>
+<transition-button-elem id="9" style="width:119px; height:34px; transform:matrix(1,0,0,1,10,401); transform-origin: left top;" 0._sarrowdirection='0' 0._scaption='Text' ></transition-button-elem>
+<transition-button-elem id="10" style="width:119px; height:34px; transform:matrix(1,0,0,1,10,678.5); transform-origin: left top;" 0._sarrowdirection='0' 0._scaption='Text' ></transition-button-elem>
+<transition-button-elem id="11" style="width:119px; height:34px; transform:matrix(1,0,0,1,2045,111); transform-origin: left top;" 0._sarrowdirection='0' 0._scaption='Text' ></transition-button-elem>
+<transition-button-elem id="12" style="width:119px; height:34px; transform:matrix(1,0,0,1,2045,272); transform-origin: left top;" 0._sarrowdirection='0' 0._scaption='Text' ></transition-button-elem>
+<transition-button-elem id="13" style="width:119px; height:34px; transform:matrix(1,0,0,1,2045,850); transform-origin: left top;" 0._sarrowdirection='0' 0._scaption='Text' ></transition-button-elem>
+<transition-button-elem id="14" style="width:119px; height:34px; transform:matrix(1,0,0,1,2045,1314); transform-origin: left top;" 0._sarrowdirection='0' 0._scaption='Text' ></transition-button-elem>
+<valve-n-elem id="15" style="width:71px; height:89px; transform:matrix(1,0,0,1,545.5,30.5); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="16" style="width:71px; height:89px; transform:matrix(1,0,0,1,545.5,142.5); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="17" style="width:71px; height:89px; transform:matrix(1,0,0,1,713.5,273); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="18" style="width:71px; height:89px; transform:matrix(1,0,0,1,713.5,503.5); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="19" style="width:71px; height:89px; transform:matrix(1,0,0,1,713.5,906.5); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="20" style="width:71px; height:89px; transform:matrix(1,0,0,1,713.5,703.5); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="21" style="width:71px; height:89px; transform:matrix(1,0,0,1,713.5,1316); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="22" style="width:71px; height:89px; transform:matrix(1,0,0,1,875.5,228.5); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="23" style="width:71px; height:89px; transform:matrix(1,0,0,1,875.5,370); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="24" style="width:71px; height:89px; transform:matrix(1,0,0,1,875.5,139.5); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="25" style="width:71px; height:89px; transform:matrix(1,0,0,1,875.5,457.5); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="26" style="width:71px; height:89px; transform:matrix(1,0,0,1,875.5,766.5); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="27" style="width:71px; height:89px; transform:matrix(1,0,0,1,875.5,853.5); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="28" style="width:71px; height:89px; transform:matrix(1,0,0,1,875.5,651); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="29" style="width:71px; height:89px; transform:matrix(1,0,0,1,875.5,1171); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="30" style="width:71px; height:89px; transform:matrix(1,0,0,1,875.5,564); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="31" style="width:71px; height:89px; transform:matrix(1,0,0,1,875.5,1257.5); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="32" style="width:71px; height:89px; transform:matrix(1,0,0,1,1266.5,78.5); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="33" style="width:71px; height:89px; transform:matrix(1,0,0,1,1266.5,1158.5); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="34" style="width:71px; height:89px; transform:matrix(1,0,0,1,1266.5,760.5); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="35" style="width:71px; height:89px; transform:matrix(1,0,0,1,1266.5,553); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="36" style="width:71px; height:89px; transform:matrix(1,0,0,1,1266.5,342.5); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="37" style="width:71px; height:89px; transform:matrix(1,0,0,1,1439.5,760.5); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="38" style="width:71px; height:89px; transform:matrix(1,0,0,1,1439.5,1158.5); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="39" style="width:71px; height:89px; transform:matrix(1,0,0,1,1439.5,342.5); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="40" style="width:71px; height:89px; transform:matrix(1,0,0,1,1604.5,1166.5); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="41" style="width:71px; height:89px; transform:matrix(1,0,0,1,1604.5,669.5); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="42" style="width:71px; height:89px; transform:matrix(1,0,0,1,1604.5,879.5); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="43" style="width:71px; height:89px; transform:matrix(1,0,0,1,1604.5,761); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="44" style="width:71px; height:89px; transform:matrix(1,0,0,1,1604.5,347.5); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="45" style="width:71px; height:89px; transform:matrix(1,0,0,1,1604.5,462.5); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="46" style="width:71px; height:89px; transform:matrix(1,0,0,1,1604.5,553); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="47" style="width:71px; height:89px; transform:matrix(1,0,0,1,1604.5,78.5); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="48" style="width:71px; height:89px; transform:matrix(1,0,0,1,1604.5,241); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="49" style="width:71px; height:89px; transform:matrix(1,0,0,1,1604.5,1285); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="50" style="width:71px; height:89px; transform:matrix(1,0,0,1,1701.5,820.5); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="51" style="width:71px; height:89px; transform:matrix(1,0,0,1,1701.5,1225); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="75" style="width:71px; height:89px; transform:matrix(1,0,0,1,713.5,1109); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="76" style="width:71px; height:89px; transform:matrix(1,0,0,1,875.5,964); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="77" style="width:71px; height:89px; transform:matrix(1,0,0,1,875.5,1050.5); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="78" style="width:71px; height:89px; transform:matrix(1,0,0,1,1266.5,951.5); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="79" style="width:71px; height:89px; transform:matrix(1,0,0,1,1604.5,959.5); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="80" style="width:71px; height:89px; transform:matrix(1,0,0,1,1604.5,1078); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="81" style="width:71px; height:89px; transform:matrix(1,0,0,1,1701.5,1018); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="82" style="width:71px; height:89px; transform:matrix(1,0,0,1,1701.5,174); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="83" style="width:71px; height:89px; transform:matrix(1,0,0,1,1701.5,407.5); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<valve-n-elem id="84" style="width:71px; height:89px; transform:matrix(1,0,0,1,1701.5,612); transform-origin: left top;" 0._svalveorient='h' 0+0._scaption='Text' ></valve-n-elem>
+<pump-n-elem id="55" style="width:91px; height:92px; transform:matrix(1,0,0,1,675,23); transform-origin: left top;" 0._spumporient='h' 0+0._scaption='Text' ></pump-n-elem>
+<pump-n-elem id="56" style="width:91px; height:92px; transform:matrix(1,0,0,1,1011,268); transform-origin: left top;" 0._spumporient='h' 0+0._scaption='Text' ></pump-n-elem>
+<pump-n-elem id="57" style="width:91px; height:92px; transform:matrix(1,0,0,1,1011,495); transform-origin: left top;" 0._spumporient='h' 0+0._scaption='Text' ></pump-n-elem>
+<pump-n-elem id="58" style="width:91px; height:92px; transform:matrix(1,0,0,1,1011,698); transform-origin: left top;" 0._spumporient='h' 0+0._scaption='Text' ></pump-n-elem>
+<pump-n-elem id="59" style="width:91px; height:92px; transform:matrix(1,0,0,1,1011,1313); transform-origin: left top;" 0._spumporient='h' 0+0._scaption='Text' ></pump-n-elem>
+<pump-n-elem id="59" style="width:91px; height:92px; transform:matrix(1,0,0,1,1011,1106); transform-origin: left top;" 0._spumporient='h' 0+0._scaption='Text' ></pump-n-elem>
+<pump-n-elem id="60" style="width:91px; height:92px; transform:matrix(1,0,0,1,1011,905); transform-origin: left top;" 0._spumporient='h' 0+0._scaption='Text' ></pump-n-elem>
+<pump-n-elem id="85" style="width:91px; height:92px; transform:matrix(1,0,0,1,675,135); transform-origin: left top;" 0._spumporient='h' 0+0._scaption='Text' ></pump-n-elem>
+<multi-tit-elem id="62" style="width:114px; height:32px; transform:matrix(1,0,0,1,258,128); transform-origin: left top;" 0._stitcount='1' 0._sarroworient='bot' ></multi-tit-elem>
+<multi-tit-elem id="63" style="width:114px; height:32px; transform:matrix(1,0,0,1,258,15); transform-origin: left top;" 0._stitcount='1' 0._sarroworient='bot' ></multi-tit-elem>
+<multi-tit-elem id="64" style="width:114px; height:32px; transform:matrix(1,0,0,1,258,262.5); transform-origin: left top;" 0._stitcount='1' 0._sarroworient='bot' ></multi-tit-elem>
+<multi-tit-elem id="65" style="width:114px; height:32px; transform:matrix(1,0,0,1,258,359.5); transform-origin: left top;" 0._stitcount='1' 0._sarroworient='bot' ></multi-tit-elem>
+<multi-tit-elem id="66" style="width:114px; height:32px; transform:matrix(1,0,0,1,258,639.5); transform-origin: left top;" 0._stitcount='1' 0._sarroworient='bot' ></multi-tit-elem>
+<multi-tit-elem id="67" style="width:114px; height:32px; transform:matrix(1,0,0,1,258,503.5); transform-origin: left top;" 0._stitcount='1' 0._sarroworient='bot' ></multi-tit-elem>
+<multi-tit-elem id="68" style="width:114px; height:32px; transform:matrix(1,0,0,1,830,76); transform-origin: left top;" 0._stitcount='1' ></multi-tit-elem>
+<multi-tit-elem id="69" style="width:114px; height:64px; transform:matrix(1,0,0,1,1111,431); transform-origin: left top;" 0._stitcount='2' ></multi-tit-elem>
+<multi-tit-elem id="70" style="width:114px; height:64px; transform:matrix(1,0,0,1,1111,633.5); transform-origin: left top;" 0._stitcount='2' ></multi-tit-elem>
+<multi-tit-elem id="71" style="width:114px; height:64px; transform:matrix(1,0,0,1,1111,208.5); transform-origin: left top;" 0._stitcount='2' ></multi-tit-elem>
+<multi-tit-elem id="72" style="width:114px; height:64px; transform:matrix(1,0,0,1,1111,1253); transform-origin: left top;" 0._stitcount='2' ></multi-tit-elem>
+<multi-tit-elem id="73" style="width:114px; height:64px; transform:matrix(1,0,0,1,1111,1046); transform-origin: left top;" 0._stitcount='2' ></multi-tit-elem>
+<multi-tit-elem id="74" style="width:114px; height:64px; transform:matrix(1,0,0,1,1111,830.5); transform-origin: left top;" 0._stitcount='2' ></multi-tit-elem>
+<multi-tit-elem id="" style="width:114px; height:96px; transform:matrix(1,0,0,1,1894.5,181.5); transform-origin: left top;" 0._stitcount='3' ></multi-tit-elem>
+<multi-tit-elem id="" style="width:114px; height:96px; transform:matrix(1,0,0,1,1894.5,759.5); transform-origin: left top;" 0._stitcount='3' ></multi-tit-elem>
+<multi-tit-elem id="" style="width:114px; height:96px; transform:matrix(1,0,0,1,1894.5,1223.5); transform-origin: left top;" 0._stitcount='3' ></multi-tit-elem>
+<multi-tit-elem id="" style="width:114px; height:96px; transform:matrix(1,0,0,1,1894.5,20.5); transform-origin: left top;" 0._stitcount='3' ></multi-tit-elem>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0) -->
+<svg class="simple_element" width="2174.8" height="1412.9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2174.8 1412.9" style="enable-background:new 0 0 2174.8 1412.9;" xml:space="preserve">
+
+<g class="lines">
+	<g class="pipes">
+		<g class="methanol">
+			<g class="p23">
+				<polyline  points="1236,126.5 1368,126.5 1368,288.5 				"/>
+			</g>
+			<line class="p22"  x1="1235" y1="392" x2="1235" y2="126"/>
+			<line class="p22"  x1="1235" y1="605" x2="1235" y2="389"/>
+			<line class="p22"  x1="1235" y1="809" x2="1235" y2="602"/>
+			<line class="p22"  x1="1235" y1="1211" x2="1235" y2="1110"/>
+			<line class="p22"  x1="1235" y1="1333" x2="1235" y2="1205"/>
+			<line class="p19 p20 or"  x1="402" y1="126.5" x2="514" y2="126.5"/>
+			<line class="p21"  x1="123" y1="126.5" x2="241" y2="126.5"/>
+			<line class="p11"  x1="1366" y1="390" x2="1366" y2="510"/>
+			<line class="p12"  x1="1366" y1="599" x2="1366" y2="713"/>
+			<line class="p13"  x1="1366" y1="807" x2="1366" y2="918"/>
+			<line class="p11"  x1="1237.5" y1="391" x2="1367.5" y2="391"/>
+			<line class="p58"  x1="1410" y1="391" x2="1537" y2="391"/>
+			<line class="p12"  x1="1234" y1="600.5" x2="1367" y2="600.5"/>
+			<line class="p13"  x1="1233.5" y1="808" x2="1367.5" y2="808"/>
+			<line class="p59"  x1="1409.5" y1="808" x2="1536" y2="808"/>
+			<line class="p74"  x1="1235" y1="1207" x2="1367" y2="1207"/>
+			<line class="p74"  x1="1366" y1="1334.5" x2="1366" y2="1205.5"/>
+			<line class="p8"  x1="1574" y1="289" x2="1806" y2="289"/>
+			<line class="p15 p23 or"  x1="1409" y1="289" x2="1581" y2="289"/>
+			<line class="p15 p23 or"  x1="1366" y1="289" x2="1409" y2="289"/>
+			<line class="p7"  x1="1804" y1="289" x2="1828" y2="289"/>
+			<line class="p28"  x1="1576" y1="510" x2="1804" y2="510"/>
+			<line class="p11 p36 or"  x1="1407" y1="510" x2="1580" y2="510"/>
+			<line class="p11 p36 or"  x1="1366" y1="510" x2="1410" y2="510"/>
+			<line class="p29"  x1="1577" y1="717" x2="1804" y2="717"/>
+			<line class="p12 p78 or"  x1="1408" y1="717" x2="1580" y2="717"/>
+			<line class="p78"  x1="1297" y1="717" x2="1369" y2="717"/>
+			<line class="p12 p78 or"  x1="1368" y1="717" x2="1412" y2="717"/>
+			<line class="p30"  x1="1584" y1="925" x2="1804" y2="925"/>
+			<line class="p13 p67 or"  x1="1411" y1="925" x2="1581" y2="925"/>
+			<line class="p13 p67 or"  x1="1372" y1="925" x2="1410" y2="925"/>
+			<line class="p72"  x1="1234.5" y1="1331" x2="1090.5" y2="1331"/>
+			<line class="p61"  x1="1367.5" y1="1331" x2="1239.5" y2="1331"/>
+				<line class="p72 p74 or"  x1="1412.5" y1="1331" x2="1365.5" y2="1331"/>
+				<line class="p72 p74 or"  x1="1581.5" y1="1331" x2="1411.5" y2="1331"/>
+			<line class="p76"  x1="1804.5" y1="1331" x2="1584.5" y2="1331"/>
+			<line class="p26 p27 p28 p29 p30 p76 or"  x1="2072.5" y1="1331" x2="1802.5" y2="1331"/>
+			<line class="p15"  x1="1020" y1="320.5" x2="967" y2="320.5"/>
+			<line class="p16"  x1="969" y1="320.5" x2="862" y2="320.5"/>
+			<line class="p17 p18 or"  x1="1240" y1="126.5" x2="819" y2="126.5"/>
+			<line class="p40"  x1="968" y1="550.5" x2="859" y2="550.5"/>
+			<line class="p36"  x1="1021" y1="550.5" x2="972" y2="550.5"/>
+			<line class="p78"  x1="1019" y1="750" x2="966" y2="750"/>
+			<line class="p41"  x1="968" y1="750" x2="863" y2="750"/>
+			<line class="p67"  x1="1020" y1="955" x2="965" y2="955"/>
+			<line class="p39"  x1="967" y1="955" x2="862" y2="955"/>
+			<line class="p73"  x1="968.5" y1="1364" x2="678.5" y2="1364"/>
+			<line class="p72"  x1="1021.5" y1="1364" x2="968.5" y2="1364"/>
+			<line class="p49 p54 or"  x1="966" y1="320" x2="966" y2="276"/>
+			<line class="p48 p53 or"  x1="966" y1="549" x2="966" y2="503"/>
+			<line class="p47 p52 or"  x1="966.5" y1="746" x2="966.5" y2="692"/>
+			<line class="p46 p50 or"  x1="965.5" y1="955.5" x2="965.5" y2="900.5"/>
+			<line class="p71 p75 or"  x1="966" y1="1362" x2="966" y2="1302"/>
+			<line class="p38 p39 p40 p41 p70 or"  x1="680" y1="554" x2="680" y2="318"/>
+			<line class="p45 p46 p47 p75 or"  x1="847" y1="693" x2="847" y2="507"/>
+				<line class="p45 p46 p75 or"  x1="847" y1="900" x2="847" y2="699"/>
+			<line class="p75"  x1="847" y1="1305" x2="847" y2="1099"/>
+			<line class="p38 p39 p41 p70 or"  x1="680" y1="748" x2="680" y2="552"/>
+			<line class="p38 p39 p70 or"  x1="680" y1="951" x2="680" y2="745"/>
+			<line class="p70"  x1="680" y1="1365" x2="680" y2="1147"/>
+			<line class="p48"  x1="968" y1="504" x2="846" y2="504"/>
+			<line class="p47"  x1="967.5" y1="697" x2="846.5" y2="697"/>
+			<line class="p46"  x1="967" y1="900.5" x2="844" y2="900.5"/>
+			<line class="p75"  x1="967" y1="1305" x2="845.5" y2="1305"/>
+			<g class="p55">
+				<line  x1="1410.5" y1="293" x2="1410.5" y2="510"/>
+			</g>
+			<line class="p56"  x1="1409" y1="713" x2="1409" y2="920"/>
+			<line class="p58"  x1="1535.5" y1="390" x2="1535.5" y2="498"/>
+			<line class="p58"  x1="1535.5" y1="524" x2="1535.5" y2="700"/>
+			<line class="p57"  x1="1535.5" y1="806" x2="1535.5" y2="909"/>
+			<line class="p58"  x1="1535.5" y1="735" x2="1535.5" y2="811"/>
+				<line class="p57"  x1="1408.5" y1="1207.5" x2="1408.5" y2="1332.5"/>
+			<line class="p57"  x1="1407" y1="1207" x2="1537" y2="1207"/>
+			<line class="p3 p33 or"  x1="1580" y1="510" x2="1580" y2="453"/>
+			<line class="p4 p34 or"  x1="1580" y1="710" x2="1580" y2="660"/>
+			<line class="p5 p35 or"  x1="1580" y1="921" x2="1580" y2="867"/>
+			<line class="p77 p78 or"  x1="1580" y1="1333" x2="1580" y2="1271"/>
+			<line class="p2 p32 or"  x1="1580" y1="290" x2="1580" y2="221"/>
+			<line class="p33"  x1="1580" y1="453" x2="1796" y2="453"/>
+			<line class="p34"  x1="1580" y1="660" x2="1798" y2="660"/>
+			<line class="p35"  x1="1580" y1="867" x2="1793" y2="867"/>
+			<line class="p78"  x1="1580" y1="1273" x2="1798" y2="1273"/>
+			<line class="p27"  x1="1804" y1="290" x2="1804" y2="510"/>
+			<line class="p27 p28 or"  x1="1804" y1="510" x2="1804" y2="720"/>
+			<line class="p27 p28 p29 or"  x1="1804" y1="717" x2="1804" y2="927"/>
+			<line class="p26 p27 p28 p29 p30 or"  x1="1804" y1="1121" x2="1804" y2="1331"/>
+			<line class="p61"  x1="402.5" y1="322" x2="402.5" y2="423"/>
+			<line class="p65"  x1="402.5" y1="565" x2="402.5" y2="694"/>
+			<line class="p66"  x1="242" y1="562.5" x2="242" y2="695.5"/>
+			<line class="p60"  x1="242" y1="322" x2="242" y2="421"/>
+			<polyline class="p17"  points="514,126 514,76 685,76 			"/>
+			<polyline class="p19"  points="242,121 242,71 323,71 			"/>
+			<polyline class="p20"  points="242,130 242,184 323,184 			"/>
+			<polyline class="p20"  points="401,130 401,184 320,184 			"/>
+			<polyline class="p19"  points="400,121 400,71 319,71 			"/>
+			<polyline class="p18"  points="514,126 514,188 686,188 			"/>
+			<polyline class="p17"  points="821,124 821,42 756,42 			"/>
+			<polyline class="p18"  points="821,125 821,154 755,154 			"/>
+			<polyline class="p32"  points="1580,222 1847,222 1847,455 			"/>
+			<line class="p44"  x1="663" y1="697" x2="106" y2="697"/>
+			<line class="p78"  x1="1816.5" y1="1273" x2="1848.5" y2="1273"/>
+			<line class="p44"  x1="806.5" y1="697" x2="695.5" y2="697"/>
+			<line class="p44"  x1="822" y1="697" x2="846" y2="697"/>
+			<line class="p7"  x1="1859" y1="289" x2="2083" y2="289"/>
+			<line class="p33"  x1="1815" y1="453" x2="1843" y2="453"/>
+			<line class="p34"  x1="1813" y1="660" x2="1843" y2="660"/>
+			<line class="p32 p33 p34 p35 p37 or"  x1="1889" y1="867" x2="2145" y2="867"/>
+			<line class="p35"  x1="1816" y1="867" x2="1844" y2="867"/>
+			<line class="p57"  x1="1535.5" y1="1208" x2="1535.5" y2="988"/>
+			<line class="p16"  x1="799" y1="320.5" x2="681" y2="320.5"/>
+			<line class="p22"  x1="678" y1="320.5" x2="100" y2="320.5"/>
+			<line class="p40"  x1="799" y1="550.5" x2="680" y2="550.5"/>
+			<line class="p41"  x1="801" y1="750" x2="680" y2="750"/>
+			<line class="p39"  x1="803" y1="955" x2="680" y2="955"/>
+			<path class="p67"  d="M1091,925h137c0-3.3,3.5-8,7-8s6,4.7,6,8h122
+				"/>
+			<polyline class="p49"  points="966,275 847,275 847,508 			"/>
+			<line class="p32 p33 p34 p78 or"  x1="1846.5" y1="451.5" x2="1846.5" y2="654.5"/>
+			<line class="p32 p33 p34 p35 p78 or"  x1="1846.5" y1="659.5" x2="1846.5" y2="872.5"/>
+				<line class="p78"  x1="1846.5" y1="1066.5" x2="1846.5" y2="1273.5"/>
+			<line class="p22"  x1="1235" y1="1004" x2="1235" y2="798"/>
+			<line class="p22"  x1="1235" y1="1126" x2="1235" y2="998"/>
+			<line class="p14"  x1="1235" y1="1000" x2="1367" y2="1000"/>
+			<line class="p14"  x1="1366" y1="1127.5" x2="1366" y2="998.5"/>
+			<line class="p25"  x1="1234.5" y1="1124" x2="1090.5" y2="1124"/>
+			<line class="p25"  x1="1367.5" y1="1124" x2="1239.5" y2="1124"/>
+				<line class="p14 p25 or"  x1="1412.5" y1="1124" x2="1365.5" y2="1124"/>
+				<line class="p14 p25 or"  x1="1581.5" y1="1124" x2="1411.5" y2="1124"/>
+			<line class="p26"  x1="1804.5" y1="1124" x2="1584.5" y2="1124"/>
+			<line class="p24"  x1="795.5" y1="1157" x2="678.5" y2="1157"/>
+			<line class="p24"  x1="967.5" y1="1157" x2="859.5" y2="1157"/>
+			<line class="p25"  x1="1021.5" y1="1157" x2="968.5" y2="1157"/>
+			<line class="p45 p50 or"  x1="966" y1="1155" x2="966" y2="1095"/>
+			<line class="p45 p75 or"  x1="847" y1="1098" x2="847" y2="888"/>
+			<line class="p38 p70 or"  x1="680" y1="1158" x2="680" y2="950"/>
+			<line class="p45"  x1="967" y1="1098" x2="845.5" y2="1098"/>
+				<line class="p6 p37 or"  x1="1580" y1="1126" x2="1580" y2="1064"/>
+			<line class="p37"  x1="1580" y1="1066" x2="1798" y2="1066"/>
+				<line class="p27 p28 p29 p30 or"  x1="1804" y1="914" x2="1804" y2="1124"/>
+			<line class="p37"  x1="1816.5" y1="1066" x2="1848.5" y2="1066"/>
+			<line class="p57"  x1="1535.5" y1="1001" x2="1535.5" y2="932"/>
+				<line class="p32 p33 p34 p35 p37 p78 or"  x1="1846.5" y1="865.5" x2="1846.5" y2="1066.5"/>
+		</g>
+		<g class="gas">
+			<line class="p5"  x1="1580" y1="808" x2="1789" y2="808"/>
+			<line class="p4"  x1="1578.5" y1="600" x2="1787.5" y2="600"/>
+			<line class="p3"  x1="1578.5" y1="394" x2="1786.5" y2="394"/>
+			<line class="p77"  x1="1578.5" y1="1213" x2="1789.5" y2="1213"/>
+			<line class="p2 p3 or"  x1="1881.5" y1="394" x2="1881.5" y2="604"/>
+			<line class="p2 p3 p4 p6 or"  x1="1881.5" y1="603" x2="1881.5" y2="811"/>
+			<line class="p77"  x1="1881.5" y1="1005" x2="1881.5" y2="1214"/>
+			<line class="p90"  x1="1881.5" y1="315" x2="1881.5" y2="395"/>
+			<line class="p90"  x1="1881.5" y1="125" x2="1881.5" y2="255"/>
+			<line class="p63"  x1="402.5" y1="561" x2="402.5" y2="421"/>
+			<line class="p62"  x1="242" y1="562" x2="242" y2="420"/>
+			<line class="p64"  x1="403.5" y1="561" x2="240.5" y2="561"/>
+			<line class="p3"  x1="1580" y1="453" x2="1580" y2="394"/>
+			<line class="p4"  x1="1580" y1="660" x2="1580" y2="598.5"/>
+			<line class="p5"  x1="1580" y1="868.5" x2="1580" y2="806.5"/>
+			<line class="p77"  x1="1580" y1="1271" x2="1580" y2="1212"/>
+			<polyline class="p54"  points="966,276 966,186 815,186 815,426 			"/>
+			<line class="p71"  x1="966" y1="1305.5" x2="966" y2="1216.5"/>
+				<linearGradient class="p51" gradientUnits="userSpaceOnUse" x1="965.5" y1="857" x2="965.5" y2="857">
+				<stop offset="0" style="stop-color:#FFFFFF"/>
+				<stop offset="1" style="stop-color:#000000"/>
+			</linearGradient>
+				<line class="p51" style="fill:url(#p51_00000119111302808683740080000001852580355717649596_);stroke:#F3C811;stroke-width:3;stroke-miterlimit:10;" x1="965.5" y1="901" x2="965.5" y2="813"/>
+			<line class="p69"  x1="655" y1="417" x2="111" y2="417"/>
+			<line class="p53"  x1="966" y1="501.5" x2="966" y2="415.5"/>
+			<line class="p52"  x1="966.5" y1="690.5" x2="966.5" y2="611.5"/>
+			<polyline class="p60"  points="1881,128 1580,128 1580,223 			"/>
+			<line class="p71"  x1="815" y1="1010" x2="815" y2="1219"/>
+			<line class="p6"  x1="1578.5" y1="1006" x2="1789.5" y2="1006"/>
+			<line class="p1 p2 p3 p4 p6 p77 or"  x1="1881.5" y1="804" x2="1881.5" y2="1007"/>
+			<line class="p6"  x1="1580" y1="1064" x2="1580" y2="1005"/>
+			<line class="p50"  x1="966" y1="1098.5" x2="966" y2="1009.5"/>
+			<line class="p50 p71 or"  x1="815" y1="817" x2="815" y2="1012"/>
+				<line class="p50 p51 p71 or"  x1="815" y1="611" x2="815" y2="814"/>
+				<line class="p50 p51 p52 p71 or"  x1="815" y1="416" x2="815" y2="613"/>
+			<line class="p1"  x1="1883" y1="128" x2="2062" y2="128"/>
+		</g>
+	</g>
+	<g class="arrows">
+		<g class="methanol">
+			<polyline class="p27 p28 or"  points="1811,549 1804,557 1797,549 
+							"/>
+			<polyline class="p17 p18 or"  points="990,120 998,127 990,134 			
+				"/>
+			<polyline class="p19 p20 or"  points="457,120 465,127 457,134 			
+				"/>
+			<polyline class="p22"  points="459,313 467,320 459,327 			"/>
+			<polyline class="p15"  points="1159,282 1167,289 1159,296 			"/>
+			<polyline class="p23"  points="1375,235 1368,243 1361,235 			"/>
+			<polyline class="p11"  points="1373,440 1366,448 1359,440 			"/>
+			<polyline class="p49"  points="840,448 847,440 854,448 			"/>
+			<polyline class="p12"  points="1373,647 1366,655 1359,647 			"/>
+			<polyline class="p45 p46 p75 or"  points="840,655 847,647 
+				854,655 			"/>
+			<polyline class="p13"  points="1373,852 1366,860 1359,852 			"/>
+			<polyline class="p45 p46 p75 or"  points="839.9,857.5 
+				846.9,849.5 853.9,857.5 			"/>
+			<polyline class="p74"  points="1373,1269 1366,1277 1359,1269 			
+				"/>
+			<polyline class="p75"  points="840,1277 847,1269 854,1277 			"/>
+			<polyline class="p38 p39 p40 p41 or"  points="673,448 680,440 
+				687,448 			"/>
+			<polyline class="p38 p39 p41 or"  points="673,655 680,647 
+				687,655 			"/>
+			<polyline class="p38 p39 or"  points="672.9,857.5 679.9,849.5 
+				686.9,857.5 			"/>
+			<polyline class="p70"  points="673,1277 680,1269 687,1277 			"/>
+			<polyline class="p36"  points="1159,503 1167,510 1159,517 			"/>
+			<polyline class="p78"  points="1159,710 1167,717 1159,724 			"/>
+			<polyline class="p67"  points="1159,918 1167,925 1159,932 			"/>
+			<polyline class="p72"  points="1159,1324 1167,1331 1159,1338 			
+				"/>
+			<polyline class="p15"  points="988,313 996,320 988,327 			"/>
+			<polyline class="p36"  points="988,543 996,550 988,557 			"/>
+			<polyline class="p78"  points="988,743 996,750 988,757 			"/>
+			<polyline class="p67"  points="988,948 996,955 988,962 			"/>
+			<polyline class="p72"  points="988,1357 996,1364 988,1371 			"/>
+			<polyline class="p71"  points="825,1357 833,1364 825,1371 			"/>
+			<polyline class="p8"  points="1731,282 1739,289 1731,296 			"/>
+			<polyline class="p28"  points="1731,503 1739,510 1731,517 			"/>
+			<polyline class="p29"  points="1731,710 1739,717 1731,724 			"/>
+			<polyline class="p30"  points="1731,918 1739,925 1731,932 			"/>
+			<polyline class="p76"  points="1731,1324 1739,1331 1731,1338 			
+				"/>
+			<polyline class="p14"  points="1373,1062 1366,1070 1359,1062 			
+				"/>
+			<polyline class="p45 p75 or"  points="840,1070 847,1062 854,1070 
+							"/>
+			<polyline class="p38"  points="673,1070 680,1062 687,1070 			"/>
+			<polyline class="p25"  points="1159,1117 1167,1124 1159,1131 			
+				"/>
+			<polyline class="p25"  points="988,1150 996,1157 988,1164 			"/>
+			<polyline class="p26"  points="1731,1117 1739,1124 1731,1131 			
+				"/>
+			<polyline class="p44"  points="459,690 467,697 459,704 			"/>
+			<polyline class="p21"  points="180,120 188,127 180,134 			"/>
+			<polyline class="p27 p28 or"  points="1811,751 1804,759 1797,751 
+							"/>
+			<polyline class="p27 p28 p29 p30 or"  points="1811,949 1804,957 
+				1797,949 			"/>
+		</g>
+		<g class="gas">
+			<polyline class="p60"  points="1731,121 1739,128 1731,135 			"/>
+			<polyline class="p50 p51 p52 p71 or"  points="808,448 815,440 
+				822,448 			"/>
+			<polyline class="p54"  points="808,243 815,235 822,243 			"/>
+			<polyline class="p3"  points="1731,387 1739,394 1731,401 			"/>
+			<polyline class="p50 p51 p71 or"  points="808,655 815,647 
+				822,655 			"/>
+			<polyline class="p4"  points="1731,593 1739,600 1731,607 			"/>
+			<polyline class="p50 p71 or"  points="807.9,857.5 814.9,849.5 
+				821.9,857.5 			"/>
+			<polyline class="p5"  points="1731,801 1739,808 1731,815 			"/>
+			<polyline class="p77"  points="1731,1206 1739,1213 1731,1220 			
+				"/>
+			<polyline class="p6"  points="1731,999 1739,1006 1731,1013 			"/>
+			<polyline class="p69"  points="459,410 467,417 459,424 			"/>
+		</g>
+	</g>
+	<g class="arc">
+		<g class="methanol">
+			<path class="p39"  d="M795,955h14c0-3.3,2.5-7,6-7s7,2.7,7,7h10"/>
+			<path class="p24"  d="M795,1157h14c0-3.3,2.5-7,6-7s7,2.7,7,7h10"/>
+			<path class="p41"  d="M794,750h14c0-3.3,3-7,6.5-7s6.5,2.7,6.5,7
+				h10"/>
+			<path class="p40"  d="M826,550.5h15c0-3.3,2.5-7,6-7s6,2.7,6,7h11"
+				/>
+			<path class="p40"  d="M795,550.5h14c0-3.3,2.5-7,6-7s6.5,2.7,6.5,7
+				H832"/>
+			<path class="p78"  d="M1784,1273h14c0-3.3,3-7,6.5-7s6.5,2.7,6.5,7
+				h6"/>
+			<path class="p37"  d="M1784,1066h14c0-3.3,3-7,6.5-7s6.5,2.7,6.5,7
+				h6"/>
+			<path class="p7"  d="M1827,289h14c0-3.3,2.5-6.5,6-6.5s6,2.2,6,6.5
+				h24"/>
+			<path class="p33"  d="M1783.5,453h14c0-3.3,2.5-7,6-7s7,2.7,7,7h6"/>
+			<path class="p34"  d="M1784,660h14c0-3.3,2.5-7,6-7s6,2.7,6,7h7"/>
+			<path class="p32 p33 p34 p35 p37 or"  d="M1850,867h25
+				c0-3.3,2.5-7,6-7s6,2.7,6,7h7"/>
+			<path class="p35"  d="M1784,867h14c0-3.3,3-7,6.5-7s6.5,2.7,6.5,7
+				h6"/>
+			<path class="p39"  d="M826,955h15c0-3.3,2.5-7,6-7s6,2.7,6,7h11"/>
+			<path class="p24"  d="M826,1157h15c0-3.3,2.5-7,6-7s6,2.7,6,7h11"
+				/>
+			<path class="p57"  d="M1535.5,945v-14c-3.3,0-7-2.5-7-6s2.7-7,7-7
+				v-10"/>
+			<path class="p58"  d="M1535.5,738v-15c-3.3,0-6-2.5-6-6s1.7-6,6-6
+				v-22"/>
+			<path class="p58"  d="M1535.5,530v-14c-3.3,0-7-2.5-7-6s2.7-6,7-6
+				v-22"/>
+			<path class="p44"  d="M659.5,697h14c0-3.3,2.5-7,6-7s7,2.7,7,7h10"
+				/>
+			<path class="p44"  d="M795,697h14c0-3.3,2.5-7,6-7s7,2.7,7,7h10"/>
+			<path class="p41"  d="M826,750h14c0-3.3,3-7,6.5-7s6.5,2.7,6.5,7
+				h11"/>
+			<path class="p16"  d="M827,320.5h14c0-3.3,2.5-7,6-7s6.5,2.7,6.5,7
+				H864"/>
+			<path class="p16"  d="M795,320.5h14c0-3.3,2.5-7,6-7s6.5,2.7,6.5,7
+				H832"/>
+			<path class="p78"  d="M1092,717h136c0-3.3,3-7,6.5-7s6.5,3.7,6.5,7
+				h70"/>
+			<path class="p36"  d="M1092,510h136.5c0-3.3,3-7,6.5-7s6,3.7,6,7h124"/>
+			<path class="p15"  d="M1092,289h136c0-3.3,3.5-7,7-7s7.5,3.7,7.5,7H1365"/>
+		</g>
+		<g class="gas">
+			<path class="p5"  d="M1773,808h25c0-3.3,2.5-7,6-7s6,3.7,6,7h14"/>
+			<path class="p77"  d="M1774,1213h23c0-3.3,2.5-7,6-7s7,3.7,7,7h14"
+				/>
+			<path class="p77"  d="M1817,1213h24c0-3.3,2.5-7,6-7s6,3.7,6,7h29"
+				/>
+			<path class="p5"  d="M1816,808h25c0-3.3,2.5-7,6-7s6,3.7,6,7h29"/>
+			<path class="p4"  d="M1774,600h24c0-3.3,3-7,6.5-7s6.5,3.7,6.5,7
+				h10"/>
+			<path class="p3"  d="M1775,394h23c0-6.3,4-7,7.5-7s5.5,3.7,5.5,7
+				h10"/>
+			<path class="p4"  d="M1816,600h25c0-3.3,2.5-7,6-7s6,3.7,6,7h30"/>
+			<path class="p3"  d="M1816,394h25c0-3.3,2.5-7,6.1-7s5.9,3.7,5.9,7
+				h28"/>
+			<path class="p69"  d="M650,417h23.5c0-3.3,3-7,6.5-7s6,3.7,6,7h130
+				"/>
+			<path class="p52"  d="M817,611.5h24c0-3.3,2.5-6,6-6s6,2.7,6,6h115
+				"/>
+			<path class="p71"  d="M813,1218h27.8c0-3.3,2.6-7,6.2-7
+				s6.8,3.7,6.8,7H967"/>
+			<path class="p6"  d="M1774,1006h23c0-3.3,2.5-7,6-7s7,3.7,7,7h14"
+				/>
+			<path class="p6"  d="M1817,1006h24c0-3.3,2.5-7,6-7s6,3.7,6,7h29"
+				/>
+			<path class="p50"  d="M813,1011h27.8c0-3.3,2.6-7,6.2-7
+				s6.8,3.7,6.8,7H967"/>
+			<path class="p51"  d="M817,813h23c0-3.3,3.5-7,7-7s6.6,3.7,6.6,7
+				H967"/>
+			<path class="p53"  d="M817,417h24c0-3.3,3-7,6.5-7s6.5,3.7,6.5,7
+				h111"/>
+			<path class="p90"  d="M1881.5,319v-23.8c-3.3,0-7-2.6-7-6.2
+				s3.7-7,7-7v-28"/>
+		</g>
+	</g>
+	<g class="points">
+		<g class="methanol">
+			<circle class="p19 p20 p21 or"  cx="242.5" cy="126" r="4.5"/>
+			<circle class="p22 p60 or"  cx="242" cy="320.5" r="4.5"/>
+			<circle class="p44 p66 or"  cx="242" cy="697" r="4.5"/>
+			<circle class="p44 p65 or"  cx="402.5" cy="697" r="4.5"/>
+			<circle class="p22 p61 or"  cx="402.5" cy="321" r="4.5"/>
+			<circle class="p16 p22 p38 p39 p40 p41 p70 or"  cx="680" cy="320.5" r="4.5"/>
+			<circle class="p49 p54 or"  cx="966" cy="276" r="4.5"/>
+			<circle class="p17 p18 p20 p23 or"  cx="1235" cy="126.5" r="4.5"/>
+			<circle class="p11 p22 or"  cx="1235" cy="391" r="4.5"/>
+			<circle class="p15 p23 or"  cx="1368" cy="289" r="4.5"/>
+			<circle class="p15 p23 p55 or"  cx="1410.5" cy="289" r="4.5"/>
+			<circle class="p55 p58 or"  cx="1410.5" cy="391" r="4.5"/>
+			<circle class="p11 p36 p55 or"  cx="1410.5" cy="510" r="4.5"/>
+			<circle class="p3 p33 or"  cx="1580" cy="453" r="4.5"/>
+			<circle class="p8"  cx="1580" cy="289" r="4.5"/>
+			<circle class="p2 p32 or"  cx="1580" cy="222" r="4.5"/>
+			<circle class="p7 p8 p27 or"  cx="1804" cy="289" r="4.5"/>
+				<circle class="p32 p33 p34 p78 or"  cx="1846.5" cy="453" r="4.5"/>
+			<circle class="p27 p28 or"  cx="1804" cy="510" r="4.5"/>
+			<circle class="p4 p34 or"  cx="1580" cy="660" r="4.5"/>
+			<circle class="p4 p29 p34 p37 or"  cx="1580" cy="716" r="4.5"/>
+			<circle class="p27 p28 p29 or"  cx="1804.4" cy="717.3" r="4.5"/>
+				<circle class="p32 p33 p34 p35 p37 p78 or"  cx="1847" cy="867" r="4.5"/>
+			<circle class="p27 p28 p29 or"  cx="1804" cy="925" r="4.5"/>
+			<circle class="p32 p33 p34 p35 p37 p78 or"  cx="1847" cy="1066" r="4.5"/>
+			<circle class="p27 p28 p29 or"  cx="1804" cy="1124" r="4.5"/>
+				<circle class="p26 p27 p28 p29 p30 p76 or"  cx="1804" cy="1331" r="4.5"/>
+			<circle class="p6 p14 p26 p37 p61 p77 or"  cx="1580" cy="1331" r="4.5"/>
+			<circle class="p77 p78 or"  cx="1580" cy="1273" r="4.5"/>
+			<circle class="p5 p30 p35 or"  cx="1580" cy="925" r="4.5"/>
+			<circle class="p5 p35 or"  cx="1580" cy="867" r="4.5"/>
+				<circle class="p32 p33 p34 p35 p78 or"  cx="1846" cy="660" r="4.5"/>
+			<circle class="p8 p23 p28 or"  cx="1580" cy="510" r="4.5"/>
+			<circle class="p12 p78 or"  cx="1366" cy="717" r="4.5"/>
+			<circle class="p12 p22 or"  cx="1235" cy="600.5" r="4.5"/>
+			<circle class="p12 p56 p78 or"  cx="1409" cy="717" r="4.5"/>
+			<circle class="p56 p59 or"  cx="1409.5" cy="808" r="4.5"/>
+			<circle class="p57 p58 p59 or"  cx="1535.5" cy="808" r="4.5"/>
+			<circle class="p13 p56 p67 or"  cx="1409" cy="924" r="4.5"/>
+			<circle class="p57 p72 p74 or"  cx="1408.5" cy="1331" r="4.5"/>
+			<circle class="p13 p67 or"  cx="1366.5" cy="924" r="4.5"/>
+			<circle class="p72 p74 or"  cx="1366" cy="1331" r="4.5"/>
+			<circle class="p22 p74 or"  cx="1235" cy="1207" r="4.5"/>
+			<circle class="p72"  cx="1235" cy="1331" r="4.5"/>
+			<circle class="p13 p22 or"  cx="1235" cy="808" r="4.5"/>
+			<circle class="p11 p36 or"  cx="1366.5" cy="510" r="4.5"/>
+			<circle class="p15 p16 p49 p54 or"  cx="966.3" cy="321.2" r="4.5"/>
+			<circle class="p48 p53 or"  cx="966" cy="504" r="4.5"/>
+			<circle class="p45 p46 p47 p75 or"  cx="847.5" cy="504" r="4.5"/>
+				<circle class="p38 p39 p40 p41 p70 or"  cx="680" cy="549.5" r="4.5"/>
+			<circle class="p36 p40 p48 p53 or"  cx="966" cy="550.5" r="4.5"/>
+			<circle class="p47 p52 or"  cx="966.5" cy="697" r="4.5"/>
+			<circle class="p41 p47 p52 p78 or"  cx="966.5" cy="750" r="4.5"/>
+			<circle class="p46 p50 or"  cx="965.5" cy="900.5" r="4.5"/>
+			<circle class="p45 p46 p75 or"  cx="847.5" cy="900.5" r="4.5"/>
+			<circle class="p45 p75 or"  cx="847.5" cy="1098.5" r="4.5"/>
+			<circle class="p39 p46 p50 p67 or"  cx="965.5" cy="955" r="4.5"/>
+			<circle class="p71 p75 or"  cx="966" cy="1306" r="4.5"/>
+			<circle class="p38 p39 p70 or"  cx="680" cy="955" r="4.5"/>
+			<circle class="p38 p70 or"  cx="680" cy="1156" r="4.5"/>
+			<circle class="p24 p25 p71 p75 or"  cx="966" cy="1364" r="4.5"/>
+			<circle class="p6 p26 p37 or"  cx="1580" cy="1124" r="4.5"/>
+			<circle class="p6 p37 or"  cx="1580" cy="1066" r="4.5"/>
+			<circle class="p14 p25 or"  cx="1366" cy="1124" r="4.5"/>
+			<circle class="p14 p22 or"  cx="1235" cy="1000" r="4.5"/>
+			<circle class="p25"  cx="1235" cy="1124" r="4.5"/>
+			<circle class="p45 p50 or"  cx="966" cy="1099" r="4.5"/>
+			<circle class="p24 p25 p45 p50 or"  cx="966" cy="1157" r="4.5"/>
+			<circle class="p44 p45 p46 p47 p75 or"  cx="847" cy="697" r="4.5"/>
+			<circle class="p38 p39 p41 p70 or"  cx="680" cy="749" r="4.5"/>
+			<circle class="p19 p20 or"  cx="401" cy="126.5" r="4.5"/>
+			<circle class="p17 p18 p22 p23 or"  cx="513.8" cy="126.4" r="4.5"/>
+			<circle class="p17 p18 "  cx="821" cy="126.5" r="4.5"/>
+			<circle class="p63 p64 p65 or"  cx="402.5" cy="561" r="4.5"/>
+			<circle class="p61 p63 p69 or"  cx="402.5" cy="417" r="4.5"/>
+			<circle class="p60 p62 p69 or"  cx="242" cy="417" r="4.5"/>
+			<circle class="p62 p64 p66 or"  cx="242" cy="561" r="4.5"/>
+		</g>
+		<g class="gas">
+			<circle class="p50 p51 p71 or"  cx="815" cy="813" r="4.5"/>
+			<circle class="p50 p71 or"  cx="815" cy="1011" r="4.5"/>
+			<circle class="p50 p51 p52 p71 or"  cx="815" cy="611.5" r="4.5"/>
+			<circle class="p1 p60 p90 or"  cx="1881.5" cy="128" r="4.5"/>
+			<circle class="p1 p2 p3 or"  cx="1881.5" cy="393" r="4.5"/>
+			<circle class="p1 p2 p3 p4 or"  cx="1880.5" cy="600" r="4.5"/>
+				<circle class="p1 p2 p3 p4 p5 p6 or"  cx="1881.5" cy="808" r="4.5"/>
+				<circle class="p1 p2 p3 p4 p5 p6 or"  cx="1881.5" cy="1006" r="4.5"/>
+			<circle class="p50 p51 p52 p71 or"  cx="815" cy="417" r="4.5"/>
+		</g>
+	</g>
+</g>
+</svg>
+</div>
+    
+    <div id="match-quad" class="invisible"></div>
+
+    <canvas id="editor_canvas"></canvas>
+    </body>
+    </html>

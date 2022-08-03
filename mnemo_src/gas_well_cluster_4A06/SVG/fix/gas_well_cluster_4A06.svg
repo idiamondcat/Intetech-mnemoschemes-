@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0) -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1833.8 1327.2" style="enable-background:new 0 0 1833.8 1327.2;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#2A2D3F;}
+	.st1{fill:none;stroke:#FCC10A;stroke-width:3;stroke-miterlimit:10;}
+	.st2{fill:#202331;}
+	.st3{fill:none;stroke:#836EED;stroke-width:3;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#F3C80D;stroke-width:3;stroke-miterlimit:10;}
+	.st5{fill:#2A2D3F;stroke:#FCC10A;stroke-width:2;stroke-miterlimit:10;}
+	.st6{fill:#2A2D3F;stroke:#836EED;stroke-width:2;stroke-miterlimit:10;}
+	.st7{fill:none;stroke:#6C6E7A;stroke-miterlimit:10;}
+	.st8{fill:#EAEAEA;}
+	.st9{font-family:'UbuntuCondensed-Regular';}
+	.st10{font-size:18.9999px;}
+	.st11{font-size:14.9999px;}
+	.st12{font-size:20.9999px;}
+	.st13{fill:#6C6E7A;}
+	.st14{fill:none;stroke:#5C5E69;stroke-miterlimit:10;stroke-dasharray:6,6;}
+	.st15{fill:none;stroke:#4373B7;stroke-miterlimit:10;}
+	.st16{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
+	.st17{fill:none;}
+	.st18{font-size:23.9999px;}
+		.st19{clip-path:url(#SVGID_00000068650796544704953520000015452088513343644302_);fill:none;stroke:#FCC10A;stroke-width:60;stroke-miterlimit:10;}
+		.st20{clip-path:url(#SVGID_00000045594985204800556410000001241177047037241239_);fill:none;stroke:#FCCE71;stroke-width:50;stroke-miterlimit:10;}
+		.st21{clip-path:url(#SVGID_00000040549923130372609620000000958395249286522040_);fill:none;stroke:#FDE2B2;stroke-width:40;stroke-miterlimit:10;}
+		.st22{clip-path:url(#SVGID_00000088100937714538785080000008071960538683272842_);fill:none;stroke:#FFFFFF;stroke-width:30;stroke-miterlimit:10;}
+	.st23{fill:#191A28;}
+	.st24{font-size:22px;}
+	.st25{fill:#BBBABC;}
+	.st26{font-size:21px;}
+	.st27{font-size:17px;}
+	.st28{font-size:36px;}
+	.st29{font-size:20px;}
+
+.HIGHLIGHT{fill:none;stroke:#ff0000;stroke-width:3;stroke-miterlimit:10;}
+	</style>
+<g id="фон">
+	<rect x="0" class="st0" width="1833.8" height="1327.2"/>
+	<path class="st1" d="M1270,569.5"/>
+</g>
+<g id="tables-solid">
+	<g id="t1">
+		<path class="st2" d="M1396,1317H28c-10.7,0-18-8.3-18-19V917c0-10.7,7.3-20,18-20h1368c10.7,0,18,9.3,18,20v381
+			C1414,1308.7,1406.7,1317,1396,1317"/>
+	</g>
+	<g id="t2">
+		<path class="st2" d="M1396,872H28c-10.7,0-18-8.3-18-19V472c0-10.7,7.3-20,18-20h1368c10.7,0,18,9.3,18,20v381
+			C1414,863.7,1406.7,872,1396,872"/>
+	</g>
+	<g id="t3">
+		<path class="st2" d="M1396,429H28c-10.7,0-18-8.3-18-19V29c0-10.7,7.3-19,18-19h1368c10.7,0,18,8.3,18,19v381
+			C1414,420.7,1406.7,429,1396,429"/>
+	</g>
+</g>
+<g id="lines">
+	<g id="pipes">
+		<g id="gas">
+			<polyline class="st1" points="1079,295 1079,181 1270,181 1270,530 			"/>
+			<line class="st1" x1="172" y1="295" x2="326" y2="295"/>
+			<polyline class="st1" points="172,194 328,194 328,295 1244,295 1244,532 			"/>
+			<polyline class="HIGHLIGHT st1" points="1079.4,737.4 1079.4,620.4 1240,620.4 			"/>
+			<line class="st1" x1="172" y1="734" x2="326" y2="734"/>
+			<polyline class="st1" points="172,633 328,633 328,735 1244,735 			"/>
+			<line class="st1" x1="1244" y1="564" x2="1244" y2="957"/>
+			<path class="st1" d="M1270,622.4"/>
+			<path class="st1" d="M1244.4,736.9"/>
+			<path class="st1" d="M1270,913.4"/>
+			<path class="st1" d="M1244.4,915.8"/>
+			<path class="st1" d="M1270,914.4"/>
+			<path class="st1" d="M1244.4,916.8"/>
+			<path class="st1" d="M1270,975.4"/>
+			<path class="st1" d="M1244.4,977.8"/>
+			<path class="st1" d="M1270,1356.4"/>
+			<polyline class="st1" points="1079,1181 1079,1065 1230,1065 			"/>
+			<line class="st1" x1="172" y1="1179" x2="326" y2="1179"/>
+			<polyline class="st1" points="172,1078 328,1078 328,1179 1764,1179 			"/>
+			<line class="st1" x1="1244" y1="1010" x2="1244" y2="1181"/>
+			<polyline class="st1" points="507,295 507,508 349,508 349,725 			"/>
+			<line class="st1" x1="1270" y1="562" x2="1270" y2="941"/>
+			<line class="st1" x1="504" y1="1284" x2="1736" y2="1284"/>
+			<polyline class="st1" points="507,1179 507,1284 348,1284 			"/>
+			<line class="st1" x1="1270" y1="1008" x2="1270" y2="1065"/>
+			<line class="st1" x1="1264" y1="1065" x2="1728" y2="1065"/>
+			<polyline class="st1" points="507,734 507,839 349,839 			"/>
+		</g>
+		<g id="methanol">
+			<polyline class="st3" points="870,297 870,106 1381,106 1381,989 			"/>
+			<polyline class="st3" points="870,736 870,545 1381,545 			"/>
+			<polyline class="HIGHLIGHT st3" points="870,1181 870.3,990.3 1719,990 			"/>
+		</g>
+	</g>
+	<g id="arrows">
+		<g id="gas">
+			<polyline class="st4" points="335,247 328,254 321,247 			"/>
+			<polyline class="st4" points="335,685 328,692 321,685 			"/>
+			<polyline class="st4" points="335,1129 328,1136 321,1129 			"/>
+			<polyline class="st4" points="263,288 270,295 263,302 			"/>
+			<polyline class="st4" points="263,727 271,734 263,740 			"/>
+			<polyline class="st4" points="263,1171 272,1179 263,1185 			"/>
+		</g>
+		<g id="methanol">
+			<polyline class="st3" points="877,247 870,254 863,247 			"/>
+			<polyline class="st3" points="877,685 870,692 863,685 			"/>
+			<polyline class="st3" points="877,1130 870,1137 863,1130 			"/>
+			<polyline class="st3" points="1374,254 1381,246 1388,254 			"/>
+			<polyline class="st3" points="1374,693 1381,685 1388,693 			"/>
+		</g>
+	</g>
+	<g id="arc">
+		<g id="gas">
+			<path class="st1" d="M1244,501v36c-3.9,0-7,3.1-7,7s3.1,7,7,7v35"/>
+			<path class="st1" d="M349,693v36c-3.9,0-7,3.1-7,7s3.1,7,7,7v35v331"/>
+			<path class="st1" d="M1270,498v39c-3.9,0-7,3.1-7,7s3.1,7,7,7v12"/>
+			<path class="st1" d="M1271.5,620.1h-19.3c0-3.9-3.1-7-7-7c-3.9,0-7,3.1-7,7l-6.2,0.3"/>
+			<path class="st1" d="M1244,956v26c-3.9,0-7,3.1-7,7s3.1,7,7,7v25"/>
+			<path class="st1" d="M349,1108v66c-3.9,0-7,3.1-7,7s3.1,7,7,7v5v92"/>
+			<path class="st1" d="M1270,941v41c-3.9,0-7,3.1-7,7s3.1,7,7,7v22"/>
+			<path class="st1" d="M1271,1065h-19c0-3.9-3.1-7-7-7c-3.9,0-7,3.1-7,7h-36"/>
+		</g>
+	</g>
+	<g id="points">
+		<g id="gas">
+			<circle class="st5" cx="328" cy="295" r="3.5"/>
+			<circle class="st5" cx="507" cy="295" r="3.5"/>
+			<circle class="st5" cx="1079" cy="295" r="3.5"/>
+			<circle class="st5" cx="328" cy="735" r="3.5"/>
+			<circle class="st5" cx="349" cy="839" r="3.5"/>
+			<circle class="st5" cx="507" cy="735" r="3.5"/>
+			<circle class="st5" cx="1080" cy="735" r="3.5"/>
+			<circle class="st5" cx="1244" cy="735" r="3.5"/>
+			<circle class="st5" cx="1270" cy="620" r="3.5"/>
+			<circle class="st5" cx="328" cy="1179" r="3.5"/>
+			<circle class="st5" cx="507" cy="1284" r="3.5"/>
+			<circle class="st5" cx="507" cy="1179" r="3.5"/>
+			<circle class="st5" cx="1079" cy="1179" r="3.5"/>
+			<circle class="st5" cx="1244" cy="1179" r="3.5"/>
+			<circle class="st5" cx="1270" cy="1064" r="3.5"/>
+		</g>
+		<g id="methanol">
+			<circle class="st6" cx="870" cy="295" r="3.5"/>
+			<circle class="st6" cx="870" cy="735" r="3.5"/>
+			<circle class="st6" cx="1381" cy="544" r="3.5"/>
+			<circle class="st6" cx="870" cy="1179" r="3.5"/>
+			<circle class="st6" cx="1381" cy="989" r="3.5"/>
+		</g>
+	</g>
+</g>
+<g id="Слой_2">
+	<g id="Слой_47">
+		<path class="st0" d="M846.4,1058.2l-111.8,0.3c-2.7,0-4.9,2.2-4.9,4.9l0.2,97.7c0,2.7,2.2,4.9,4.9,4.9l111.8-0.3
+			c2.7,0,4.9-2.2,4.9-4.9l-0.2-97.7C851.3,1060.4,849.1,1058.2,846.4,1058.2"/>
+		<path class="st7" d="M846.4,1058.2l-111.8,0.3c-2.7,0-4.9,2.2-4.9,4.9l0.2,97.7c0,2.7,2.2,4.9,4.9,4.9l111.8-0.3
+			c2.7,0,4.9-2.2,4.9-4.9l-0.2-97.7C851.3,1060.4,849.1,1058.2,846.4,1058.2z"/>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 738.3674 1155.9309)" class="st8 st9 st10">F</text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 746.4205 1155.9502)" class="st8 st9 st11">, м</text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 761.9752 1155.9111)" class="st8 st9 st11">³</text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 766.1753 1155.9014)" class="st8 st9 st11">/ч</text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 798.223 1155.8071)" class="st8 st9 st12">8450</text>
+			<rect x="839.3" y="1137.8" transform="matrix(1 -2.539010e-03 2.539010e-03 1 -2.9011 2.1401)" class="st13" width="4.3" height="11.8"/>
+			<rect x="839.3" y="1149.6" transform="matrix(1 -2.539010e-03 2.539010e-03 1 -2.931 2.1402)" class="st13" width="4.3" height="11.8"/>
+		<line class="st14" x1="730.2" y1="1075.3" x2="850.8" y2="1075"/>
+		<line class="st14" x1="730.3" y1="1123.6" x2="851" y2="1123.3"/>
+		<polyline class="st15" points="842.4,1095.3 812.8,1087.8 793.1,1098.2 772.6,1096.4 753.5,1106.2 745.3,1106.7 729.7,1109.3 		
+			"/>
+		<path class="st13" d="M840.4,1092.8c1.4-1.1,3.4-0.9,4.5,0.5c1.1,1.4,0.9,3.4-0.4,4.6c-1.4,1.1-3.4,0.9-4.5-0.5
+			C838.8,1096,839,1093.9,840.4,1092.8"/>
+		<path class="st16" d="M840.4,1092.8c1.4-1.1,3.4-0.9,4.5,0.5c1.1,1.4,0.9,3.4-0.4,4.6c-1.4,1.1-3.4,0.9-4.5-0.5
+			C838.8,1096,839,1093.9,840.4,1092.8z"/>
+	</g>
+	<g id="Слой_45">
+		<path class="st0" d="M844.9,178.2l-111.8,0.3c-2.7,0-4.9,2.2-4.9,4.9l0.2,97.7c0,2.7,2.2,4.9,4.9,4.9l111.8-0.3
+			c2.7,0,4.9-2.2,4.9-4.9l-0.2-97.7C849.8,180.4,847.6,178.2,844.9,178.2"/>
+		<path class="st7" d="M844.9,178.2l-111.8,0.3c-2.7,0-4.9,2.2-4.9,4.9l0.2,97.7c0,2.7,2.2,4.9,4.9,4.9l111.8-0.3
+			c2.7,0,4.9-2.2,4.9-4.9l-0.2-97.7C849.8,180.4,847.6,178.2,844.9,178.2z"/>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 736.9048 275.9308)" class="st8 st9 st10">F</text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 744.958 275.9502)" class="st8 st9 st11">, м</text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 760.5126 275.9111)" class="st8 st9 st11">³</text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 764.7128 275.9014)" class="st8 st9 st11">/ч</text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 796.7604 275.8072)" class="st8 st9 st12">8450</text>
+			<rect x="837.8" y="257.8" transform="matrix(1 -2.539010e-03 2.539010e-03 1 -0.6668 2.1335)" class="st13" width="4.3" height="11.8"/>
+			<rect x="837.8" y="269.6" transform="matrix(1 -2.539010e-03 2.539010e-03 1 -0.6967 2.1336)" class="st13" width="4.3" height="11.8"/>
+		<line class="st14" x1="728.7" y1="195.3" x2="849.4" y2="195"/>
+		<line class="st14" x1="728.9" y1="243.6" x2="849.5" y2="243.3"/>
+		<polyline class="st15" points="841,215.3 811.3,207.8 791.6,218.2 771.2,216.4 752.1,226.2 743.8,226.7 728.2,229.3 		"/>
+		<path class="st13" d="M838.9,212.8c1.4-1.1,3.4-0.9,4.5,0.5c1.1,1.4,0.9,3.4-0.4,4.6c-1.4,1.1-3.4,0.9-4.5-0.5
+			C837.4,216,837.6,213.9,838.9,212.8"/>
+		<path class="st16" d="M838.9,212.8c1.4-1.1,3.4-0.9,4.5,0.5c1.1,1.4,0.9,3.4-0.4,4.6c-1.4,1.1-3.4,0.9-4.5-0.5
+			C837.4,216,837.6,213.9,838.9,212.8z"/>
+	</g>
+	<g id="Слой_44">
+		<path class="st0" d="M845.1,617.5l-111.8,0.3c-2.7,0-4.9,2.2-4.9,4.9l0.2,97.7c0,2.7,2.2,4.9,4.9,4.9l111.8-0.3
+			c2.7,0,4.9-2.2,4.9-4.9l-0.2-97.7C850,619.7,847.8,617.5,845.1,617.5"/>
+		<path class="st7" d="M845.1,617.5l-111.8,0.3c-2.7,0-4.9,2.2-4.9,4.9l0.2,97.7c0,2.7,2.2,4.9,4.9,4.9l111.8-0.3
+			c2.7,0,4.9-2.2,4.9-4.9l-0.2-97.7C850,619.7,847.8,617.5,845.1,617.5z"/>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 737.1083 715.277)" class="st8 st9 st10">F</text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 745.1615 715.2963)" class="st8 st9 st11">, м</text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 760.7161 715.2573)" class="st8 st9 st11">³</text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 764.9163 715.2476)" class="st8 st9 st11">/ч</text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 796.964 715.1533)" class="st8 st9 st12">8450</text>
+			<rect x="838" y="697.1" transform="matrix(1 -2.539010e-03 2.539010e-03 1 -1.7823 2.1354)" class="st13" width="4.3" height="11.8"/>
+			<rect x="838" y="708.9" transform="matrix(1 -2.539010e-03 2.539010e-03 1 -1.8122 2.1355)" class="st13" width="4.3" height="11.8"/>
+		<line class="st14" x1="728.9" y1="634.6" x2="849.6" y2="634.3"/>
+		<line class="st14" x1="729.1" y1="683" x2="849.7" y2="682.7"/>
+		<polyline class="st15" points="841.2,654.6 811.5,647.1 791.8,657.6 771.4,655.8 752.3,665.5 744,666 728.4,668.7 		"/>
+		<path class="st13" d="M839.1,652.1c1.4-1.1,3.4-0.9,4.5,0.5c1.1,1.4,0.9,3.4-0.4,4.6c-1.4,1.1-3.4,0.9-4.5-0.5
+			C837.6,655.3,837.8,653.3,839.1,652.1"/>
+		<path class="st16" d="M839.1,652.1c1.4-1.1,3.4-0.9,4.5,0.5c1.1,1.4,0.9,3.4-0.4,4.6c-1.4,1.1-3.4,0.9-4.5-0.5
+			C837.6,655.3,837.8,653.3,839.1,652.1z"/>
+	</g>
+	<g id="Слой_43">
+		<line class="st17" x1="19.6" y1="11.8" x2="1837.4" y2="11.8"/>
+		<line class="st17" x1="19.6" y1="11.8" x2="1837.4" y2="11.8"/>
+		<line class="st17" x1="19.6" y1="11.8" x2="1837.4" y2="11.8"/>
+		<line class="st17" x1="19.6" y1="11.8" x2="1837.4" y2="11.8"/>
+		<line class="st17" x1="19.6" y1="11.8" x2="1837.4" y2="11.8"/>
+		<line class="st17" x1="19.6" y1="11.8" x2="1837.4" y2="11.8"/>
+		<line class="st17" x1="19.6" y1="11.8" x2="1837.4" y2="11.8"/>
+		<line class="st17" x1="19.6" y1="11.8" x2="1837.4" y2="11.8"/>
+		<line class="st17" x1="19.6" y1="11.8" x2="1837.4" y2="11.8"/>
+		<line class="st17" x1="19.6" y1="11.8" x2="1837.4" y2="11.8"/>
+		<line class="st17" x1="19.6" y1="11.8" x2="1837.4" y2="11.8"/>
+		<line class="st17" x1="19.6" y1="11.8" x2="1837.4" y2="11.8"/>
+		<line class="st17" x1="19.6" y1="11.8" x2="1837.4" y2="11.8"/>
+		<line class="st17" x1="19.6" y1="11.8" x2="1837.4" y2="11.8"/>
+		<line class="st17" x1="19.6" y1="11.8" x2="1837.4" y2="11.8"/>
+		<line class="st17" x1="19.6" y1="11.8" x2="1837.4" y2="11.8"/>
+		<line class="st17" x1="19.6" y1="11.8" x2="1837.4" y2="11.8"/>
+		<line class="st17" x1="19.6" y1="11.8" x2="1837.4" y2="11.8"/>
+		<line class="st17" x1="19.6" y1="11.8" x2="1837.4" y2="11.8"/>
+		<line class="st17" x1="19.6" y1="11.8" x2="1837.4" y2="11.8"/>
+		<line class="st17" x1="19.6" y1="11.8" x2="1837.4" y2="11.8"/>
+		<line class="st17" x1="19.6" y1="11.8" x2="1837.4" y2="11.8"/>
+		<line class="st17" x1="19.6" y1="11.8" x2="1837.4" y2="11.8"/>
+		<line class="st17" x1="19.6" y1="11.8" x2="1837.4" y2="11.8"/>
+		<line class="st17" x1="19.6" y1="11.8" x2="1837.4" y2="11.8"/>
+		<line class="st17" x1="19.6" y1="11.8" x2="1837.4" y2="11.8"/>
+		<line class="st17" x1="19.6" y1="11.8" x2="1837.4" y2="11.8"/>
+		<line class="st17" x1="19.6" y1="11.8" x2="1837.4" y2="11.8"/>
+		<path class="st0" d="M1718.8,356.1l-179.4,0.3c-2.7,0-4.9,2.2-4.9,4.9l0.1,22.3c0,2.7,2.2,4.9,4.9,4.9l179.4-0.3
+			c2.7,0,4.9-2.2,4.9-4.9l-0.1-22.3C1723.7,358.3,1721.4,356.1,1718.8,356.1"/>
+		<path class="st7" d="M1718.8,356.1l-179.4,0.3c-2.7,0-4.9,2.2-4.9,4.9l0.1,22.3c0,2.7,2.2,4.9,4.9,4.9l179.4-0.3
+			c2.7,0,4.9-2.2,4.9-4.9l-0.1-22.3C1723.7,358.3,1721.4,356.1,1718.8,356.1z"/>
+		<line class="st17" x1="19.6" y1="11.8" x2="1837.4" y2="11.8"/>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 1542.8646 378.5503)"><tspan x="0" y="0" class="st8 st9 st12">Fм </tspan><tspan x="25.9" y="0" class="st8 st9 st12">с</tspan><tspan x="33.5" y="0" class="st8 st9 st12">у</tspan><tspan x="41.7" y="0" class="st8 st9 st12">мм</tspan></text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 1610.1907 378.3583)"><tspan x="0" y="0" class="st8 st9 st10">, к</tspan><tspan x="16.2" y="0" class="st8 st9 st10">г</tspan><tspan x="22.2" y="0" class="st8 st9 st10">/ч</tspan></text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 1696.2146 378.3338)" class="st8 st9 st18">8</text>
+		<path class="st0" d="M1718.8,393.7l-179.4,0.3c-2.7,0-4.9,2.2-4.9,4.9l0.1,22.3c0,2.7,2.2,4.9,4.9,4.9l179.4-0.3
+			c2.7,0,4.9-2.2,4.9-4.9l-0.1-22.3C1723.7,395.9,1721.4,393.7,1718.8,393.7"/>
+		<path class="st7" d="M1718.8,393.7l-179.4,0.3c-2.7,0-4.9,2.2-4.9,4.9l0.1,22.3c0,2.7,2.2,4.9,4.9,4.9l179.4-0.3
+			c2.7,0,4.9-2.2,4.9-4.9l-0.1-22.3C1723.7,395.9,1721.4,393.7,1718.8,393.7z"/>
+		<line class="st17" x1="19.6" y1="11.8" x2="1837.4" y2="11.8"/>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 1542.8646 416.2169)" class="st8 st9 st12">Т</text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 1551.8337 416.1692)" class="st8 st9 st10">, °C</text>
+		<text transform="matrix(1 -2.470000e-03 2.470000e-03 1 1670.0067 416.0645)" class="st8 st9 st18">18,6</text>
+			<rect x="1711.4" y="398" transform="matrix(1 -2.549575e-03 2.549575e-03 1 -1.0243 4.3703)" class="st13" width="4.3" height="11.8"/>
+			<rect x="1711.5" y="409.8" transform="matrix(1 -2.542532e-03 2.542532e-03 1 -1.0515 4.3583)" class="st13" width="4.3" height="11.8"/>
+		<line class="st17" x1="19.6" y1="11.8" x2="1837.4" y2="11.8"/>
+		<line class="st17" x1="19.6" y1="11.8" x2="1837.4" y2="11.8"/>
+		<line class="st17" x1="19.6" y1="11.8" x2="1837.4" y2="11.8"/>
+		<g>
+			<defs>
+				<polygon id="SVGID" points="1537.2,51.7 1506,93 1558.7,135.7 1583.5,114.5 1614.8,110.6 1659.6,120.7 1690.4,147.6 
+					1697.7,211.7 1666.3,254.4 1702.3,313.2 1735.3,296.9 1763.3,250.2 1772.3,195.6 1766.9,129.3 1736.1,85.4 1681.1,43.1 
+					1610.9,34.1 				"/>
+			</defs>
+			<clipPath id="SVGID">
+				<use xlink:href="#SVGID_1_" style="overflow:visible;"/>
+			</clipPath>
+				<ellipse transform="matrix(0.9239 -0.3827 0.3827 0.9239 51.6036 636.3421)" style="clip-path:url(#SVGID_00000168800211734029951330000015799399290006503842_);fill:none;stroke:#FCC10A;stroke-width:60;stroke-miterlimit:10;" cx="1625.4" cy="188.5" rx="115.3" ry="115.3"/>
+		</g>
+		<g>
+			<defs>
+				<polygon id="SVGID" points="1571,254.6 1537.4,299.1 1583.8,332.5 
+					1646.9,334.5 1702.6,311.6 1671.2,260.4 1639.6,259.6 1580.5,252 				"/>
+			</defs>
+			<clipPath id="SVGID">
+				<use xlink:href="#SVGID_00000110430324478526064210000003480799584016936380_" style="overflow:visible;"/>
+			</clipPath>
+				<path style="clip-path:url(#SVGID_00000039101736106497965900000008403705051017313714_);fill:none;stroke:#FCCE71;stroke-width:50;stroke-miterlimit:10;" d="
+				M1510.5,185.9c0-62.6,50.7-113.3,113.3-113.3c62.6,0,113.3,50.7,113.3,113.3s-50.7,113.3-113.3,113.3
+				C1561.3,299.2,1510.5,248.5,1510.5,185.9z"/>
+		</g>
+		<g>
+			<defs>
+				<polygon id="SVGID" points="1485.6,196.7 1493.8,254 1540.6,295 
+					1571,254.7 1537.9,193.6 				"/>
+			</defs>
+			<clipPath id="SVGID">
+				<use xlink:href="#SVGID_00000102536158697498434220000014068543286881887372_" style="overflow:visible;"/>
+			</clipPath>
+				<ellipse transform="matrix(1.808736e-03 -1 1 1.808736e-03 1430.0615 1808.7489)" style="clip-path:url(#SVGID_00000170962237077769323030000007061117479039484064_);fill:none;stroke:#FDE2B2;stroke-width:40;stroke-miterlimit:10;" cx="1621" cy="188" rx="104.9" ry="104.9"/>
+		</g>
+		<g>
+			<defs>
+				<polygon id="SVGID" points="1492.1,146.1 1487.3,195 1496.4,196.1 
+					1539.6,193.6 1558.5,135.5 1521.8,105.8 				"/>
+			</defs>
+			<clipPath id="SVGID">
+				<use xlink:href="#SVGID_00000173142912792424710850000009825923113703733391_" style="overflow:visible;"/>
+			</clipPath>
+				<ellipse style="clip-path:url(#SVGID_00000011738753954006906250000000244052272097375144_);fill:none;stroke:#FFFFFF;stroke-width:30;stroke-miterlimit:10;" cx="1639.6" cy="187.5" rx="118.6" ry="99.7"/>
+		</g>
+		<text transform="matrix(1 0 0 1 1713.6797 129.1187)" class="st23 st9 st24">1</text>
+		<text transform="matrix(1 0 0 1 1613.2939 308.2647)" class="st23 st9 st24">2</text>
+		<text transform="matrix(1 0 0 1 1524.832 244.6187)" class="st23 st9 st24">3</text>
+		<text transform="matrix(1 0 0 1 1521.334 166.1226)" class="st23 st9 st24">4</text>
+		<path class="st0" d="M1536,188.6c0-48.7,39.5-88.1,88.1-88.1c48.7,0,88.1,39.5,88.1,88.1c0,48.7-39.5,88.1-88.1,88.1
+			C1575.4,276.7,1536,237.3,1536,188.6"/>
+		<line class="st17" x1="19.6" y1="11.8" x2="1837.4" y2="11.8"/>
+		<text transform="matrix(1 0 0 1 1576.2041 220.9303)"><tspan x="0" y="0" class="st25 st9 st26">F</tspan><tspan x="8.5" y="0" class="st25 st9 st26">r </tspan><tspan x="19.5" y="0" class="st25 st9 st26">с</tspan><tspan x="27.1" y="0" class="st25 st9 st26">у</tspan><tspan x="35.3" y="0" class="st25 st9 st26">мм</tspan></text>
+		<text transform="matrix(1 0 0 1 1637.166 220.9303)" class="st25 st9 st27">, м</text>
+		<text transform="matrix(1 0 0 1 1654.7949 220.9303)" class="st25 st9 st27">³</text>
+		<text transform="matrix(1 0 0 1 1659.5547 220.9303)" class="st25 st9 st27">/ч</text>
+		<text transform="matrix(1 0 0 1 1586.5518 195.8726)" class="st8 st9 st28">59316</text>
+	</g>
+</g>
+<g id="text">
+	<g id="px20">
+		<text transform="matrix(1 0 0 1 33.0739 36.1386)"><tspan x="0" y="0" class="st25 st9 st29">Ск</tspan><tspan x="17.9" y="0" class="st25 st9 st29">в</tspan><tspan x="27.2" y="0" class="st25 st9 st29">ажина 1</tspan></text>
+		<text transform="matrix(1 0 0 1 34.1734 491.9857)"><tspan x="0" y="0" class="st25 st9 st29">Ск</tspan><tspan x="17.9" y="0" class="st25 st9 st29">в</tspan><tspan x="27.2" y="0" class="st25 st9 st29">ажина 2</tspan></text>
+		<text transform="matrix(1 0 0 1 36.3728 937.8113)"><tspan x="0" y="0" class="st25 st9 st29">Ск</tspan><tspan x="17.9" y="0" class="st25 st9 st29">в</tspan><tspan x="27.2" y="0" class="st25 st9 st29">ажина 3</tspan></text>
+	</g>
+</g>
+</svg>

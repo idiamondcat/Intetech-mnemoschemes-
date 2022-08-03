@@ -1,0 +1,16 @@
+---
+default:
+  parameters:
+    "0._sfontsize": "27"
+  width: 94.0
+  height: 35.0
+num-value_mini:
+  parameters:
+    "0._sfontsize": "18"
+  width: 72.0
+  height: 26.0
+num-value_middle:
+  width: 96.0
+  height: 26.0
+  parameters:
+    "0._sfontsize": "18"

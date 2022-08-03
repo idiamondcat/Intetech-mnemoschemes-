@@ -1,0 +1,295 @@
+svg .lines .arc {
+    fill: #000000;
+    stroke: rgb(255, 255, 255);
+    stroke-width: 2;
+}
+svg .lines .pipes .lep {
+    fill: none;
+    stroke: #000000;
+    stroke-width: 0.5;
+    stroke-miterlimit: 10;
+}
+svg .lines .pipes .kV04 {
+    fill: none;
+    stroke: var(--underlayer-crunoff-color);
+    stroke-width: 6;
+}
+svg .lines .pipes .kV6 {
+    fill: none;
+    stroke: rgb(0, 130, 0);
+    stroke-width: 6;
+}
+svg .lines .pipes .kV10 {
+    fill: none;
+    stroke: rgb(112, 48, 160);
+    stroke-width: 6;
+}
+svg .lines .pipes .kV35 {
+    fill: none;
+    stroke: rgb(155, 103, 81);
+    stroke-width: 6;
+}
+svg .lines .points .kV04 {
+    fill: rgb(255, 255, 255);
+    stroke: rgb(144, 144, 145);
+    stroke-width: 1;
+}
+svg .lines .points .kV6 {
+    fill: rgb(255, 255, 255);
+    stroke: rgb(0, 130, 0);
+    stroke-width: 1;
+}
+svg .lines .points .kV10 {
+    fill: rgb(255, 255, 255);
+    stroke: rgb(112, 48, 160);
+    stroke-width: 1;
+}
+svg .lines .points .kV35 {
+    fill: rgb(255, 255, 255);
+    stroke: rgb(155, 103, 81);
+    stroke-width: 1;
+}
+svg .lines .arrows {
+    fill: none;
+    stroke: #000000;
+    stroke-width: 0.5;
+}
+svg .elems .ads,
+svg .elems .tt,
+svg .elems .th,
+svg .elems .resists,
+svg .elems .triangles {
+    fill: none;
+    stroke: rgb(144, 144, 145);
+    stroke-width: 1;
+}
+
+svg .tables{
+    fill: rgba(255,255,255,0.5);
+    /*stroke: var(--underlayer-default-color);*/
+    stroke: none;
+}
+
+svg .tables-dashed rect{
+    stroke-dasharray: 10, 10;
+    stroke-width: 2;
+    stroke: var(--main-object-fill-color);
+    fill: none;
+    rx: 8;
+}
+
+svg .tables-solid rect{
+    stroke-width: 2;
+    stroke: var(--main-object-fill-color);
+    /*fill: var(--text-box-color);*/
+    fill: var(--table-solid-fill-color);
+    rx: 8;
+}
+
+svg .tables-dashed path{
+    stroke-dasharray: 10, 10;
+    stroke-width: 2;
+    stroke: var(--main-object-fill-color);
+    fill: none;
+    rx: 8;
+}
+
+svg .tables-solid path{
+    stroke-width: 2;
+    stroke: var(--main-object-fill-color);
+    /*fill: var(--text-box-color);*/
+    fill: var(--table-solid-fill-color);
+    rx: 8;
+}
+
+svg .tables .text .main, svg .tables-dashed .text .main, svg .tables-solid .text .main {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: var(--sys-numvalue-fontsize);
+    line-height: var(--sys-numvalue-lineheight);
+    fill: #000000;
+}
+svg .tables .text .titles, svg .tables-dashed .text .titles, svg .tables-solid .text .titles {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    fill: rgb(144, 144, 145);
+}
+svg .tables .text .subtitles, svg .tables-dashed .text .subtitles, svg .tables-solid .text .subtitles {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 14px;
+    line-height: 16.8px;
+    fill: rgb(144, 144, 145);
+}
+svg .tables .text .regular, svg .tables-dashed .text .regular, svg .tables-solid .text .regular {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 12px;
+    line-height: 14.4px;
+    fill: rgb(144, 144, 145);
+}
+svg .tables .text .elem-text, svg .tables-dashed .text .elem-text, svg .tables-solid .text .elem-text {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 16px;
+    line-height: 19.2px;
+    fill: rgb(144, 144, 145);
+}
+svg .tables .rect {
+    fill: none;
+    stroke: rgb(144, 144, 145);
+    stroke-width: 1;
+}
+
+
+svg .lines .pipes, svg .lines .arrows, svg .lines .arc{
+    fill: none;
+    stroke-width: 3;
+    stroke-miterlimit: 10;
+}
+svg .points{
+    fill: var(--body-bg-color);
+    stroke-width: 3;
+    stroke-miterlimit: 10;
+}
+
+svg .methanol{
+    stroke: var(--underlayer-methanol-color);
+}
+svg .methanol .hide{
+    stroke: var(--underlayer-default-color);
+}
+svg .gas{
+    stroke: var(--underlayer-gas-color);
+}
+svg .gas .hide{
+    stroke: var(--underlayer-default-color);
+}
+svg .drainage{
+    stroke: var(--underlayer-drainage-color);
+}
+svg .drainage .hide{
+    stroke: var(--underlayer-default-color);
+}
+svg .antifreeze{
+    stroke: var(--underlayer-antifreeze-color);
+}
+svg .antifreeze .hide{
+    stroke: var(--underlayer-default-color);
+}
+svg .highlight-line{
+    stroke: red;
+    stroke-width: 4;
+}
+svg .heatCarrier{
+    stroke: rgb(40, 138, 57);
+}
+
+svg .text-inversed{
+    font-size: 11px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    fill: var(--text-box-color);
+    /*fill: var(--transition-button-txt-color);*/
+}
+svg .text{
+    font-size: 11px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    fill: var(--text-box-color);
+}
+
+svg .text .px11, svg .text-inversed .px11{
+    font-size: 11px;
+}
+svg .text .px12, svg .text-inversed .px12{
+    font-size: 12px;
+}
+svg .text .px13, svg .text-inversed .px13{
+    font-size: 13px;
+}
+svg .text .px14, svg .text-inversed .px14{
+    font-size: 14px;
+}
+svg .text .px15, svg .text-inversed .px15{
+    font-size: 15px;
+}
+svg .text .px16, svg .text-inversed .px16{
+    font-size: 16px;
+}
+svg .text .px17, svg .text-inversed .px17{
+    font-size: 17px;
+}
+svg .text .px18, svg .text-inversed .px18{
+    font-size: 18px;
+}
+svg .text .px19, svg .text-inversed .px19{
+    font-size: 19px;
+}
+svg .text .px20, svg .text-inversed .px20{
+    font-size: 20px;
+}
+svg .text .px21, svg .text-inversed .px21{
+    font-size: 21px;
+}
+svg .text .px22, svg .text-inversed .px22{
+    font-size: 22px;
+}
+svg .text .px23, svg .text-inversed .px23{
+    font-size: 23px;
+}
+svg .text .px24, svg .text-inversed .px24{
+    font-size: 24px;
+}
+svg .text .px25, svg .text-inversed .px25{
+    font-size: 25px;
+}
+svg .text .px26, svg .text-inversed .px26{
+    font-size: 26px;
+}
+svg .text .px27, svg .text-inversed .px27{
+    font-size: 27px;
+}
+svg .text .px28, svg .text-inversed .px28{
+    font-size: 28px;
+}
+svg .text .px29, svg .text-inversed .px29{
+    font-size: 29px;
+}
+svg .text .px30, svg .text-inversed .px30{
+    font-size: 30px;
+}
+svg .text .px31, svg .text-inversed .px31{
+    font-size: 31px;
+}
+svg .text .px32, svg .text-inversed .px32{
+    font-size: 32px;
+}
+svg .text .px33, svg .text-inversed .px33{
+    font-size: 33px;
+}
+svg .text .px34, svg .text-inversed .px34{
+    font-size: 34px;
+}
+svg .text .px35, svg .text-inversed .px35{
+    font-size: 35px;
+}
+svg .text .px36, svg .text-inversed .px36{
+    font-size: 36px;
+}
+svg .text .px37, svg .text-inversed .px37{
+    font-size: 37px;
+}
+svg .text .px38, svg .text-inversed .px38{
+    font-size: 38px;
+}
+svg .text .px39, svg .text-inversed .px39{
+    font-size: 39px;
+}
+svg .text .px40, svg .text-inversed .px40{
+    font-size: 40px;
+}
+svg.simple_element{
+    z-index: 0;
+}
+
+svg .shapes .connectors{
+    fill: var(--barrels-fill);
+    stroke: var(--body-bg-color);
+    stroke-width: 1.5px;
+}

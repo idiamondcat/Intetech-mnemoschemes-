@@ -1,0 +1,29 @@
+---
+pump-n_v_no-caption:
+  parameters:
+    0._spumporient: "v"
+  width: 73.0
+  height: 91.0
+default:
+  parameters:
+    0+0._scaption: "Text"
+    0._spumporient: "h"
+  width: 91.0
+  height: 96.0
+pump-n_v_caption:
+  parameters:
+    0+0._scaption: "Text"
+    0._spumporient: "v"
+  width: 109.0
+  height: 91.0
+pump-n_h_no-caption:
+  parameters:
+    0._spumporient: "h"
+  width: 91.0
+  height: 73.0
+pump-n_h_caption:
+  parameters:
+    0+0._scaption: "Text"
+    0._spumporient: "h"
+  width: 91.0
+  height: 96.0

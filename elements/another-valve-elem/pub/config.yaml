@@ -1,0 +1,29 @@
+---
+default:
+  parameters:
+    0+0._scaption: "Text"
+    0._svalveorient: "h"
+  width: 71.0
+  height: 85.5
+another-valve-n_h_no-caption:
+  parameters:
+    0._svalveorient: "h"
+  width: 71.0
+  height: 69.0
+another-valve-n_h_caption:
+  parameters:
+    0+0._scaption: "Text"
+    0._svalveorient: "h"
+  width: 71.0
+  height: 85.5
+another-valve-n_v_caption:
+  parameters:
+    0+0._scaption: "Text"
+    0._svalveorient: "v"
+  width: 100.0
+  height: 71.0
+another-valve-n_v_no-caption:
+  parameters:
+    0._svalveorient: "v"
+  width: 69.0
+  height: 71.0

@@ -1,0 +1,11 @@
+---
+default:
+  parameters:
+    "0._scaption": "Text"
+  width: 31.0
+  height: 19.0
+default_w41:
+  width: 41.0
+  height: 19.0
+  parameters:
+    "0._scaption": "Text"

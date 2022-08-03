@@ -1,0 +1,16 @@
+---
+default:
+  parameters:
+    0._storchorient: "v"
+  width: 38.5
+  height: 176.0
+pillar-torch_h:
+  parameters:
+    0._storchorient: "h"
+  width: 201.0
+  height: 58.0
+pillar-torch_v:
+  parameters:
+    0._storchorient: "v"
+  width: 38.5
+  height: 171.0

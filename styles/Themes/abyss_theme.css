@@ -1,0 +1,231 @@
+:root
+{
+	/*
+	Main
+	*/
+		--body-bg-color: rgba(30, 30, 35, 1);
+	/*
+	Underlayers
+	*/
+		--underlayer-air-color: rgba(75, 200, 255, 1);
+		--underlayer-azot-color: rgb(140, 25, 255, 1);
+		--underlayer-coagulant-color: rgba(85, 140, 80, 1);
+		--underlayer-crunoff-color: rgba(30, 60, 30, 1);
+		--underlayer-drain-color: rgba(170, 171, 181, 1);
+		--underlayer-dt-color: rgba(128, 128, 0, 1);
+		--underlayer-gas-color: rgba(255, 210, 80, 1);
+		--underlayer-gas-hover-color: rgba(120, 90, 0, 1);
+		--underlayer-gas-full-hover-color: rgba(50, 60, 80, 1);
+		--underlayer-gasoline-color: rgba(255, 155, 255, 1);
+		--underlayer-glycol-color: rgba(158, 82, 13, 1);
+		--underlayer-gwsc-color: rgba(230, 180, 80, 1);
+		--underlayer-gwss-color: rgba(190, 110, 170, 1);
+		--underlayer-heatnet-color: rgba(255, 255, 255, 1);
+		--underlayer-jo-color: rgba(45, 70, 210, 1);
+		--underlayer-k-color: rgba(110, 105, 100, 1);
+		--underlayer-kerosene-color: rgba(135, 95, 185, 1);
+		--underlayer-nglycol-color: rgba(120, 30, 30, 1);
+		--underlayer-ntag-color: rgba(35, 90, 130, 1);
+		--underlayer-ntag1-color: rgba(170, 55, 55, 1);
+		--underlayer-oilproduct-color: rgba(150, 25, 25, 1);
+		--underlayer-prrunoff-color: rgba(85, 140, 80, 1);
+		--underlayer-rglycol-color: rgba(200, 100, 15, 1);
+		--underlayer-rtag-color: rgba(168, 75, 80, 1);
+		--underlayer-sewers-color: rgba(120, 30, 30, 1);
+		--underlayer-solute-color: rgba(155, 50, 150, 1);
+		--underlayer-techwater-color: rgba(115, 185, 210, 1);
+		--underlayer-uvjk-color: rgba(90, 255, 90, 1);
+		--underlayer-vms-color: rgba(136, 81, 37, 1);
+		--underlayer-warmth-color: rgba(255, 160, 160, 1);
+		--underlayer-water-color: rgba(20, 130, 185, 1);
+
+		--underlayer-oreols-color: rgba(30, 30, 35, 1);
+		--underlayer-table-color: rgba(130, 150, 190, 1);
+
+		--underlayer-monochrome-color: rgba(130, 150, 190, 1);
+	/*
+	Elements
+	*/
+		--main-object-fill-color: rgba(55, 66, 88, 1);
+		--main-object-fill-color-inversed: rgba(155, 190, 255, 1);
+		--main-object-shadow-015-color: rgba(100, 120, 160, 0.15);
+		--main-object-shadow-025-color: rgba(100, 120, 160, 0.25);
+		--main-object-shadow-050-color: rgba(100, 120, 160, 0.5);
+		--main-object-shadow-100-color: rgba(100, 120, 160, 1);
+		--main-object-stroke-color: rgba(25, 25, 25, 1);
+		--main-object-on-dark-shadow-color: rgba(0, 0, 0, 0.8);
+
+		--main-txt-color-a0: rgba(130, 150, 190, 1);
+
+		--main-txt-color-inversed-a0: rgba(205, 225, 250, 1);
+		--main-txt-color-inversed-a1: rgba(150, 255, 130, 1);
+		--main-txt-color-inversed-a2: rgba(255, 145, 0, 1);
+		--main-txt-color-inversed-a3: rgba(255, 255, 0, 1);
+		--main-txt-color-inversed-a4: rgba(150, 170, 200, 1);
+		--main-txt-color-inversed-a5: rgba(255, 70, 70, 1);
+
+		--toggle-fill-color-a0: rgba(30, 30, 30, 1);
+		--toggle-fill-color-a1: rgba(110, 255, 70, 1);
+		--toggle-fill-color-a2: rgba(255, 145, 0, 1);
+		--toggle-fill-color-a3: rgba(255, 220, 0, 1);
+		--toggle-fill-color-a4: rgba(200, 200, 200, 1);
+		--toggle-fill-color-a5: rgba(235, 70, 70, 1);
+		--toggle-fill-color-a6: rgba(50, 50, 200, 1);
+		--toggle-fill-color-a7: rgba(100, 25, 100, 1);
+		--toggle-fill-color-a8: rgba(150, 55, 135, 1);
+		--toggle-fill-color-a9: rgba(135, 20, 25, 1);
+		--toggle-fill-color-a10: rgba(75, 135, 45, 1);
+		--toggle-fill-color-a11: rgba(0, 180, 100, 1);
+		--toggle-fill-color-a12: rgba(0, 95, 100, 1);
+		--toggle-fill-color-a13: rgba(0, 55, 100, 1);
+
+
+		--small-object-fill-color: rgba(69, 82, 110, 1);
+
+		--flame-color: rgba(180, 130, 255, 1);
+
+
+		--btn-bg-color-a0: rgba(130, 150, 190, 0.3);
+		--btn-bg-color-hover-a0: rgba(130, 150, 190, 0.2);
+		--btn-bg-color-active-a0: rgba(130, 150, 190, 0.1);
+		/*
+		Num-value-box
+		*/
+			--num-value-bg-color: rgba(30, 30, 30, 1);
+			--num-value-bg-shade: rgba(50, 60, 80, 0.5);
+			--num-value-hatch-class-unreachable-color: 100, 120, 160, 1;
+			--num-value-hatch-opacity: 0.3;
+			--num-value-linecolor-unknown: rgba(255, 255, 255, 1);
+			--num-value-linecolor-invis: rgba(0, 0, 0, 0);
+			--num-value-linecolor-awful: rgba(255, 0, 0, 1);
+			--num-value-linecolor-bad: rgba(200, 200, 50, 1);
+			--num-value-linecolor-ok: rgba(151, 151, 151, 1);
+			--num-value-numcolor-ok: rgba(205, 225, 250, 1);
+			--num-value-numcolor-bad: rgba(200, 200, 50, 1);
+			--num-value-numcolor-awful: rgba(255, 0, 0, 1);
+			--num-value-numshade: rgba(0, 0, 0, 0.6);
+		/*
+		Barrel-additional-elems
+		*/
+			--barrel-additional-elem-opacity: 0.6;
+		/*
+		Unique
+		*/
+			/*
+			Background-for-quarry-graph
+			*/
+				--bg-for-quarry-graph-hatch-color: 75, 90, 120, 0.4;
+			/*
+			Big-barrels
+			*/
+				--bigbarrel-dirtygas: rgba(55, 35, 0, 1);
+				--bigbarrel-absorbent: rgba(57, 23, 23, 1);
+				--bigbarrel-puregas: rgba(0, 46, 46, 1);
+				--bigbarrel-net-color: rgba(100, 165, 255, 1);
+			/*
+			Charts
+			*/
+				--charts-main-bg-color: rgba(255, 255, 255, 0.04);
+				/*
+				GIS
+				*/
+				--charts-gis-series-color-0: rgba(255, 75, 10, 1);
+				--charts-gis-series-color-1: rgba(120, 255, 20, 1);
+				--charts-gis-series-color-2: rgba(100, 210, 255, 1);
+				--charts-gis-series-color-3: rgba(220, 190, 100, 1);
+
+				--charts-gis-band-color: rgba(100, 210, 255, 0.2);
+			/*
+			Cooler
+			*/
+				--cooler-active-on-color: rgba(100, 240, 255, 1);
+				--cooler-active-off-color: rgba(255, 255, 255, 0.7);
+				--cooler-active-error-color: rgba(255, 70, 70, 1);
+			/*
+			Levels
+			*/
+				--level-botbar-color: rgba(90, 120, 140, 1);
+				--level-botpart-color: rgba(90, 120, 140, 1);
+				--level-topbar-color: rgba(210, 40, 40, 1);
+				--level-toppart-color: rgba(210, 40, 40, 1);
+				--level-for-barrels-self-fill: rgba(25, 30, 40, 1);
+				--levels-filler-color: rgba(110, 200, 235, 1);
+
+				--levels-filler-color-ok: rgba(110, 200, 235, 1);
+				--levels-filler-color-bad: rgba(200, 200, 50, 1);
+				--levels-filler-color-awful: rgba(255, 0, 0, 1);
+
+				--level-for-barrels-contur-fill-ok: rgba(0, 0, 0, 1);
+				--level-for-barrels-contur-fill-bad: rgba(200, 200, 50, 1);
+				--level-for-barrels-contur-fill-awful: rgba(255, 0, 0, 1);
+			/*
+			Meter
+			*/
+				--meter-glass-color: rgba(120, 140, 160, 1);
+				--meter-shadow-intensity: 0.10;
+				--meter-bad: rgba(255, 120, 0, 1);
+				--meter-so: rgba(255, 160, 75, 1);
+				--meter-good: rgba(255, 200, 150, 1);
+			/*
+			Namings
+			*/
+				--naming-txt-shadow-color: rgba(0, 0, 0, 0.4);
+			/*
+			Pipe-profile
+			*/
+				--pipe-profile-perforation-zone-color: rgba(153, 190, 255, 1);
+				--pipe-profile-nkt-color: rgba(255, 0, 0, 0.5);
+				--pipe-profile-colomn-hover-color: rgba(255, 0, 0, 1);
+			/*
+			State-displayer
+			*/
+				--state-disp-fontsize: 15px;
+				--state-disp-lineheight: 17px;
+			/*
+			Switcher-naming
+			*/
+				--switcher-naming-on-bg-color: rgba(0, 150, 150, 0.3);
+				--switcher-naming-off-bg-color: rgba(150, 0, 0, 0.3);
+				--switcher-naming-hatch-color: 255, 255, 255, 0.3;
+			/*
+			Tit-elems
+			*/
+				--tit-name-cont-bg-color: rgba(50, 60, 80, 1);
+				--tit-name-cont-txt-color: rgba(155, 190, 255, 1);
+				--tit-on-dark-name-cont-bg-color: rgba(50, 60, 80, 1);
+				--tit-on-dark-name-cont-txt-color: rgba(145, 185, 255, 1);
+			/*
+			Transition-buttons
+			*/
+				--transition-button-txt-color: rgba(182, 208, 251, 1);
+				--transition-button-txt-shadow-color: rgba(25, 30, 40, 1);
+				--transition-button-arrow-color: rgba(30, 30, 35, 1);
+				--transition-button-arrow-shadow-color: rgba(30, 30, 35, 1);
+				--transition-button-unactive-part-color: rgba(60, 65, 80, 1);
+			/*
+			PDF_LAYER
+			*/
+				--pdf-layer-main: rgba(225, 230, 255, 1);
+				--pdf-layer-lightblue: rgba(155, 225, 255, 1);
+				--pdf-layer-blue: rgba(20, 130, 185, 1);
+				--pdf-layer-red: rgba(215, 40, 40, 1);
+				--pdf-layer-green: rgba(65, 190, 65, 1);
+	/*
+	System
+	*/
+		--sys-main-object-stroke-error: rgba(130, 30, 30, 1);
+		--sys-alarming-color: rgba(255, 80, 80, 0.6);
+		--sys-unavailable-color: rgba(50, 100, 155, 0.15);
+		--sys-unavailable-inversed-color: rgba(0, 0, 0, 0.3);
+		--sys-unavailable-overlay: rgba(30, 30, 35, 0.3);
+
+		--sys-numvalue-fontsize: 19px;
+		--sys-numvalue-lineheight: 21px;
+		--sys-tit-caption-fontsize: 14px;
+		--sys-tit-caption-lineheight: 16px;
+		--sys-tit-unit-fontsize: 11px;
+		--sys-tit-unit-lineheight: 19px;
+
+		--select-arrow: url('/Data/Styles/Sprites/arrow-abyss_theme.svg');
+		--pointer-ico: url('/Data/Styles/Sprites/pointer-abyss_theme.svg');
+}
